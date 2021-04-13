@@ -1,4 +1,5 @@
-version: '3
+version: '3
+
 services
   cloud
     image: bfclou
@@ -8,9 +9,9 @@ services
         context: ./sr
     volumes
       - ./src/CloudAdmin:/usr/local/tomcat/webapps/CloudAdmin
-      - ./src/Valim_EFS_REDIS/src/WEB-INF:/usr/local/webinf
-      - ./src/Valim_EFS_REDIS/src/static:/usr/local/static
-      - ./src/Valim_EFS_REDIS/BlueFocusCloud:/usr/local/tomcat/webapps/BlueFocusCloud
-      - ./src/Valim_EFS_REDIS/work:/usr/local/tomcat/w/BlueFocusCloud
+      - ./src/WEB-INF:/usr/local/webinf
+      - ./src/static:/usr/local/static
+      - ./BlueFocusCloud:/usr/local/tomcat/webapps/BlueFocusCloud
+      - ./work:/usr/local/tomcat/w/BlueFocusCloud
     ports
       - "80:8080"
