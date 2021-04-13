@@ -3,8 +3,8 @@ version: '3'
 services:
   cloud:
     image: bfcloud
-    restart: alway
-    container_name: bfwebapp
+    restart: always
+    container_name: bfwebapps
     build:
         context: ./src
     volumes:
@@ -12,6 +12,6 @@ services:
       - ./src/WEB-INF:/usr/local/webinf
       - ./src/static:/usr/local/static
       - ./BlueFocusCloud:/usr/local/tomcat/webapps/BlueFocusCloud
-      - ./work:/usr/local/tomcat/w/BlueFocusCloud
+      - ./work:/usr/local/tomcat/work
     ports:
       - "80:8080"
