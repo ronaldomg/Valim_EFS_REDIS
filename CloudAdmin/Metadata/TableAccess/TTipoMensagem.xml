@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dependencies type="guid" guid="0e8c9d9b-f53c-445d-8d63-19c89a9d1e3f">
-  <Table name="TipoMensagem" />
-  <Table name="Mensagem" />
-  <Table name="Mensagens" />
-</Dependencies>

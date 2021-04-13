@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dependencies type="guid" guid="33f675d5-2c5d-4030-aace-b8ecb2d7170d">
-  <Table name="TipoParametro" />
-  <Table name="Parametro" />
-</Dependencies>

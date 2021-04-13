@@ -1,3 +1,0 @@
-/**@preserve  GeneXus Java 10_3_12-110051 on July 17, 2018 13:28:32.15
-*/
-gx.evt.autoSkip=!1;gx.define("gamhome",!1,function(){this.ServerClass="gamhome";this.PackageName="";this.setObjectType("web");this.hasEnterEvent=!1;this.skipOnEnter=!1;this.autoRefresh=!0;this.SetStandaloneVars=function(){};this.e120d2_client=function(){this.executeServerEvent("ENTER",!0,null,!1,!1)};this.e130d2_client=function(){this.executeServerEvent("CANCEL",!0,null,!1,!1)};this.GXValidFnc=[];var n=this.GXValidFnc;this.GXLastCtrlId=0;this.Events={e120d2_client:["ENTER",!0],e130d2_client:["CANCEL",!0]};this.EvtParms.REFRESH=[[],[]];this.InitStandaloneVars()});gx.setParentObj(new gamhome)

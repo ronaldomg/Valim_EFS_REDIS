@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dependencies type="guid" guid="4054d917-1d4a-4504-8f7d-337eb0f6e4d3">
-  <Table name="PacoteSistema" />
-  <Table name="Sistema" />
-  <Table name="EmpresaSistema" />
-</Dependencies>

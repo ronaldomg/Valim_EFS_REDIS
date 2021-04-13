@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dependencies type="guid" guid="30f1da92-2f38-41c6-90dd-220f71fc2693">
-  <Table name="Ambiente" />
-  <Table name="AmbienteItem" />
-</Dependencies>

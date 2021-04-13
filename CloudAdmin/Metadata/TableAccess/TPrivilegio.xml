@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dependencies type="guid" guid="1625bbcf-39ec-49aa-94e5-bc86029a85cd">
-  <Table name="Privilegio" />
-  <Table name="UsuarioAdminEmpresa" />
-</Dependencies>

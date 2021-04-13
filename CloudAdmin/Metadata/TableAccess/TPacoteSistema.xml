@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dependencies type="guid" guid="dcff0afd-d9ad-4638-a430-28e17ae14017">
-  <Table name="Pacote" />
-  <Table name="PacoteSistema" />
-  <Table name="Sistema" />
-</Dependencies>

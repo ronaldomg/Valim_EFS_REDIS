@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dependencies type="guid" guid="fe7af18d-a569-4471-80e6-e000046eaa1b">
-  <Table name="Empresa" />
-  <Table name="Pacote" />
-  <Table name="EmpresaPacote" />
-</Dependencies>

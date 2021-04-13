@@ -1,3 +1,0 @@
-/**@preserve  GeneXus Java 10_3_12-110051 on May 5, 2020 18:21:33.43
-*/
-gx.evt.autoSkip=!1;gx.define("hremotelogin",!1,function(){this.ServerClass="hremotelogin";this.PackageName="";this.setObjectType("web");this.hasEnterEvent=!1;this.skipOnEnter=!1;this.autoRefresh=!0;this.SetStandaloneVars=function(){};this.e133i2_client=function(){this.executeServerEvent("ENTER",!0,null,!1,!1)};this.e143i2_client=function(){this.executeServerEvent("CANCEL",!0,null,!1,!1)};this.GXValidFnc=[];var n=this.GXValidFnc;this.GXLastCtrlId=0;this.Events={e133i2_client:["ENTER",!0],e143i2_client:["CANCEL",!0]};this.EvtParms.REFRESH=[[],[]];this.InitStandaloneVars()});gx.setParentObj(new hremotelogin)

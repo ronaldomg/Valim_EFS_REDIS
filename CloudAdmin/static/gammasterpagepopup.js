@@ -1,3 +1,0 @@
-/**@preserve  GeneXus Java 10_3_12-110051 on July 17, 2018 13:30:31.22
-*/
-gx.evt.autoSkip=!1;gx.define("gammasterpagepopup",!1,function(){this.ServerClass="gammasterpagepopup";this.PackageName="";this.setObjectType("web");this.IsMasterPage=!0;this.hasEnterEvent=!1;this.skipOnEnter=!1;this.autoRefresh=!0;this.SetStandaloneVars=function(){};this.e130y2_client=function(){this.executeServerEvent("ENTER_MPAGE",!0,null,!1,!1)};this.e140y2_client=function(){this.executeServerEvent("CANCEL_MPAGE",!0,null,!1,!1)};this.GXValidFnc=[];var n=this.GXValidFnc;this.GXLastCtrlId=0;this.Events={e130y2_client:["ENTER_MPAGE",!0],e140y2_client:["CANCEL_MPAGE",!0]};this.EvtParms.REFRESH_MPAGE=[[],[]];this.InitStandaloneVars()});gx.setMasterPage(new gammasterpagepopup)

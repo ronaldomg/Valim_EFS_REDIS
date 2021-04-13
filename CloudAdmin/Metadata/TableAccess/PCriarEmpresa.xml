@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Dependencies type="guid" guid="b198d701-5ff6-4cd6-9557-3040e55642d6">
-  <Table name="Empresa" />
-  <Table name="Ambiente" />
-  <Table name="Parametro" />
-</Dependencies>
