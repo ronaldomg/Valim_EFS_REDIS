@@ -1,17 +1,17 @@
-version: '3
+version: '3'
 
-services
-  cloud
-    image: bfclou
+services:
+  cloud:
+    image: bfcloud
     restart: alway
-    container_name: bfwebap
-    build
-        context: ./sr
-    volumes
+    container_name: bfwebapp
+    build:
+        context: ./src
+    volumes:
       - ./src/CloudAdmin:/usr/local/tomcat/webapps/CloudAdmin
       - ./src/WEB-INF:/usr/local/webinf
       - ./src/static:/usr/local/static
       - ./BlueFocusCloud:/usr/local/tomcat/webapps/BlueFocusCloud
       - ./work:/usr/local/tomcat/w/BlueFocusCloud
-    ports
+    ports:
       - "80:8080"
