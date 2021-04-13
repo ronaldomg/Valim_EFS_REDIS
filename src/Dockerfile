@@ -9,6 +9,6 @@ COPY /CloudAdmin /usr/local/tomcat/webapps/CloudAdmin
 COPY /WEB-INF /usr/local/webinf
 COPY /static /usr/local/static
 
-EXPOSE 808
+EXPOSE 8080
 
 CMD ["init.sh"]
