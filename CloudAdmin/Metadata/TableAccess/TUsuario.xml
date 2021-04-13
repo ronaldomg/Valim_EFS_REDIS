@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="92d69e1b-dbcb-42e7-8604-3e3642ab7d11">
+  <Table name="Empresa" />
+  <Table name="Privilegio" />
+  <Table name="Mensagem" />
+  <Table name="MensagemDestinatario" />
+  <Table name="Usuario" />
+  <Table name="UsuarioAdminEmpresa" />
+  <Table name="UsuarioAcessoEmpresa" />
+  <Table name="Mensagens" />
+  <Table name="MensagensDestinatario" />
+</Dependencies>

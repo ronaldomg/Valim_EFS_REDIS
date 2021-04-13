@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7ca7a8ac-a6de-402c-8abf-a0e0159b7bea">
+  <Table name="Ambiente" />
+  <Table name="TipoAmbiente" />
+  <Table name="EmpresaAmbiente" />
+  <Table name="AmbienteItem" />
+</Dependencies>

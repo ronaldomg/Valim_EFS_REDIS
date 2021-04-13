@@ -1,0 +1,124 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on February 11, 2021 5:43:1.99
+*/
+gx.evt.autoSkip = false;
+gx.define('hdetalharrenegociacao', false, function () {
+   this.ServerClass =  "hdetalharrenegociacao" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = false;
+   this.skipOnEnter = false;
+   this.addKeyListener("12", "'FECHAR'");
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.SetStandaloneVars=function()
+   {
+      this.AV109Tela=gx.fn.getIntegerValue("vTELA",'.') ;
+      this.AV108RenegociacaoDisPessoaId=gx.fn.getIntegerValue("vRENEGOCIACAODISPESSOAID",'.') ;
+      this.AV107RenegociacaoNumero=gx.fn.getIntegerValue("vRENEGOCIACAONUMERO",'.') ;
+      this.AV98TipoConta=gx.fn.getControlValue("vTIPOCONTA") ;
+   };
+   this.e11lr2_client=function()
+   {
+      this.executeServerEvent("'FECHAR'", false, null, false, false);
+   };
+   this.e14lr2_client=function()
+   {
+      this.executeServerEvent("ENTER", true, arguments[0], false, false);
+   };
+   this.e15lr2_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, arguments[0], false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,5,7,8,9,10,11,12,13,14];
+   this.GXLastCtrlId =14;
+   this.GridContainer = new gx.grid.grid(this, 2,"WbpLvl2",6,"Grid","Grid","GridContainer",this.CmpContext,this.IsMasterPage,"hdetalharrenegociacao",[],false,1,false,true,0,true,false,false,"CollSdtDetReneg.SdtDetRenegItem",0,"px","Novo registro",true,false,false,null,null,false,"AV101SdtDetReneg",false,[1,1,1,1]);
+   var GridContainer = this.GridContainer;
+   GridContainer.addComboBox("GXV107",7,"CTLPAGREC","Pag/Rec","PagRec","char",null,0,true,false,0,"px","");
+   GridContainer.addSingleLineEdit("GXV108",8,"CTLNUMEROCONTA","No.Conta","","NumeroConta","int",0,"px",8,8,"right",null,[],"GXV108","GXV108",true,0,false,false,"SemQuebraGrid",1,"");
+   GridContainer.addSingleLineEdit("GXV109",9,"CTLNUMERODOCUMENTO","No.Docmto","","NumeroDocumento","svchar",0,"px",40,40,"left",null,[],"GXV109","GXV109",true,0,false,false,"SemQuebraGrid",1,"");
+   GridContainer.addSingleLineEdit("GXV10A",10,"CTLNOPARCELA","Parc","","NoParcela","int",0,"px",3,3,"right",null,[],"GXV10A","GXV10A",true,0,false,false,"SemQuebraGrid",1,"");
+   GridContainer.addSingleLineEdit("GXV10B",11,"CTLDATAEMISSAO","Dt.Emissão","","DataEmissao","date",0,"px",10,10,"right",null,[],"GXV10B","GXV10B",true,0,false,false,"SemQuebraGrid",1,"");
+   GridContainer.addSingleLineEdit("GXV10C",12,"CTLDATAVENCIMENTO","Dt.Vencmto","","DataVencimento","date",0,"px",10,10,"right",null,[],"GXV10C","GXV10C",true,0,false,false,"SemQuebraGrid",1,"");
+   GridContainer.addSingleLineEdit("GXV10D",13,"CTLVALOR","Valor","","Valor","decimal",0,"px",22,22,"right",null,[],"GXV10D","GXV10D",true,2,false,false,"SemQuebraGrid",1,"");
+   this.setGrid(GridContainer);
+   GXValidFnc[2]={fld:"TABLE2",grid:0};
+   GXValidFnc[5]={fld:"DIV1", format:2,grid:0};
+   GXValidFnc[7]={lvl:2,type:"char",len:1,dec:0,sign:false,ro:1,isacc:0,grid:6,gxgrid:this.GridContainer,fnc:null,isvalid:null,rgrid:[],fld:"CTLPAGREC",gxz:"ZV115GXV107",gxold:"OV115GXV107",gxvar:"GXV107",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"combo",inputType:'text',v2v:function(Value){gx.O.GXV107=Value},v2z:function(Value){gx.O.ZV115GXV107=Value},v2c:function(row){gx.fn.setGridComboBoxValue("CTLPAGREC",row || gx.fn.currentGridRowImpl(6),gx.O.GXV107)},c2v:function(){gx.O.GXV107=this.val()},val:function(row){return gx.fn.getGridControlValue("CTLPAGREC",row || gx.fn.currentGridRowImpl(6))},nac:gx.falseFn};
+   GXValidFnc[8]={lvl:2,type:"int",len:8,dec:0,sign:false,pic:"ZZZZZZZ9",ro:1,isacc:0,grid:6,gxgrid:this.GridContainer,fnc:null,isvalid:null,rgrid:[],fld:"CTLNUMEROCONTA",gxz:"ZV116GXV108",gxold:"OV116GXV108",gxvar:"GXV108",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.GXV108=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV116GXV108=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("CTLNUMEROCONTA",row || gx.fn.currentGridRowImpl(6),gx.O.GXV108,0)},c2v:function(){gx.O.GXV108=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("CTLNUMEROCONTA",row || gx.fn.currentGridRowImpl(6),'.')},nac:gx.falseFn};
+   GXValidFnc[9]={lvl:2,type:"svchar",len:40,dec:0,sign:false,ro:1,isacc:0,grid:6,gxgrid:this.GridContainer,fnc:null,isvalid:null,rgrid:[],fld:"CTLNUMERODOCUMENTO",gxz:"ZV117GXV109",gxold:"OV117GXV109",gxvar:"GXV109",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.GXV109=Value},v2z:function(Value){gx.O.ZV117GXV109=Value},v2c:function(row){gx.fn.setGridControlValue("CTLNUMERODOCUMENTO",row || gx.fn.currentGridRowImpl(6),gx.O.GXV109,0)},c2v:function(){gx.O.GXV109=this.val()},val:function(row){return gx.fn.getGridControlValue("CTLNUMERODOCUMENTO",row || gx.fn.currentGridRowImpl(6))},nac:gx.falseFn};
+   GXValidFnc[10]={lvl:2,type:"int",len:3,dec:0,sign:false,pic:"ZZ9",ro:1,isacc:0,grid:6,gxgrid:this.GridContainer,fnc:null,isvalid:null,rgrid:[],fld:"CTLNOPARCELA",gxz:"ZV118GXV10A",gxold:"OV118GXV10A",gxvar:"GXV10A",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.GXV10A=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV118GXV10A=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("CTLNOPARCELA",row || gx.fn.currentGridRowImpl(6),gx.O.GXV10A,0)},c2v:function(){gx.O.GXV10A=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("CTLNOPARCELA",row || gx.fn.currentGridRowImpl(6),'.')},nac:gx.falseFn};
+   GXValidFnc[11]={lvl:2,type:"date",len:10,dec:0,sign:false,ro:1,isacc:0,grid:6,gxgrid:this.GridContainer,fnc:null,isvalid:null,rgrid:[],fld:"CTLDATAEMISSAO",gxz:"ZV119GXV10B",gxold:"OV119GXV10B",gxvar:"GXV10B",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.GXV10B=gx.fn.toDatetimeValue(Value,"Y4MD")},v2z:function(Value){gx.O.ZV119GXV10B=gx.fn.toDatetimeValue(Value)},v2c:function(row){gx.fn.setGridControlValue("CTLDATAEMISSAO",row || gx.fn.currentGridRowImpl(6),gx.O.GXV10B,0)},c2v:function(){gx.O.GXV10B=gx.fn.toDatetimeValue(this.val())},val:function(row){return gx.fn.getGridDateTimeValue("CTLDATAEMISSAO",row || gx.fn.currentGridRowImpl(6))},nac:gx.falseFn};
+   GXValidFnc[12]={lvl:2,type:"date",len:10,dec:0,sign:false,ro:1,isacc:0,grid:6,gxgrid:this.GridContainer,fnc:null,isvalid:null,rgrid:[],fld:"CTLDATAVENCIMENTO",gxz:"ZV120GXV10C",gxold:"OV120GXV10C",gxvar:"GXV10C",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.GXV10C=gx.fn.toDatetimeValue(Value,"Y4MD")},v2z:function(Value){gx.O.ZV120GXV10C=gx.fn.toDatetimeValue(Value)},v2c:function(row){gx.fn.setGridControlValue("CTLDATAVENCIMENTO",row || gx.fn.currentGridRowImpl(6),gx.O.GXV10C,0)},c2v:function(){gx.O.GXV10C=gx.fn.toDatetimeValue(this.val())},val:function(row){return gx.fn.getGridDateTimeValue("CTLDATAVENCIMENTO",row || gx.fn.currentGridRowImpl(6))},nac:gx.falseFn};
+   GXValidFnc[13]={lvl:2,type:"decimal",len:18,dec:2,sign:false,pic:"ZZZ,ZZZ,ZZZ,ZZZ,ZZ9.99",ro:1,isacc:0,grid:6,gxgrid:this.GridContainer,fnc:null,isvalid:null,rgrid:[],fld:"CTLVALOR",gxz:"ZV121GXV10D",gxold:"OV121GXV10D",gxvar:"GXV10D",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.GXV10D=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.ZV121GXV10D=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(row){gx.fn.setGridDecimalValue("CTLVALOR",row || gx.fn.currentGridRowImpl(6),gx.O.GXV10D,2,',')},c2v:function(){gx.O.GXV10D=this.val()},val:function(row){return gx.fn.getGridDecimalValue("CTLVALOR",row || gx.fn.currentGridRowImpl(6),'.',',')},nac:gx.falseFn};
+   GXValidFnc[14]={fld:"DIV2", format:2,grid:0};
+   this.ZV115GXV107 = "" ;
+   this.OV115GXV107 = "" ;
+   this.ZV116GXV108 = 0 ;
+   this.OV116GXV108 = 0 ;
+   this.ZV117GXV109 = "" ;
+   this.OV117GXV109 = "" ;
+   this.ZV118GXV10A = 0 ;
+   this.OV118GXV10A = 0 ;
+   this.ZV119GXV10B = gx.date.nullDate() ;
+   this.OV119GXV10B = gx.date.nullDate() ;
+   this.ZV120GXV10C = gx.date.nullDate() ;
+   this.OV120GXV10C = gx.date.nullDate() ;
+   this.ZV121GXV10D = 0 ;
+   this.OV121GXV10D = 0 ;
+   this.AV109Tela = 0 ;
+   this.AV108RenegociacaoDisPessoaId = 0 ;
+   this.AV107RenegociacaoNumero = 0 ;
+   this.AV98TipoConta = "" ;
+   this.GXV107 = "" ;
+   this.GXV108 = 0 ;
+   this.GXV109 = "" ;
+   this.GXV10A = 0 ;
+   this.GXV10B = gx.date.nullDate() ;
+   this.GXV10C = gx.date.nullDate() ;
+   this.GXV10D = 0 ;
+   this.A1686ContaPagRecNumero = 0 ;
+   this.A1685ContaPagRecEmpresaId = "" ;
+   this.A1693ContaPagRecPagRec = "" ;
+   this.A1716ContaPagRecNoParcela = 0 ;
+   this.A1699ContaPagRecDtEmissao = gx.date.nullDate() ;
+   this.A1701ContaPagRecDtVencimento = gx.date.nullDate() ;
+   this.A1696ContaPagRecSeqDocume = "" ;
+   this.A1695ContaPagRecDocumento = "" ;
+   this.A1713ContaPagRecVlrConta = 0 ;
+   this.A11107RenegociacaoDisPessoaEmpid = "" ;
+   this.A11108RenegociacaoDisPessoaId = 0 ;
+   this.A11109RenegociacaoDisNumero = 0 ;
+   this.A11119RenegociacaoDisContaTipo = "" ;
+   this.A11111RenegociacaoDisContaPgRecNumer = 0 ;
+   this.A11120RenegociacaoDisContaPgRecPagRe = "" ;
+   this.A11110RenegociacaoDisContaPgRecEmpId = "" ;
+   this.A1732RenegociacaoNumero = 0 ;
+   this.A1731RenegociacaoEmpresaId = "" ;
+   this.A1734RenegociacaoContaPagRecNumero = 0 ;
+   this.A1733RenegociacaoContaPagRecEmpId = "" ;
+   this.A1739ContaPagRecRenegId = 0 ;
+   this.Events = {"e11lr2_client": ["'FECHAR'", true] ,"e14lr2_client": ["ENTER", true] ,"e15lr2_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'GRID_nFirstRecordOnPage'},{av:'GRID_nEOF'},{av:'AV101SdtDetReneg',fld:'vSDTDETRENEG',grid:6},{av:'subGrid_Rows'}],[]];
+   this.EvtParms["'FECHAR'"] = [[{av:'AV98TipoConta',fld:'vTIPOCONTA'},{av:'AV107RenegociacaoNumero',fld:'vRENEGOCIACAONUMERO'},{av:'AV108RenegociacaoDisPessoaId',fld:'vRENEGOCIACAODISPESSOAID'},{av:'AV109Tela',fld:'vTELA'}],[]];
+   this.EvtParms["GRID_FIRSTPAGE"] = [[{av:'GRID_nFirstRecordOnPage'},{av:'GRID_nEOF'},{av:'subGrid_Rows'},{av:'AV101SdtDetReneg',fld:'vSDTDETRENEG',grid:6}],[]];
+   this.EvtParms["GRID_PREVPAGE"] = [[{av:'GRID_nFirstRecordOnPage'},{av:'GRID_nEOF'},{av:'subGrid_Rows'},{av:'AV101SdtDetReneg',fld:'vSDTDETRENEG',grid:6}],[]];
+   this.EvtParms["GRID_NEXTPAGE"] = [[{av:'GRID_nFirstRecordOnPage'},{av:'GRID_nEOF'},{av:'subGrid_Rows'},{av:'AV101SdtDetReneg',fld:'vSDTDETRENEG',grid:6}],[]];
+   this.EvtParms["GRID_LASTPAGE"] = [[{av:'GRID_nFirstRecordOnPage'},{av:'GRID_nEOF'},{av:'subGrid_Rows'},{av:'AV101SdtDetReneg',fld:'vSDTDETRENEG',grid:6}],[]];
+   this.setVCMap("AV109Tela", "vTELA", 0, "int");
+   this.setVCMap("AV108RenegociacaoDisPessoaId", "vRENEGOCIACAODISPESSOAID", 0, "int");
+   this.setVCMap("AV107RenegociacaoNumero", "vRENEGOCIACAONUMERO", 0, "int");
+   this.setVCMap("AV98TipoConta", "vTIPOCONTA", 0, "char");
+   this.addGridBCProperty("Sdtdetreneg", ["PagRec"], this.GXValidFnc[7], "AV101SdtDetReneg");
+   this.addGridBCProperty("Sdtdetreneg", ["NumeroConta"], this.GXValidFnc[8], "AV101SdtDetReneg");
+   this.addGridBCProperty("Sdtdetreneg", ["NumeroDocumento"], this.GXValidFnc[9], "AV101SdtDetReneg");
+   this.addGridBCProperty("Sdtdetreneg", ["NoParcela"], this.GXValidFnc[10], "AV101SdtDetReneg");
+   this.addGridBCProperty("Sdtdetreneg", ["DataEmissao"], this.GXValidFnc[11], "AV101SdtDetReneg");
+   this.addGridBCProperty("Sdtdetreneg", ["DataVencimento"], this.GXValidFnc[12], "AV101SdtDetReneg");
+   this.addGridBCProperty("Sdtdetreneg", ["Valor"], this.GXValidFnc[13], "AV101SdtDetReneg");
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new hdetalharrenegociacao());

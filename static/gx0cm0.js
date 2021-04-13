@@ -1,0 +1,101 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 20:36:38.5
+*/
+gx.evt.autoSkip = false;
+gx.define('gx0cm0', false, function () {
+   this.ServerClass =  "gx0cm0" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV10pSituacaoDocFiscalCodigo=gx.fn.getControlValue("vPSITUACAODOCFISCALCODIGO") ;
+   };
+   this.e131r62_client=function()
+   {
+      this.executeServerEvent("ENTER", true, arguments[0], false, false);
+   };
+   this.e141r61_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,8,9,12,14,17,19,22,24,27,29,32,33,37,38,39,40,43];
+   this.GXLastCtrlId =43;
+   this.Grid1Container = new gx.grid.grid(this, 2,"WbpLvl2",36,"Grid1","Grid1","Grid1Container",this.CmpContext,this.IsMasterPage,"gx0cm0",[],false,1,false,true,10,true,false,false,"",0,"px","Novo registro",true,false,false,null,null,false,"",false,[1,1,1,1]);
+   var Grid1Container = this.Grid1Container;
+   Grid1Container.addBitmap("&Linkselection","vLINKSELECTION",37,0,"px",17,"px",null,"","","Image","");
+   Grid1Container.addSingleLineEdit(4666,38,"SITUACAODOCFISCALCODIGO","Código","","SituacaoDocFiscalCodigo","char",0,"px",2,2,"left",null,[],4666,"SituacaoDocFiscalCodigo",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(5164,39,"SITUACAODOCFISCALDESCRICAO","Descrição","Selecionar","SituacaoDocFiscalDescricao","svchar",0,"px",80,80,"left",null,[],5164,"SituacaoDocFiscalDescricao",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(5165,40,"SITUACAODOCFISCALUSUARIOALT","Usuário de Alteração","","SituacaoDocFiscalUsuarioAlt","char",0,"px",12,12,"left",null,[],5165,"SituacaoDocFiscalUsuarioAlt",true,0,false,false,"Attribute",1,"");
+   this.setGrid(Grid1Container);
+   GXValidFnc[2]={fld:"TABLE1",grid:0};
+   GXValidFnc[8]={fld:"GROUP1",grid:0};
+   GXValidFnc[9]={fld:"TABLE2",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCKSITUACAODOCFISCALCODIGO", format:0,grid:0};
+   GXValidFnc[14]={lvl:0,type:"char",len:2,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCSITUACAODOCFISCALCODIGO",gxz:"ZV6cSituacaoDocFiscalCodigo",gxold:"OV6cSituacaoDocFiscalCodigo",gxvar:"AV6cSituacaoDocFiscalCodigo",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV6cSituacaoDocFiscalCodigo=Value},v2z:function(Value){gx.O.ZV6cSituacaoDocFiscalCodigo=Value},v2c:function(){gx.fn.setControlValue("vCSITUACAODOCFISCALCODIGO",gx.O.AV6cSituacaoDocFiscalCodigo,0)},c2v:function(){gx.O.AV6cSituacaoDocFiscalCodigo=this.val()},val:function(){return gx.fn.getControlValue("vCSITUACAODOCFISCALCODIGO")},nac:gx.falseFn};
+   GXValidFnc[17]={fld:"TEXTBLOCKSITUACAODOCFISCALDESCRICAO", format:0,grid:0};
+   GXValidFnc[19]={lvl:0,type:"svchar",len:80,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCSITUACAODOCFISCALDESCRICAO",gxz:"ZV7cSituacaoDocFiscalDescricao",gxold:"OV7cSituacaoDocFiscalDescricao",gxvar:"AV7cSituacaoDocFiscalDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV7cSituacaoDocFiscalDescricao=Value},v2z:function(Value){gx.O.ZV7cSituacaoDocFiscalDescricao=Value},v2c:function(){gx.fn.setControlValue("vCSITUACAODOCFISCALDESCRICAO",gx.O.AV7cSituacaoDocFiscalDescricao,0)},c2v:function(){gx.O.AV7cSituacaoDocFiscalDescricao=this.val()},val:function(){return gx.fn.getControlValue("vCSITUACAODOCFISCALDESCRICAO")},nac:gx.falseFn};
+   GXValidFnc[22]={fld:"TEXTBLOCKSITUACAODOCFISCALUSUARIOALT", format:0,grid:0};
+   GXValidFnc[24]={lvl:0,type:"char",len:12,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCSITUACAODOCFISCALUSUARIOALT",gxz:"ZV8cSituacaoDocFiscalUsuarioAlt",gxold:"OV8cSituacaoDocFiscalUsuarioAlt",gxvar:"AV8cSituacaoDocFiscalUsuarioAlt",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV8cSituacaoDocFiscalUsuarioAlt=Value},v2z:function(Value){gx.O.ZV8cSituacaoDocFiscalUsuarioAlt=Value},v2c:function(){gx.fn.setControlValue("vCSITUACAODOCFISCALUSUARIOALT",gx.O.AV8cSituacaoDocFiscalUsuarioAlt,0)},c2v:function(){gx.O.AV8cSituacaoDocFiscalUsuarioAlt=this.val()},val:function(){return gx.fn.getControlValue("vCSITUACAODOCFISCALUSUARIOALT")},nac:gx.falseFn};
+   GXValidFnc[27]={fld:"TEXTBLOCKSITUACAODOCFISCALDATAHORAALT", format:0,grid:0};
+   GXValidFnc[29]={lvl:0,type:"dtime",len:10,dec:5,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCSITUACAODOCFISCALDATAHORAALT",gxz:"ZV9cSituacaoDocFiscalDataHoraAlt",gxold:"OV9cSituacaoDocFiscalDataHoraAlt",gxvar:"AV9cSituacaoDocFiscalDataHoraAlt",dp:{f:0,st:true,wn:false,mf:false,pic:"99/99/9999 99:99",dec:5},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV9cSituacaoDocFiscalDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.ZV9cSituacaoDocFiscalDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("vCSITUACAODOCFISCALDATAHORAALT",gx.O.AV9cSituacaoDocFiscalDataHoraAlt,0)},c2v:function(){gx.O.AV9cSituacaoDocFiscalDataHoraAlt=gx.fn.toDatetimeValue(this.val())},val:function(){return gx.fn.getDateTimeValue("vCSITUACAODOCFISCALDATAHORAALT")},nac:gx.falseFn};
+   GXValidFnc[32]={fld:"GROUP2",grid:0};
+   GXValidFnc[33]={fld:"TABLE3",grid:0};
+   GXValidFnc[37]={lvl:2,type:"bits",len:1024,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"vLINKSELECTION",gxz:"ZV5LinkSelection",gxold:"OV5LinkSelection",gxvar:"AV5LinkSelection",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.AV5LinkSelection=Value},v2z:function(Value){gx.O.ZV5LinkSelection=Value},v2c:function(row){gx.fn.setGridMultimediaValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36),gx.O.AV5LinkSelection,gx.O.AV13Linkselection_GXI)},c2v:function(){gx.O.AV13Linkselection_GXI=this.val_GXI();gx.O.AV5LinkSelection=this.val()},val:function(row){return gx.fn.getGridControlValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36))},val_GXI:function(row){return gx.fn.getGridControlValue("vLINKSELECTION_GXI",row || gx.fn.currentGridRowImpl(36))}, gxvar_GXI:'AV13Linkselection_GXI',nac:gx.falseFn};
+   GXValidFnc[38]={lvl:2,type:"char",len:2,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"SITUACAODOCFISCALCODIGO",gxz:"Z4666SituacaoDocFiscalCodigo",gxold:"O4666SituacaoDocFiscalCodigo",gxvar:"A4666SituacaoDocFiscalCodigo",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A4666SituacaoDocFiscalCodigo=Value},v2z:function(Value){gx.O.Z4666SituacaoDocFiscalCodigo=Value},v2c:function(row){gx.fn.setGridControlValue("SITUACAODOCFISCALCODIGO",row || gx.fn.currentGridRowImpl(36),gx.O.A4666SituacaoDocFiscalCodigo,0)},c2v:function(){gx.O.A4666SituacaoDocFiscalCodigo=this.val()},val:function(row){return gx.fn.getGridControlValue("SITUACAODOCFISCALCODIGO",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[39]={lvl:2,type:"svchar",len:80,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"SITUACAODOCFISCALDESCRICAO",gxz:"Z5164SituacaoDocFiscalDescricao",gxold:"O5164SituacaoDocFiscalDescricao",gxvar:"A5164SituacaoDocFiscalDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A5164SituacaoDocFiscalDescricao=Value},v2z:function(Value){gx.O.Z5164SituacaoDocFiscalDescricao=Value},v2c:function(row){gx.fn.setGridControlValue("SITUACAODOCFISCALDESCRICAO",row || gx.fn.currentGridRowImpl(36),gx.O.A5164SituacaoDocFiscalDescricao,0)},c2v:function(){gx.O.A5164SituacaoDocFiscalDescricao=this.val()},val:function(row){return gx.fn.getGridControlValue("SITUACAODOCFISCALDESCRICAO",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[40]={lvl:2,type:"char",len:12,dec:0,sign:false,pic:"@!",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"SITUACAODOCFISCALUSUARIOALT",gxz:"Z5165SituacaoDocFiscalUsuarioAlt",gxold:"O5165SituacaoDocFiscalUsuarioAlt",gxvar:"A5165SituacaoDocFiscalUsuarioAlt",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A5165SituacaoDocFiscalUsuarioAlt=Value},v2z:function(Value){gx.O.Z5165SituacaoDocFiscalUsuarioAlt=Value},v2c:function(row){gx.fn.setGridControlValue("SITUACAODOCFISCALUSUARIOALT",row || gx.fn.currentGridRowImpl(36),gx.O.A5165SituacaoDocFiscalUsuarioAlt,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A5165SituacaoDocFiscalUsuarioAlt=this.val()},val:function(row){return gx.fn.getGridControlValue("SITUACAODOCFISCALUSUARIOALT",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[43]={fld:"TABLE4",grid:0};
+   this.AV6cSituacaoDocFiscalCodigo = "" ;
+   this.ZV6cSituacaoDocFiscalCodigo = "" ;
+   this.OV6cSituacaoDocFiscalCodigo = "" ;
+   this.AV7cSituacaoDocFiscalDescricao = "" ;
+   this.ZV7cSituacaoDocFiscalDescricao = "" ;
+   this.OV7cSituacaoDocFiscalDescricao = "" ;
+   this.AV8cSituacaoDocFiscalUsuarioAlt = "" ;
+   this.ZV8cSituacaoDocFiscalUsuarioAlt = "" ;
+   this.OV8cSituacaoDocFiscalUsuarioAlt = "" ;
+   this.AV9cSituacaoDocFiscalDataHoraAlt = gx.date.nullDate() ;
+   this.ZV9cSituacaoDocFiscalDataHoraAlt = gx.date.nullDate() ;
+   this.OV9cSituacaoDocFiscalDataHoraAlt = gx.date.nullDate() ;
+   this.ZV5LinkSelection = "" ;
+   this.OV5LinkSelection = "" ;
+   this.Z4666SituacaoDocFiscalCodigo = "" ;
+   this.O4666SituacaoDocFiscalCodigo = "" ;
+   this.Z5164SituacaoDocFiscalDescricao = "" ;
+   this.O5164SituacaoDocFiscalDescricao = "" ;
+   this.Z5165SituacaoDocFiscalUsuarioAlt = "" ;
+   this.O5165SituacaoDocFiscalUsuarioAlt = "" ;
+   this.AV6cSituacaoDocFiscalCodigo = "" ;
+   this.AV7cSituacaoDocFiscalDescricao = "" ;
+   this.AV8cSituacaoDocFiscalUsuarioAlt = "" ;
+   this.AV9cSituacaoDocFiscalDataHoraAlt = gx.date.nullDate() ;
+   this.AV10pSituacaoDocFiscalCodigo = "" ;
+   this.A5166SituacaoDocFiscalDataHoraAlt = gx.date.nullDate() ;
+   this.AV5LinkSelection = "" ;
+   this.A4666SituacaoDocFiscalCodigo = "" ;
+   this.A5164SituacaoDocFiscalDescricao = "" ;
+   this.A5165SituacaoDocFiscalUsuarioAlt = "" ;
+   this.Events = {"e131r62_client": ["ENTER", true] ,"e141r61_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSituacaoDocFiscalCodigo',fld:'vCSITUACAODOCFISCALCODIGO'},{av:'AV7cSituacaoDocFiscalDescricao',fld:'vCSITUACAODOCFISCALDESCRICAO'},{av:'AV8cSituacaoDocFiscalUsuarioAlt',fld:'vCSITUACAODOCFISCALUSUARIOALT'},{av:'AV9cSituacaoDocFiscalDataHoraAlt',fld:'vCSITUACAODOCFISCALDATAHORAALT'}],[]];
+   this.EvtParms["LOAD"] = [[],[{av:'AV5LinkSelection',fld:'vLINKSELECTION'}]];
+   this.EvtParms["ENTER"] = [[{av:'A4666SituacaoDocFiscalCodigo',fld:'SITUACAODOCFISCALCODIGO'}],[{av:'AV10pSituacaoDocFiscalCodigo',fld:'vPSITUACAODOCFISCALCODIGO'}]];
+   this.EvtParms["GRID1_FIRSTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSituacaoDocFiscalCodigo',fld:'vCSITUACAODOCFISCALCODIGO'},{av:'AV7cSituacaoDocFiscalDescricao',fld:'vCSITUACAODOCFISCALDESCRICAO'},{av:'AV8cSituacaoDocFiscalUsuarioAlt',fld:'vCSITUACAODOCFISCALUSUARIOALT'},{av:'AV9cSituacaoDocFiscalDataHoraAlt',fld:'vCSITUACAODOCFISCALDATAHORAALT'}],[]];
+   this.EvtParms["GRID1_PREVPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSituacaoDocFiscalCodigo',fld:'vCSITUACAODOCFISCALCODIGO'},{av:'AV7cSituacaoDocFiscalDescricao',fld:'vCSITUACAODOCFISCALDESCRICAO'},{av:'AV8cSituacaoDocFiscalUsuarioAlt',fld:'vCSITUACAODOCFISCALUSUARIOALT'},{av:'AV9cSituacaoDocFiscalDataHoraAlt',fld:'vCSITUACAODOCFISCALDATAHORAALT'}],[]];
+   this.EvtParms["GRID1_NEXTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSituacaoDocFiscalCodigo',fld:'vCSITUACAODOCFISCALCODIGO'},{av:'AV7cSituacaoDocFiscalDescricao',fld:'vCSITUACAODOCFISCALDESCRICAO'},{av:'AV8cSituacaoDocFiscalUsuarioAlt',fld:'vCSITUACAODOCFISCALUSUARIOALT'},{av:'AV9cSituacaoDocFiscalDataHoraAlt',fld:'vCSITUACAODOCFISCALDATAHORAALT'}],[]];
+   this.EvtParms["GRID1_LASTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSituacaoDocFiscalCodigo',fld:'vCSITUACAODOCFISCALCODIGO'},{av:'AV7cSituacaoDocFiscalDescricao',fld:'vCSITUACAODOCFISCALDESCRICAO'},{av:'AV8cSituacaoDocFiscalUsuarioAlt',fld:'vCSITUACAODOCFISCALUSUARIOALT'},{av:'AV9cSituacaoDocFiscalDataHoraAlt',fld:'vCSITUACAODOCFISCALDATAHORAALT'}],[]];
+   this.setVCMap("AV10pSituacaoDocFiscalCodigo", "vPSITUACAODOCFISCALCODIGO", 0, "char");
+   Grid1Container.addRefreshingVar(this.GXValidFnc[14]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[19]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[24]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[29]);
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new gx0cm0());

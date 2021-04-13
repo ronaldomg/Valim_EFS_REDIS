@@ -1,0 +1,425 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 13:16:46.36
+*/
+gx.evt.autoSkip = false;
+gx.define('hrelatoriofluxoclassificacao', false, function () {
+   this.ServerClass =  "hrelatoriofluxoclassificacao" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("12", "'FECHAR'");
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.SetStandaloneVars=function()
+   {
+   };
+   this.Validv_Tipoclassfluxoid=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("vTIPOCLASSFLUXOID");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Validv_Tipoclassfluxoempresaid=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("vTIPOCLASSFLUXOEMPRESAID");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.e11ti2_client=function()
+   {
+      this.executeServerEvent("'FECHAR'", false, null, false, false);
+   };
+   this.e13ti2_client=function()
+   {
+      this.executeServerEvent("ENTER", true, null, false, false);
+   };
+   this.e15ti2_client=function()
+   {
+      this.executeServerEvent("'SALVARTXT'", true, null, false, false);
+   };
+   this.e16ti2_client=function()
+   {
+      this.executeServerEvent("VTXTTELA.CLICK", true, null, false, true);
+   };
+   this.e17ti2_client=function()
+   {
+      this.executeServerEvent("'EXCLUIRTXT'", true, null, false, false);
+   };
+   this.e19ti2_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[3,6,9,12,14,16,18,21,24,27,30,35,37,38,40,43,45,47,50,52,55,57,59,61,64,66,69,71,73,75,80,85,90,93,99,101,104,106,108,110,113,115,117,119,122,124,126,130,133,135,137,139,142,144,146,148,151,153,155,163,165,168,170,172,174,177,179,181,190,192,195,197,199,201,204,206,208,210,213,215,217,221,224,226,228,230,233,235,237,239,242,244,246,260,261,263,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293];
+   this.GXLastCtrlId =293;
+   GXValidFnc[3]={fld:"TABLE1",grid:0};
+   GXValidFnc[6]={fld:"TABLE2",grid:0};
+   GXValidFnc[9]={fld:"TABTXT",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCK37", format:0,grid:0};
+   GXValidFnc[14]={lvl:0,type:"svchar",len:40,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vTXTTELA",gxz:"ZV71TxtTela",gxold:"OV71TxtTela",gxvar:"AV71TxtTela",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"combo",v2v:function(Value){gx.O.AV71TxtTela=Value},v2z:function(Value){gx.O.ZV71TxtTela=Value},v2c:function(){gx.fn.setComboBoxValue("vTXTTELA",gx.O.AV71TxtTela)},c2v:function(){gx.O.AV71TxtTela=this.val()},val:function(){return gx.fn.getControlValue("vTXTTELA")},nac:gx.falseFn};
+   GXValidFnc[16]={fld:"IMAGE2",grid:0};
+   GXValidFnc[18]={fld:"IMAGE1",grid:0};
+   GXValidFnc[21]={fld:"TABLE7",grid:0};
+   GXValidFnc[24]={fld:"TABLE6",grid:0};
+   GXValidFnc[27]={fld:"TABLE23",grid:0};
+   GXValidFnc[30]={fld:"TEXTBLOCK3", format:0,grid:0};
+   GXValidFnc[35]={fld:"TEXTBLOCK1", format:0,grid:0};
+   GXValidFnc[37]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:0,grid:0,gxgrid:null,fnc:this.Validv_Tipoclassfluxoid,isvalid:null,rgrid:[],fld:"vTIPOCLASSFLUXOID",gxz:"ZV102TipoClassFluxoId",gxold:"OV102TipoClassFluxoId",gxvar:"AV102TipoClassFluxoId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV102TipoClassFluxoId=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV102TipoClassFluxoId=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vTIPOCLASSFLUXOID",gx.O.AV102TipoClassFluxoId,0)},c2v:function(){gx.O.AV102TipoClassFluxoId=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vTIPOCLASSFLUXOID",'.')},nac:gx.falseFn};
+   GXValidFnc[38]={lvl:0,type:"svchar",len:40,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vTIPOCLASSFLUXODESCRICAO",gxz:"ZV100TipoClassFluxoDescricao",gxold:"OV100TipoClassFluxoDescricao",gxvar:"AV100TipoClassFluxoDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV100TipoClassFluxoDescricao=Value},v2z:function(Value){gx.O.ZV100TipoClassFluxoDescricao=Value},v2c:function(){gx.fn.setControlValue("vTIPOCLASSFLUXODESCRICAO",gx.O.AV100TipoClassFluxoDescricao,0)},c2v:function(){gx.O.AV100TipoClassFluxoDescricao=this.val()},val:function(){return gx.fn.getControlValue("vTIPOCLASSFLUXODESCRICAO")},nac:gx.falseFn};
+   GXValidFnc[40]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vSNSEPARARFILIAL",gxz:"ZV21SnSepararFilial",gxold:"OV21SnSepararFilial",gxvar:"AV21SnSepararFilial",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV21SnSepararFilial=Value},v2z:function(Value){gx.O.ZV21SnSepararFilial=Value},v2c:function(){gx.fn.setCheckBoxValue("vSNSEPARARFILIAL",gx.O.AV21SnSepararFilial,"S")},c2v:function(){gx.O.AV21SnSepararFilial=this.val()},val:function(){return gx.fn.getControlValue("vSNSEPARARFILIAL")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[43]={fld:"TEXTBLOCK5", format:0,grid:0};
+   GXValidFnc[45]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vTPFLUXO",gxz:"ZV56TpFluxo",gxold:"OV56TpFluxo",gxvar:"AV56TpFluxo",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"combo",v2v:function(Value){gx.O.AV56TpFluxo=Value},v2z:function(Value){gx.O.ZV56TpFluxo=Value},v2c:function(){gx.fn.setComboBoxValue("vTPFLUXO",gx.O.AV56TpFluxo)},c2v:function(){gx.O.AV56TpFluxo=this.val()},val:function(){return gx.fn.getControlValue("vTPFLUXO")},nac:gx.falseFn};
+   GXValidFnc[47]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vSNPREVISAO",gxz:"ZV108SnPrevisao",gxold:"OV108SnPrevisao",gxvar:"AV108SnPrevisao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV108SnPrevisao=Value},v2z:function(Value){gx.O.ZV108SnPrevisao=Value},v2c:function(){gx.fn.setCheckBoxValue("vSNPREVISAO",gx.O.AV108SnPrevisao,"S")},c2v:function(){gx.O.AV108SnPrevisao=this.val()},val:function(){return gx.fn.getControlValue("vSNPREVISAO")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[50]={fld:"TEXTBLOCK2", format:0,grid:0};
+   GXValidFnc[52]={fld:"TABLE4",grid:0};
+   GXValidFnc[55]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vDTINICIO",gxz:"ZV49DtInicio",gxold:"OV49DtInicio",gxvar:"AV49DtInicio",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV49DtInicio=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.ZV49DtInicio=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("vDTINICIO",gx.O.AV49DtInicio,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.AV49DtInicio=gx.fn.toDatetimeValue(this.val())},val:function(){return gx.fn.getControlValue("vDTINICIO")},nac:gx.falseFn};
+   this.declareDomainHdlr( 55 , function() {
+   });
+   GXValidFnc[57]={fld:"TEXTBLOCK22", format:0,grid:0};
+   GXValidFnc[59]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vDTFINAL",gxz:"ZV50DtFinal",gxold:"OV50DtFinal",gxvar:"AV50DtFinal",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV50DtFinal=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.ZV50DtFinal=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("vDTFINAL",gx.O.AV50DtFinal,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.AV50DtFinal=gx.fn.toDatetimeValue(this.val())},val:function(){return gx.fn.getControlValue("vDTFINAL")},nac:gx.falseFn};
+   this.declareDomainHdlr( 59 , function() {
+   });
+   GXValidFnc[61]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vSNAPLICACAOSALDO",gxz:"ZV109SnAplicacaoSaldo",gxold:"OV109SnAplicacaoSaldo",gxvar:"AV109SnAplicacaoSaldo",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV109SnAplicacaoSaldo=Value},v2z:function(Value){gx.O.ZV109SnAplicacaoSaldo=Value},v2c:function(){gx.fn.setCheckBoxValue("vSNAPLICACAOSALDO",gx.O.AV109SnAplicacaoSaldo,"S")},c2v:function(){gx.O.AV109SnAplicacaoSaldo=this.val()},val:function(){return gx.fn.getControlValue("vSNAPLICACAOSALDO")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[64]={fld:"TEXTBLOCK6", format:0,grid:0};
+   GXValidFnc[66]={fld:"TABLE5",grid:0};
+   GXValidFnc[69]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vDTPEDPENDENTEINI",gxz:"ZV91DtPedPendenteIni",gxold:"OV91DtPedPendenteIni",gxvar:"AV91DtPedPendenteIni",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV91DtPedPendenteIni=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.ZV91DtPedPendenteIni=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("vDTPEDPENDENTEINI",gx.O.AV91DtPedPendenteIni,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.AV91DtPedPendenteIni=gx.fn.toDatetimeValue(this.val())},val:function(){return gx.fn.getControlValue("vDTPEDPENDENTEINI")},nac:gx.falseFn};
+   this.declareDomainHdlr( 69 , function() {
+   });
+   GXValidFnc[71]={fld:"TEXTBLOCK23", format:0,grid:0};
+   GXValidFnc[73]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vDTPEDPENDENTEFIN",gxz:"ZV90DtPedPendenteFin",gxold:"OV90DtPedPendenteFin",gxvar:"AV90DtPedPendenteFin",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV90DtPedPendenteFin=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.ZV90DtPedPendenteFin=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("vDTPEDPENDENTEFIN",gx.O.AV90DtPedPendenteFin,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.AV90DtPedPendenteFin=gx.fn.toDatetimeValue(this.val())},val:function(){return gx.fn.getControlValue("vDTPEDPENDENTEFIN")},nac:gx.falseFn};
+   this.declareDomainHdlr( 73 , function() {
+   });
+   GXValidFnc[75]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vSNIMPAPLICACAO",gxz:"ZV97SnImpAplicacao",gxold:"OV97SnImpAplicacao",gxvar:"AV97SnImpAplicacao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV97SnImpAplicacao=Value},v2z:function(Value){gx.O.ZV97SnImpAplicacao=Value},v2c:function(){gx.fn.setCheckBoxValue("vSNIMPAPLICACAO",gx.O.AV97SnImpAplicacao,"S")},c2v:function(){gx.O.AV97SnImpAplicacao=this.val()},val:function(){return gx.fn.getControlValue("vSNIMPAPLICACAO")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[80]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vSNMESAMES",gxz:"ZV98SnMesaMes",gxold:"OV98SnMesaMes",gxvar:"AV98SnMesaMes",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV98SnMesaMes=Value},v2z:function(Value){gx.O.ZV98SnMesaMes=Value},v2c:function(){gx.fn.setCheckBoxValue("vSNMESAMES",gx.O.AV98SnMesaMes,"S")},c2v:function(){gx.O.AV98SnMesaMes=this.val()},val:function(){return gx.fn.getControlValue("vSNMESAMES")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[85]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vSNGERARCSV",gxz:"ZV20SnGerarCSV",gxold:"OV20SnGerarCSV",gxvar:"AV20SnGerarCSV",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV20SnGerarCSV=Value},v2z:function(Value){gx.O.ZV20SnGerarCSV=Value},v2c:function(){gx.fn.setCheckBoxValue("vSNGERARCSV",gx.O.AV20SnGerarCSV,"S")},c2v:function(){gx.O.AV20SnGerarCSV=this.val()},val:function(){return gx.fn.getControlValue("vSNGERARCSV")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[90]={fld:"TABLE3",grid:0};
+   GXValidFnc[93]={fld:"TEXTBLOCK4", format:0,grid:0};
+   GXValidFnc[99]={fld:"TEXTBLOCK13", format:0,grid:0};
+   GXValidFnc[101]={fld:"TABLE8",grid:0};
+   GXValidFnc[104]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALINI",gxz:"ZV23FilialIni",gxold:"OV23FilialIni",gxvar:"AV23FilialIni",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV23FilialIni=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV23FilialIni=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALINI",gx.O.AV23FilialIni,0)},c2v:function(){gx.O.AV23FilialIni=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALINI",'.')},nac:gx.falseFn};
+   GXValidFnc[106]={fld:"TEXTBLOCK8", format:0,grid:0};
+   GXValidFnc[108]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALFIN",gxz:"ZV24FilialFin",gxold:"OV24FilialFin",gxvar:"AV24FilialFin",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV24FilialFin=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV24FilialFin=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALFIN",gx.O.AV24FilialFin,0)},c2v:function(){gx.O.AV24FilialFin=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALFIN",'.')},nac:gx.falseFn};
+   GXValidFnc[110]={fld:"TABLE17",grid:0};
+   GXValidFnc[113]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALINI1",gxz:"ZV110FilialIni1",gxold:"OV110FilialIni1",gxvar:"AV110FilialIni1",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV110FilialIni1=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV110FilialIni1=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALINI1",gx.O.AV110FilialIni1,0)},c2v:function(){gx.O.AV110FilialIni1=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALINI1",'.')},nac:gx.falseFn};
+   GXValidFnc[115]={fld:"TEXTBLOCK9", format:0,grid:0};
+   GXValidFnc[117]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALFIN1",gxz:"ZV111FilialFin1",gxold:"OV111FilialFin1",gxvar:"AV111FilialFin1",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV111FilialFin1=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV111FilialFin1=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALFIN1",gx.O.AV111FilialFin1,0)},c2v:function(){gx.O.AV111FilialFin1=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALFIN1",'.')},nac:gx.falseFn};
+   GXValidFnc[119]={fld:"TABLE18",grid:0};
+   GXValidFnc[122]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALINI2",gxz:"ZV112FilialIni2",gxold:"OV112FilialIni2",gxvar:"AV112FilialIni2",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV112FilialIni2=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV112FilialIni2=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALINI2",gx.O.AV112FilialIni2,0)},c2v:function(){gx.O.AV112FilialIni2=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALINI2",'.')},nac:gx.falseFn};
+   GXValidFnc[124]={fld:"TEXTBLOCK10", format:0,grid:0};
+   GXValidFnc[126]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALFIN2",gxz:"ZV113FilialFin2",gxold:"OV113FilialFin2",gxvar:"AV113FilialFin2",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV113FilialFin2=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV113FilialFin2=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALFIN2",gx.O.AV113FilialFin2,0)},c2v:function(){gx.O.AV113FilialFin2=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALFIN2",'.')},nac:gx.falseFn};
+   GXValidFnc[130]={fld:"TABLE19",grid:0};
+   GXValidFnc[133]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALINI3",gxz:"ZV114FilialIni3",gxold:"OV114FilialIni3",gxvar:"AV114FilialIni3",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV114FilialIni3=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV114FilialIni3=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALINI3",gx.O.AV114FilialIni3,0)},c2v:function(){gx.O.AV114FilialIni3=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALINI3",'.')},nac:gx.falseFn};
+   GXValidFnc[135]={fld:"TEXTBLOCK12", format:0,grid:0};
+   GXValidFnc[137]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALFIN3",gxz:"ZV115FilialFin3",gxold:"OV115FilialFin3",gxvar:"AV115FilialFin3",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV115FilialFin3=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV115FilialFin3=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALFIN3",gx.O.AV115FilialFin3,0)},c2v:function(){gx.O.AV115FilialFin3=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALFIN3",'.')},nac:gx.falseFn};
+   GXValidFnc[139]={fld:"TABLE20",grid:0};
+   GXValidFnc[142]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALINI4",gxz:"ZV116FilialIni4",gxold:"OV116FilialIni4",gxvar:"AV116FilialIni4",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV116FilialIni4=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV116FilialIni4=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALINI4",gx.O.AV116FilialIni4,0)},c2v:function(){gx.O.AV116FilialIni4=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALINI4",'.')},nac:gx.falseFn};
+   GXValidFnc[144]={fld:"TEXTBLOCK14", format:0,grid:0};
+   GXValidFnc[146]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALFIN4",gxz:"ZV117FilialFin4",gxold:"OV117FilialFin4",gxvar:"AV117FilialFin4",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV117FilialFin4=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV117FilialFin4=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALFIN4",gx.O.AV117FilialFin4,0)},c2v:function(){gx.O.AV117FilialFin4=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALFIN4",'.')},nac:gx.falseFn};
+   GXValidFnc[148]={fld:"TABLE21",grid:0};
+   GXValidFnc[151]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALINI5",gxz:"ZV118FilialIni5",gxold:"OV118FilialIni5",gxvar:"AV118FilialIni5",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV118FilialIni5=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV118FilialIni5=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALINI5",gx.O.AV118FilialIni5,0)},c2v:function(){gx.O.AV118FilialIni5=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALINI5",'.')},nac:gx.falseFn};
+   GXValidFnc[153]={fld:"TEXTBLOCK15", format:0,grid:0};
+   GXValidFnc[155]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vFILIALFIN5",gxz:"ZV119FilialFin5",gxold:"OV119FilialFin5",gxvar:"AV119FilialFin5",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV119FilialFin5=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV119FilialFin5=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vFILIALFIN5",gx.O.AV119FilialFin5,0)},c2v:function(){gx.O.AV119FilialFin5=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vFILIALFIN5",'.')},nac:gx.falseFn};
+   GXValidFnc[163]={fld:"TEXTBLOCK7", format:0,grid:0};
+   GXValidFnc[165]={fld:"TABLE9",grid:0};
+   GXValidFnc[168]={lvl:0,type:"svchar",len:10,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCLASSIFICACAOINI1",gxz:"ZV22ClassificacaoIni1",gxold:"OV22ClassificacaoIni1",gxvar:"AV22ClassificacaoIni1",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV22ClassificacaoIni1=Value},v2z:function(Value){gx.O.ZV22ClassificacaoIni1=Value},v2c:function(){gx.fn.setControlValue("vCLASSIFICACAOINI1",gx.O.AV22ClassificacaoIni1,0)},c2v:function(){gx.O.AV22ClassificacaoIni1=this.val()},val:function(){return gx.fn.getControlValue("vCLASSIFICACAOINI1")},nac:gx.falseFn};
+   GXValidFnc[170]={fld:"TEXTBLOCK19", format:0,grid:0};
+   GXValidFnc[172]={lvl:0,type:"svchar",len:10,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCLASSIFICACAOFIN1",gxz:"ZV52ClassificacaoFin1",gxold:"OV52ClassificacaoFin1",gxvar:"AV52ClassificacaoFin1",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV52ClassificacaoFin1=Value},v2z:function(Value){gx.O.ZV52ClassificacaoFin1=Value},v2c:function(){gx.fn.setControlValue("vCLASSIFICACAOFIN1",gx.O.AV52ClassificacaoFin1,0)},c2v:function(){gx.O.AV52ClassificacaoFin1=this.val()},val:function(){return gx.fn.getControlValue("vCLASSIFICACAOFIN1")},nac:gx.falseFn};
+   GXValidFnc[174]={fld:"TABLE10",grid:0};
+   GXValidFnc[177]={lvl:0,type:"svchar",len:10,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCLASSIFICACAOINI2",gxz:"ZV53ClassificacaoIni2",gxold:"OV53ClassificacaoIni2",gxvar:"AV53ClassificacaoIni2",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV53ClassificacaoIni2=Value},v2z:function(Value){gx.O.ZV53ClassificacaoIni2=Value},v2c:function(){gx.fn.setControlValue("vCLASSIFICACAOINI2",gx.O.AV53ClassificacaoIni2,0)},c2v:function(){gx.O.AV53ClassificacaoIni2=this.val()},val:function(){return gx.fn.getControlValue("vCLASSIFICACAOINI2")},nac:gx.falseFn};
+   GXValidFnc[179]={fld:"TEXTBLOCK20", format:0,grid:0};
+   GXValidFnc[181]={lvl:0,type:"svchar",len:10,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCLASSIFICACAOFIN2",gxz:"ZV54ClassificacaoFin2",gxold:"OV54ClassificacaoFin2",gxvar:"AV54ClassificacaoFin2",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV54ClassificacaoFin2=Value},v2z:function(Value){gx.O.ZV54ClassificacaoFin2=Value},v2c:function(){gx.fn.setControlValue("vCLASSIFICACAOFIN2",gx.O.AV54ClassificacaoFin2,0)},c2v:function(){gx.O.AV54ClassificacaoFin2=this.val()},val:function(){return gx.fn.getControlValue("vCLASSIFICACAOFIN2")},nac:gx.falseFn};
+   GXValidFnc[190]={fld:"TEXTBLOCK11", format:0,grid:0};
+   GXValidFnc[192]={fld:"TABLE11",grid:0};
+   GXValidFnc[195]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOINI1",gxz:"ZV25CxaBcoSaldoIni1",gxold:"OV25CxaBcoSaldoIni1",gxvar:"AV25CxaBcoSaldoIni1",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV25CxaBcoSaldoIni1=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV25CxaBcoSaldoIni1=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOINI1",gx.O.AV25CxaBcoSaldoIni1,0)},c2v:function(){gx.O.AV25CxaBcoSaldoIni1=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOINI1",'.')},nac:gx.falseFn};
+   GXValidFnc[197]={fld:"TEXTBLOCK21", format:0,grid:0};
+   GXValidFnc[199]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOFIN1",gxz:"ZV26CxaBcoSaldoFin1",gxold:"OV26CxaBcoSaldoFin1",gxvar:"AV26CxaBcoSaldoFin1",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV26CxaBcoSaldoFin1=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV26CxaBcoSaldoFin1=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOFIN1",gx.O.AV26CxaBcoSaldoFin1,0)},c2v:function(){gx.O.AV26CxaBcoSaldoFin1=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOFIN1",'.')},nac:gx.falseFn};
+   GXValidFnc[201]={fld:"TABLE12",grid:0};
+   GXValidFnc[204]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOINI2",gxz:"ZV27CxaBcoSaldoIni2",gxold:"OV27CxaBcoSaldoIni2",gxvar:"AV27CxaBcoSaldoIni2",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV27CxaBcoSaldoIni2=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV27CxaBcoSaldoIni2=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOINI2",gx.O.AV27CxaBcoSaldoIni2,0)},c2v:function(){gx.O.AV27CxaBcoSaldoIni2=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOINI2",'.')},nac:gx.falseFn};
+   GXValidFnc[206]={fld:"TEXTBLOCK28", format:0,grid:0};
+   GXValidFnc[208]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOFIN2",gxz:"ZV28CxaBcoSaldoFin2",gxold:"OV28CxaBcoSaldoFin2",gxvar:"AV28CxaBcoSaldoFin2",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV28CxaBcoSaldoFin2=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV28CxaBcoSaldoFin2=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOFIN2",gx.O.AV28CxaBcoSaldoFin2,0)},c2v:function(){gx.O.AV28CxaBcoSaldoFin2=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOFIN2",'.')},nac:gx.falseFn};
+   GXValidFnc[210]={fld:"TABLE13",grid:0};
+   GXValidFnc[213]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOINI3",gxz:"ZV29CxaBcoSaldoIni3",gxold:"OV29CxaBcoSaldoIni3",gxvar:"AV29CxaBcoSaldoIni3",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV29CxaBcoSaldoIni3=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV29CxaBcoSaldoIni3=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOINI3",gx.O.AV29CxaBcoSaldoIni3,0)},c2v:function(){gx.O.AV29CxaBcoSaldoIni3=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOINI3",'.')},nac:gx.falseFn};
+   GXValidFnc[215]={fld:"TEXTBLOCK29", format:0,grid:0};
+   GXValidFnc[217]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOFIN3",gxz:"ZV30CxaBcoSaldoFin3",gxold:"OV30CxaBcoSaldoFin3",gxvar:"AV30CxaBcoSaldoFin3",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV30CxaBcoSaldoFin3=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV30CxaBcoSaldoFin3=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOFIN3",gx.O.AV30CxaBcoSaldoFin3,0)},c2v:function(){gx.O.AV30CxaBcoSaldoFin3=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOFIN3",'.')},nac:gx.falseFn};
+   GXValidFnc[221]={fld:"TABLE14",grid:0};
+   GXValidFnc[224]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOINI4",gxz:"ZV31CxaBcoSaldoIni4",gxold:"OV31CxaBcoSaldoIni4",gxvar:"AV31CxaBcoSaldoIni4",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV31CxaBcoSaldoIni4=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV31CxaBcoSaldoIni4=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOINI4",gx.O.AV31CxaBcoSaldoIni4,0)},c2v:function(){gx.O.AV31CxaBcoSaldoIni4=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOINI4",'.')},nac:gx.falseFn};
+   GXValidFnc[226]={fld:"TEXTBLOCK30", format:0,grid:0};
+   GXValidFnc[228]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOFIN4",gxz:"ZV32CxaBcoSaldoFin4",gxold:"OV32CxaBcoSaldoFin4",gxvar:"AV32CxaBcoSaldoFin4",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV32CxaBcoSaldoFin4=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV32CxaBcoSaldoFin4=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOFIN4",gx.O.AV32CxaBcoSaldoFin4,0)},c2v:function(){gx.O.AV32CxaBcoSaldoFin4=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOFIN4",'.')},nac:gx.falseFn};
+   GXValidFnc[230]={fld:"TABLE15",grid:0};
+   GXValidFnc[233]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOINI5",gxz:"ZV33CxaBcoSaldoIni5",gxold:"OV33CxaBcoSaldoIni5",gxvar:"AV33CxaBcoSaldoIni5",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV33CxaBcoSaldoIni5=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV33CxaBcoSaldoIni5=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOINI5",gx.O.AV33CxaBcoSaldoIni5,0)},c2v:function(){gx.O.AV33CxaBcoSaldoIni5=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOINI5",'.')},nac:gx.falseFn};
+   GXValidFnc[235]={fld:"TEXTBLOCK31", format:0,grid:0};
+   GXValidFnc[237]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOFIN5",gxz:"ZV34CxaBcoSaldoFin5",gxold:"OV34CxaBcoSaldoFin5",gxvar:"AV34CxaBcoSaldoFin5",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV34CxaBcoSaldoFin5=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV34CxaBcoSaldoFin5=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOFIN5",gx.O.AV34CxaBcoSaldoFin5,0)},c2v:function(){gx.O.AV34CxaBcoSaldoFin5=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOFIN5",'.')},nac:gx.falseFn};
+   GXValidFnc[239]={fld:"TABLE16",grid:0};
+   GXValidFnc[242]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOINI6",gxz:"ZV35CxaBcoSaldoIni6",gxold:"OV35CxaBcoSaldoIni6",gxvar:"AV35CxaBcoSaldoIni6",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV35CxaBcoSaldoIni6=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV35CxaBcoSaldoIni6=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOINI6",gx.O.AV35CxaBcoSaldoIni6,0)},c2v:function(){gx.O.AV35CxaBcoSaldoIni6=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOINI6",'.')},nac:gx.falseFn};
+   GXValidFnc[244]={fld:"TEXTBLOCK32", format:0,grid:0};
+   GXValidFnc[246]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCXABCOSALDOFIN6",gxz:"ZV36CxaBcoSaldoFin6",gxold:"OV36CxaBcoSaldoFin6",gxvar:"AV36CxaBcoSaldoFin6",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV36CxaBcoSaldoFin6=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV36CxaBcoSaldoFin6=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCXABCOSALDOFIN6",gx.O.AV36CxaBcoSaldoFin6,0)},c2v:function(){gx.O.AV36CxaBcoSaldoFin6=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCXABCOSALDOFIN6",'.')},nac:gx.falseFn};
+   GXValidFnc[260]={fld:"JS", format:2,grid:0};
+   GXValidFnc[261]={lvl:0,type:"char",len:10,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:this.Validv_Tipoclassfluxoempresaid,isvalid:null,rgrid:[],fld:"vTIPOCLASSFLUXOEMPRESAID",gxz:"ZV101TipoClassFluxoEmpresaId",gxold:"OV101TipoClassFluxoEmpresaId",gxvar:"AV101TipoClassFluxoEmpresaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV101TipoClassFluxoEmpresaId=Value},v2z:function(Value){gx.O.ZV101TipoClassFluxoEmpresaId=Value},v2c:function(){gx.fn.setControlValue("vTIPOCLASSFLUXOEMPRESAID",gx.O.AV101TipoClassFluxoEmpresaId,0)},c2v:function(){gx.O.AV101TipoClassFluxoEmpresaId=this.val()},val:function(){return gx.fn.getControlValue("vTIPOCLASSFLUXOEMPRESAID")},nac:gx.falseFn};
+   GXValidFnc[263]={fld:"BTNHELP",grid:0};
+   GXValidFnc[265]={fld:"PROMPT_TIPOCLASSFLUXOID",grid:0};
+   GXValidFnc[266]={fld:"PROMPT_FILIALINI",grid:0};
+   GXValidFnc[267]={fld:"PROMPT_FILIALFIN",grid:0};
+   GXValidFnc[268]={fld:"PROMPT_FILIALINI1",grid:0};
+   GXValidFnc[269]={fld:"PROMPT_FILIALFIN1",grid:0};
+   GXValidFnc[270]={fld:"PROMPT_FILIALINI2",grid:0};
+   GXValidFnc[271]={fld:"PROMPT_FILIALFIN2",grid:0};
+   GXValidFnc[272]={fld:"PROMPT_FILIALINI3",grid:0};
+   GXValidFnc[273]={fld:"PROMPT_FILIALFIN3",grid:0};
+   GXValidFnc[274]={fld:"PROMPT_FILIALINI4",grid:0};
+   GXValidFnc[275]={fld:"PROMPT_FILIALFIN4",grid:0};
+   GXValidFnc[276]={fld:"PROMPT_FILIALINI5",grid:0};
+   GXValidFnc[277]={fld:"PROMPT_FILIALFIN5",grid:0};
+   GXValidFnc[278]={fld:"PROMPT_CLASSIFICACAOINI1",grid:0};
+   GXValidFnc[279]={fld:"PROMPT_CLASSIFICACAOFIN1",grid:0};
+   GXValidFnc[280]={fld:"PROMPT_CLASSIFICACAOINI2",grid:0};
+   GXValidFnc[281]={fld:"PROMPT_CLASSIFICACAOFIN2",grid:0};
+   GXValidFnc[282]={fld:"PROMPT_CXABCOSALDOINI1",grid:0};
+   GXValidFnc[283]={fld:"PROMPT_CXABCOSALDOFIN1",grid:0};
+   GXValidFnc[284]={fld:"PROMPT_CXABCOSALDOINI2",grid:0};
+   GXValidFnc[285]={fld:"PROMPT_CXABCOSALDOFIN2",grid:0};
+   GXValidFnc[286]={fld:"PROMPT_CXABCOSALDOINI3",grid:0};
+   GXValidFnc[287]={fld:"PROMPT_CXABCOSALDOFIN3",grid:0};
+   GXValidFnc[288]={fld:"PROMPT_CXABCOSALDOINI4",grid:0};
+   GXValidFnc[289]={fld:"PROMPT_CXABCOSALDOFIN4",grid:0};
+   GXValidFnc[290]={fld:"PROMPT_CXABCOSALDOINI5",grid:0};
+   GXValidFnc[291]={fld:"PROMPT_CXABCOSALDOFIN5",grid:0};
+   GXValidFnc[292]={fld:"PROMPT_CXABCOSALDOINI6",grid:0};
+   GXValidFnc[293]={fld:"PROMPT_CXABCOSALDOFIN6",grid:0};
+   this.AV71TxtTela = "" ;
+   this.ZV71TxtTela = "" ;
+   this.OV71TxtTela = "" ;
+   this.AV102TipoClassFluxoId = 0 ;
+   this.ZV102TipoClassFluxoId = 0 ;
+   this.OV102TipoClassFluxoId = 0 ;
+   this.AV100TipoClassFluxoDescricao = "" ;
+   this.ZV100TipoClassFluxoDescricao = "" ;
+   this.OV100TipoClassFluxoDescricao = "" ;
+   this.AV21SnSepararFilial = "" ;
+   this.ZV21SnSepararFilial = "" ;
+   this.OV21SnSepararFilial = "" ;
+   this.AV56TpFluxo = "" ;
+   this.ZV56TpFluxo = "" ;
+   this.OV56TpFluxo = "" ;
+   this.AV108SnPrevisao = "" ;
+   this.ZV108SnPrevisao = "" ;
+   this.OV108SnPrevisao = "" ;
+   this.AV49DtInicio = gx.date.nullDate() ;
+   this.ZV49DtInicio = gx.date.nullDate() ;
+   this.OV49DtInicio = gx.date.nullDate() ;
+   this.AV50DtFinal = gx.date.nullDate() ;
+   this.ZV50DtFinal = gx.date.nullDate() ;
+   this.OV50DtFinal = gx.date.nullDate() ;
+   this.AV109SnAplicacaoSaldo = "" ;
+   this.ZV109SnAplicacaoSaldo = "" ;
+   this.OV109SnAplicacaoSaldo = "" ;
+   this.AV91DtPedPendenteIni = gx.date.nullDate() ;
+   this.ZV91DtPedPendenteIni = gx.date.nullDate() ;
+   this.OV91DtPedPendenteIni = gx.date.nullDate() ;
+   this.AV90DtPedPendenteFin = gx.date.nullDate() ;
+   this.ZV90DtPedPendenteFin = gx.date.nullDate() ;
+   this.OV90DtPedPendenteFin = gx.date.nullDate() ;
+   this.AV97SnImpAplicacao = "" ;
+   this.ZV97SnImpAplicacao = "" ;
+   this.OV97SnImpAplicacao = "" ;
+   this.AV98SnMesaMes = "" ;
+   this.ZV98SnMesaMes = "" ;
+   this.OV98SnMesaMes = "" ;
+   this.AV20SnGerarCSV = "" ;
+   this.ZV20SnGerarCSV = "" ;
+   this.OV20SnGerarCSV = "" ;
+   this.AV23FilialIni = 0 ;
+   this.ZV23FilialIni = 0 ;
+   this.OV23FilialIni = 0 ;
+   this.AV24FilialFin = 0 ;
+   this.ZV24FilialFin = 0 ;
+   this.OV24FilialFin = 0 ;
+   this.AV110FilialIni1 = 0 ;
+   this.ZV110FilialIni1 = 0 ;
+   this.OV110FilialIni1 = 0 ;
+   this.AV111FilialFin1 = 0 ;
+   this.ZV111FilialFin1 = 0 ;
+   this.OV111FilialFin1 = 0 ;
+   this.AV112FilialIni2 = 0 ;
+   this.ZV112FilialIni2 = 0 ;
+   this.OV112FilialIni2 = 0 ;
+   this.AV113FilialFin2 = 0 ;
+   this.ZV113FilialFin2 = 0 ;
+   this.OV113FilialFin2 = 0 ;
+   this.AV114FilialIni3 = 0 ;
+   this.ZV114FilialIni3 = 0 ;
+   this.OV114FilialIni3 = 0 ;
+   this.AV115FilialFin3 = 0 ;
+   this.ZV115FilialFin3 = 0 ;
+   this.OV115FilialFin3 = 0 ;
+   this.AV116FilialIni4 = 0 ;
+   this.ZV116FilialIni4 = 0 ;
+   this.OV116FilialIni4 = 0 ;
+   this.AV117FilialFin4 = 0 ;
+   this.ZV117FilialFin4 = 0 ;
+   this.OV117FilialFin4 = 0 ;
+   this.AV118FilialIni5 = 0 ;
+   this.ZV118FilialIni5 = 0 ;
+   this.OV118FilialIni5 = 0 ;
+   this.AV119FilialFin5 = 0 ;
+   this.ZV119FilialFin5 = 0 ;
+   this.OV119FilialFin5 = 0 ;
+   this.AV22ClassificacaoIni1 = "" ;
+   this.ZV22ClassificacaoIni1 = "" ;
+   this.OV22ClassificacaoIni1 = "" ;
+   this.AV52ClassificacaoFin1 = "" ;
+   this.ZV52ClassificacaoFin1 = "" ;
+   this.OV52ClassificacaoFin1 = "" ;
+   this.AV53ClassificacaoIni2 = "" ;
+   this.ZV53ClassificacaoIni2 = "" ;
+   this.OV53ClassificacaoIni2 = "" ;
+   this.AV54ClassificacaoFin2 = "" ;
+   this.ZV54ClassificacaoFin2 = "" ;
+   this.OV54ClassificacaoFin2 = "" ;
+   this.AV25CxaBcoSaldoIni1 = 0 ;
+   this.ZV25CxaBcoSaldoIni1 = 0 ;
+   this.OV25CxaBcoSaldoIni1 = 0 ;
+   this.AV26CxaBcoSaldoFin1 = 0 ;
+   this.ZV26CxaBcoSaldoFin1 = 0 ;
+   this.OV26CxaBcoSaldoFin1 = 0 ;
+   this.AV27CxaBcoSaldoIni2 = 0 ;
+   this.ZV27CxaBcoSaldoIni2 = 0 ;
+   this.OV27CxaBcoSaldoIni2 = 0 ;
+   this.AV28CxaBcoSaldoFin2 = 0 ;
+   this.ZV28CxaBcoSaldoFin2 = 0 ;
+   this.OV28CxaBcoSaldoFin2 = 0 ;
+   this.AV29CxaBcoSaldoIni3 = 0 ;
+   this.ZV29CxaBcoSaldoIni3 = 0 ;
+   this.OV29CxaBcoSaldoIni3 = 0 ;
+   this.AV30CxaBcoSaldoFin3 = 0 ;
+   this.ZV30CxaBcoSaldoFin3 = 0 ;
+   this.OV30CxaBcoSaldoFin3 = 0 ;
+   this.AV31CxaBcoSaldoIni4 = 0 ;
+   this.ZV31CxaBcoSaldoIni4 = 0 ;
+   this.OV31CxaBcoSaldoIni4 = 0 ;
+   this.AV32CxaBcoSaldoFin4 = 0 ;
+   this.ZV32CxaBcoSaldoFin4 = 0 ;
+   this.OV32CxaBcoSaldoFin4 = 0 ;
+   this.AV33CxaBcoSaldoIni5 = 0 ;
+   this.ZV33CxaBcoSaldoIni5 = 0 ;
+   this.OV33CxaBcoSaldoIni5 = 0 ;
+   this.AV34CxaBcoSaldoFin5 = 0 ;
+   this.ZV34CxaBcoSaldoFin5 = 0 ;
+   this.OV34CxaBcoSaldoFin5 = 0 ;
+   this.AV35CxaBcoSaldoIni6 = 0 ;
+   this.ZV35CxaBcoSaldoIni6 = 0 ;
+   this.OV35CxaBcoSaldoIni6 = 0 ;
+   this.AV36CxaBcoSaldoFin6 = 0 ;
+   this.ZV36CxaBcoSaldoFin6 = 0 ;
+   this.OV36CxaBcoSaldoFin6 = 0 ;
+   this.AV101TipoClassFluxoEmpresaId = "" ;
+   this.ZV101TipoClassFluxoEmpresaId = "" ;
+   this.OV101TipoClassFluxoEmpresaId = "" ;
+   this.AV71TxtTela = "" ;
+   this.AV102TipoClassFluxoId = 0 ;
+   this.AV100TipoClassFluxoDescricao = "" ;
+   this.AV21SnSepararFilial = "" ;
+   this.AV56TpFluxo = "" ;
+   this.AV108SnPrevisao = "" ;
+   this.AV49DtInicio = gx.date.nullDate() ;
+   this.AV50DtFinal = gx.date.nullDate() ;
+   this.AV109SnAplicacaoSaldo = "" ;
+   this.AV91DtPedPendenteIni = gx.date.nullDate() ;
+   this.AV90DtPedPendenteFin = gx.date.nullDate() ;
+   this.AV97SnImpAplicacao = "" ;
+   this.AV98SnMesaMes = "" ;
+   this.AV20SnGerarCSV = "" ;
+   this.AV23FilialIni = 0 ;
+   this.AV24FilialFin = 0 ;
+   this.AV110FilialIni1 = 0 ;
+   this.AV111FilialFin1 = 0 ;
+   this.AV112FilialIni2 = 0 ;
+   this.AV113FilialFin2 = 0 ;
+   this.AV114FilialIni3 = 0 ;
+   this.AV115FilialFin3 = 0 ;
+   this.AV116FilialIni4 = 0 ;
+   this.AV117FilialFin4 = 0 ;
+   this.AV118FilialIni5 = 0 ;
+   this.AV119FilialFin5 = 0 ;
+   this.AV22ClassificacaoIni1 = "" ;
+   this.AV52ClassificacaoFin1 = "" ;
+   this.AV53ClassificacaoIni2 = "" ;
+   this.AV54ClassificacaoFin2 = "" ;
+   this.AV25CxaBcoSaldoIni1 = 0 ;
+   this.AV26CxaBcoSaldoFin1 = 0 ;
+   this.AV27CxaBcoSaldoIni2 = 0 ;
+   this.AV28CxaBcoSaldoFin2 = 0 ;
+   this.AV29CxaBcoSaldoIni3 = 0 ;
+   this.AV30CxaBcoSaldoFin3 = 0 ;
+   this.AV31CxaBcoSaldoIni4 = 0 ;
+   this.AV32CxaBcoSaldoFin4 = 0 ;
+   this.AV33CxaBcoSaldoIni5 = 0 ;
+   this.AV34CxaBcoSaldoFin5 = 0 ;
+   this.AV35CxaBcoSaldoIni6 = 0 ;
+   this.AV36CxaBcoSaldoFin6 = 0 ;
+   this.AV101TipoClassFluxoEmpresaId = "" ;
+   this.A10199TipoClassFluxoId = 0 ;
+   this.A10198TipoClassFluxoEmpresaId = "" ;
+   this.A10345TipoClassFluxoDescricao = "" ;
+   this.A75UsuarioId = "" ;
+   this.A1564UsuarioFilialId = 0 ;
+   this.A3292ClassFluxoSelecaoTipo = "" ;
+   this.A10456ErroFluxoClassUsuario = "" ;
+   this.Events = {"e11ti2_client": ["'FECHAR'", true] ,"e13ti2_client": ["ENTER", true] ,"e15ti2_client": ["'SALVARTXT'", true] ,"e16ti2_client": ["VTXTTELA.CLICK", true] ,"e17ti2_client": ["'EXCLUIRTXT'", true] ,"e19ti2_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'A10456ErroFluxoClassUsuario',fld:'ERROFLUXOCLASSUSUARIO'},{av:'AV5UsrCod',fld:'vUSRCOD'},{av:'AV14Ordenacao',fld:'vORDENACAO'},{av:'AV13OrdenacaoDescricao',fld:'vORDENACAODESCRICAO'},{av:'AV18QtdPagGeradas',fld:'vQTDPAGGERADAS'},{av:'AV49DtInicio',fld:'vDTINICIO'},{av:'AV50DtFinal',fld:'vDTFINAL'},{av:'AV123Pgmdesc',fld:'vPGMDESC'},{av:'AV122Pgmname',fld:'vPGMNAME'},{av:'AV86SdtTxtTela',fld:'vSDTTXTTELA'},{av:'AV8EmpresaLogadaId',fld:'vEMPRESALOGADAID'},{av:'A75UsuarioId',fld:'USUARIOID'},{av:'A1564UsuarioFilialId',fld:'USUARIOFILIALID'},{av:'AV71TxtTela',fld:'vTXTTELA'},{av:'AV102TipoClassFluxoId',fld:'vTIPOCLASSFLUXOID'},{av:'A10198TipoClassFluxoEmpresaId',fld:'TIPOCLASSFLUXOEMPRESAID'},{av:'AV101TipoClassFluxoEmpresaId',fld:'vTIPOCLASSFLUXOEMPRESAID'},{av:'A10199TipoClassFluxoId',fld:'TIPOCLASSFLUXOID'},{av:'A10345TipoClassFluxoDescricao',fld:'TIPOCLASSFLUXODESCRICAO'}],[{av:'AV107SnRelatorio',fld:'vSNRELATORIO'},{av:'AV12NomeRelativo',fld:'vNOMERELATIVO'},{av:'AV11NomeAbsoluto',fld:'vNOMEABSOLUTO'},{av:'AV50DtFinal',fld:'vDTFINAL'},{av:'AV49DtInicio',fld:'vDTINICIO'},{av:'AV18QtdPagGeradas',fld:'vQTDPAGGERADAS'},{av:'AV13OrdenacaoDescricao',fld:'vORDENACAODESCRICAO'},{av:'AV88Orientacao',fld:'vORIENTACAO'},{av:'AV71TxtTela',fld:'vTXTTELA'},{av:'AV130GXV2',fld:'vGXV2'},{av:'AV87SdtTxtTelaItem',fld:'vSDTTXTTELAITEM'},{av:'AV23FilialIni',fld:'vFILIALINI'},{av:'AV24FilialFin',fld:'vFILIALFIN'},{av:'gx.fn.getCtrlProperty("vFILIALINI","Enabled")',ctrl:'vFILIALINI',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALFIN","Enabled")',ctrl:'vFILIALFIN',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALINI1","Enabled")',ctrl:'vFILIALINI1',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALFIN1","Enabled")',ctrl:'vFILIALFIN1',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALINI2","Enabled")',ctrl:'vFILIALINI2',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALFIN2","Enabled")',ctrl:'vFILIALFIN2',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALINI3","Enabled")',ctrl:'vFILIALINI3',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALFIN3","Enabled")',ctrl:'vFILIALFIN3',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALINI4","Enabled")',ctrl:'vFILIALINI4',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALFIN4","Enabled")',ctrl:'vFILIALFIN4',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALINI5","Enabled")',ctrl:'vFILIALINI5',prop:'Enabled'},{av:'gx.fn.getCtrlProperty("vFILIALFIN5","Enabled")',ctrl:'vFILIALFIN5',prop:'Enabled'},{av:'AV128GXV1',fld:'vGXV1'},{av:'AV25CxaBcoSaldoIni1',fld:'vCXABCOSALDOINI1'},{av:'AV26CxaBcoSaldoFin1',fld:'vCXABCOSALDOFIN1'},{av:'AV27CxaBcoSaldoIni2',fld:'vCXABCOSALDOINI2'},{av:'AV28CxaBcoSaldoFin2',fld:'vCXABCOSALDOFIN2'},{av:'AV29CxaBcoSaldoIni3',fld:'vCXABCOSALDOINI3'},{av:'AV30CxaBcoSaldoFin3',fld:'vCXABCOSALDOFIN3'},{av:'AV31CxaBcoSaldoIni4',fld:'vCXABCOSALDOINI4'},{av:'AV32CxaBcoSaldoFin4',fld:'vCXABCOSALDOFIN4'},{av:'AV33CxaBcoSaldoIni5',fld:'vCXABCOSALDOINI5'},{av:'AV34CxaBcoSaldoFin5',fld:'vCXABCOSALDOFIN5'},{av:'AV35CxaBcoSaldoIni6',fld:'vCXABCOSALDOINI6'},{av:'AV36CxaBcoSaldoFin6',fld:'vCXABCOSALDOFIN6'},{av:'AV102TipoClassFluxoId',fld:'vTIPOCLASSFLUXOID'},{av:'AV56TpFluxo',fld:'vTPFLUXO'},{av:'AV21SnSepararFilial',fld:'vSNSEPARARFILIAL'},{av:'AV97SnImpAplicacao',fld:'vSNIMPAPLICACAO'},{av:'AV98SnMesaMes',fld:'vSNMESAMES'},{av:'AV20SnGerarCSV',fld:'vSNGERARCSV'},{av:'AV108SnPrevisao',fld:'vSNPREVISAO'},{av:'AV109SnAplicacaoSaldo',fld:'vSNAPLICACAOSALDO'},{av:'AV100TipoClassFluxoDescricao',fld:'vTIPOCLASSFLUXODESCRICAO'}]];
+   this.EvtParms["'FECHAR'"] = [[],[]];
+   this.EvtParms["ENTER"] = [[{av:'AV55TpErro',fld:'vTPERRO'},{av:'AV71TxtTela',fld:'vTXTTELA'},{av:'AV8EmpresaLogadaId',fld:'vEMPRESALOGADAID'},{av:'AV122Pgmname',fld:'vPGMNAME'},{av:'AV99SnPedidoPendente',fld:'vSNPEDIDOPENDENTE'},{av:'AV91DtPedPendenteIni',fld:'vDTPEDPENDENTEINI'},{av:'AV49DtInicio',fld:'vDTINICIO'},{av:'AV90DtPedPendenteFin',fld:'vDTPEDPENDENTEFIN'},{av:'AV50DtFinal',fld:'vDTFINAL'},{av:'AV56TpFluxo',fld:'vTPFLUXO'},{av:'AV102TipoClassFluxoId',fld:'vTIPOCLASSFLUXOID'},{av:'AV98SnMesaMes',fld:'vSNMESAMES'},{av:'AV21SnSepararFilial',fld:'vSNSEPARARFILIAL'},{av:'AV23FilialIni',fld:'vFILIALINI'},{av:'AV24FilialFin',fld:'vFILIALFIN'},{av:'AV22ClassificacaoIni1',fld:'vCLASSIFICACAOINI1'},{av:'AV52ClassificacaoFin1',fld:'vCLASSIFICACAOFIN1'},{av:'AV53ClassificacaoIni2',fld:'vCLASSIFICACAOINI2'},{av:'AV54ClassificacaoFin2',fld:'vCLASSIFICACAOFIN2'},{av:'AV108SnPrevisao',fld:'vSNPREVISAO'},{av:'AV110FilialIni1',fld:'vFILIALINI1'},{av:'AV112FilialIni2',fld:'vFILIALINI2'},{av:'AV114FilialIni3',fld:'vFILIALINI3'},{av:'AV116FilialIni4',fld:'vFILIALINI4'},{av:'AV118FilialIni5',fld:'vFILIALINI5'},{av:'AV111FilialFin1',fld:'vFILIALFIN1'},{av:'AV113FilialFin2',fld:'vFILIALFIN2'},{av:'AV115FilialFin3',fld:'vFILIALFIN3'},{av:'AV117FilialFin4',fld:'vFILIALFIN4'},{av:'AV119FilialFin5',fld:'vFILIALFIN5'},{av:'AV14Ordenacao',fld:'vORDENACAO'},{av:'AV13OrdenacaoDescricao',fld:'vORDENACAODESCRICAO'},{av:'AV18QtdPagGeradas',fld:'vQTDPAGGERADAS'},{av:'AV25CxaBcoSaldoIni1',fld:'vCXABCOSALDOINI1'},{av:'AV26CxaBcoSaldoFin1',fld:'vCXABCOSALDOFIN1'},{av:'AV27CxaBcoSaldoIni2',fld:'vCXABCOSALDOINI2'},{av:'AV28CxaBcoSaldoFin2',fld:'vCXABCOSALDOFIN2'},{av:'AV29CxaBcoSaldoIni3',fld:'vCXABCOSALDOINI3'},{av:'AV30CxaBcoSaldoFin3',fld:'vCXABCOSALDOFIN3'},{av:'AV31CxaBcoSaldoIni4',fld:'vCXABCOSALDOINI4'},{av:'AV32CxaBcoSaldoFin4',fld:'vCXABCOSALDOFIN4'},{av:'AV33CxaBcoSaldoIni5',fld:'vCXABCOSALDOINI5'},{av:'AV34CxaBcoSaldoFin5',fld:'vCXABCOSALDOFIN5'},{av:'AV35CxaBcoSaldoIni6',fld:'vCXABCOSALDOINI6'},{av:'AV36CxaBcoSaldoFin6',fld:'vCXABCOSALDOFIN6'},{av:'AV97SnImpAplicacao',fld:'vSNIMPAPLICACAO'},{av:'AV109SnAplicacaoSaldo',fld:'vSNAPLICACAOSALDO'},{av:'AV20SnGerarCSV',fld:'vSNGERARCSV'},{av:'AV123Pgmdesc',fld:'vPGMDESC'},{av:'A10198TipoClassFluxoEmpresaId',fld:'TIPOCLASSFLUXOEMPRESAID'},{av:'AV101TipoClassFluxoEmpresaId',fld:'vTIPOCLASSFLUXOEMPRESAID'},{av:'A10199TipoClassFluxoId',fld:'TIPOCLASSFLUXOID'},{av:'A3292ClassFluxoSelecaoTipo',fld:'CLASSFLUXOSELECAOTIPO'}],[{av:'AV82SNTxtTelaRelat',fld:'vSNTXTTELARELAT'},{av:'AV71TxtTela',fld:'vTXTTELA'},{av:'AV93DtPeriodoIni',fld:'vDTPERIODOINI'},{av:'AV92DtPeriodoFin',fld:'vDTPERIODOFIN'},{av:'AV12NomeRelativo',fld:'vNOMERELATIVO'},{av:'AV11NomeAbsoluto',fld:'vNOMEABSOLUTO'},{av:'AV119FilialFin5',fld:'vFILIALFIN5'},{av:'AV117FilialFin4',fld:'vFILIALFIN4'},{av:'AV115FilialFin3',fld:'vFILIALFIN3'},{av:'AV113FilialFin2',fld:'vFILIALFIN2'},{av:'AV111FilialFin1',fld:'vFILIALFIN1'},{av:'AV118FilialIni5',fld:'vFILIALINI5'},{av:'AV116FilialIni4',fld:'vFILIALINI4'},{av:'AV114FilialIni3',fld:'vFILIALINI3'},{av:'AV112FilialIni2',fld:'vFILIALINI2'},{av:'AV110FilialIni1',fld:'vFILIALINI1'},{av:'AV20SnGerarCSV',fld:'vSNGERARCSV'},{av:'AV109SnAplicacaoSaldo',fld:'vSNAPLICACAOSALDO'},{av:'AV97SnImpAplicacao',fld:'vSNIMPAPLICACAO'},{av:'AV36CxaBcoSaldoFin6',fld:'vCXABCOSALDOFIN6'},{av:'AV35CxaBcoSaldoIni6',fld:'vCXABCOSALDOINI6'},{av:'AV34CxaBcoSaldoFin5',fld:'vCXABCOSALDOFIN5'},{av:'AV33CxaBcoSaldoIni5',fld:'vCXABCOSALDOINI5'},{av:'AV32CxaBcoSaldoFin4',fld:'vCXABCOSALDOFIN4'},{av:'AV31CxaBcoSaldoIni4',fld:'vCXABCOSALDOINI4'},{av:'AV30CxaBcoSaldoFin3',fld:'vCXABCOSALDOFIN3'},{av:'AV29CxaBcoSaldoIni3',fld:'vCXABCOSALDOINI3'},{av:'AV28CxaBcoSaldoFin2',fld:'vCXABCOSALDOFIN2'},{av:'AV27CxaBcoSaldoIni2',fld:'vCXABCOSALDOINI2'},{av:'AV26CxaBcoSaldoFin1',fld:'vCXABCOSALDOFIN1'},{av:'AV25CxaBcoSaldoIni1',fld:'vCXABCOSALDOINI1'},{av:'AV24FilialFin',fld:'vFILIALFIN'},{av:'AV23FilialIni',fld:'vFILIALINI'},{av:'AV21SnSepararFilial',fld:'vSNSEPARARFILIAL'},{av:'AV50DtFinal',fld:'vDTFINAL'},{av:'AV49DtInicio',fld:'vDTINICIO'},{av:'AV102TipoClassFluxoId',fld:'vTIPOCLASSFLUXOID'},{av:'AV18QtdPagGeradas',fld:'vQTDPAGGERADAS'},{av:'AV13OrdenacaoDescricao',fld:'vORDENACAODESCRICAO'},{av:'AV88Orientacao',fld:'vORIENTACAO'},{av:'AV55TpErro',fld:'vTPERRO'},{av:'AV125GXLvl172',fld:'vGXLVL172'},{av:'AV99SnPedidoPendente',fld:'vSNPEDIDOPENDENTE'},{av:'AV89DataAuxiliar',fld:'vDATAAUXILIAR'},{av:'AV103ULtimoMes',fld:'vULTIMOMES'},{av:'AV57x',fld:'vX'},{av:'AV85OpcoesTxtTela',fld:'vOPCOESTXTTELA'}]];
+   this.EvtParms["'SALVARTXT'"] = [[{av:'AV8EmpresaLogadaId',fld:'vEMPRESALOGADAID'},{av:'AV71TxtTela',fld:'vTXTTELA'},{av:'AV122Pgmname',fld:'vPGMNAME'},{av:'AV25CxaBcoSaldoIni1',fld:'vCXABCOSALDOINI1'},{av:'AV26CxaBcoSaldoFin1',fld:'vCXABCOSALDOFIN1'},{av:'AV27CxaBcoSaldoIni2',fld:'vCXABCOSALDOINI2'},{av:'AV28CxaBcoSaldoFin2',fld:'vCXABCOSALDOFIN2'},{av:'AV29CxaBcoSaldoIni3',fld:'vCXABCOSALDOINI3'},{av:'AV30CxaBcoSaldoFin3',fld:'vCXABCOSALDOFIN3'},{av:'AV31CxaBcoSaldoIni4',fld:'vCXABCOSALDOINI4'},{av:'AV32CxaBcoSaldoFin4',fld:'vCXABCOSALDOFIN4'},{av:'AV33CxaBcoSaldoIni5',fld:'vCXABCOSALDOINI5'},{av:'AV34CxaBcoSaldoFin5',fld:'vCXABCOSALDOFIN5'},{av:'AV35CxaBcoSaldoIni6',fld:'vCXABCOSALDOINI6'},{av:'AV36CxaBcoSaldoFin6',fld:'vCXABCOSALDOFIN6'},{av:'AV102TipoClassFluxoId',fld:'vTIPOCLASSFLUXOID'},{av:'AV56TpFluxo',fld:'vTPFLUXO'},{av:'AV21SnSepararFilial',fld:'vSNSEPARARFILIAL'},{av:'AV97SnImpAplicacao',fld:'vSNIMPAPLICACAO'},{av:'AV98SnMesaMes',fld:'vSNMESAMES'},{av:'AV20SnGerarCSV',fld:'vSNGERARCSV'},{av:'AV108SnPrevisao',fld:'vSNPREVISAO'},{av:'AV109SnAplicacaoSaldo',fld:'vSNAPLICACAOSALDO'}],[{av:'AV85OpcoesTxtTela',fld:'vOPCOESTXTTELA'}]];
+   this.EvtParms["VTXTTELA.CLICK"] = [[{av:'AV122Pgmname',fld:'vPGMNAME'},{av:'AV86SdtTxtTela',fld:'vSDTTXTTELA'},{av:'AV71TxtTela',fld:'vTXTTELA'},{av:'AV8EmpresaLogadaId',fld:'vEMPRESALOGADAID'},{av:'AV102TipoClassFluxoId',fld:'vTIPOCLASSFLUXOID'},{av:'A10198TipoClassFluxoEmpresaId',fld:'TIPOCLASSFLUXOEMPRESAID'},{av:'AV101TipoClassFluxoEmpresaId',fld:'vTIPOCLASSFLUXOEMPRESAID'},{av:'A10199TipoClassFluxoId',fld:'TIPOCLASSFLUXOID'},{av:'A10345TipoClassFluxoDescricao',fld:'TIPOCLASSFLUXODESCRICAO'}],[{av:'AV128GXV1',fld:'vGXV1'},{av:'AV87SdtTxtTelaItem',fld:'vSDTTXTTELAITEM'},{av:'AV25CxaBcoSaldoIni1',fld:'vCXABCOSALDOINI1'},{av:'AV26CxaBcoSaldoFin1',fld:'vCXABCOSALDOFIN1'},{av:'AV27CxaBcoSaldoIni2',fld:'vCXABCOSALDOINI2'},{av:'AV28CxaBcoSaldoFin2',fld:'vCXABCOSALDOFIN2'},{av:'AV29CxaBcoSaldoIni3',fld:'vCXABCOSALDOINI3'},{av:'AV30CxaBcoSaldoFin3',fld:'vCXABCOSALDOFIN3'},{av:'AV31CxaBcoSaldoIni4',fld:'vCXABCOSALDOINI4'},{av:'AV32CxaBcoSaldoFin4',fld:'vCXABCOSALDOFIN4'},{av:'AV33CxaBcoSaldoIni5',fld:'vCXABCOSALDOINI5'},{av:'AV34CxaBcoSaldoFin5',fld:'vCXABCOSALDOFIN5'},{av:'AV35CxaBcoSaldoIni6',fld:'vCXABCOSALDOINI6'},{av:'AV36CxaBcoSaldoFin6',fld:'vCXABCOSALDOFIN6'},{av:'AV102TipoClassFluxoId',fld:'vTIPOCLASSFLUXOID'},{av:'AV56TpFluxo',fld:'vTPFLUXO'},{av:'AV21SnSepararFilial',fld:'vSNSEPARARFILIAL'},{av:'AV97SnImpAplicacao',fld:'vSNIMPAPLICACAO'},{av:'AV98SnMesaMes',fld:'vSNMESAMES'},{av:'AV20SnGerarCSV',fld:'vSNGERARCSV'},{av:'AV108SnPrevisao',fld:'vSNPREVISAO'},{av:'AV109SnAplicacaoSaldo',fld:'vSNAPLICACAOSALDO'},{av:'AV100TipoClassFluxoDescricao',fld:'vTIPOCLASSFLUXODESCRICAO'}]];
+   this.EvtParms["'EXCLUIRTXT'"] = [[{av:'AV8EmpresaLogadaId',fld:'vEMPRESALOGADAID'},{av:'AV122Pgmname',fld:'vPGMNAME'},{av:'AV71TxtTela',fld:'vTXTTELA'}],[]];
+   this.setPrompt("PROMPT_TIPOCLASSFLUXOID", [37]);
+   this.setPrompt("PROMPT_FILIALINI", [104]);
+   this.setPrompt("PROMPT_FILIALFIN", [108]);
+   this.setPrompt("PROMPT_FILIALINI1", [113]);
+   this.setPrompt("PROMPT_FILIALFIN1", [117]);
+   this.setPrompt("PROMPT_FILIALINI2", [122]);
+   this.setPrompt("PROMPT_FILIALFIN2", [126]);
+   this.setPrompt("PROMPT_FILIALINI3", [133]);
+   this.setPrompt("PROMPT_FILIALFIN3", [137]);
+   this.setPrompt("PROMPT_FILIALINI4", [142]);
+   this.setPrompt("PROMPT_FILIALFIN4", [146]);
+   this.setPrompt("PROMPT_FILIALINI5", [151]);
+   this.setPrompt("PROMPT_FILIALFIN5", [155]);
+   this.setPrompt("PROMPT_CLASSIFICACAOINI1", [168]);
+   this.setPrompt("PROMPT_CLASSIFICACAOFIN1", [172]);
+   this.setPrompt("PROMPT_CLASSIFICACAOINI2", [177]);
+   this.setPrompt("PROMPT_CLASSIFICACAOFIN2", [181]);
+   this.setPrompt("PROMPT_CXABCOSALDOINI1", [195]);
+   this.setPrompt("PROMPT_CXABCOSALDOFIN1", [199]);
+   this.setPrompt("PROMPT_CXABCOSALDOINI2", [204]);
+   this.setPrompt("PROMPT_CXABCOSALDOFIN2", [208]);
+   this.setPrompt("PROMPT_CXABCOSALDOINI3", [213]);
+   this.setPrompt("PROMPT_CXABCOSALDOFIN3", [217]);
+   this.setPrompt("PROMPT_CXABCOSALDOINI4", [224]);
+   this.setPrompt("PROMPT_CXABCOSALDOFIN4", [228]);
+   this.setPrompt("PROMPT_CXABCOSALDOINI5", [233]);
+   this.setPrompt("PROMPT_CXABCOSALDOFIN5", [237]);
+   this.setPrompt("PROMPT_CXABCOSALDOINI6", [242]);
+   this.setPrompt("PROMPT_CXABCOSALDOFIN6", [246]);
+   this.EnterCtrl = ["BUTTON3"];
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new hrelatoriofluxoclassificacao());

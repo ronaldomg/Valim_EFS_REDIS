@@ -1,0 +1,123 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 14:6:4.14
+*/
+gx.evt.autoSkip = false;
+gx.define('hefetivacadastrousuariovendedor', false, function () {
+   this.ServerClass =  "hefetivacadastrousuariovendedor" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.SetStandaloneVars=function()
+   {
+      this.AV25UsuarioId=gx.fn.getControlValue("vUSUARIOID") ;
+   };
+   this.e12xc2_client=function()
+   {
+      this.executeServerEvent("ENTER", true, null, false, false);
+   };
+   this.e13xc2_client=function()
+   {
+      this.executeServerEvent("'CANCELAR'", false, null, false, false);
+   };
+   this.e15xc2_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,5,8,10,12,15,17,19,21,29,31,35,37,41,43,44,45,54,55,56,57,58,59];
+   this.GXLastCtrlId =59;
+   GXValidFnc[2]={fld:"TABLE4",grid:0};
+   GXValidFnc[5]={fld:"TABLE2",grid:0};
+   GXValidFnc[8]={fld:"TEXTBLOCK1", format:0,grid:0};
+   GXValidFnc[10]={lvl:0,type:"decimal",len:6,dec:2,sign:false,pic:"ZZ9.99",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vVENDEDORPERCENTUALCOMISSAO",gxz:"ZV45VendedorPercentualComissao",gxold:"OV45VendedorPercentualComissao",gxvar:"AV45VendedorPercentualComissao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV45VendedorPercentualComissao=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.ZV45VendedorPercentualComissao=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("vVENDEDORPERCENTUALCOMISSAO",gx.O.AV45VendedorPercentualComissao,2,',')},c2v:function(){gx.O.AV45VendedorPercentualComissao=this.val()},val:function(){return gx.fn.getDecimalValue("vVENDEDORPERCENTUALCOMISSAO",'.',',')},nac:gx.falseFn};
+   GXValidFnc[12]={fld:"TABLE1",grid:0};
+   GXValidFnc[15]={lvl:0,type:"char",len:1,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vVENDEDORSNVENDEDOR",gxz:"ZV24VendedorSnVendedor",gxold:"OV24VendedorSnVendedor",gxvar:"AV24VendedorSnVendedor",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV24VendedorSnVendedor=Value},v2z:function(Value){gx.O.ZV24VendedorSnVendedor=Value},v2c:function(){gx.fn.setCheckBoxValue("vVENDEDORSNVENDEDOR",gx.O.AV24VendedorSnVendedor,"S")},c2v:function(){gx.O.AV24VendedorSnVendedor=this.val()},val:function(){return gx.fn.getControlValue("vVENDEDORSNVENDEDOR")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[17]={lvl:0,type:"char",len:1,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vVENDEDORSNCOMPRADOR",gxz:"ZV22VendedorSnComprador",gxold:"OV22VendedorSnComprador",gxvar:"AV22VendedorSnComprador",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV22VendedorSnComprador=Value},v2z:function(Value){gx.O.ZV22VendedorSnComprador=Value},v2c:function(){gx.fn.setCheckBoxValue("vVENDEDORSNCOMPRADOR",gx.O.AV22VendedorSnComprador,"S")},c2v:function(){gx.O.AV22VendedorSnComprador=this.val()},val:function(){return gx.fn.getControlValue("vVENDEDORSNCOMPRADOR")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[19]={lvl:0,type:"char",len:1,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vVENDEDORSNGERENTE",gxz:"ZV23VendedorSnGerente",gxold:"OV23VendedorSnGerente",gxvar:"AV23VendedorSnGerente",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV23VendedorSnGerente=Value},v2z:function(Value){gx.O.ZV23VendedorSnGerente=Value},v2c:function(){gx.fn.setCheckBoxValue("vVENDEDORSNGERENTE",gx.O.AV23VendedorSnGerente,"S")},c2v:function(){gx.O.AV23VendedorSnGerente=this.val()},val:function(){return gx.fn.getControlValue("vVENDEDORSNGERENTE")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[21]={lvl:0,type:"char",len:1,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vUSUARIOCAIXASNSUPERVISOR",gxz:"ZV26UsuarioCaixaSnSupervisor",gxold:"OV26UsuarioCaixaSnSupervisor",gxvar:"AV26UsuarioCaixaSnSupervisor",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.AV26UsuarioCaixaSnSupervisor=Value},v2z:function(Value){gx.O.ZV26UsuarioCaixaSnSupervisor=Value},v2c:function(){gx.fn.setCheckBoxValue("vUSUARIOCAIXASNSUPERVISOR",gx.O.AV26UsuarioCaixaSnSupervisor,"S")},c2v:function(){gx.O.AV26UsuarioCaixaSnSupervisor=this.val()},val:function(){return gx.fn.getControlValue("vUSUARIOCAIXASNSUPERVISOR")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[29]={fld:"TEXTBLOCK2", format:0,grid:0};
+   GXValidFnc[31]={lvl:0,type:"svchar",len:60,dec:0,sign:false,isPwd:true,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vUSUARIOCAIXASENHAAUTORIZACAO",gxz:"ZV14UsuarioCaixaSenhaAutorizacao",gxold:"OV14UsuarioCaixaSenhaAutorizacao",gxvar:"AV14UsuarioCaixaSenhaAutorizacao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV14UsuarioCaixaSenhaAutorizacao=Value},v2z:function(Value){gx.O.ZV14UsuarioCaixaSenhaAutorizacao=Value},v2c:function(){gx.fn.setControlValue("vUSUARIOCAIXASENHAAUTORIZACAO",gx.O.AV14UsuarioCaixaSenhaAutorizacao,0)},c2v:function(){gx.O.AV14UsuarioCaixaSenhaAutorizacao=this.val()},val:function(){return gx.fn.getControlValue("vUSUARIOCAIXASENHAAUTORIZACAO")},nac:gx.falseFn};
+   GXValidFnc[35]={fld:"TEXTBLOCK3", format:0,grid:0};
+   GXValidFnc[37]={lvl:0,type:"char",len:16,dec:0,sign:false,isPwd:true,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vUSUARIOCAIXASENHAADICIONAL",gxz:"ZV15UsuarioCaixaSenhaAdicional",gxold:"OV15UsuarioCaixaSenhaAdicional",gxvar:"AV15UsuarioCaixaSenhaAdicional",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV15UsuarioCaixaSenhaAdicional=Value},v2z:function(Value){gx.O.ZV15UsuarioCaixaSenhaAdicional=Value},v2c:function(){gx.fn.setControlValue("vUSUARIOCAIXASENHAADICIONAL",gx.O.AV15UsuarioCaixaSenhaAdicional,0)},c2v:function(){gx.O.AV15UsuarioCaixaSenhaAdicional=this.val()},val:function(){return gx.fn.getControlValue("vUSUARIOCAIXASENHAADICIONAL")},nac:gx.falseFn};
+   GXValidFnc[41]={fld:"TEXTBLOCK4", format:0,grid:0};
+   GXValidFnc[43]={lvl:0,type:"int",len:5,dec:0,sign:false,pic:"ZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vUSUARIOCAIXACAIXABANCOID",gxz:"ZV16UsuarioCaixaCaixaBancoId",gxold:"OV16UsuarioCaixaCaixaBancoId",gxvar:"AV16UsuarioCaixaCaixaBancoId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV16UsuarioCaixaCaixaBancoId=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV16UsuarioCaixaCaixaBancoId=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vUSUARIOCAIXACAIXABANCOID",gx.O.AV16UsuarioCaixaCaixaBancoId,0)},c2v:function(){gx.O.AV16UsuarioCaixaCaixaBancoId=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vUSUARIOCAIXACAIXABANCOID",'.')},nac:gx.falseFn};
+   GXValidFnc[44]={fld:"PROMPTCXA",grid:0};
+   GXValidFnc[45]={lvl:0,type:"svchar",len:25,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vUSUARIOCAIXACAIXABANCODESCRICAO",gxz:"ZV17UsuarioCaixaCaixaBancoDescricao",gxold:"OV17UsuarioCaixaCaixaBancoDescricao",gxvar:"AV17UsuarioCaixaCaixaBancoDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV17UsuarioCaixaCaixaBancoDescricao=Value},v2z:function(Value){gx.O.ZV17UsuarioCaixaCaixaBancoDescricao=Value},v2c:function(){gx.fn.setControlValue("vUSUARIOCAIXACAIXABANCODESCRICAO",gx.O.AV17UsuarioCaixaCaixaBancoDescricao,0)},c2v:function(){gx.O.AV17UsuarioCaixaCaixaBancoDescricao=this.val()},val:function(){return gx.fn.getControlValue("vUSUARIOCAIXACAIXABANCODESCRICAO")},nac:gx.falseFn};
+   GXValidFnc[54]={lvl:0,type:"char",len:10,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vUSUARIOCAIXACAIXABANCOEMPID",gxz:"ZV34UsuarioCaixaCaixaBancoEmpId",gxold:"OV34UsuarioCaixaCaixaBancoEmpId",gxvar:"AV34UsuarioCaixaCaixaBancoEmpId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV34UsuarioCaixaCaixaBancoEmpId=Value},v2z:function(Value){gx.O.ZV34UsuarioCaixaCaixaBancoEmpId=Value},v2c:function(){gx.fn.setControlValue("vUSUARIOCAIXACAIXABANCOEMPID",gx.O.AV34UsuarioCaixaCaixaBancoEmpId,0)},c2v:function(){gx.O.AV34UsuarioCaixaCaixaBancoEmpId=this.val()},val:function(){return gx.fn.getControlValue("vUSUARIOCAIXACAIXABANCOEMPID")},nac:gx.falseFn};
+   GXValidFnc[55]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vUSUARIOFILIALID",gxz:"ZV48UsuarioFilialId",gxold:"OV48UsuarioFilialId",gxvar:"AV48UsuarioFilialId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV48UsuarioFilialId=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV48UsuarioFilialId=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vUSUARIOFILIALID",gx.O.AV48UsuarioFilialId,0)},c2v:function(){gx.O.AV48UsuarioFilialId=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vUSUARIOFILIALID",'.')},nac:gx.falseFn};
+   GXValidFnc[56]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vSIM",gxz:"ZV27Sim",gxold:"OV27Sim",gxvar:"AV27Sim",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV27Sim=Value},v2z:function(Value){gx.O.ZV27Sim=Value},v2c:function(){gx.fn.setControlValue("vSIM",gx.O.AV27Sim,0)},c2v:function(){gx.O.AV27Sim=this.val()},val:function(){return gx.fn.getControlValue("vSIM")},nac:gx.falseFn};
+   GXValidFnc[57]={fld:"JS", format:2,grid:0};
+   GXValidFnc[58]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vTIPOBAIXA",gxz:"ZV28TipoBaixa",gxold:"OV28TipoBaixa",gxvar:"AV28TipoBaixa",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV28TipoBaixa=Value},v2z:function(Value){gx.O.ZV28TipoBaixa=Value},v2c:function(){gx.fn.setControlValue("vTIPOBAIXA",gx.O.AV28TipoBaixa,0)},c2v:function(){gx.O.AV28TipoBaixa=this.val()},val:function(){return gx.fn.getControlValue("vTIPOBAIXA")},nac:gx.falseFn};
+   GXValidFnc[59]={lvl:0,type:"svchar",len:35,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vUSUARIONOME",gxz:"ZV13UsuarioNome",gxold:"OV13UsuarioNome",gxvar:"AV13UsuarioNome",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV13UsuarioNome=Value},v2z:function(Value){gx.O.ZV13UsuarioNome=Value},v2c:function(){gx.fn.setControlValue("vUSUARIONOME",gx.O.AV13UsuarioNome,0)},c2v:function(){gx.O.AV13UsuarioNome=this.val()},val:function(){return gx.fn.getControlValue("vUSUARIONOME")},nac:gx.falseFn};
+   this.AV45VendedorPercentualComissao = 0 ;
+   this.ZV45VendedorPercentualComissao = 0 ;
+   this.OV45VendedorPercentualComissao = 0 ;
+   this.AV24VendedorSnVendedor = "" ;
+   this.ZV24VendedorSnVendedor = "" ;
+   this.OV24VendedorSnVendedor = "" ;
+   this.AV22VendedorSnComprador = "" ;
+   this.ZV22VendedorSnComprador = "" ;
+   this.OV22VendedorSnComprador = "" ;
+   this.AV23VendedorSnGerente = "" ;
+   this.ZV23VendedorSnGerente = "" ;
+   this.OV23VendedorSnGerente = "" ;
+   this.AV26UsuarioCaixaSnSupervisor = "" ;
+   this.ZV26UsuarioCaixaSnSupervisor = "" ;
+   this.OV26UsuarioCaixaSnSupervisor = "" ;
+   this.AV14UsuarioCaixaSenhaAutorizacao = "" ;
+   this.ZV14UsuarioCaixaSenhaAutorizacao = "" ;
+   this.OV14UsuarioCaixaSenhaAutorizacao = "" ;
+   this.AV15UsuarioCaixaSenhaAdicional = "" ;
+   this.ZV15UsuarioCaixaSenhaAdicional = "" ;
+   this.OV15UsuarioCaixaSenhaAdicional = "" ;
+   this.AV16UsuarioCaixaCaixaBancoId = 0 ;
+   this.ZV16UsuarioCaixaCaixaBancoId = 0 ;
+   this.OV16UsuarioCaixaCaixaBancoId = 0 ;
+   this.AV17UsuarioCaixaCaixaBancoDescricao = "" ;
+   this.ZV17UsuarioCaixaCaixaBancoDescricao = "" ;
+   this.OV17UsuarioCaixaCaixaBancoDescricao = "" ;
+   this.AV34UsuarioCaixaCaixaBancoEmpId = "" ;
+   this.ZV34UsuarioCaixaCaixaBancoEmpId = "" ;
+   this.OV34UsuarioCaixaCaixaBancoEmpId = "" ;
+   this.AV48UsuarioFilialId = 0 ;
+   this.ZV48UsuarioFilialId = 0 ;
+   this.OV48UsuarioFilialId = 0 ;
+   this.AV27Sim = "" ;
+   this.ZV27Sim = "" ;
+   this.OV27Sim = "" ;
+   this.AV28TipoBaixa = "" ;
+   this.ZV28TipoBaixa = "" ;
+   this.OV28TipoBaixa = "" ;
+   this.AV13UsuarioNome = "" ;
+   this.ZV13UsuarioNome = "" ;
+   this.OV13UsuarioNome = "" ;
+   this.AV45VendedorPercentualComissao = 0 ;
+   this.AV24VendedorSnVendedor = "" ;
+   this.AV22VendedorSnComprador = "" ;
+   this.AV23VendedorSnGerente = "" ;
+   this.AV26UsuarioCaixaSnSupervisor = "" ;
+   this.AV14UsuarioCaixaSenhaAutorizacao = "" ;
+   this.AV15UsuarioCaixaSenhaAdicional = "" ;
+   this.AV16UsuarioCaixaCaixaBancoId = 0 ;
+   this.AV17UsuarioCaixaCaixaBancoDescricao = "" ;
+   this.AV34UsuarioCaixaCaixaBancoEmpId = "" ;
+   this.AV48UsuarioFilialId = 0 ;
+   this.AV27Sim = "" ;
+   this.AV28TipoBaixa = "" ;
+   this.AV13UsuarioNome = "" ;
+   this.AV25UsuarioId = "" ;
+   this.Events = {"e12xc2_client": ["ENTER", true] ,"e13xc2_client": ["'CANCELAR'", true] ,"e15xc2_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[],[]];
+   this.EvtParms["ENTER"] = [[{av:'AV31SnErro',fld:'vSNERRO'},{av:'AV25UsuarioId',fld:'vUSUARIOID',hsh:true},{av:'AV13UsuarioNome',fld:'vUSUARIONOME',hsh:true},{av:'AV48UsuarioFilialId',fld:'vUSUARIOFILIALID',hsh:true},{av:'AV45VendedorPercentualComissao',fld:'vVENDEDORPERCENTUALCOMISSAO'},{av:'AV22VendedorSnComprador',fld:'vVENDEDORSNCOMPRADOR'},{av:'AV23VendedorSnGerente',fld:'vVENDEDORSNGERENTE'},{av:'AV24VendedorSnVendedor',fld:'vVENDEDORSNVENDEDOR'},{av:'AV16UsuarioCaixaCaixaBancoId',fld:'vUSUARIOCAIXACAIXABANCOID'},{av:'AV15UsuarioCaixaSenhaAdicional',fld:'vUSUARIOCAIXASENHAADICIONAL'},{av:'AV14UsuarioCaixaSenhaAutorizacao',fld:'vUSUARIOCAIXASENHAAUTORIZACAO'},{av:'AV26UsuarioCaixaSnSupervisor',fld:'vUSUARIOCAIXASNSUPERVISOR'},{av:'AV44EmpresaLogadaId',fld:'vEMPRESALOGADAID'}],[{av:'AV31SnErro',fld:'vSNERRO'},{av:'AV41SnErro1',fld:'vSNERRO1'},{av:'AV42SnErro2',fld:'vSNERRO2'},{av:'AV43SnErro3',fld:'vSNERRO3'}]];
+   this.EvtParms["'CANCELAR'"] = [[],[]];
+   this.setPrompt("PROMPTCXA", [43]);
+   this.EnterCtrl = ["BTNCONFIRMAR"];
+   this.setVCMap("AV25UsuarioId", "vUSUARIOID", 0, "char");
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new hefetivacadastrousuariovendedor());

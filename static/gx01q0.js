@@ -1,0 +1,105 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 20:25:51.32
+*/
+gx.evt.autoSkip = false;
+gx.define('gx01q0', false, function () {
+   this.ServerClass =  "gx01q0" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV10pSistemaId=gx.fn.getControlValue("vPSISTEMAID") ;
+   };
+   this.e131iz2_client=function()
+   {
+      this.executeServerEvent("ENTER", true, arguments[0], false, false);
+   };
+   this.e141iz1_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,8,9,12,14,17,19,22,24,27,29,32,33,37,38,39,40,41,44];
+   this.GXLastCtrlId =44;
+   this.Grid1Container = new gx.grid.grid(this, 2,"WbpLvl2",36,"Grid1","Grid1","Grid1Container",this.CmpContext,this.IsMasterPage,"gx01q0",[],false,1,false,true,10,true,false,false,"",0,"px","Novo registro",true,false,false,null,null,false,"",false,[1,1,1,1]);
+   var Grid1Container = this.Grid1Container;
+   Grid1Container.addBitmap("&Linkselection","vLINKSELECTION",37,0,"px",17,"px",null,"","","Image","");
+   Grid1Container.addSingleLineEdit(140,38,"SISTEMAID","Sistema","","SistemaId","char",0,"px",8,8,"left",null,[],140,"SistemaId",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(539,39,"SISTEMANOME","Nome","Selecionar","SistemaNome","svchar",0,"px",40,40,"left",null,[],539,"SistemaNome",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(540,40,"SISTEMAVERSAO","Versão Liberada","","SistemaVersao","int",0,"px",9,9,"right",null,[],540,"SistemaVersao",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(501,41,"SISTEMAULTIMOPROGRAMA","Último Programa","","SistemaUltimoPrograma","int",0,"px",4,4,"right",null,[],501,"SistemaUltimoPrograma",true,0,false,false,"Attribute",1,"");
+   this.setGrid(Grid1Container);
+   GXValidFnc[2]={fld:"TABLE1",grid:0};
+   GXValidFnc[8]={fld:"GROUP1",grid:0};
+   GXValidFnc[9]={fld:"TABLE2",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCKSISTEMAID", format:0,grid:0};
+   GXValidFnc[14]={lvl:0,type:"char",len:8,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCSISTEMAID",gxz:"ZV6cSistemaId",gxold:"OV6cSistemaId",gxvar:"AV6cSistemaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV6cSistemaId=Value},v2z:function(Value){gx.O.ZV6cSistemaId=Value},v2c:function(){gx.fn.setControlValue("vCSISTEMAID",gx.O.AV6cSistemaId,0)},c2v:function(){gx.O.AV6cSistemaId=this.val()},val:function(){return gx.fn.getControlValue("vCSISTEMAID")},nac:gx.falseFn};
+   GXValidFnc[17]={fld:"TEXTBLOCKSISTEMANOME", format:0,grid:0};
+   GXValidFnc[19]={lvl:0,type:"svchar",len:40,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCSISTEMANOME",gxz:"ZV7cSistemaNome",gxold:"OV7cSistemaNome",gxvar:"AV7cSistemaNome",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV7cSistemaNome=Value},v2z:function(Value){gx.O.ZV7cSistemaNome=Value},v2c:function(){gx.fn.setControlValue("vCSISTEMANOME",gx.O.AV7cSistemaNome,0)},c2v:function(){gx.O.AV7cSistemaNome=this.val()},val:function(){return gx.fn.getControlValue("vCSISTEMANOME")},nac:gx.falseFn};
+   GXValidFnc[22]={fld:"TEXTBLOCKSISTEMAVERSAO", format:0,grid:0};
+   GXValidFnc[24]={lvl:0,type:"int",len:9,dec:0,sign:false,pic:"ZZZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCSISTEMAVERSAO",gxz:"ZV8cSistemaVersao",gxold:"OV8cSistemaVersao",gxvar:"AV8cSistemaVersao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV8cSistemaVersao=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV8cSistemaVersao=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCSISTEMAVERSAO",gx.O.AV8cSistemaVersao,0)},c2v:function(){gx.O.AV8cSistemaVersao=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCSISTEMAVERSAO",'.')},nac:gx.falseFn};
+   GXValidFnc[27]={fld:"TEXTBLOCKSISTEMAULTIMOPROGRAMA", format:0,grid:0};
+   GXValidFnc[29]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCSISTEMAULTIMOPROGRAMA",gxz:"ZV9cSistemaUltimoPrograma",gxold:"OV9cSistemaUltimoPrograma",gxvar:"AV9cSistemaUltimoPrograma",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV9cSistemaUltimoPrograma=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV9cSistemaUltimoPrograma=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCSISTEMAULTIMOPROGRAMA",gx.O.AV9cSistemaUltimoPrograma,0)},c2v:function(){gx.O.AV9cSistemaUltimoPrograma=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCSISTEMAULTIMOPROGRAMA",'.')},nac:gx.falseFn};
+   GXValidFnc[32]={fld:"GROUP2",grid:0};
+   GXValidFnc[33]={fld:"TABLE3",grid:0};
+   GXValidFnc[37]={lvl:2,type:"bits",len:1024,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"vLINKSELECTION",gxz:"ZV5LinkSelection",gxold:"OV5LinkSelection",gxvar:"AV5LinkSelection",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.AV5LinkSelection=Value},v2z:function(Value){gx.O.ZV5LinkSelection=Value},v2c:function(row){gx.fn.setGridMultimediaValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36),gx.O.AV5LinkSelection,gx.O.AV13Linkselection_GXI)},c2v:function(){gx.O.AV13Linkselection_GXI=this.val_GXI();gx.O.AV5LinkSelection=this.val()},val:function(row){return gx.fn.getGridControlValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36))},val_GXI:function(row){return gx.fn.getGridControlValue("vLINKSELECTION_GXI",row || gx.fn.currentGridRowImpl(36))}, gxvar_GXI:'AV13Linkselection_GXI',nac:gx.falseFn};
+   GXValidFnc[38]={lvl:2,type:"char",len:8,dec:0,sign:false,pic:"@!",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"SISTEMAID",gxz:"Z140SistemaId",gxold:"O140SistemaId",gxvar:"A140SistemaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A140SistemaId=Value},v2z:function(Value){gx.O.Z140SistemaId=Value},v2c:function(row){gx.fn.setGridControlValue("SISTEMAID",row || gx.fn.currentGridRowImpl(36),gx.O.A140SistemaId,0)},c2v:function(){gx.O.A140SistemaId=this.val()},val:function(row){return gx.fn.getGridControlValue("SISTEMAID",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[39]={lvl:2,type:"svchar",len:40,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"SISTEMANOME",gxz:"Z539SistemaNome",gxold:"O539SistemaNome",gxvar:"A539SistemaNome",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A539SistemaNome=Value},v2z:function(Value){gx.O.Z539SistemaNome=Value},v2c:function(row){gx.fn.setGridControlValue("SISTEMANOME",row || gx.fn.currentGridRowImpl(36),gx.O.A539SistemaNome,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A539SistemaNome=this.val()},val:function(row){return gx.fn.getGridControlValue("SISTEMANOME",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[40]={lvl:2,type:"int",len:9,dec:0,sign:false,pic:"ZZZZZZZZ9",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"SISTEMAVERSAO",gxz:"Z540SistemaVersao",gxold:"O540SistemaVersao",gxvar:"A540SistemaVersao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A540SistemaVersao=gx.num.intval(Value)},v2z:function(Value){gx.O.Z540SistemaVersao=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("SISTEMAVERSAO",row || gx.fn.currentGridRowImpl(36),gx.O.A540SistemaVersao,0)},c2v:function(){gx.O.A540SistemaVersao=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("SISTEMAVERSAO",row || gx.fn.currentGridRowImpl(36),'.')},nac:gx.falseFn};
+   GXValidFnc[41]={lvl:2,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"SISTEMAULTIMOPROGRAMA",gxz:"Z501SistemaUltimoPrograma",gxold:"O501SistemaUltimoPrograma",gxvar:"A501SistemaUltimoPrograma",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A501SistemaUltimoPrograma=gx.num.intval(Value)},v2z:function(Value){gx.O.Z501SistemaUltimoPrograma=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("SISTEMAULTIMOPROGRAMA",row || gx.fn.currentGridRowImpl(36),gx.O.A501SistemaUltimoPrograma,0)},c2v:function(){gx.O.A501SistemaUltimoPrograma=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("SISTEMAULTIMOPROGRAMA",row || gx.fn.currentGridRowImpl(36),'.')},nac:gx.falseFn};
+   GXValidFnc[44]={fld:"TABLE4",grid:0};
+   this.AV6cSistemaId = "" ;
+   this.ZV6cSistemaId = "" ;
+   this.OV6cSistemaId = "" ;
+   this.AV7cSistemaNome = "" ;
+   this.ZV7cSistemaNome = "" ;
+   this.OV7cSistemaNome = "" ;
+   this.AV8cSistemaVersao = 0 ;
+   this.ZV8cSistemaVersao = 0 ;
+   this.OV8cSistemaVersao = 0 ;
+   this.AV9cSistemaUltimoPrograma = 0 ;
+   this.ZV9cSistemaUltimoPrograma = 0 ;
+   this.OV9cSistemaUltimoPrograma = 0 ;
+   this.ZV5LinkSelection = "" ;
+   this.OV5LinkSelection = "" ;
+   this.Z140SistemaId = "" ;
+   this.O140SistemaId = "" ;
+   this.Z539SistemaNome = "" ;
+   this.O539SistemaNome = "" ;
+   this.Z540SistemaVersao = 0 ;
+   this.O540SistemaVersao = 0 ;
+   this.Z501SistemaUltimoPrograma = 0 ;
+   this.O501SistemaUltimoPrograma = 0 ;
+   this.AV6cSistemaId = "" ;
+   this.AV7cSistemaNome = "" ;
+   this.AV8cSistemaVersao = 0 ;
+   this.AV9cSistemaUltimoPrograma = 0 ;
+   this.AV10pSistemaId = "" ;
+   this.AV5LinkSelection = "" ;
+   this.A140SistemaId = "" ;
+   this.A539SistemaNome = "" ;
+   this.A540SistemaVersao = 0 ;
+   this.A501SistemaUltimoPrograma = 0 ;
+   this.Events = {"e131iz2_client": ["ENTER", true] ,"e141iz1_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSistemaId',fld:'vCSISTEMAID'},{av:'AV7cSistemaNome',fld:'vCSISTEMANOME'},{av:'AV8cSistemaVersao',fld:'vCSISTEMAVERSAO'},{av:'AV9cSistemaUltimoPrograma',fld:'vCSISTEMAULTIMOPROGRAMA'}],[]];
+   this.EvtParms["LOAD"] = [[],[{av:'AV5LinkSelection',fld:'vLINKSELECTION'}]];
+   this.EvtParms["ENTER"] = [[{av:'A140SistemaId',fld:'SISTEMAID'}],[{av:'AV10pSistemaId',fld:'vPSISTEMAID'}]];
+   this.EvtParms["GRID1_FIRSTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSistemaId',fld:'vCSISTEMAID'},{av:'AV7cSistemaNome',fld:'vCSISTEMANOME'},{av:'AV8cSistemaVersao',fld:'vCSISTEMAVERSAO'},{av:'AV9cSistemaUltimoPrograma',fld:'vCSISTEMAULTIMOPROGRAMA'}],[]];
+   this.EvtParms["GRID1_PREVPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSistemaId',fld:'vCSISTEMAID'},{av:'AV7cSistemaNome',fld:'vCSISTEMANOME'},{av:'AV8cSistemaVersao',fld:'vCSISTEMAVERSAO'},{av:'AV9cSistemaUltimoPrograma',fld:'vCSISTEMAULTIMOPROGRAMA'}],[]];
+   this.EvtParms["GRID1_NEXTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSistemaId',fld:'vCSISTEMAID'},{av:'AV7cSistemaNome',fld:'vCSISTEMANOME'},{av:'AV8cSistemaVersao',fld:'vCSISTEMAVERSAO'},{av:'AV9cSistemaUltimoPrograma',fld:'vCSISTEMAULTIMOPROGRAMA'}],[]];
+   this.EvtParms["GRID1_LASTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cSistemaId',fld:'vCSISTEMAID'},{av:'AV7cSistemaNome',fld:'vCSISTEMANOME'},{av:'AV8cSistemaVersao',fld:'vCSISTEMAVERSAO'},{av:'AV9cSistemaUltimoPrograma',fld:'vCSISTEMAULTIMOPROGRAMA'}],[]];
+   this.setVCMap("AV10pSistemaId", "vPSISTEMAID", 0, "char");
+   Grid1Container.addRefreshingVar(this.GXValidFnc[14]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[19]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[24]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[29]);
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new gx01q0());
