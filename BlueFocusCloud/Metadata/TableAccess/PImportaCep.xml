@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="75e9a847-cbf0-6beb-2d56-44f7bffcb26f">
+  <Table name="Cidades" />
+  <Table name="Bairro" />
+  <Table name="Logradouro" />
+  <Table name="Paises" />
+  <Table name="ProcessoVersaoItens" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="98037743-e917-d775-d515-7e34bf34cc17">
+  <Table name="ModeloPreVenda" />
+  <Table name="TransacaoSaida" />
+  <Table name="OrdemServicoTipo" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

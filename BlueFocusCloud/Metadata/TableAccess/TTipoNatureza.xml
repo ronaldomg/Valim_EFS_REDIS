@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="99e5100e-c0b9-0207-e94e-effeda0b8490">
+  <Table name="Empresa" />
+  <Table name="Natureza" />
+  <Table name="TipoNatureza" />
+  <Table name="Tabela" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

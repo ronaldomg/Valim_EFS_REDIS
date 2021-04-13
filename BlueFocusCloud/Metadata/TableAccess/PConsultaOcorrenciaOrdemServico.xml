@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5d964a07-95e7-4cfd-ae02-db669c8265a7">
+  <Table name="OrdemServico" />
+  <Table name="OrdemServicoAparelho" />
+  <Table name="OrdemServicoOcorrencia" />
+  <Table name="OrdemServicoApareProfissional" />
+</Dependencies>

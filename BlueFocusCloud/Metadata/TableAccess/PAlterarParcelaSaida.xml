@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b4404f05-8c40-ddc4-510b-3ff56badc86c">
+  <Table name="ContaPagRec" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+</Dependencies>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bc9ee284-7884-7cfb-aabe-43984a686468">
+  <Table name="Feriado" />
+  <Table name="TipoCobranca" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="TipoBaixa" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="65583846-7cef-2a63-8b82-3aaa738ae68a">
+  <Table name="RemessaRetorno" />
+  <Table name="RemessaRetornoItem" />
+  <Table name="OcorrenciaRetorno" />
+</Dependencies>

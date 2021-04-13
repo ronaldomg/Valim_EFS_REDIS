@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f6c25d1e-3941-29cb-32e0-f9d540914682">
+  <Table name="CFOP" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+  <Table name="SaidaItemSimplesRem" />
+</Dependencies>

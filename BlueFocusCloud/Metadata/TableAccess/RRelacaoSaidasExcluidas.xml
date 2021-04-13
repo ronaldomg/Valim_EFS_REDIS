@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d37f9f09-1d9b-a427-6cde-4b8fa33a7e36">
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="Usuario" />
+  <Table name="LogTabela" />
+  <Table name="Produto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Pessoa" />
+</Dependencies>

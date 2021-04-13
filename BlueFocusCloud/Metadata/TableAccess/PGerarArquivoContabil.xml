@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="cbb9d44a-a847-d2ed-103a-4c7fb291090c">
+  <Table name="Cidades" />
+  <Table name="ContaContabil" />
+  <Table name="Empresa" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="SaldoConta" />
+  <Table name="Filial" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

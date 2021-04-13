@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b4272d7b-47fe-3804-3725-1e662bd08802">
+  <Table name="ContaContabil" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

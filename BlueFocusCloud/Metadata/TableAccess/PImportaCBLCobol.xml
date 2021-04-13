@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="02f21a7c-f4fd-fa8f-87f0-445d568d6cc2">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="Historico" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="ItensLancamentoContabilCentroCusto" />
+  <Table name="LancamentoContabil" />
+  <Table name="Natureza" />
+  <Table name="ParametroSistema" />
+  <Table name="Rateio" />
+  <Table name="Estrutura" />
+  <Table name="RateioFatorRateio" />
+  <Table name="SaldoConta" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+  <Table name="ChavePrimaria" />
+  <Table name="ChavePrimariaComposta" />
+</Dependencies>

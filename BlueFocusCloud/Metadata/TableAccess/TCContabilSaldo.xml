@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c390c982-6cfe-b18f-30bc-ac8715347f10">
+  <Table name="CContabilSaldo" />
+  <Table name="CContabilSaldoCCusto" />
+  <Table name="CContabilSaldoCorrentista" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="44daf346-9750-e018-1cd8-9a581e461482">
+  <Table name="CentroCusto" />
+  <Table name="Tabela" />
+</Dependencies>

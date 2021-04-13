@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8744edde-d675-d7f9-05ed-a730cfbef658">
+  <Table name="ContaContabil" />
+  <Table name="Tabela" />
+  <Table name="Estrutura" />
+</Dependencies>

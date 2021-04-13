@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a9c2a92a-0171-2ba2-5b8b-47f7a2bef6f7">
+  <Table name="MVAProduto" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

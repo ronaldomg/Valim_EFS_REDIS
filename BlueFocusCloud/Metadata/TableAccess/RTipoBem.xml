@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="77190390-f929-a9b4-6c5e-3953ca274926">
+  <Table name="TipoBem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

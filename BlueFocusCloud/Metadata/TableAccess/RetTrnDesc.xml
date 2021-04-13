@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d9c1ce80-cfe6-b82a-a88e-c9c640e9ab3d">
+  <Table name="CentroCusto" />
+  <Table name="Natureza" />
+  <Table name="Banco" />
+  <Table name="TipoCobranca" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TrnDesc" />
+  <Table name="CaixaBanco" />
+</Dependencies>

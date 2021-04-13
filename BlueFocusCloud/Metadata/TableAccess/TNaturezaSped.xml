@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8b3e48d1-6019-4d2d-6173-715edc5970b2">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="Natureza" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="NaturezaSped" />
+  <Table name="SituacaoTributaria" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Estrutura" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

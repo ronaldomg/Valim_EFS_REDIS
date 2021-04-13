@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="cdc9124f-65f8-8ac0-657e-b39ced95350e">
+  <Table name="HistoricoCxaBco" />
+  <Table name="TransacaoCxBco" />
+  <Table name="HistoricoFcx" />
+  <Table name="TipoSaldo" />
+  <Table name="Tabela" />
+</Dependencies>

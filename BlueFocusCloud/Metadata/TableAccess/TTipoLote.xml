@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="db7de01a-7b4a-cdc7-b525-8ca8c04dfb61">
+  <Table name="Lote" />
+  <Table name="TipoLote" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

@@ -1,0 +1,2 @@
+"MARCA          ";"MARCA          ";"MARCA"
+"MARCA          ";"BRILHANTE      ";"brilhante"

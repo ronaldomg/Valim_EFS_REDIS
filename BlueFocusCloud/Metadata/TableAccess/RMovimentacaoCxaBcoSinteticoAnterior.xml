@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="cb4680a8-abd7-1674-6466-ebb338532b78">
+  <Table name="HistoricoCxaBco" />
+  <Table name="LancamCxaBcoRateio" />
+  <Table name="ConvenioCaixaBanco" />
+  <Table name="Pessoa" />
+  <Table name="CaixaBanco" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="SaldoCxaBco" />
+</Dependencies>

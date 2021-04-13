@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="52efebb8-7645-456e-8ae1-8dddec32d54a">
+  <Table name="ContaContabil" />
+  <Table name="CContabilCCusto" />
+  <Table name="TransacaoPagRec" />
+  <Table name="TransacaoPagRecContaContabil" />
+  <Table name="Tabela" />
+</Dependencies>

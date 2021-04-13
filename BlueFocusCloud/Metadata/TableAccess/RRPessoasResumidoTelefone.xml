@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6a84c457-c912-cf49-90b7-8dc3521f0e31">
+  <Table name="Classificacao" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="TelefonePessoa" />
+  <Table name="Pessoa" />
+  <Table name="PessoaCodificacao" />
+  <Table name="TipoTelefone" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

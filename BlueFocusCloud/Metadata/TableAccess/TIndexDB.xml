@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c4a1c473-aec2-437a-9f68-34fbb4602ca1">
+  <Table name="pg_stat_user_indexes" />
+</Dependencies>

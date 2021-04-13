@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f0b41982-af03-e1c7-7745-6c11a7de37b5">
+  <Table name="categorianivel1" />
+  <Table name="categorianivel2" />
+  <Table name="categorianivel3" />
+</Dependencies>

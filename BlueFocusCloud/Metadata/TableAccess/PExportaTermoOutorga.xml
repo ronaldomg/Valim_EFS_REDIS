@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b27cddde-1731-8c97-1f50-f0c3320851b6">
+  <Table name="NaturezaDespesa" />
+  <Table name="PedidoCompraItem" />
+  <Table name="PedidoCompraItemLOGEntrega" />
+  <Table name="TermoOutorgaItem" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Produto" />
+  <Table name="TipoDispendio" />
+</Dependencies>

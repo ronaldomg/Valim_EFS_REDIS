@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="98addaf0-6d94-04e3-1135-7816dc328aca">
+  <Table name="ParametroSistema" />
+  <Table name="OcorrenciaPessoa" />
+  <Table name="OcorrenciaPortaria" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Dependente" />
+  <Table name="GrauParentesco" />
+  <Table name="CategoriaGrauParentesco" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+</Dependencies>

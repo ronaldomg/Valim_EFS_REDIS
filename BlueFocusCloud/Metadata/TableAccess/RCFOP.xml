@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="963c63b7-3c06-aa47-adcb-a40c70ad7191">
+  <Table name="CFOP" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5bb9e444-169f-ec0f-13cd-d31f9fb8c28c">
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+</Dependencies>

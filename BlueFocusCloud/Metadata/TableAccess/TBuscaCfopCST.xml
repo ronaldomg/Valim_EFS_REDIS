@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="712693f8-d7bb-8ed0-7a3e-4f6e2213144e">
+  <Table name="CFOP" />
+  <Table name="TransacaoSaida" />
+  <Table name="SituacaoTributaria" />
+  <Table name="BuscaCfopCST" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a49910cc-d7fb-3b4e-2ed9-9f91252defe6">
+  <Table name="TipoPermissao" />
+  <Table name="ErroWebService" />
+  <Table name="TipoPermissaoUsuarioPermissao" />
+  <Table name="Usuario" />
+</Dependencies>

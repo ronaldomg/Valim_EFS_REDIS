@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="13ca4f50-8d70-8671-8418-b34c66937983">
+  <Table name="EnderecoPessoa" />
+  <Table name="TelefonePessoa" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="AcessoPortaria" />
+  <Table name="Convite" />
+  <Table name="ConviteConvidado" />
+  <Table name="OcorrenciaPessoa" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Dependente" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

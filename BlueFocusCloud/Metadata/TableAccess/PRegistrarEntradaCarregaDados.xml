@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a444de43-57df-a77d-0c26-f5d46cd96de0">
+  <Table name="Cidades" />
+  <Table name="Vendedor" />
+  <Table name="CFOP" />
+  <Table name="Transportador" />
+  <Table name="ModeloDocFiscal" />
+  <Table name="SituacaoDocFiscal" />
+  <Table name="Filial" />
+  <Table name="Saida" />
+  <Table name="TransacaoEntrada" />
+  <Table name="Entrada" />
+  <Table name="EntradaImportacao" />
+  <Table name="NaturezaOperacao" />
+</Dependencies>

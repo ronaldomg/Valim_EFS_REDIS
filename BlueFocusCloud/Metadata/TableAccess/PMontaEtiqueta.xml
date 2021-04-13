@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="60b72a01-b5eb-b8f2-cb7b-5590bc372923">
+  <Table name="Cidades" />
+  <Table name="Empresa" />
+  <Table name="EnderecoPessoa" />
+  <Table name="Etiqueta" />
+  <Table name="EtiquetaLinha" />
+  <Table name="Preco" />
+  <Table name="AtributoEsquema" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Esquema" />
+  <Table name="Familia" />
+  <Table name="LoteProduto" />
+  <Table name="PedidoCompraItem" />
+  <Table name="PrecoProduto" />
+  <Table name="UsuarioCaixa" />
+  <Table name="ValorAtributo" />
+  <Table name="Inventario" />
+  <Table name="Pessoa" />
+  <Table name="PessoaCodificacao" />
+  <Table name="Usuario" />
+  <Table name="PedidoCompra" />
+  <Table name="PrecoPromocao" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="SaldoProduto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+</Dependencies>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c8dba5bb-f4ed-9c70-95a9-95a69211b3a8">
+  <Table name="Empresa" />
+  <Table name="TipoPermissao" />
+  <Table name="PermissaoConc" />
+  <Table name="ParametroFcx" />
+  <Table name="TipoPermissaoUsuarioPermissao" />
+  <Table name="Usuario" />
+  <Table name="Filial" />
+  <Table name="Tabela" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

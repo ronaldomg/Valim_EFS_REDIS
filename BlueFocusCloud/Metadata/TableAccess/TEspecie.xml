@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8f22504e-ece1-649c-dc50-bf0487c70373">
+  <Table name="Especie" />
+  <Table name="ParametroRetencao" />
+  <Table name="TransacaoPagRec" />
+  <Table name="ContaPagRec" />
+  <Table name="TransacaoSaida" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

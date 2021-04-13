@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2aa2cf24-a9a8-e0a9-742f-104bca31aa53">
+  <Table name="Cidades" />
+  <Table name="NaturezaDespesa" />
+  <Table name="TermoOutorga" />
+  <Table name="TermoOutorgaDotacao" />
+  <Table name="TermoOutorgaItem" />
+  <Table name="Produto" />
+  <Table name="TermoOutorgaIntegrante" />
+  <Table name="TermoOutorgaParcela" />
+  <Table name="Tabela" />
+</Dependencies>

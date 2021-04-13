@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4e025865-cfe3-9a46-b93f-446343c44e69">
+  <Table name="Preco" />
+  <Table name="ParametroConsultaCampo" />
+  <Table name="AtributoEsquema" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Familia" />
+  <Table name="Genero" />
+  <Table name="GrupoProduto" />
+  <Table name="LoteProduto" />
+  <Table name="ProdutoFornecedor" />
+  <Table name="SubgrupoProduto" />
+  <Table name="ValorAtributo" />
+  <Table name="Inventario" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="PrecoPromocao" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="SaldoProduto" />
+</Dependencies>

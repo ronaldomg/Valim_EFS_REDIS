@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="cbba9ae7-7f08-2e51-c49e-205bacdc12d0">
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+</Dependencies>

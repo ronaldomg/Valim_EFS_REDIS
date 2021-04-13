@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="134351cc-2c85-7e56-dbec-8a3ea40c47df">
+  <Table name="TipoCobranca" />
+  <Table name="Tabela" />
+</Dependencies>

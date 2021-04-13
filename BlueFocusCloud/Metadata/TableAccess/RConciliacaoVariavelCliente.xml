@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4f64dae3-ddd9-f297-6588-8660f9d1734c">
+  <Table name="ContaContabil" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="TipoCobranca" />
+  <Table name="TipoLancamento" />
+  <Table name="Conciliacao" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="ConciliacaoItem" />
+  <Table name="ContaOcorrencia" />
+  <Table name="CContabilPessoa" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="SaldoConta" />
+</Dependencies>

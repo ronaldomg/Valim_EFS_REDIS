@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="92066de3-c2ee-687e-810a-4992b56c838c">
+  <Table name="CentroCusto" />
+  <Table name="Natureza" />
+  <Table name="Filial" />
+  <Table name="Previsao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

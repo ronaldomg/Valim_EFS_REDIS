@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="86b72ca9-b072-195b-fb9b-823718b06485">
+  <Table name="Conciliacao" />
+  <Table name="ConciliacaoItem" />
+</Dependencies>

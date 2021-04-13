@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b33cf1b9-3421-df6e-02f5-d0e8518161c9">
+  <Table name="ModeloDocFiscal" />
+  <Table name="NFE010LOGSTATUS" />
+  <Table name="NUC009" />
+  <Table name="Filial" />
+  <Table name="NFE002" />
+  <Table name="SaidaLogSefaz" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

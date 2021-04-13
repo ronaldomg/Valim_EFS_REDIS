@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1ea6aac0-4e4c-6930-42f6-3e2f740ef613">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="IntegracaoCbl" />
+  <Table name="HistoricoConvenio" />
+  <Table name="ConvenioVerba" />
+  <Table name="ConvenioCentroCusto" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

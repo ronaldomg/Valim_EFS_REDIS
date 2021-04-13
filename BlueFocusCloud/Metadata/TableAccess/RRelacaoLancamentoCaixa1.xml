@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2a3892f6-bc9a-fd47-2025-f844500c9615">
+  <Table name="HistoricoFcx" />
+  <Table name="CaixaTrabalho" />
+  <Table name="LancamentoCaixa" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

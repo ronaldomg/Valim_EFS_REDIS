@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="104f7127-5c36-f43d-4327-95334972059c">
+  <Table name="ParametroConsultaCampo" />
+  <Table name="Tabela" />
+</Dependencies>

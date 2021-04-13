@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8c3d6259-9e27-fdf1-c98d-3396ceb3ec26">
+  <Table name="HistoricoCxaBco" />
+  <Table name="TipoLancamento" />
+  <Table name="ClassFluxoSelecao" />
+  <Table name="ClassFluxo" />
+  <Table name="ClassFluxoHistLanc" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

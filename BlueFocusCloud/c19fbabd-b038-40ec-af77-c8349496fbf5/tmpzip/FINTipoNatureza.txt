@@ -1,0 +1,2 @@
+1;"Lançamentos de Crédito";"R";"F";"C"
+2;"Lançamentos de Débito";"D";"F";"D"

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1b5c4f55-6565-b475-f7b9-58426f0bdf54">
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+</Dependencies>

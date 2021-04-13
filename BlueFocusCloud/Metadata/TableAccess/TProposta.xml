@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d4a951fb-ae08-8694-ecea-cc096b535b20">
+  <Table name="Vendedor" />
+  <Table name="PropostaModulo" />
+  <Table name="Pessoa" />
+  <Table name="ModeloProposta" />
+  <Table name="Proposta" />
+</Dependencies>

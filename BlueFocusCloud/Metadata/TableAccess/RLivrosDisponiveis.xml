@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0cbb62ea-d38e-617d-0e05-67deef7fa43a">
+  <Table name="Acervo" />
+  <Table name="Movimentacao" />
+  <Table name="TipoItem" />
+  <Table name="ClassificacaoLiteraria" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Autor" />
+  <Table name="Editora" />
+  <Table name="Idioma" />
+  <Table name="AcervoAutores" />
+</Dependencies>

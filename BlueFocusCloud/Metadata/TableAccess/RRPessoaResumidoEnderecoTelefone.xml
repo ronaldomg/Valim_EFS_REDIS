@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="af5974e1-4a6a-635d-89a6-dc333ae487b3">
+  <Table name="Cidades" />
+  <Table name="Classificacao" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="EnderecoPessoa" />
+  <Table name="TiposEndereco" />
+  <Table name="Pessoa" />
+  <Table name="PessoaCodificacao" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

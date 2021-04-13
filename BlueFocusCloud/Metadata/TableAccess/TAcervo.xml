@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9d9c56f7-34ec-e5cf-e185-39d5467bcc60">
+  <Table name="Acervo" />
+  <Table name="AcervoPalavraChave" />
+  <Table name="AcervoIndice" />
+  <Table name="Movimentacao" />
+  <Table name="TipoItem" />
+  <Table name="Autor" />
+  <Table name="ClassificacaoLiteraria" />
+  <Table name="Editora" />
+  <Table name="Idioma" />
+  <Table name="AcervoAutores" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

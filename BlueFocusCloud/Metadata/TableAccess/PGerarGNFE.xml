@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="71fae69e-701d-0743-7c97-977b45f14faf">
+  <Table name="TrocaDevolucao" />
+  <Table name="TrocaDevolucaoItem" />
+  <Table name="NFE012" />
+  <Table name="CBD001EVENTOS" />
+  <Table name="NFE012EVENTOS" />
+  <Table name="Pessoa" />
+  <Table name="Saida" />
+  <Table name="Entrada" />
+  <Table name="SaidaVinculada" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="CBD001VOL" />
+  <Table name="CBD001REBOQUE" />
+  <Table name="CBD001NREF" />
+  <Table name="CBD001LACRES" />
+  <Table name="CBD001DUPLICATAS" />
+  <Table name="CBD001DETPIS" />
+  <Table name="CBD001DETMED" />
+  <Table name="CBD001DETIPI" />
+  <Table name="CBD001DETICMSNORMALST" />
+  <Table name="CBD001DETDI" />
+  <Table name="CBD001DETCOFINS" />
+  <Table name="CBD001DETADICOES" />
+  <Table name="Cbd001Det" />
+  <Table name="CBD001" />
+</Dependencies>

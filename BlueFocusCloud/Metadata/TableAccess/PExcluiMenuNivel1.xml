@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5f336b46-484f-f947-1a2c-db1bd3a541b1">
+  <Table name="MenuNivel1" />
+  <Table name="MenuNivel2" />
+  <Table name="MenuNivel3" />
+  <Table name="PermissaoUsuarioMenu" />
+  <Table name="PermissaoGrupoMenu" />
+  <Table name="categorianivel1" />
+  <Table name="categorianivel2" />
+  <Table name="categorianivel3" />
+</Dependencies>

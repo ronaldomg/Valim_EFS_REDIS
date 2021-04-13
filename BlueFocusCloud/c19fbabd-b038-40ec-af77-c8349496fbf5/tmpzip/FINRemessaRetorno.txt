@@ -1,0 +1,31 @@
+3991;"HSBC CNAB 400 Cobrança Registrada";400;399;"/usr/local/apache-tomcat/webapps/desenvolvimento/remessa/";"REM";"R";"";"";"";"1";"2";"N";0;0;0;"S"
+3992;"HSBC CNAB 400 Cobrança Registrada";400;399;"";"";"";"/usr/local/apache-tomcat/webapps/desenvolvimento/retorno/";"RET";"R";"2";"2";"N";0;0;0;"S"
+3994;"HSBC CNAB 240 Cobrança Registrada";240;399;"";"";"";"/usr/local/apache-tomcat/webapps/desenvolvimento/retorno/";"RET";"R";"2";"1";"N";0;0;0;"S"
+3993;"HSBC CNAB 240 Cobrança Registrada";240;399;"/usr/local/apache-tomcat/webapps/desenvolvimento/remessa/";"REM";"R";"";"";"";"1";"1";"N";0;0;0;"S"
+3996;"HSBC CNAB 400 Cobrança s/ Registro";400;399;"";"";"";"/usr/local/apache-tomcat/webapps/desenvolvimento/retorno/";"RET";"R";"2";"1";"N";0;0;0;"S"
+3995;"HSBC CNAB 400 Cobrança s/ Registro";400;399;"/usr/local/apache-tomcat/webapps/desenvolvimento/remessa/";"REM";"R";"";"";"";"1";"2";"N";0;0;0;"S"
+3997;"HSBC CNAB 240 Cobrança s/ Registro";240;399;"/usr/local/apache-tomcat/webapps/desenvolvimento/remessa/";"REM";"R";"";"";"";"1";"1";"N";0;0;0;"S"
+3998;"HSBC CNAB 240 Cobrança s/ Registro";240;399;"";"";"";"/usr/local/apache-tomcat/webapps/desenvolvimento/retorno/";"RET";"R";"2";"1";"N";0;0;0;"S"
+11;"Banco do Brasil CNAB 240";240;1;"";"";"";"/usr/local/apache-tomcat/webapps/desenvolvimento/retorno/";"RET";"R";"2";"1";"N";0;0;0;"S"
+12;"Banco do Brasil CNAB 240";240;1;"/usr/local/apache-tomcat/webapps/valim/remessa/";"REM";"R";"";"";"";"1";"1";"N";0;0;0;"S"
+1041;"CEF CNAB 400";400;104;"/usr/local/apache-tomcat/webapps/desenvolvimento/remessa/";"REM";"R";"";"";"";"1";"2";"N";0;0;0;"S"
+1042;"CEF CNAB 400";400;104;"''
+";"''
+";"''
+";"/usr/local/apache-tomcat/webapps/desenvolvimento/retorno/";"RET";"R";"2";"2";"N";0;0;0;"S"
+1043;"CEF CNAB 240";240;104;"/usr/local/apache-tomcat/webapps/valim/remessa/";"REM";"E";"";"";"";"1";"1";"N";0;0;0;"S"
+1044;"CEF CNAB 240";240;104;"''
+";"''
+";"''
+";"/usr/local/apache-tomcat/webapps/desenvolvimento/retorno/";"RET";"R";"2";"1";"N";0;0;0;"S"
+3411;"Itau CNAB 400 Cobrança Registrada";400;341;"/usr/local/apache-tomcat/webapps/desenvolvimento/remessa/";"REM";"R";"";"";"";"1";"2";"N";0;0;0;"S"
+3412;"Itau CNAB 400 Cobrança s/ Registro";400;341;"/usr/local/apache-tomcat/webapps/desenvolvimento/remessa/";"REM";"R";"";"";"";"1";"2";"N";0;0;0;"S"
+3413;"Itau CNAB 400";400;341;"";"";"";"/usr/local/apache-tomcat/webapps/desenvolvimento/retorno/";"RET";"CN";"2";"2";"S";0;0;0;"S"
+3414;"Itau CNAB 240";240;341;"/usr/local/apache-tomcat/webapps/desenvolvimento/remessa/";"REM";"R";"";"";"";"1";"1";"N";0;0;0;"S"
+3415;"Itau CNAB 240";240;341;"";"";"";"/usr/local/apache-tomcat/webapps/desenvolvimento/retorno/";"RET";"R";"2";"1";"S";0;0;0;"S"
+7561;"Remessa CNAB 240 - SICOOB";240;756;"";"REM";"R";"";"";"";"1";"1";"N";1;6;31;"S"
+7562;"Retorno CNAB 240 - SICOOB";240;756;"";"";"";"";"RET";"R";"2";"1";"N";1;6;31;"S"
+2371;"Bradesco CNAB 400";400;237;"/usr/local/apache-tomcat/webapps/valim/remessa/";"REM";"R";"";"";"";"1";"2";"N";1;6;31;"S"
+2372;"Bradesco CNAB 400";400;237;"";"";"";"/usr/local/apache-tomcat/webapps/valim/retorno/";"RET";"R";"2";"2";"N";0;0;0;"S"
+331;"SANTANDER CNAB 400 Cobrança Registrada";400;33;"/usr/local/apache-tomcat/webapps/desenvolvimento/remessa/";"REM";"R";"";"";"";"1";"2";"N";0;0;0;"S"
+332;"SANTANDER CNAB 400 RET COB REGISTRADA";400;33;"";""";""";"";"RET";"R";"2";"2";"N";0;0;0;"S"

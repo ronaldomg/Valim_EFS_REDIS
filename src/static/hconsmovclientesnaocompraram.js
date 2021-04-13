@@ -1,0 +1,203 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 18:53:18.25
+*/
+gx.evt.autoSkip = false;
+gx.define('hconsmovclientesnaocompraram', false, function () {
+   this.ServerClass =  "hconsmovclientesnaocompraram" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV5filtros=gx.fn.getControlValue("vFILTROS") ;
+      this.AV40Tela=gx.fn.getControlValue("vTELA") ;
+      this.AV34ProdutoId=gx.fn.getIntegerValue("vPRODUTOID",'.') ;
+      this.AV19FilialId=gx.fn.getIntegerValue("vFILIALID",'.') ;
+   };
+   this.s112_client=function()
+   {
+      this.AV35QtdeCaracter = gx.num.trunc( 40 ,0) ;
+      this.AV8CFOPTipoEntSai =  ""  ;
+      this.AV37Sim =  "S"  ;
+      this.AV28Nao =  "N"  ;
+   };
+   this.e171zx1_client=function()
+   {
+      this.clearMessages();
+      this.AV5filtros.SNPreVenda =  "S"  ;
+      this.AV5filtros.SNCondicional =  "S"  ;
+      this.AV5filtros.SNOrcamento =  "S"  ;
+      this.AV5filtros.SNEntregaFutura =  "S"  ;
+      this.AV5filtros.SNSimplesRemessa =  "S"  ;
+      this.AV5filtros.SNDAV =  "S"  ;
+      this.AV5filtros.SNCupomFiscal =  "S"  ;
+      this.AV5filtros.SNCupomFiscalEle =  "S"  ;
+      this.AV5filtros.SNNotaSaidaNormal =  "S"  ;
+      this.AV5filtros.SNNotaSaidaCom =  "S"  ;
+      this.AV5filtros.SNNotaSaidaAjuste =  "S"  ;
+      this.AV5filtros.SNDevolucaoSaida =  "S"  ;
+      this.AV5filtros.SNAjusteSaida =  "S"  ;
+      this.AV5filtros.SNTroca =  "S"  ;
+      this.AV5filtros.SNTransferencia =  "S"  ;
+      this.refreshOutputs([{av:'AV5filtros',fld:'vFILTROS'}]);
+   };
+   this.e181zx1_client=function()
+   {
+      this.clearMessages();
+      this.AV5filtros.SNPreVenda =  "N"  ;
+      this.AV5filtros.SNCondicional =  "N"  ;
+      this.AV5filtros.SNOrcamento =  "N"  ;
+      this.AV5filtros.SNEntregaFutura =  "N"  ;
+      this.AV5filtros.SNSimplesRemessa =  "N"  ;
+      this.AV5filtros.SNDAV =  "N"  ;
+      this.AV5filtros.SNCupomFiscal =  "N"  ;
+      this.AV5filtros.SNCupomFiscalEle =  "N"  ;
+      this.AV5filtros.SNNotaSaidaNormal =  "N"  ;
+      this.AV5filtros.SNNotaSaidaCom =  "N"  ;
+      this.AV5filtros.SNNotaSaidaAjuste =  "N"  ;
+      this.AV5filtros.SNDevolucaoSaida =  "N"  ;
+      this.AV5filtros.SNAjusteSaida =  "N"  ;
+      this.AV5filtros.SNTroca =  "N"  ;
+      this.AV5filtros.SNTransferencia =  "N"  ;
+      this.refreshOutputs([{av:'AV5filtros',fld:'vFILTROS'}]);
+   };
+   this.e131zx2_client=function()
+   {
+      this.executeServerEvent("ENTER", true, null, false, false);
+   };
+   this.e141zx2_client=function()
+   {
+      this.executeServerEvent("'LIMPARCAMPOS'", true, null, false, false);
+   };
+   this.e151zx2_client=function()
+   {
+      this.executeServerEvent("'FECHAR'", false, null, false, false);
+   };
+   this.e191zx2_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,5,14,16,19,21,24,26,29,31,34,36,39,41,44,46,49];
+   this.GXLastCtrlId =49;
+   GXValidFnc[2]={fld:"TABLE1",grid:0};
+   GXValidFnc[5]={fld:"TABTPMOVIMENTACAO",grid:0};
+   GXValidFnc[14]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNPREVENDA",gxz:"ZV46GXV1",gxold:"OV46GXV1",gxvar:"GXV1",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV1=Value},v2z:function(Value){gx.O.ZV46GXV1=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNPREVENDA",gx.O.GXV1,"S")},c2v:function(){gx.O.GXV1=this.val()},val:function(){return gx.fn.getControlValue("CTLSNPREVENDA")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[16]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNNOTASAIDANORMAL",gxz:"ZV47GXV2",gxold:"OV47GXV2",gxvar:"GXV2",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV2=Value},v2z:function(Value){gx.O.ZV47GXV2=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNNOTASAIDANORMAL",gx.O.GXV2,"S")},c2v:function(){gx.O.GXV2=this.val()},val:function(){return gx.fn.getControlValue("CTLSNNOTASAIDANORMAL")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[19]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNCONDICIONAL",gxz:"ZV48GXV3",gxold:"OV48GXV3",gxvar:"GXV3",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV3=Value},v2z:function(Value){gx.O.ZV48GXV3=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNCONDICIONAL",gx.O.GXV3,"S")},c2v:function(){gx.O.GXV3=this.val()},val:function(){return gx.fn.getControlValue("CTLSNCONDICIONAL")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[21]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNNOTASAIDACOM",gxz:"ZV49GXV4",gxold:"OV49GXV4",gxvar:"GXV4",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV4=Value},v2z:function(Value){gx.O.ZV49GXV4=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNNOTASAIDACOM",gx.O.GXV4,"S")},c2v:function(){gx.O.GXV4=this.val()},val:function(){return gx.fn.getControlValue("CTLSNNOTASAIDACOM")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[24]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNORCAMENTO",gxz:"ZV50GXV5",gxold:"OV50GXV5",gxvar:"GXV5",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV5=Value},v2z:function(Value){gx.O.ZV50GXV5=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNORCAMENTO",gx.O.GXV5,"S")},c2v:function(){gx.O.GXV5=this.val()},val:function(){return gx.fn.getControlValue("CTLSNORCAMENTO")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[26]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNNOTASAIDAAJUSTE",gxz:"ZV51GXV6",gxold:"OV51GXV6",gxvar:"GXV6",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV6=Value},v2z:function(Value){gx.O.ZV51GXV6=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNNOTASAIDAAJUSTE",gx.O.GXV6,"S")},c2v:function(){gx.O.GXV6=this.val()},val:function(){return gx.fn.getControlValue("CTLSNNOTASAIDAAJUSTE")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[29]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNENTREGAFUTURA",gxz:"ZV52GXV7",gxold:"OV52GXV7",gxvar:"GXV7",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV7=Value},v2z:function(Value){gx.O.ZV52GXV7=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNENTREGAFUTURA",gx.O.GXV7,"S")},c2v:function(){gx.O.GXV7=this.val()},val:function(){return gx.fn.getControlValue("CTLSNENTREGAFUTURA")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[31]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNSAIDADEVOLUCAO",gxz:"ZV53GXV8",gxold:"OV53GXV8",gxvar:"GXV8",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV8=Value},v2z:function(Value){gx.O.ZV53GXV8=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNSAIDADEVOLUCAO",gx.O.GXV8,"S")},c2v:function(){gx.O.GXV8=this.val()},val:function(){return gx.fn.getControlValue("CTLSNSAIDADEVOLUCAO")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[34]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNSIMPLESREMESSA",gxz:"ZV54GXV9",gxold:"OV54GXV9",gxvar:"GXV9",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV9=Value},v2z:function(Value){gx.O.ZV54GXV9=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNSIMPLESREMESSA",gx.O.GXV9,"S")},c2v:function(){gx.O.GXV9=this.val()},val:function(){return gx.fn.getControlValue("CTLSNSIMPLESREMESSA")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[36]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNAJUSTESAIDA",gxz:"ZV55GXV10",gxold:"OV55GXV10",gxvar:"GXV10",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV10=Value},v2z:function(Value){gx.O.ZV55GXV10=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNAJUSTESAIDA",gx.O.GXV10,"S")},c2v:function(){gx.O.GXV10=this.val()},val:function(){return gx.fn.getControlValue("CTLSNAJUSTESAIDA")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[39]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNDAV",gxz:"ZV56GXV11",gxold:"OV56GXV11",gxvar:"GXV11",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV11=Value},v2z:function(Value){gx.O.ZV56GXV11=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNDAV",gx.O.GXV11,"S")},c2v:function(){gx.O.GXV11=this.val()},val:function(){return gx.fn.getControlValue("CTLSNDAV")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[41]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNTROCA",gxz:"ZV57GXV12",gxold:"OV57GXV12",gxvar:"GXV12",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV12=Value},v2z:function(Value){gx.O.ZV57GXV12=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNTROCA",gx.O.GXV12,"S")},c2v:function(){gx.O.GXV12=this.val()},val:function(){return gx.fn.getControlValue("CTLSNTROCA")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[44]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNCUPOMFISCAL",gxz:"ZV58GXV13",gxold:"OV58GXV13",gxvar:"GXV13",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV13=Value},v2z:function(Value){gx.O.ZV58GXV13=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNCUPOMFISCAL",gx.O.GXV13,"S")},c2v:function(){gx.O.GXV13=this.val()},val:function(){return gx.fn.getControlValue("CTLSNCUPOMFISCAL")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[46]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNTRANSFERENCIA",gxz:"ZV59GXV14",gxold:"OV59GXV14",gxvar:"GXV14",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV14=Value},v2z:function(Value){gx.O.ZV59GXV14=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNTRANSFERENCIA",gx.O.GXV14,"S")},c2v:function(){gx.O.GXV14=this.val()},val:function(){return gx.fn.getControlValue("CTLSNTRANSFERENCIA")},nac:gx.falseFn,values:['S','N']};
+   GXValidFnc[49]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"CTLSNCUPOMFISCALELE",gxz:"ZV60GXV15",gxold:"OV60GXV15",gxvar:"GXV15",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"checkbox",v2v:function(Value){gx.O.GXV15=Value},v2z:function(Value){gx.O.ZV60GXV15=Value},v2c:function(){gx.fn.setCheckBoxValue("CTLSNCUPOMFISCALELE",gx.O.GXV15,"S")},c2v:function(){gx.O.GXV15=this.val()},val:function(){return gx.fn.getControlValue("CTLSNCUPOMFISCALELE")},nac:gx.falseFn,values:['S','N']};
+   this.GXV1 = "" ;
+   this.ZV46GXV1 = "" ;
+   this.OV46GXV1 = "" ;
+   this.GXV2 = "" ;
+   this.ZV47GXV2 = "" ;
+   this.OV47GXV2 = "" ;
+   this.GXV3 = "" ;
+   this.ZV48GXV3 = "" ;
+   this.OV48GXV3 = "" ;
+   this.GXV4 = "" ;
+   this.ZV49GXV4 = "" ;
+   this.OV49GXV4 = "" ;
+   this.GXV5 = "" ;
+   this.ZV50GXV5 = "" ;
+   this.OV50GXV5 = "" ;
+   this.GXV6 = "" ;
+   this.ZV51GXV6 = "" ;
+   this.OV51GXV6 = "" ;
+   this.GXV7 = "" ;
+   this.ZV52GXV7 = "" ;
+   this.OV52GXV7 = "" ;
+   this.GXV8 = "" ;
+   this.ZV53GXV8 = "" ;
+   this.OV53GXV8 = "" ;
+   this.GXV9 = "" ;
+   this.ZV54GXV9 = "" ;
+   this.OV54GXV9 = "" ;
+   this.GXV10 = "" ;
+   this.ZV55GXV10 = "" ;
+   this.OV55GXV10 = "" ;
+   this.GXV11 = "" ;
+   this.ZV56GXV11 = "" ;
+   this.OV56GXV11 = "" ;
+   this.GXV12 = "" ;
+   this.ZV57GXV12 = "" ;
+   this.OV57GXV12 = "" ;
+   this.GXV13 = "" ;
+   this.ZV58GXV13 = "" ;
+   this.OV58GXV13 = "" ;
+   this.GXV14 = "" ;
+   this.ZV59GXV14 = "" ;
+   this.OV59GXV14 = "" ;
+   this.GXV15 = "" ;
+   this.ZV60GXV15 = "" ;
+   this.OV60GXV15 = "" ;
+   this.GXV1 = "" ;
+   this.GXV2 = "" ;
+   this.GXV3 = "" ;
+   this.GXV4 = "" ;
+   this.GXV5 = "" ;
+   this.GXV6 = "" ;
+   this.GXV7 = "" ;
+   this.GXV8 = "" ;
+   this.GXV9 = "" ;
+   this.GXV10 = "" ;
+   this.GXV11 = "" ;
+   this.GXV12 = "" ;
+   this.GXV13 = "" ;
+   this.GXV14 = "" ;
+   this.GXV15 = "" ;
+   this.AV40Tela = "" ;
+   this.AV34ProdutoId = 0 ;
+   this.AV19FilialId = 0 ;
+   this.AV5filtros = {} ;
+   this.AV28Nao = "" ;
+   this.AV37Sim = "" ;
+   this.AV8CFOPTipoEntSai = "" ;
+   this.AV35QtdeCaracter = 0 ;
+   this.Events = {"e131zx2_client": ["ENTER", true] ,"e141zx2_client": ["'LIMPARCAMPOS'", true] ,"e151zx2_client": ["'FECHAR'", true] ,"e191zx2_client": ["CANCEL", true] ,"e171zx1_client": ["'MARCARTODOSMOV'", false] ,"e181zx1_client": ["'DESMARCARTODOSMOV'", false]};
+   this.EvtParms["REFRESH"] = [[],[]];
+   this.EvtParms["ENTER"] = [[{av:'AV38SNConfirmar',fld:'vSNCONFIRMAR'},{av:'AV5filtros',fld:'vFILTROS'},{av:'AV19FilialId',fld:'vFILIALID'},{av:'AV34ProdutoId',fld:'vPRODUTOID'},{av:'AV40Tela',fld:'vTELA'}],[{av:'AV39SNErro',fld:'vSNERRO'},{av:'AV38SNConfirmar',fld:'vSNCONFIRMAR'}]];
+   this.EvtParms["'MARCARTODOSMOV'"] = [[{av:'AV5filtros',fld:'vFILTROS'}],[{av:'AV5filtros',fld:'vFILTROS'}]];
+   this.EvtParms["'DESMARCARTODOSMOV'"] = [[{av:'AV5filtros',fld:'vFILTROS'}],[{av:'AV5filtros',fld:'vFILTROS'}]];
+   this.EvtParms["'LIMPARCAMPOS'"] = [[{av:'AV5filtros',fld:'vFILTROS'},{av:'AV7CFOPDescricao',fld:'vCFOPDESCRICAO'},{av:'AV32ProdutoFabricanteFantasia',fld:'vPRODUTOFABRICANTEFANTASIA'},{av:'AV33ProdutoFamiliaDescricao',fld:'vPRODUTOFAMILIADESCRICAO'}],[{av:'AV5filtros',fld:'vFILTROS'},{av:'AV7CFOPDescricao',fld:'vCFOPDESCRICAO'},{av:'AV32ProdutoFabricanteFantasia',fld:'vPRODUTOFABRICANTEFANTASIA'},{av:'AV33ProdutoFamiliaDescricao',fld:'vPRODUTOFAMILIADESCRICAO'}]];
+   this.EvtParms["'FECHAR'"] = [[{av:'AV38SNConfirmar',fld:'vSNCONFIRMAR'},{av:'AV5filtros',fld:'vFILTROS'},{av:'AV19FilialId',fld:'vFILIALID'},{av:'AV34ProdutoId',fld:'vPRODUTOID'},{av:'AV40Tela',fld:'vTELA'}],[]];
+   this.EnterCtrl = ["BTNCONFIRMAR"];
+   this.setVCMap("AV5filtros", "vFILTROS", 0, "FiltrosMovimentacaoEst");
+   this.setVCMap("AV40Tela", "vTELA", 0, "char");
+   this.setVCMap("AV34ProdutoId", "vPRODUTOID", 0, "int");
+   this.setVCMap("AV19FilialId", "vFILIALID", 0, "int");
+   this.addBCProperty("Filtros", ["SNPreVenda"], this.GXValidFnc[14], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNNotaSaidaNormal"], this.GXValidFnc[16], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNCondicional"], this.GXValidFnc[19], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNNotaSaidaCom"], this.GXValidFnc[21], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNOrcamento"], this.GXValidFnc[24], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNNotaSaidaAjuste"], this.GXValidFnc[26], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNEntregaFutura"], this.GXValidFnc[29], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNDevolucaoSaida"], this.GXValidFnc[31], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNSimplesRemessa"], this.GXValidFnc[34], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNAjusteSaida"], this.GXValidFnc[36], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNDAV"], this.GXValidFnc[39], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNTroca"], this.GXValidFnc[41], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNCupomFiscal"], this.GXValidFnc[44], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNTransferencia"], this.GXValidFnc[46], "AV5filtros");
+   this.addBCProperty("Filtros", ["SNCupomFiscalEle"], this.GXValidFnc[49], "AV5filtros");
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new hconsmovclientesnaocompraram());

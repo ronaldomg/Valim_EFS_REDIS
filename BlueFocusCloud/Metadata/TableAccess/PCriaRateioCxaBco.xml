@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6cfd19d8-09f5-9a2b-e6e7-3f16b104f2e9">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="Natureza" />
+  <Table name="TipoRateioItem" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TransacaoCxBco" />
+  <Table name="CContabilCCusto" />
+  <Table name="IntegracaoCbl" />
+  <Table name="CaixaBanco" />
+  <Table name="TransacaoCxBcoContaContabil" />
+  <Table name="Tabela" />
+</Dependencies>

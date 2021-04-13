@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="045bce19-6c51-179e-23b3-b3e07106959a">
+  <Table name="Feriado" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

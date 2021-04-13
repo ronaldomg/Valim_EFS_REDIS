@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f6288e53-10ea-73fc-5652-b030b071e569">
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="ModeloDocFiscal" />
+  <Table name="ReducaoZ" />
+  <Table name="AliquotaReducao" />
+  <Table name="ParametroFcxAliquota" />
+  <Table name="TrocaDevolucao" />
+  <Table name="TrocaDevolucaoItem" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaInutilizada" />
+  <Table name="SituacaoTributaria" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="PaginacaoFiscal" />
+</Dependencies>

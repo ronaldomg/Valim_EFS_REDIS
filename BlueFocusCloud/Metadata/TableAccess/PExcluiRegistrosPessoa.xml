@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c5e4c083-29c6-aa9d-7d6e-74de9973ff1a">
+  <Table name="EnderecoPessoa" />
+  <Table name="ReferenciaComercial" />
+  <Table name="TelefonePessoa" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="73940138-7839-ecad-f344-10a361e9965a">
+  <Table name="TransacaoPagRec" />
+  <Table name="TransacaoAssociada" />
+  <Table name="AcrescimoDesconto" />
+</Dependencies>

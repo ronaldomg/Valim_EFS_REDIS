@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d6b73cc0-f53b-bcf2-9bbb-803d5c1ab3ee">
+  <Table name="EmpresaUsuario" />
+  <Table name="Impressora" />
+  <Table name="MensagemUsuario" />
+  <Table name="PermissaoUsuarioMenu" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Vendedor" />
+  <Table name="Processo" />
+  <Table name="ConvenioUsuario" />
+  <Table name="PermissaoConc" />
+  <Table name="Grupo" />
+  <Table name="TipoPermissaoUsuarioPermissao" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="Filial" />
+  <Table name="Tabela" />
+  <Table name="MenuNivel1" />
+  <Table name="MenuNivel2" />
+  <Table name="MenuNivel3" />
+  <Table name="Programa" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="UsuarioCaixa" />
+</Dependencies>

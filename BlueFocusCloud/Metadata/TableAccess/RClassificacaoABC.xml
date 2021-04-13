@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="eda45ac5-7615-af0e-31b5-f67adad21b81">
+  <Table name="CFOP" />
+  <Table name="PedidoCompraItem" />
+  <Table name="Produto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaVendedor" />
+  <Table name="SaidaVinculada" />
+  <Table name="EmpresaRelCon" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Preco" />
+  <Table name="PrecoPromocao" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+</Dependencies>

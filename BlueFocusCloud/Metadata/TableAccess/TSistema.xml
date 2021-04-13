@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="51a803b6-d9d8-eb06-778f-9c76b9926d33">
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="MenuNivel1" />
+  <Table name="MenuNivel2" />
+  <Table name="MenuNivel3" />
+  <Table name="Programa" />
+  <Table name="Sistema" />
+  <Table name="PermissaoConc" />
+  <Table name="EmpresaRelCon" />
+  <Table name="Empresa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

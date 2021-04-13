@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4695c672-f9b6-0037-d95d-24b379de8cb9">
+  <Table name="CFOP" />
+  <Table name="Familia" />
+  <Table name="TrocaDevolucao" />
+  <Table name="TrocaDevolucaoItem" />
+  <Table name="NaturezaReceita" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

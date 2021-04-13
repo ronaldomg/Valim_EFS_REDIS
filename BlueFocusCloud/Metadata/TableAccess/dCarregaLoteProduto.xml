@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1c4a5576-e95d-4301-a8cc-00a7b4f48ec4">
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Familia" />
+  <Table name="GrupoProduto" />
+  <Table name="LoteProduto" />
+  <Table name="SubgrupoProduto" />
+  <Table name="Pessoa" />
+  <Table name="Produto" />
+  <Table name="AtributoEsquema" />
+  <Table name="Similares" />
+  <Table name="ValorAtributo" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="Preco" />
+  <Table name="PrecoPromocao" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+</Dependencies>

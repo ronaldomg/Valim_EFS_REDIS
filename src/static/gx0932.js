@@ -1,0 +1,101 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 20:23:51.59
+*/
+gx.evt.autoSkip = false;
+gx.define('gx0932', false, function () {
+   this.ServerClass =  "gx0932" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV8pAcervoEmpresaId=gx.fn.getControlValue("vPACERVOEMPRESAID") ;
+      this.AV9pAcervoId=gx.fn.getIntegerValue("vPACERVOID",'.') ;
+      this.AV10pAcervoAutoresId=gx.fn.getIntegerValue("vPACERVOAUTORESID",'.') ;
+   };
+   this.e131hd2_client=function()
+   {
+      this.executeServerEvent("ENTER", true, arguments[0], false, false);
+   };
+   this.e141hd1_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,8,9,12,14,17,19,22,23,27,28,29,30,31,34];
+   this.GXLastCtrlId =34;
+   this.Grid1Container = new gx.grid.grid(this, 2,"WbpLvl2",26,"Grid1","Grid1","Grid1Container",this.CmpContext,this.IsMasterPage,"gx0932",[],false,1,false,true,10,true,false,false,"",0,"px","Novo registro",true,false,false,null,null,false,"",false,[1,1,1,1]);
+   var Grid1Container = this.Grid1Container;
+   Grid1Container.addBitmap("&Linkselection","vLINKSELECTION",27,0,"px",17,"px",null,"","","Image","");
+   Grid1Container.addSingleLineEdit(136,28,"ACERVOAUTORESID","Acervo Autores Id","","AcervoAutoresId","int",0,"px",4,4,"right",null,[],136,"AcervoAutoresId",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(132,29,"ACERVOAUTORID","Acervo Autor Id","","AcervoAutorId","int",0,"px",7,7,"right",null,[],132,"AcervoAutorId",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(3082,30,"ACERVOEMPRESAID","Empresa Acervo","","AcervoEmpresaId","char",0,"px",10,10,"left",null,[],3082,"AcervoEmpresaId",false,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(39,31,"ACERVOID","Código Acervo","","AcervoId","int",0,"px",7,7,"right",null,[],39,"AcervoId",false,0,false,false,"Attribute",1,"");
+   this.setGrid(Grid1Container);
+   GXValidFnc[2]={fld:"TABLE1",grid:0};
+   GXValidFnc[8]={fld:"GROUP1",grid:0};
+   GXValidFnc[9]={fld:"TABLE2",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCKACERVOAUTORESID", format:0,grid:0};
+   GXValidFnc[14]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCACERVOAUTORESID",gxz:"ZV6cAcervoAutoresId",gxold:"OV6cAcervoAutoresId",gxvar:"AV6cAcervoAutoresId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV6cAcervoAutoresId=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV6cAcervoAutoresId=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCACERVOAUTORESID",gx.O.AV6cAcervoAutoresId,0)},c2v:function(){gx.O.AV6cAcervoAutoresId=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCACERVOAUTORESID",'.')},nac:gx.falseFn};
+   GXValidFnc[17]={fld:"TEXTBLOCKACERVOAUTORID", format:0,grid:0};
+   GXValidFnc[19]={lvl:0,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCACERVOAUTORID",gxz:"ZV7cAcervoAutorId",gxold:"OV7cAcervoAutorId",gxvar:"AV7cAcervoAutorId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV7cAcervoAutorId=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV7cAcervoAutorId=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCACERVOAUTORID",gx.O.AV7cAcervoAutorId,0)},c2v:function(){gx.O.AV7cAcervoAutorId=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCACERVOAUTORID",'.')},nac:gx.falseFn};
+   GXValidFnc[22]={fld:"GROUP2",grid:0};
+   GXValidFnc[23]={fld:"TABLE3",grid:0};
+   GXValidFnc[27]={lvl:2,type:"bits",len:1024,dec:0,sign:false,ro:1,isacc:0,grid:26,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"vLINKSELECTION",gxz:"ZV5LinkSelection",gxold:"OV5LinkSelection",gxvar:"AV5LinkSelection",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.AV5LinkSelection=Value},v2z:function(Value){gx.O.ZV5LinkSelection=Value},v2c:function(row){gx.fn.setGridMultimediaValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(26),gx.O.AV5LinkSelection,gx.O.AV13Linkselection_GXI)},c2v:function(){gx.O.AV13Linkselection_GXI=this.val_GXI();gx.O.AV5LinkSelection=this.val()},val:function(row){return gx.fn.getGridControlValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(26))},val_GXI:function(row){return gx.fn.getGridControlValue("vLINKSELECTION_GXI",row || gx.fn.currentGridRowImpl(26))}, gxvar_GXI:'AV13Linkselection_GXI',nac:gx.falseFn};
+   GXValidFnc[28]={lvl:2,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:1,isacc:0,grid:26,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"ACERVOAUTORESID",gxz:"Z136AcervoAutoresId",gxold:"O136AcervoAutoresId",gxvar:"A136AcervoAutoresId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A136AcervoAutoresId=gx.num.intval(Value)},v2z:function(Value){gx.O.Z136AcervoAutoresId=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("ACERVOAUTORESID",row || gx.fn.currentGridRowImpl(26),gx.O.A136AcervoAutoresId,0)},c2v:function(){gx.O.A136AcervoAutoresId=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("ACERVOAUTORESID",row || gx.fn.currentGridRowImpl(26),'.')},nac:gx.falseFn};
+   GXValidFnc[29]={lvl:2,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:1,isacc:0,grid:26,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"ACERVOAUTORID",gxz:"Z132AcervoAutorId",gxold:"O132AcervoAutorId",gxvar:"A132AcervoAutorId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A132AcervoAutorId=gx.num.intval(Value)},v2z:function(Value){gx.O.Z132AcervoAutorId=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("ACERVOAUTORID",row || gx.fn.currentGridRowImpl(26),gx.O.A132AcervoAutorId,0)},c2v:function(){gx.O.A132AcervoAutorId=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("ACERVOAUTORID",row || gx.fn.currentGridRowImpl(26),'.')},nac:gx.falseFn};
+   GXValidFnc[30]={lvl:2,type:"char",len:10,dec:0,sign:false,pic:"@!",ro:1,isacc:0,grid:26,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"ACERVOEMPRESAID",gxz:"Z3082AcervoEmpresaId",gxold:"O3082AcervoEmpresaId",gxvar:"A3082AcervoEmpresaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A3082AcervoEmpresaId=Value},v2z:function(Value){gx.O.Z3082AcervoEmpresaId=Value},v2c:function(row){gx.fn.setGridControlValue("ACERVOEMPRESAID",row || gx.fn.currentGridRowImpl(26),gx.O.A3082AcervoEmpresaId,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A3082AcervoEmpresaId=this.val()},val:function(row){return gx.fn.getGridControlValue("ACERVOEMPRESAID",row || gx.fn.currentGridRowImpl(26))},nac:gx.falseFn};
+   GXValidFnc[31]={lvl:2,type:"int",len:7,dec:0,sign:false,pic:"ZZZZZZ9",ro:1,isacc:0,grid:26,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"ACERVOID",gxz:"Z39AcervoId",gxold:"O39AcervoId",gxvar:"A39AcervoId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A39AcervoId=gx.num.intval(Value)},v2z:function(Value){gx.O.Z39AcervoId=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("ACERVOID",row || gx.fn.currentGridRowImpl(26),gx.O.A39AcervoId,0)},c2v:function(){gx.O.A39AcervoId=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("ACERVOID",row || gx.fn.currentGridRowImpl(26),'.')},nac:gx.falseFn};
+   GXValidFnc[34]={fld:"TABLE4",grid:0};
+   this.AV6cAcervoAutoresId = 0 ;
+   this.ZV6cAcervoAutoresId = 0 ;
+   this.OV6cAcervoAutoresId = 0 ;
+   this.AV7cAcervoAutorId = 0 ;
+   this.ZV7cAcervoAutorId = 0 ;
+   this.OV7cAcervoAutorId = 0 ;
+   this.ZV5LinkSelection = "" ;
+   this.OV5LinkSelection = "" ;
+   this.Z136AcervoAutoresId = 0 ;
+   this.O136AcervoAutoresId = 0 ;
+   this.Z132AcervoAutorId = 0 ;
+   this.O132AcervoAutorId = 0 ;
+   this.Z3082AcervoEmpresaId = "" ;
+   this.O3082AcervoEmpresaId = "" ;
+   this.Z39AcervoId = 0 ;
+   this.O39AcervoId = 0 ;
+   this.AV6cAcervoAutoresId = 0 ;
+   this.AV7cAcervoAutorId = 0 ;
+   this.AV8pAcervoEmpresaId = "" ;
+   this.AV9pAcervoId = 0 ;
+   this.AV10pAcervoAutoresId = 0 ;
+   this.AV5LinkSelection = "" ;
+   this.A136AcervoAutoresId = 0 ;
+   this.A132AcervoAutorId = 0 ;
+   this.A3082AcervoEmpresaId = "" ;
+   this.A39AcervoId = 0 ;
+   this.Events = {"e131hd2_client": ["ENTER", true] ,"e141hd1_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cAcervoAutoresId',fld:'vCACERVOAUTORESID'},{av:'AV7cAcervoAutorId',fld:'vCACERVOAUTORID'},{av:'AV8pAcervoEmpresaId',fld:'vPACERVOEMPRESAID',hsh:true},{av:'AV9pAcervoId',fld:'vPACERVOID',hsh:true}],[]];
+   this.EvtParms["LOAD"] = [[],[{av:'AV5LinkSelection',fld:'vLINKSELECTION'}]];
+   this.EvtParms["ENTER"] = [[{av:'A136AcervoAutoresId',fld:'ACERVOAUTORESID'}],[{av:'AV10pAcervoAutoresId',fld:'vPACERVOAUTORESID'}]];
+   this.EvtParms["GRID1_FIRSTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cAcervoAutoresId',fld:'vCACERVOAUTORESID'},{av:'AV7cAcervoAutorId',fld:'vCACERVOAUTORID'},{av:'AV8pAcervoEmpresaId',fld:'vPACERVOEMPRESAID',hsh:true},{av:'AV9pAcervoId',fld:'vPACERVOID',hsh:true}],[]];
+   this.EvtParms["GRID1_PREVPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cAcervoAutoresId',fld:'vCACERVOAUTORESID'},{av:'AV7cAcervoAutorId',fld:'vCACERVOAUTORID'},{av:'AV8pAcervoEmpresaId',fld:'vPACERVOEMPRESAID',hsh:true},{av:'AV9pAcervoId',fld:'vPACERVOID',hsh:true}],[]];
+   this.EvtParms["GRID1_NEXTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cAcervoAutoresId',fld:'vCACERVOAUTORESID'},{av:'AV7cAcervoAutorId',fld:'vCACERVOAUTORID'},{av:'AV8pAcervoEmpresaId',fld:'vPACERVOEMPRESAID',hsh:true},{av:'AV9pAcervoId',fld:'vPACERVOID',hsh:true}],[]];
+   this.EvtParms["GRID1_LASTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cAcervoAutoresId',fld:'vCACERVOAUTORESID'},{av:'AV7cAcervoAutorId',fld:'vCACERVOAUTORID'},{av:'AV8pAcervoEmpresaId',fld:'vPACERVOEMPRESAID',hsh:true},{av:'AV9pAcervoId',fld:'vPACERVOID',hsh:true}],[]];
+   this.setVCMap("AV8pAcervoEmpresaId", "vPACERVOEMPRESAID", 0, "char");
+   this.setVCMap("AV9pAcervoId", "vPACERVOID", 0, "int");
+   this.setVCMap("AV10pAcervoAutoresId", "vPACERVOAUTORESID", 0, "int");
+   this.setVCMap("AV8pAcervoEmpresaId", "vPACERVOEMPRESAID", 0, "char");
+   this.setVCMap("AV9pAcervoId", "vPACERVOID", 0, "int");
+   Grid1Container.addRefreshingVar(this.GXValidFnc[14]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[19]);
+   Grid1Container.addRefreshingVar({rfrVar:"AV8pAcervoEmpresaId"});
+   Grid1Container.addRefreshingVar({rfrVar:"AV9pAcervoId"});
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new gx0932());

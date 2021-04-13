@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d903c8c5-7589-6e9f-8c95-c73669ae2726">
+  <Table name="Preco" />
+  <Table name="CustoMedio" />
+  <Table name="ParmCustoMedio" />
+  <Table name="ParmCustoMedioProduto" />
+  <Table name="Produto" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="Tabela" />
+  <Table name="LoteProduto" />
+  <Table name="SaldoProduto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="ParametroSistema" />
+</Dependencies>

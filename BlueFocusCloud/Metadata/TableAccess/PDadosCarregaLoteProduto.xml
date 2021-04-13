@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="01eafebd-75a0-4f2a-ab90-c2386289e8e2">
+  <Table name="AtributoEsquema" />
+  <Table name="LoteProduto" />
+  <Table name="Similares" />
+  <Table name="ValorAtributo" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="Preco" />
+  <Table name="PrecoPromocao" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+</Dependencies>

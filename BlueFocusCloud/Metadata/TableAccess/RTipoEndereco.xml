@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8ba16cae-9277-f182-698a-ae298a49928b">
+  <Table name="TiposEndereco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

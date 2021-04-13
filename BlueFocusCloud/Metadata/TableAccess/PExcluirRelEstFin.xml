@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a67b2e77-7dd3-06da-cc92-2582232e9995">
+  <Table name="MovEstFin" />
+  <Table name="RelEstFin" />
+  <Table name="MovEstFinCalculo" />
+  <Table name="MovEstFinFiltros" />
+</Dependencies>

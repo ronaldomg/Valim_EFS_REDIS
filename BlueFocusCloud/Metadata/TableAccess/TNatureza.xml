@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b8139ec3-3c22-dd67-7498-cfef0ede963f">
+  <Table name="ContaContabil" />
+  <Table name="Empresa" />
+  <Table name="Natureza" />
+  <Table name="TipoRateioItem" />
+  <Table name="TransacaoCxBco" />
+  <Table name="TrnDesc" />
+  <Table name="TrnTransf" />
+  <Table name="CContabilCCusto" />
+  <Table name="ContaRateio" />
+  <Table name="LancamCxaBcoRateio" />
+  <Table name="TipoBem" />
+  <Table name="Categoria" />
+  <Table name="TipoNatureza" />
+  <Table name="TransacaoPagRec" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Previsao" />
+  <Table name="NaturezaSped" />
+  <Table name="Depreciacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

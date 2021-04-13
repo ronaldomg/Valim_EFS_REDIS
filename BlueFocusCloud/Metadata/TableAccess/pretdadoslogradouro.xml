@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6f8ad5d6-8515-4eb9-aff2-1daf0276d2a9">
+  <Table name="Cidades" />
+  <Table name="Bairro" />
+  <Table name="Logradouro" />
+</Dependencies>

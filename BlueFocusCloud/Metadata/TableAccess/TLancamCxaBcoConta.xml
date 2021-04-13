@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="68cc9280-b9c0-d30c-99fd-1009d8eff208">
+  <Table name="ContaLancam" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="LogTabela" />
+  <Table name="AcessoSistema" />
+</Dependencies>

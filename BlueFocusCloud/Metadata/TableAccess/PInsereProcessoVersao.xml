@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="fed0ea17-61a2-8b0b-7193-128b630cad8c">
+  <Table name="ProcessoVersao" />
+  <Table name="ProcessoVersaoItens" />
+</Dependencies>

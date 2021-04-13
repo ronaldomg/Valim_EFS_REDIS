@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="01d371cc-1c16-9cd2-d222-f3450bcc7655">
+  <Table name="Pessoa" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

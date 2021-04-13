@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4101c602-f91f-cd23-215b-07a750e1ecec">
+  <Table name="ContaRateio" />
+  <Table name="Familia" />
+  <Table name="Setor" />
+  <Table name="MateriaPrima" />
+  <Table name="ContaPagRec" />
+  <Table name="Produto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="TransacaoSaida" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Preco" />
+  <Table name="PrecoPromocao" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+</Dependencies>

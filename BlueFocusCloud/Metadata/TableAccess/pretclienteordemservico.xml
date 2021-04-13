@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="325450e6-27e7-4464-b6eb-91b5eb3097a1">
+  <Table name="Cidades" />
+  <Table name="Pessoa" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="525427da-af8f-3b58-c5ec-5a798e101067">
+  <Table name="AgendaTipoCompromisso" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

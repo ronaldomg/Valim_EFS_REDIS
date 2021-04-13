@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="56139781-b121-45b3-e4bb-3dfc087d67d9">
+  <Table name="CFOP" />
+  <Table name="Familia" />
+  <Table name="Genero" />
+  <Table name="NCM" />
+  <Table name="Setor" />
+  <Table name="MargemMarkup" />
+  <Table name="Produto" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f9c43a54-6a63-30e2-5a4e-2ea626cc7913">
+  <Table name="ChavePrimariaComposta" />
+  <Table name="DocumentoNota" />
+</Dependencies>

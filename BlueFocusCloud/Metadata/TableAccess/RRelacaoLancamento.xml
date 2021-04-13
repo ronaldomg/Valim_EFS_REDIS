@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b2787aa0-bcdb-ee08-8225-51857d4573a0">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="ItensLancamentoContabilCentroCusto" />
+  <Table name="LancamentoContabil" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

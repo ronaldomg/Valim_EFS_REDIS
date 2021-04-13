@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="64fa13a2-2880-c553-f32d-05846b334145">
+  <Table name="ItensLancamentoContabil" />
+  <Table name="ItensLancamentoContabilCentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="RateioFatorRateio" />
+  <Table name="TransacaoContabil" />
+  <Table name="Tabela" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="ParametroSistema" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="SaldoConta" />
+</Dependencies>

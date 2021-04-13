@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="64ffc82e-058f-e9f2-9aef-ea28f37a9713">
+  <Table name="CFOP" />
+  <Table name="Genero" />
+  <Table name="ListaServico" />
+  <Table name="NCM" />
+  <Table name="ModeloDocFiscal" />
+  <Table name="SituacaoDocFiscal" />
+  <Table name="AjusteFiscal" />
+  <Table name="NBS" />
+  <Table name="ANP" />
+  <Table name="NaturezaReceita" />
+  <Table name="SituacaoTributaria" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

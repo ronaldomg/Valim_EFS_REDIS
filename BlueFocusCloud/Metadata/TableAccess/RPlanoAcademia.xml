@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3670d63b-656c-9605-6e88-4db538c6d59b">
+  <Table name="PlanoAcademia" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

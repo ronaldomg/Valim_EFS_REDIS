@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="63c5255c-eb05-a16b-84d8-3c4be4f71d95">
+  <Table name="ContaContabil" />
+  <Table name="Empresa" />
+  <Table name="OrgaoRegistro" />
+  <Table name="OrgaoRegistroResponsavel" />
+  <Table name="Paginacao" />
+  <Table name="Tabela" />
+  <Table name="SaldoConta" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="Pessoa" />
+  <Table name="ParametroSistema" />
+</Dependencies>

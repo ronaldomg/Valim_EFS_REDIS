@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2e899756-f34b-b164-9c8e-193f802361eb">
+  <Table name="pg_trigger" />
+</Dependencies>

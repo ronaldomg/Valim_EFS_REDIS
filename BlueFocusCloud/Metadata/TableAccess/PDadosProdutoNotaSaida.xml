@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e28ffb82-8989-7194-3539-fb43ea005463">
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="LoteProduto" />
+  <Table name="ProdutoFornecedor" />
+  <Table name="Unidade" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="TransacaoSaida" />
+  <Table name="BuscaCfopCST" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Preco" />
+  <Table name="PrecoPromocao" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+</Dependencies>

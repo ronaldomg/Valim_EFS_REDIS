@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="359c336e-7fd4-227a-913e-182bc08f2da9">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="Natureza" />
+  <Table name="TipoRateio" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TransacaoCxBco" />
+  <Table name="HistoricoFcx" />
+  <Table name="PlanoAcademia" />
+  <Table name="Filial" />
+  <Table name="TransacaoCxBcoContaContabil" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="TpCobrFormaPgto" />
+  <Table name="TransacaoEntrada" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Estrutura" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="TipoRateioItem" />
+  <Table name="AcessoSistema" />
+  <Table name="IntegracaoCbl" />
+</Dependencies>

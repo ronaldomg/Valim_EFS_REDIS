@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5eb85504-f378-455d-f098-38230ce948d4">
+  <Table name="ContaContabil" />
+  <Table name="CFOP" />
+  <Table name="Esquema" />
+  <Table name="Familia" />
+  <Table name="Genero" />
+  <Table name="GrupoProduto" />
+  <Table name="InformacaoExtra" />
+  <Table name="InformacaoNut" />
+  <Table name="ListaServico" />
+  <Table name="NCM" />
+  <Table name="SubgrupoProduto" />
+  <Table name="Unidade" />
+  <Table name="MargemMarkup" />
+  <Table name="GrupoPreco" />
+  <Table name="Pessoa" />
+  <Table name="SituacaoTributaria" />
+</Dependencies>

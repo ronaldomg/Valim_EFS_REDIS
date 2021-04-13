@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="def38803-b21e-206f-773d-9d20216a57f2">
+  <Table name="SubgrupoProduto" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

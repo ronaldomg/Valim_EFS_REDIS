@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9bbe795f-6f8d-65d9-a3d1-20c65802cda1">
+  <Table name="ContaContabil" />
+  <Table name="EncerrarContas" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="SaldoConta" />
+  <Table name="Tabela" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="ItensLancamentoContabilCentroCusto" />
+  <Table name="LancamentoContabil" />
+  <Table name="ItensLancamentoContabilFinanc" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="ParametroSistema" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="ChavePrimaria" />
+  <Table name="RateioFatorRateio" />
+  <Table name="TransacaoContabil" />
+</Dependencies>

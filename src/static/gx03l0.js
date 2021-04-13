@@ -1,0 +1,105 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 20:26:42.75
+*/
+gx.evt.autoSkip = false;
+gx.define('gx03l0', false, function () {
+   this.ServerClass =  "gx03l0" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV10pFeriadoData=gx.fn.getDateValue("vPFERIADODATA") ;
+   };
+   this.e131jo2_client=function()
+   {
+      this.executeServerEvent("ENTER", true, arguments[0], false, false);
+   };
+   this.e141jo1_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,8,9,12,14,17,19,22,24,27,29,32,33,37,38,39,40,41,44];
+   this.GXLastCtrlId =44;
+   this.Grid1Container = new gx.grid.grid(this, 2,"WbpLvl2",36,"Grid1","Grid1","Grid1Container",this.CmpContext,this.IsMasterPage,"gx03l0",[],false,1,false,true,10,true,false,false,"",0,"px","Novo registro",true,false,false,null,null,false,"",false,[1,1,1,1]);
+   var Grid1Container = this.Grid1Container;
+   Grid1Container.addBitmap("&Linkselection","vLINKSELECTION",37,0,"px",17,"px",null,"","","Image","");
+   Grid1Container.addSingleLineEdit(957,38,"FERIADODATA","Data Feriado","","FeriadoData","date",0,"px",10,10,"right",null,[],957,"FeriadoData",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(958,39,"FERIADODESCRICAO","Descrição Feriado","Selecionar","FeriadoDescricao","svchar",0,"px",40,40,"left",null,[],958,"FeriadoDescricao",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(959,40,"FERIADOUSUARIOALT","Usuário Alteração","","FeriadoUsuarioAlt","char",0,"px",12,12,"left",null,[],959,"FeriadoUsuarioAlt",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(960,41,"FERIADODATAHORAALT","Data/Hora Alteração","","FeriadoDataHoraAlt","dtime",0,"px",16,16,"right",null,[],960,"FeriadoDataHoraAlt",true,5,false,false,"Attribute",1,"");
+   this.setGrid(Grid1Container);
+   GXValidFnc[2]={fld:"TABLE1",grid:0};
+   GXValidFnc[8]={fld:"GROUP1",grid:0};
+   GXValidFnc[9]={fld:"TABLE2",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCKFERIADODATA", format:0,grid:0};
+   GXValidFnc[14]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCFERIADODATA",gxz:"ZV6cFeriadoData",gxold:"OV6cFeriadoData",gxvar:"AV6cFeriadoData",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV6cFeriadoData=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.ZV6cFeriadoData=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("vCFERIADODATA",gx.O.AV6cFeriadoData,0)},c2v:function(){gx.O.AV6cFeriadoData=gx.fn.toDatetimeValue(this.val())},val:function(){return gx.fn.getControlValue("vCFERIADODATA")},nac:gx.falseFn};
+   GXValidFnc[17]={fld:"TEXTBLOCKFERIADODESCRICAO", format:0,grid:0};
+   GXValidFnc[19]={lvl:0,type:"svchar",len:40,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCFERIADODESCRICAO",gxz:"ZV7cFeriadoDescricao",gxold:"OV7cFeriadoDescricao",gxvar:"AV7cFeriadoDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV7cFeriadoDescricao=Value},v2z:function(Value){gx.O.ZV7cFeriadoDescricao=Value},v2c:function(){gx.fn.setControlValue("vCFERIADODESCRICAO",gx.O.AV7cFeriadoDescricao,0)},c2v:function(){gx.O.AV7cFeriadoDescricao=this.val()},val:function(){return gx.fn.getControlValue("vCFERIADODESCRICAO")},nac:gx.falseFn};
+   GXValidFnc[22]={fld:"TEXTBLOCKFERIADOUSUARIOALT", format:0,grid:0};
+   GXValidFnc[24]={lvl:0,type:"char",len:12,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCFERIADOUSUARIOALT",gxz:"ZV8cFeriadoUsuarioAlt",gxold:"OV8cFeriadoUsuarioAlt",gxvar:"AV8cFeriadoUsuarioAlt",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV8cFeriadoUsuarioAlt=Value},v2z:function(Value){gx.O.ZV8cFeriadoUsuarioAlt=Value},v2c:function(){gx.fn.setControlValue("vCFERIADOUSUARIOALT",gx.O.AV8cFeriadoUsuarioAlt,0)},c2v:function(){gx.O.AV8cFeriadoUsuarioAlt=this.val()},val:function(){return gx.fn.getControlValue("vCFERIADOUSUARIOALT")},nac:gx.falseFn};
+   GXValidFnc[27]={fld:"TEXTBLOCKFERIADODATAHORAALT", format:0,grid:0};
+   GXValidFnc[29]={lvl:0,type:"dtime",len:10,dec:5,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCFERIADODATAHORAALT",gxz:"ZV9cFeriadoDataHoraAlt",gxold:"OV9cFeriadoDataHoraAlt",gxvar:"AV9cFeriadoDataHoraAlt",dp:{f:0,st:true,wn:false,mf:false,pic:"99/99/9999 99:99",dec:5},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV9cFeriadoDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.ZV9cFeriadoDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("vCFERIADODATAHORAALT",gx.O.AV9cFeriadoDataHoraAlt,0)},c2v:function(){gx.O.AV9cFeriadoDataHoraAlt=gx.fn.toDatetimeValue(this.val())},val:function(){return gx.fn.getDateTimeValue("vCFERIADODATAHORAALT")},nac:gx.falseFn};
+   GXValidFnc[32]={fld:"GROUP2",grid:0};
+   GXValidFnc[33]={fld:"TABLE3",grid:0};
+   GXValidFnc[37]={lvl:2,type:"bits",len:1024,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"vLINKSELECTION",gxz:"ZV5LinkSelection",gxold:"OV5LinkSelection",gxvar:"AV5LinkSelection",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.AV5LinkSelection=Value},v2z:function(Value){gx.O.ZV5LinkSelection=Value},v2c:function(row){gx.fn.setGridMultimediaValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36),gx.O.AV5LinkSelection,gx.O.AV13Linkselection_GXI)},c2v:function(){gx.O.AV13Linkselection_GXI=this.val_GXI();gx.O.AV5LinkSelection=this.val()},val:function(row){return gx.fn.getGridControlValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36))},val_GXI:function(row){return gx.fn.getGridControlValue("vLINKSELECTION_GXI",row || gx.fn.currentGridRowImpl(36))}, gxvar_GXI:'AV13Linkselection_GXI',nac:gx.falseFn};
+   GXValidFnc[38]={lvl:2,type:"date",len:10,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"FERIADODATA",gxz:"Z957FeriadoData",gxold:"O957FeriadoData",gxvar:"A957FeriadoData",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A957FeriadoData=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.Z957FeriadoData=gx.fn.toDatetimeValue(Value)},v2c:function(row){gx.fn.setGridControlValue("FERIADODATA",row || gx.fn.currentGridRowImpl(36),gx.O.A957FeriadoData,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A957FeriadoData=gx.fn.toDatetimeValue(this.val())},val:function(row){return gx.fn.getGridDateTimeValue("FERIADODATA",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[39]={lvl:2,type:"svchar",len:40,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"FERIADODESCRICAO",gxz:"Z958FeriadoDescricao",gxold:"O958FeriadoDescricao",gxvar:"A958FeriadoDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A958FeriadoDescricao=Value},v2z:function(Value){gx.O.Z958FeriadoDescricao=Value},v2c:function(row){gx.fn.setGridControlValue("FERIADODESCRICAO",row || gx.fn.currentGridRowImpl(36),gx.O.A958FeriadoDescricao,0)},c2v:function(){gx.O.A958FeriadoDescricao=this.val()},val:function(row){return gx.fn.getGridControlValue("FERIADODESCRICAO",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[40]={lvl:2,type:"char",len:12,dec:0,sign:false,pic:"@!",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"FERIADOUSUARIOALT",gxz:"Z959FeriadoUsuarioAlt",gxold:"O959FeriadoUsuarioAlt",gxvar:"A959FeriadoUsuarioAlt",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A959FeriadoUsuarioAlt=Value},v2z:function(Value){gx.O.Z959FeriadoUsuarioAlt=Value},v2c:function(row){gx.fn.setGridControlValue("FERIADOUSUARIOALT",row || gx.fn.currentGridRowImpl(36),gx.O.A959FeriadoUsuarioAlt,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A959FeriadoUsuarioAlt=this.val()},val:function(row){return gx.fn.getGridControlValue("FERIADOUSUARIOALT",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[41]={lvl:2,type:"dtime",len:10,dec:5,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"FERIADODATAHORAALT",gxz:"Z960FeriadoDataHoraAlt",gxold:"O960FeriadoDataHoraAlt",gxvar:"A960FeriadoDataHoraAlt",dp:{f:0,st:true,wn:false,mf:false,pic:"99/99/9999 99:99",dec:5},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A960FeriadoDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.Z960FeriadoDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2c:function(row){gx.fn.setGridControlValue("FERIADODATAHORAALT",row || gx.fn.currentGridRowImpl(36),gx.O.A960FeriadoDataHoraAlt,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A960FeriadoDataHoraAlt=gx.fn.toDatetimeValue(this.val())},val:function(row){return gx.fn.getGridDateTimeValue("FERIADODATAHORAALT",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[44]={fld:"TABLE4",grid:0};
+   this.AV6cFeriadoData = gx.date.nullDate() ;
+   this.ZV6cFeriadoData = gx.date.nullDate() ;
+   this.OV6cFeriadoData = gx.date.nullDate() ;
+   this.AV7cFeriadoDescricao = "" ;
+   this.ZV7cFeriadoDescricao = "" ;
+   this.OV7cFeriadoDescricao = "" ;
+   this.AV8cFeriadoUsuarioAlt = "" ;
+   this.ZV8cFeriadoUsuarioAlt = "" ;
+   this.OV8cFeriadoUsuarioAlt = "" ;
+   this.AV9cFeriadoDataHoraAlt = gx.date.nullDate() ;
+   this.ZV9cFeriadoDataHoraAlt = gx.date.nullDate() ;
+   this.OV9cFeriadoDataHoraAlt = gx.date.nullDate() ;
+   this.ZV5LinkSelection = "" ;
+   this.OV5LinkSelection = "" ;
+   this.Z957FeriadoData = gx.date.nullDate() ;
+   this.O957FeriadoData = gx.date.nullDate() ;
+   this.Z958FeriadoDescricao = "" ;
+   this.O958FeriadoDescricao = "" ;
+   this.Z959FeriadoUsuarioAlt = "" ;
+   this.O959FeriadoUsuarioAlt = "" ;
+   this.Z960FeriadoDataHoraAlt = gx.date.nullDate() ;
+   this.O960FeriadoDataHoraAlt = gx.date.nullDate() ;
+   this.AV6cFeriadoData = gx.date.nullDate() ;
+   this.AV7cFeriadoDescricao = "" ;
+   this.AV8cFeriadoUsuarioAlt = "" ;
+   this.AV9cFeriadoDataHoraAlt = gx.date.nullDate() ;
+   this.AV10pFeriadoData = gx.date.nullDate() ;
+   this.AV5LinkSelection = "" ;
+   this.A957FeriadoData = gx.date.nullDate() ;
+   this.A958FeriadoDescricao = "" ;
+   this.A959FeriadoUsuarioAlt = "" ;
+   this.A960FeriadoDataHoraAlt = gx.date.nullDate() ;
+   this.Events = {"e131jo2_client": ["ENTER", true] ,"e141jo1_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cFeriadoData',fld:'vCFERIADODATA'},{av:'AV7cFeriadoDescricao',fld:'vCFERIADODESCRICAO'},{av:'AV8cFeriadoUsuarioAlt',fld:'vCFERIADOUSUARIOALT'},{av:'AV9cFeriadoDataHoraAlt',fld:'vCFERIADODATAHORAALT'}],[]];
+   this.EvtParms["LOAD"] = [[],[{av:'AV5LinkSelection',fld:'vLINKSELECTION'}]];
+   this.EvtParms["ENTER"] = [[{av:'A957FeriadoData',fld:'FERIADODATA'}],[{av:'AV10pFeriadoData',fld:'vPFERIADODATA'}]];
+   this.EvtParms["GRID1_FIRSTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cFeriadoData',fld:'vCFERIADODATA'},{av:'AV7cFeriadoDescricao',fld:'vCFERIADODESCRICAO'},{av:'AV8cFeriadoUsuarioAlt',fld:'vCFERIADOUSUARIOALT'},{av:'AV9cFeriadoDataHoraAlt',fld:'vCFERIADODATAHORAALT'}],[]];
+   this.EvtParms["GRID1_PREVPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cFeriadoData',fld:'vCFERIADODATA'},{av:'AV7cFeriadoDescricao',fld:'vCFERIADODESCRICAO'},{av:'AV8cFeriadoUsuarioAlt',fld:'vCFERIADOUSUARIOALT'},{av:'AV9cFeriadoDataHoraAlt',fld:'vCFERIADODATAHORAALT'}],[]];
+   this.EvtParms["GRID1_NEXTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cFeriadoData',fld:'vCFERIADODATA'},{av:'AV7cFeriadoDescricao',fld:'vCFERIADODESCRICAO'},{av:'AV8cFeriadoUsuarioAlt',fld:'vCFERIADOUSUARIOALT'},{av:'AV9cFeriadoDataHoraAlt',fld:'vCFERIADODATAHORAALT'}],[]];
+   this.EvtParms["GRID1_LASTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cFeriadoData',fld:'vCFERIADODATA'},{av:'AV7cFeriadoDescricao',fld:'vCFERIADODESCRICAO'},{av:'AV8cFeriadoUsuarioAlt',fld:'vCFERIADOUSUARIOALT'},{av:'AV9cFeriadoDataHoraAlt',fld:'vCFERIADODATAHORAALT'}],[]];
+   this.setVCMap("AV10pFeriadoData", "vPFERIADODATA", 0, "date");
+   Grid1Container.addRefreshingVar(this.GXValidFnc[14]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[19]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[24]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[29]);
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new gx03l0());

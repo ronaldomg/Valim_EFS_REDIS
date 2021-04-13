@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4ce88af9-54d4-1fed-8210-27d5ae77eb48">
+  <Table name="AcessoPortaria" />
+  <Table name="Convite" />
+  <Table name="OcorrenciaPessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Dependente" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5b036dcf-6d5d-d08c-f656-122b112e563d">
+  <Table name="TipoConta" />
+  <Table name="Especie" />
+  <Table name="TipoCobranca" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="Convenio" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

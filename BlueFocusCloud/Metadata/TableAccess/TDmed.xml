@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6d3e6b1c-90be-61eb-f3fa-859efa9a28b3">
+  <Table name="Dmed" />
+  <Table name="DmedItem" />
+</Dependencies>

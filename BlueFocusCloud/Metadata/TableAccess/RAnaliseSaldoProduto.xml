@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7379ce7e-ee97-f997-4417-16a76d360693">
+  <Table name="Preco" />
+  <Table name="AtributoEsquema" />
+  <Table name="ValorAtributo" />
+  <Table name="AnaliseSaldo" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="Saida" />
+  <Table name="SaidaCondItem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="LoteProduto" />
+  <Table name="SaldoProduto" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+</Dependencies>

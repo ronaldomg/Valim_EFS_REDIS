@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="efb40025-411c-9254-b991-619d6f6a887b">
+  <Table name="GrupoTipoDemonstracaoGrupoCalculo" />
+  <Table name="GrupoTipoDemonstracao" />
+  <Table name="GrupoTipoDemonstracaoIntervaloConta" />
+  <Table name="GrupoTipoDemonstracaoInterval2" />
+  <Table name="TipoDemonstracao" />
+</Dependencies>

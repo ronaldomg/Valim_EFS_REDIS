@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8a6d5e9e-5f3b-19ac-113a-eba4e193a96d">
+  <Table name="Tabela" />
+  <Table name="ContaContabil" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="ItensLancamentoContabilCentroCusto" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="SaldoConta" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d9ac1f4f-01ba-c773-a910-5ee8accd5c7d">
+  <Table name="Desconto" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

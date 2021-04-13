@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1dc503a4-dd0d-7d7b-0fc1-50dff9f55fbf">
+  <Table name="TipoLancamento" />
+  <Table name="TransacaoPagRec" />
+  <Table name="TransacaoAssociada" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcrescimoDesconto" />
+  <Table name="AcessoSistema" />
+</Dependencies>

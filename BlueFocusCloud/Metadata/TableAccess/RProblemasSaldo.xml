@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1b9dfd9d-969d-acd1-4e8f-8ffd13ad30c0">
+  <Table name="Preco" />
+  <Table name="AtributoEsquema" />
+  <Table name="ClassificacaoEst" />
+  <Table name="CodificacaoEst" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Esquema" />
+  <Table name="Familia" />
+  <Table name="LoteProduto" />
+  <Table name="PedidoCompraItem" />
+  <Table name="ProdutoFornecedor" />
+  <Table name="ValorAtributo" />
+  <Table name="ClassificacaoEstOpcaoClassific" />
+  <Table name="Pessoa" />
+  <Table name="PedidoCompra" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="AditivoItem" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+</Dependencies>

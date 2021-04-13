@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="dfc3ad59-c3b4-50b8-cb97-ad442cbd7938">
+  <Table name="CBD001EVENTOS" />
+  <Table name="NFE012EVENTOS" />
+</Dependencies>

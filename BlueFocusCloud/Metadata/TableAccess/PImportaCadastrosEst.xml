@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="083f0f58-9b9d-16e6-0de5-4ce6dc59c322">
+  <Table name="Cidades" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="Codificacao" />
+  <Table name="ClassificacaoEst" />
+  <Table name="CodificacaoEst" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Familia" />
+  <Table name="Genero" />
+  <Table name="LoteProduto" />
+  <Table name="NCM" />
+  <Table name="PrecoProduto" />
+  <Table name="ProdutoFornecedor" />
+  <Table name="Unidade" />
+  <Table name="ClassificacaoEstOpcaoClassific" />
+  <Table name="MateriaPrima" />
+  <Table name="ModeloImportacao" />
+  <Table name="Inventario" />
+  <Table name="Pessoa" />
+  <Table name="PessoaCodificacao" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="LayoutModeloImportacao" />
+  <Table name="PessoaClassificacao" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="Tabela" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+  <Table name="Empresa" />
+</Dependencies>

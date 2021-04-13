@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="27fe391b-4252-4d0c-76e6-b93d5535944f">
+  <Table name="Bem" />
+  <Table name="SaldoBem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="TipoBem" />
+  <Table name="AcessoSistema" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+</Dependencies>

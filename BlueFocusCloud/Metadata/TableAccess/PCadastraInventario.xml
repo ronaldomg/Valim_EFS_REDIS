@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a28d98c0-98e0-ae5d-c98a-40be14bf7e07">
+  <Table name="LoteProduto" />
+  <Table name="Inventario" />
+  <Table name="SaldoProduto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

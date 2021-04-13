@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b25f82df-dd29-5810-0ed8-c73ff817da0f">
+  <Table name="ContaOcorrencia" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="317d72bd-d42c-cb6d-0d37-9ed65c81e24d">
+  <Table name="ContaContabil" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="ItensLancamentoContabilCentroCusto" />
+  <Table name="LancamentoContabil" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="CContabilSaldo" />
+  <Table name="CContabilSaldoCCusto" />
+  <Table name="CContabilSaldoCorrentista" />
+  <Table name="SaldoConta" />
+  <Table name="lancamentoagrupado" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

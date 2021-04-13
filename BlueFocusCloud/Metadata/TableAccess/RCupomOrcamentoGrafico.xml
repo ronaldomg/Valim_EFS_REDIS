@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2f8d9845-fe9a-40c1-67bf-b7eb88e68b90">
+  <Table name="Cidades" />
+  <Table name="Vendedor" />
+  <Table name="AtributoEsquema" />
+  <Table name="FormaPgto" />
+  <Table name="LoteProduto" />
+  <Table name="ValorAtributo" />
+  <Table name="ModeloPreVenda" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="TpCobrFormaPgto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="SaidaVendedor" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

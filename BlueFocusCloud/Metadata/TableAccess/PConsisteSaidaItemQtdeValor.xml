@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bb4e8256-fc68-7191-02d0-531d96a9a8da">
+  <Table name="Preco" />
+  <Table name="AtributoEsquema" />
+  <Table name="CFOP" />
+  <Table name="LoteProduto" />
+  <Table name="Unidade" />
+  <Table name="ValorAtributo" />
+  <Table name="ParametroPreco" />
+  <Table name="Produto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="TransacaoSaida" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Programa" />
+  <Table name="TipoPermissao" />
+  <Table name="PermissaoConc" />
+  <Table name="TipoPermissaoUsuarioPermissao" />
+  <Table name="Usuario" />
+  <Table name="PrecoPromocao" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="SaldoProduto" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="SaidaItemSimplesRem" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e53e43e7-f305-d3d0-2ff7-de9d0c756836">
+  <Table name="ContaLancam" />
+  <Table name="ContaLancamHaver" />
+  <Table name="LogTabela" />
+</Dependencies>

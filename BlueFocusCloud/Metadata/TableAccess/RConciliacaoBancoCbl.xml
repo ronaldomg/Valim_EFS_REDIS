@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="63f67c09-17bd-4455-b6fe-f7dbfb48bbca">
+  <Table name="Banco" />
+  <Table name="SaldoCxaBco" />
+  <Table name="SaldoConta" />
+  <Table name="CaixaBanco" />
+  <Table name="obssaldocaixabanco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

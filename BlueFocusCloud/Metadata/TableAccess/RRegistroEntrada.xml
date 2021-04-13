@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f1c7ceee-d3f3-3e1d-fd2b-feff51c9d2e2">
+  <Table name="Cidades" />
+  <Table name="ModeloDocFiscal" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="SituacaoTributaria" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="PaginacaoFiscal" />
+</Dependencies>

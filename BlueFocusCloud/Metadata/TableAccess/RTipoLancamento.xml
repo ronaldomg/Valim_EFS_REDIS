@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4fa58c6e-9c62-f864-15d4-996548dcca9c">
+  <Table name="TipoLancamento" />
+  <Table name="IntegracaoCbl" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

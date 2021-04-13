@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f04345e0-aef0-47ee-fbe2-fb96ee5a3342">
+  <Table name="FormaPgto" />
+  <Table name="Tabela" />
+</Dependencies>

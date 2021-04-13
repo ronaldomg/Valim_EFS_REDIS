@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1959b5ab-4273-750a-5ca0-635c27b2e7e3">
+  <Table name="ModeloDocFiscal" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

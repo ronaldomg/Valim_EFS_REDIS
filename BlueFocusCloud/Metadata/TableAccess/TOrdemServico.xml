@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c39194fb-6ddb-4c30-7e41-cd8de4ce24cf">
+  <Table name="Banco" />
+  <Table name="Vendedor" />
+  <Table name="FormaPgto" />
+  <Table name="LoteProduto" />
+  <Table name="OrdemServicoApareItem" />
+  <Table name="OrdemServicoItemServProfi" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="TpCobrFormaPgto" />
+  <Table name="OrdemServicoFase" />
+  <Table name="Profissional" />
+  <Table name="Servico" />
+  <Table name="OrdemServicoTipo" />
+  <Table name="OrdemServico" />
+  <Table name="Aparelho" />
+  <Table name="AparelhoCaracteristica" />
+  <Table name="OrdemServicoAparelho" />
+  <Table name="OrdemServicoItemProduto" />
+  <Table name="OrdemServicoItemServico" />
+  <Table name="OrdemServicoPagtoParcela" />
+  <Table name="OrdemServicoApareProfissional" />
+  <Table name="VisitaCliente" />
+  <Table name="Nfse" />
+</Dependencies>

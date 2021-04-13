@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a3ebaa88-6318-07df-d75f-f2a4abc7e12b">
+  <Table name="Dirf" />
+  <Table name="DirfConta" />
+</Dependencies>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e3a5ce5b-4118-029f-b760-d1cafba39310">
+  <Table name="Boleto" />
+  <Table name="Cedente" />
+  <Table name="RemessaRetorno" />
+  <Table name="RemessaRetornoItem" />
+  <Table name="OcorrenciaRetorno" />
+  <Table name="Pessoa" />
+  <Table name="BancoAgencia" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="TipoBaixaUsu" />
+  <Table name="PermissaoUsuCxaConta" />
+  <Table name="CaixaBancoUsu" />
+  <Table name="Banco" />
+  <Table name="Feriado" />
+</Dependencies>

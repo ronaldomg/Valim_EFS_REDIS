@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="43c75d7a-70e5-6367-3991-413bc49565c0">
+  <Table name="NaturezaDespesa" />
+  <Table name="Produto" />
+  <Table name="Tabela" />
+</Dependencies>

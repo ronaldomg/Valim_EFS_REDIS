@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0f21aef7-acbf-2f55-7f58-8675b83b7e9f">
+  <Table name="Preco" />
+  <Table name="ParametroConsultaCampo" />
+  <Table name="Filial" />
+  <Table name="ParametroConsulta" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="Esquema" />
+</Dependencies>

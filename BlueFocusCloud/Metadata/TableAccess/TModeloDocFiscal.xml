@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="86a4711b-9380-301b-f9a4-d0b553c2ac2f">
+  <Table name="ModeloDocFiscal" />
+  <Table name="Equipamentos" />
+  <Table name="Saida" />
+  <Table name="TransacaoEntrada" />
+  <Table name="Entrada" />
+  <Table name="TransacaoSaida" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

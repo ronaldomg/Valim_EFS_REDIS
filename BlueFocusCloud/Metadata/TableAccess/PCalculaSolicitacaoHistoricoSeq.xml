@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ad50a32f-e041-c99d-6376-8e871c35d405">
+  <Table name="SolicitacaoHistorico" />
+  <Table name="Tabela" />
+</Dependencies>

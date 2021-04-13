@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f4e5cdca-6097-5bdc-eaf9-049a262263bd">
+  <Table name="ModeloContrato" />
+  <Table name="ModeloContratoLayout" />
+</Dependencies>

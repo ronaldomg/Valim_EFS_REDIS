@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d5664fac-a81a-b942-a4c6-23541d702c27">
+  <Table name="GrupoTipoDemonstracao" />
+  <Table name="Tabela" />
+  <Table name="TipoDemonstracao" />
+</Dependencies>

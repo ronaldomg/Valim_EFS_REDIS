@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1ae193ea-1dbf-a9f1-5cfe-99c347e970ad">
+  <Table name="Cidades" />
+  <Table name="OrdemServicoApareItem" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="Profissional" />
+  <Table name="Servico" />
+  <Table name="OrdemServicoTipo" />
+  <Table name="OrdemServico" />
+  <Table name="Aparelho" />
+  <Table name="AparelhoCaracteristica" />
+  <Table name="AparelhoCaracValor" />
+  <Table name="AparelhoItem" />
+  <Table name="OrdemServicoAparelho" />
+  <Table name="OrdemServicoItemProduto" />
+  <Table name="OrdemServicoItemServico" />
+  <Table name="OrdemServicoApareProfissional" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

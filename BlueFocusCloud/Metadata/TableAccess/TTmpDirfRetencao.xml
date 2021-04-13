@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7cd69957-b60d-9ae8-f37f-11e8c02f1bd6">
+  <Table name="TmpDirfRetencao" />
+  <Table name="TmpDirf" />
+</Dependencies>

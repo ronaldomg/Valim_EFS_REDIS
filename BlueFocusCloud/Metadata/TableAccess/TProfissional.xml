@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3ff89a90-ba7e-85b3-0279-c26b9c47a97a">
+  <Table name="Setor" />
+  <Table name="OrdemServicoItemServProfi" />
+  <Table name="Agenda" />
+  <Table name="Profissional" />
+  <Table name="DisponibilidadeProfissional" />
+  <Table name="OrdemServicoOcorrencia" />
+  <Table name="OrdemServicoApareProfissional" />
+  <Table name="VisitaCliente" />
+  <Table name="AparelhoCliente" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7ebb8e53-d0c4-978d-8fb2-b174fd5b26b4">
+  <Table name="CentroCusto" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

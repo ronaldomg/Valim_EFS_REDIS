@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b6304210-7b36-a045-17a9-ec6785809142">
+  <Table name="GrupoPreco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

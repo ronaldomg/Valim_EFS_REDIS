@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a17e61ef-eb42-6de2-c6fc-9db6c7af2035">
+  <Table name="CodigoBarrasProduto" />
+  <Table name="KitProduto" />
+  <Table name="LoteProduto" />
+  <Table name="MVAProduto" />
+  <Table name="PrecoProduto" />
+  <Table name="SaldoProduto" />
+  <Table name="Similares" />
+  <Table name="SolicitacaoItem" />
+  <Table name="VencimentoProduto" />
+  <Table name="ParametroPreco" />
+  <Table name="Inventario" />
+  <Table name="ICMSProduto" />
+  <Table name="PrecoPromocao" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="Tabela" />
+</Dependencies>

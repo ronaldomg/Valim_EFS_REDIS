@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7e03bb20-1fab-aa2c-9fca-dde0e010c3f3">
+  <Table name="Cidades" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Feriado" />
+  <Table name="TipoCobranca" />
+  <Table name="ContaLancam" />
+  <Table name="TipoLancamento" />
+  <Table name="IntegracaoCbl" />
+</Dependencies>

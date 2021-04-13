@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7e591cf5-f5f9-d8f2-c098-2a55c9078943">
+  <Table name="Banco" />
+  <Table name="TrnDesc" />
+  <Table name="Boleto" />
+  <Table name="Cedente" />
+  <Table name="RemessaRetorno" />
+  <Table name="RemessaRetornoCPag" />
+  <Table name="BancoAgencia" />
+  <Table name="CaixaBanco" />
+  <Table name="TransacaoPagRec" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="OrdemServicoPagtoParcela" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

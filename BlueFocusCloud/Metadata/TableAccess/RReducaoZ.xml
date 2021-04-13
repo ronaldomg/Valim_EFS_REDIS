@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b2165f12-efde-5b4d-9522-2ca6a4326fe0">
+  <Table name="ReducaoZ" />
+  <Table name="AliquotaReducao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

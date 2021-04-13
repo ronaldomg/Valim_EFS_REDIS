@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4a8ebd38-21ac-e4b0-d46c-52a9312e0159">
+  <Table name="Cotacao" />
+  <Table name="Solicitacao" />
+  <Table name="SolicitacaoHistorico" />
+  <Table name="Pessoa" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+</Dependencies>

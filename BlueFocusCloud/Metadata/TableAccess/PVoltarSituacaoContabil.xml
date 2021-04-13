@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9cc429bf-6710-e8fa-0c80-beda64e226f4">
+  <Table name="ContaLancam" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="ItensLancamentoContabilFinanc" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="LogTabelaCamposBlob" />
+</Dependencies>

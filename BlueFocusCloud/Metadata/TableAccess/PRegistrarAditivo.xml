@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9531d100-2e7c-ec24-cf31-6a9123133a00">
+  <Table name="Aditivo" />
+  <Table name="AditivoItem" />
+  <Table name="Tabela" />
+</Dependencies>

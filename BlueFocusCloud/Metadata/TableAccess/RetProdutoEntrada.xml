@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0ed05234-b99f-b8ff-ed4c-315faf1a3ee1">
+  <Table name="Produto" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4698ebde-9a00-3fcd-4ee5-d330e4d730a2">
+  <Table name="dicionario" />
+  <Table name="pg_type" />
+</Dependencies>

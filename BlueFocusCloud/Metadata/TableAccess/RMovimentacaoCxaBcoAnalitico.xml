@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2a8679d2-5e3a-5b36-8877-70773582c37f">
+  <Table name="HistoricoCxaBco" />
+  <Table name="ContaLancam" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="LancamCxaBcoRateio" />
+  <Table name="ConvenioCaixaBanco" />
+  <Table name="Convenio" />
+  <Table name="Pessoa" />
+  <Table name="CaixaBanco" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Saida" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="ContaContabil" />
+  <Table name="SaldoCxaBco" />
+</Dependencies>

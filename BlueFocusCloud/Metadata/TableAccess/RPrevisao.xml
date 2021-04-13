@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c096e070-f1e8-0807-881f-11af20be7977">
+  <Table name="CentroCusto" />
+  <Table name="Natureza" />
+  <Table name="Filial" />
+  <Table name="Previsao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

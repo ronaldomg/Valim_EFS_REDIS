@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ffc62e94-bc6f-96b6-3593-433265bfdb45">
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="Tabela" />
+</Dependencies>

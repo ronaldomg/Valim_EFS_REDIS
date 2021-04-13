@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ecf645af-2cbd-8aa8-4b13-2fcdea26f839">
+  <Table name="ClassificacaoEst" />
+  <Table name="ClassificacaoEstOpcaoClassific" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

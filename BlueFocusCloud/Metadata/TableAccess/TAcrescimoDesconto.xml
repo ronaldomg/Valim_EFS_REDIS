@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="dccab690-a61e-7971-7a92-c4172fc2fd03">
+  <Table name="TipoLancamento" />
+  <Table name="TransacaoPagRec" />
+  <Table name="AcrescimoDesconto" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="IntegracaoCbl" />
+  <Table name="AcessoSistema" />
+</Dependencies>

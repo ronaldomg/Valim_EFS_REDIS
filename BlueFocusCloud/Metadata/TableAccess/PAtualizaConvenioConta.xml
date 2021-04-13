@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="88cca6d6-d8bb-0fc2-382c-4b4de60b62c8">
+  <Table name="ContaContabil" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="LogTabelaCamposBlob" />
+</Dependencies>

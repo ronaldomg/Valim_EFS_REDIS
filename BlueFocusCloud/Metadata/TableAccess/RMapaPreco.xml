@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7c46cc18-11fd-ed75-38f1-36c5b65bf121">
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Cotacao" />
+  <Table name="MapaPreco" />
+  <Table name="MapaPrecoCotacao" />
+  <Table name="PedidoCompraItem" />
+  <Table name="Solicitacao" />
+  <Table name="SolicitacaoItem" />
+  <Table name="SolicitacaoHistorico" />
+  <Table name="Pessoa" />
+  <Table name="Usuario" />
+  <Table name="DeptoCompras" />
+  <Table name="PedidoCompra" />
+  <Table name="Produto" />
+  <Table name="Solicitante" />
+  <Table name="Assinatura" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

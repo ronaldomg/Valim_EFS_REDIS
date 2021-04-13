@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="31395da7-6295-fa55-975b-28f62995b182">
+  <Table name="CodificacaoEst" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

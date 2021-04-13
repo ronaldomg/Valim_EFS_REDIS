@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2110ae38-cb19-3063-96c0-82b327e3ce7b">
+  <Table name="CentroCusto" />
+  <Table name="TipoConta" />
+  <Table name="Especie" />
+  <Table name="Feriado" />
+  <Table name="TipoCobranca" />
+  <Table name="Vendedor" />
+  <Table name="ContaRateio" />
+  <Table name="Convenio" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

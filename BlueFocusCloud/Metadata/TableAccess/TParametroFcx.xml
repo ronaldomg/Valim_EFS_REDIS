@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="29b2b912-39d5-e4f8-cae5-e67af9769424">
+  <Table name="TipoPermissao" />
+  <Table name="TipoCobranca" />
+  <Table name="CFOP" />
+  <Table name="FormaPgto" />
+  <Table name="HistoricoFcx" />
+  <Table name="TipoSaldo" />
+  <Table name="ParametroFcx" />
+  <Table name="ParametroFcxAliquota" />
+  <Table name="TpCobrFormaPgto" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

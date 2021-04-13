@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="698bf0ed-99b9-c8cb-6e2d-b9a90985d3f9">
+  <Table name="Cidades" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="TipoCobranca" />
+  <Table name="ContaRateio" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Feriado" />
+  <Table name="ContaLancam" />
+  <Table name="TipoLancamento" />
+  <Table name="IntegracaoCbl" />
+</Dependencies>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5cc7daa9-7c89-54bc-6652-967664dbf77a">
+  <Table name="SaldoCxaBco" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

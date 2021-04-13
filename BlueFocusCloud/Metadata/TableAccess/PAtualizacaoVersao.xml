@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="440df928-d88b-d4ec-9d18-5bada537d02b">
+  <Table name="ParametroSistema" />
+  <Table name="ProcessoVersaoLog" />
+  <Table name="ProcessoVersaoItens" />
+</Dependencies>

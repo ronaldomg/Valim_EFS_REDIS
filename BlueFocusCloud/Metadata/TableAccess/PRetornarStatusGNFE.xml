@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8829fe0c-0f8f-99bf-ae83-9e61caed5ff4">
+  <Table name="NFE012LOGSTATUS" />
+  <Table name="NFE012" />
+  <Table name="LogContingencia" />
+  <Table name="NFE001" />
+  <Table name="NFE010" />
+  <Table name="Saida" />
+  <Table name="Entrada" />
+  <Table name="NFE002" />
+  <Table name="SaidaLogSefaz" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

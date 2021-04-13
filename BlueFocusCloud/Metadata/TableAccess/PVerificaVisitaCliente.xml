@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="76dc0ea4-a421-4a22-b0c6-724ea3b7bf3f">
+  <Table name="Aparelho" />
+  <Table name="AparelhoItem" />
+  <Table name="VisitaCliente" />
+  <Table name="AparelhoCliente" />
+  <Table name="AparelhoClienteItem" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="TipoPermissao" />
+  <Table name="TipoPermissaoUsuarioPermissao" />
+  <Table name="Usuario" />
+  <Table name="Pessoa" />
+  <Table name="Profissional" />
+  <Table name="AparelhoCaracteristica" />
+  <Table name="AparelhoCaracValor" />
+</Dependencies>

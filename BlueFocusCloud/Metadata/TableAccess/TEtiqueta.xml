@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="710c981e-9511-4cc4-9be7-799f983425b5">
+  <Table name="Classificacao" />
+  <Table name="Codificacao" />
+  <Table name="Empresa" />
+  <Table name="Etiqueta" />
+  <Table name="TiposEndereco" />
+  <Table name="EtiquetaLinha" />
+  <Table name="ClassificacaoEst" />
+  <Table name="CodificacaoEst" />
+  <Table name="Tabela" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

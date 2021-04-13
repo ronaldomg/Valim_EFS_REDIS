@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="12c1d063-90ad-21f0-9e49-3888c4dc7e0a">
+  <Table name="SaidaVolumeTransp" />
+  <Table name="SaidaLacres" />
+</Dependencies>

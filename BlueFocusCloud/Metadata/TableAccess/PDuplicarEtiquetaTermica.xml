@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="31f75aa6-0207-2626-715a-b6756ad1f63c">
+  <Table name="ModeloEtiquetaTermica" />
+  <Table name="LayoutModeloEtiquetaTermica" />
+</Dependencies>

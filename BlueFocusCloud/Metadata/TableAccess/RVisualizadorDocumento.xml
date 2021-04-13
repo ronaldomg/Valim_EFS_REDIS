@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1c10067d-cd5c-8cf5-8672-0e9e1d9116d0">
+  <Table name="dicionario" />
+  <Table name="ModeloDocumento" />
+  <Table name="LayoutDocumento" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

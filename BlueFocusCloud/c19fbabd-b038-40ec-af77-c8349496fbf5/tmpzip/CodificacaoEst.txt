@@ -1,0 +1,2 @@
+"1              ";"MARCACOD";"N"
+"CODIGOANTIGO   ";"Código Antigo";"N"

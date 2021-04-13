@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="97049fd7-a2a2-75d9-7d06-fff861d4a9b9">
+  <Table name="Pessoa" />
+  <Table name="Saida" />
+  <Table name="SaidaVinculada" />
+</Dependencies>

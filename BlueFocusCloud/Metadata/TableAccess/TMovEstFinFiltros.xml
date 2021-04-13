@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5291fb39-a730-2de3-3279-2665f25a80c9">
+  <Table name="MovEstFinFiltros" />
+  <Table name="RelEstFin" />
+</Dependencies>

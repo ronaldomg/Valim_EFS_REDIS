@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="93d5c6da-a5dd-5ff0-df83-db7ba9f2ad00">
+  <Table name="Cidades" />
+  <Table name="TelefonePessoa" />
+  <Table name="Aditivo" />
+  <Table name="AditivoItem" />
+  <Table name="Cotacao" />
+  <Table name="Familia" />
+  <Table name="GrupoProduto" />
+  <Table name="MapaPreco" />
+  <Table name="PedidoCompraItem" />
+  <Table name="PedidoCompraLOG" />
+  <Table name="ProcessoConv" />
+  <Table name="Solicitacao" />
+  <Table name="SolicitacaoItem" />
+  <Table name="SolicitacaoHistorico" />
+  <Table name="SubgrupoProduto" />
+  <Table name="Transportador" />
+  <Table name="Unidade" />
+  <Table name="Utilizacao" />
+  <Table name="ClassificacaoEstOpcaoClassific" />
+  <Table name="PedidoCompraItemLOGEntrega" />
+  <Table name="Pessoa" />
+  <Table name="DeptoCompras" />
+  <Table name="PedidoCompra" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="Solicitante" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

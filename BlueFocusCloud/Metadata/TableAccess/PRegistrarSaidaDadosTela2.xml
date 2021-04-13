@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="50847162-c62b-59c3-163c-71afe8fef92f">
+  <Table name="Cidades" />
+  <Table name="CFOP" />
+  <Table name="Transportador" />
+  <Table name="Saida" />
+</Dependencies>

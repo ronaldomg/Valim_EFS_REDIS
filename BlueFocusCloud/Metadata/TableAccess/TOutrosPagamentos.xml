@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6fed7153-3df0-21b2-a9e4-88bd3003200d">
+  <Table name="NaturezaDespesa" />
+  <Table name="Convenio" />
+  <Table name="OutrosPagamentos" />
+  <Table name="TipoLicitacao" />
+  <Table name="Pessoa" />
+  <Table name="CaixaBanco" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

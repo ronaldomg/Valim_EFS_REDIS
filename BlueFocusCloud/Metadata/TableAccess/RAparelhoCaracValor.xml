@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c8ab6d10-f23d-cd6a-fc0b-eee7bdd6370e">
+  <Table name="AparelhoCaracValor" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

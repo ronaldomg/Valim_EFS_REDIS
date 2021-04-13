@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="64918757-e588-6a28-a4bd-67a896b85933">
+  <Table name="SaidaObsLancFiscal" />
+  <Table name="SaidaAjusteFiscal" />
+</Dependencies>

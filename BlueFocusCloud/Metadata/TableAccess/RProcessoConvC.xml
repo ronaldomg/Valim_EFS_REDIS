@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="757331d2-6790-fa0d-17a2-a0518b286db8">
+  <Table name="Convenio" />
+  <Table name="PedidoCompraItem" />
+  <Table name="ProcessoConv" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="PedidoCompra" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

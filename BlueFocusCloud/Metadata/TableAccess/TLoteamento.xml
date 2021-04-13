@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="da8b13f8-6041-4455-2c61-ddbd432a3a9b">
+  <Table name="Cidades" />
+  <Table name="Contrato" />
+  <Table name="Lote" />
+  <Table name="Loteamento" />
+  <Table name="ModeloContrato" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="Classificacao" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+</Dependencies>

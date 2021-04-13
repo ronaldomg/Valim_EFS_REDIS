@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b7122192-c1e4-c8f6-f6a4-d933dc6b89a5">
+  <Table name="Etiqueta" />
+  <Table name="EtiquetaLinha" />
+  <Table name="ParametroConsultaCampo" />
+  <Table name="ParametroFcx" />
+  <Table name="ParametroFcxAliquota" />
+  <Table name="ModeloEtiquetaTermica" />
+  <Table name="ModeloImportacao" />
+  <Table name="ObsLancamentoFiscal" />
+  <Table name="SerieCorrespondente" />
+  <Table name="ModeloPreVenda" />
+  <Table name="ParametroConsulta" />
+  <Table name="TransacaoEntrada" />
+  <Table name="TransacaoSaida" />
+  <Table name="PDV" />
+  <Table name="LayoutModeloEtiquetaTermica" />
+  <Table name="LayoutModeloImportacao" />
+  <Table name="NaturezaSped" />
+  <Table name="DadosAdicionais" />
+  <Table name="DadosAdicionaisItem" />
+  <Table name="ProcessoVersaoItens" />
+</Dependencies>

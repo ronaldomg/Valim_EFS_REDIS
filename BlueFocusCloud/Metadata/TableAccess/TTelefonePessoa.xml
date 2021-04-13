@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6a4d517d-b790-342c-4980-3a07c48c02dc">
+  <Table name="TelefonePessoa" />
+  <Table name="Pessoa" />
+  <Table name="TipoTelefone" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="AcessoSistema" />
+</Dependencies>

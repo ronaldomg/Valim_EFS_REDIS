@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9157c2c2-d670-3854-b51f-590910141f34">
+  <Table name="ParmLocLanc" />
+  <Table name="localizarlancamentos" />
+  <Table name="Tabela" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="SaldoConta" />
+</Dependencies>

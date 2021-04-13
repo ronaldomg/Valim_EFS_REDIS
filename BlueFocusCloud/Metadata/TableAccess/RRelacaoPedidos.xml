@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1c1d98c0-9f8a-6f9b-2ee2-77cf91568a8b">
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Vendedor" />
+  <Table name="Convenio" />
+  <Table name="AditivoItem" />
+  <Table name="PedidoCompraItem" />
+  <Table name="PedidoCompraLOG" />
+  <Table name="ProcessoConv" />
+  <Table name="Solicitacao" />
+  <Table name="PedidoCompraItemLOGEntrega" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+  <Table name="PedidoCompra" />
+  <Table name="Produto" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="PessoaClassificacao" />
+  <Table name="TipoDispendio" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

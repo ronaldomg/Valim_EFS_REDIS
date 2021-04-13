@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="00c4404a-ce4a-6814-0bfd-159494435f12">
+  <Table name="SaldoCxaBco" />
+  <Table name="CaixaBanco" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

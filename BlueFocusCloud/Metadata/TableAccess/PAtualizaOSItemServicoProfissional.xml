@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0f5df21a-c0a9-3403-a109-d8053238a778">
+  <Table name="OrdemServicoItemServProfi" />
+  <Table name="Tabela" />
+</Dependencies>

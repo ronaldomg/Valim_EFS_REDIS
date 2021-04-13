@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4d48c0d5-da17-1117-c6a4-a88eda8def47">
+  <Table name="FaturamentoComodato" />
+  <Table name="Pessoa" />
+</Dependencies>

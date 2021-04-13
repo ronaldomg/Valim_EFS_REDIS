@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="92a52b43-dc59-738c-7e12-e70c26d58574">
+  <Table name="Programa" />
+  <Table name="Sistema" />
+  <Table name="TipoPermissao" />
+  <Table name="PermissaoConc" />
+  <Table name="Usuario" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="ProgramaGrupo" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="ChavePrimariaComposta" />
+</Dependencies>

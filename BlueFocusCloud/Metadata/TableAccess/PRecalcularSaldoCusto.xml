@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2a940fb6-834a-62d2-6285-143d7b0d5159">
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+  <Table name="Preco" />
+  <Table name="CustoMedio" />
+  <Table name="ParmCustoMedio" />
+  <Table name="ParmCustoMedioProduto" />
+  <Table name="Produto" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="Tabela" />
+  <Table name="LoteProduto" />
+  <Table name="SaldoProduto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="ParametroSistema" />
+  <Table name="MovMensalProduto" />
+  <Table name="recalculoproduto" />
+</Dependencies>

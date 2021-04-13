@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="724df841-79f2-fd46-61ba-f82ffefde800">
+  <Table name="TipoLancamento" />
+  <Table name="FormaPgto" />
+  <Table name="TpCobrFormaPgto" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

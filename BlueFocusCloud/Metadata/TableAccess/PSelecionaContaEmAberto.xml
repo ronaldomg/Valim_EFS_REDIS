@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0c7fb410-2cbd-2f26-6f53-68cf2d2896a5">
+  <Table name="ContaRateio" />
+  <Table name="ContaOcorrencia" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="TipoCobranca" />
+</Dependencies>

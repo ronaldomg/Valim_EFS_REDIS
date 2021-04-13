@@ -1,0 +1,105 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 20:43:40.68
+*/
+gx.evt.autoSkip = false;
+gx.define('gx0ae0', false, function () {
+   this.ServerClass =  "gx0ae0" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV10pEsquemaCodigo=gx.fn.getIntegerValue("vPESQUEMACODIGO",'.') ;
+   };
+   this.e131x72_client=function()
+   {
+      this.executeServerEvent("ENTER", true, arguments[0], false, false);
+   };
+   this.e141x71_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,8,9,12,14,17,19,22,24,27,29,32,33,37,38,39,40,41,44];
+   this.GXLastCtrlId =44;
+   this.Grid1Container = new gx.grid.grid(this, 2,"WbpLvl2",36,"Grid1","Grid1","Grid1Container",this.CmpContext,this.IsMasterPage,"gx0ae0",[],false,1,false,true,10,true,false,false,"",0,"px","Novo registro",true,false,false,null,null,false,"",false,[1,1,1,1]);
+   var Grid1Container = this.Grid1Container;
+   Grid1Container.addBitmap("&Linkselection","vLINKSELECTION",37,0,"px",17,"px",null,"","","Image","");
+   Grid1Container.addSingleLineEdit(2915,38,"ESQUEMACODIGO","Código do Esquema","","EsquemaCodigo","int",0,"px",2,2,"right",null,[],2915,"EsquemaCodigo",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(2912,39,"ESQUEMADESCRICAO","Descrição do Esquema","Selecionar","EsquemaDescricao","svchar",0,"px",30,30,"left",null,[],2912,"EsquemaDescricao",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(2913,40,"ESQUEMAUSUARIOALT","Usuário de Alteração","","EsquemaUsuarioAlt","char",0,"px",12,12,"left",null,[],2913,"EsquemaUsuarioAlt",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(2914,41,"ESQUEMADATAHORAALT","Data/Hora de Alteração","","EsquemaDataHoraAlt","dtime",0,"px",16,16,"right",null,[],2914,"EsquemaDataHoraAlt",true,5,false,false,"Attribute",1,"");
+   this.setGrid(Grid1Container);
+   GXValidFnc[2]={fld:"TABLE1",grid:0};
+   GXValidFnc[8]={fld:"GROUP1",grid:0};
+   GXValidFnc[9]={fld:"TABLE2",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCKESQUEMACODIGO", format:0,grid:0};
+   GXValidFnc[14]={lvl:0,type:"int",len:2,dec:0,sign:false,pic:"Z9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCESQUEMACODIGO",gxz:"ZV6cEsquemaCodigo",gxold:"OV6cEsquemaCodigo",gxvar:"AV6cEsquemaCodigo",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV6cEsquemaCodigo=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV6cEsquemaCodigo=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCESQUEMACODIGO",gx.O.AV6cEsquemaCodigo,0)},c2v:function(){gx.O.AV6cEsquemaCodigo=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCESQUEMACODIGO",'.')},nac:gx.falseFn};
+   GXValidFnc[17]={fld:"TEXTBLOCKESQUEMADESCRICAO", format:0,grid:0};
+   GXValidFnc[19]={lvl:0,type:"svchar",len:30,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCESQUEMADESCRICAO",gxz:"ZV7cEsquemaDescricao",gxold:"OV7cEsquemaDescricao",gxvar:"AV7cEsquemaDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV7cEsquemaDescricao=Value},v2z:function(Value){gx.O.ZV7cEsquemaDescricao=Value},v2c:function(){gx.fn.setControlValue("vCESQUEMADESCRICAO",gx.O.AV7cEsquemaDescricao,0)},c2v:function(){gx.O.AV7cEsquemaDescricao=this.val()},val:function(){return gx.fn.getControlValue("vCESQUEMADESCRICAO")},nac:gx.falseFn};
+   GXValidFnc[22]={fld:"TEXTBLOCKESQUEMAUSUARIOALT", format:0,grid:0};
+   GXValidFnc[24]={lvl:0,type:"char",len:12,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCESQUEMAUSUARIOALT",gxz:"ZV8cEsquemaUsuarioAlt",gxold:"OV8cEsquemaUsuarioAlt",gxvar:"AV8cEsquemaUsuarioAlt",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV8cEsquemaUsuarioAlt=Value},v2z:function(Value){gx.O.ZV8cEsquemaUsuarioAlt=Value},v2c:function(){gx.fn.setControlValue("vCESQUEMAUSUARIOALT",gx.O.AV8cEsquemaUsuarioAlt,0)},c2v:function(){gx.O.AV8cEsquemaUsuarioAlt=this.val()},val:function(){return gx.fn.getControlValue("vCESQUEMAUSUARIOALT")},nac:gx.falseFn};
+   GXValidFnc[27]={fld:"TEXTBLOCKESQUEMADATAHORAALT", format:0,grid:0};
+   GXValidFnc[29]={lvl:0,type:"dtime",len:10,dec:5,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCESQUEMADATAHORAALT",gxz:"ZV9cEsquemaDataHoraAlt",gxold:"OV9cEsquemaDataHoraAlt",gxvar:"AV9cEsquemaDataHoraAlt",dp:{f:0,st:true,wn:false,mf:false,pic:"99/99/9999 99:99",dec:5},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV9cEsquemaDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.ZV9cEsquemaDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("vCESQUEMADATAHORAALT",gx.O.AV9cEsquemaDataHoraAlt,0)},c2v:function(){gx.O.AV9cEsquemaDataHoraAlt=gx.fn.toDatetimeValue(this.val())},val:function(){return gx.fn.getDateTimeValue("vCESQUEMADATAHORAALT")},nac:gx.falseFn};
+   GXValidFnc[32]={fld:"GROUP2",grid:0};
+   GXValidFnc[33]={fld:"TABLE3",grid:0};
+   GXValidFnc[37]={lvl:2,type:"bits",len:1024,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"vLINKSELECTION",gxz:"ZV5LinkSelection",gxold:"OV5LinkSelection",gxvar:"AV5LinkSelection",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.AV5LinkSelection=Value},v2z:function(Value){gx.O.ZV5LinkSelection=Value},v2c:function(row){gx.fn.setGridMultimediaValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36),gx.O.AV5LinkSelection,gx.O.AV13Linkselection_GXI)},c2v:function(){gx.O.AV13Linkselection_GXI=this.val_GXI();gx.O.AV5LinkSelection=this.val()},val:function(row){return gx.fn.getGridControlValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36))},val_GXI:function(row){return gx.fn.getGridControlValue("vLINKSELECTION_GXI",row || gx.fn.currentGridRowImpl(36))}, gxvar_GXI:'AV13Linkselection_GXI',nac:gx.falseFn};
+   GXValidFnc[38]={lvl:2,type:"int",len:2,dec:0,sign:false,pic:"Z9",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"ESQUEMACODIGO",gxz:"Z2915EsquemaCodigo",gxold:"O2915EsquemaCodigo",gxvar:"A2915EsquemaCodigo",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A2915EsquemaCodigo=gx.num.intval(Value)},v2z:function(Value){gx.O.Z2915EsquemaCodigo=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("ESQUEMACODIGO",row || gx.fn.currentGridRowImpl(36),gx.O.A2915EsquemaCodigo,0)},c2v:function(){gx.O.A2915EsquemaCodigo=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("ESQUEMACODIGO",row || gx.fn.currentGridRowImpl(36),'.')},nac:gx.falseFn};
+   GXValidFnc[39]={lvl:2,type:"svchar",len:30,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"ESQUEMADESCRICAO",gxz:"Z2912EsquemaDescricao",gxold:"O2912EsquemaDescricao",gxvar:"A2912EsquemaDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A2912EsquemaDescricao=Value},v2z:function(Value){gx.O.Z2912EsquemaDescricao=Value},v2c:function(row){gx.fn.setGridControlValue("ESQUEMADESCRICAO",row || gx.fn.currentGridRowImpl(36),gx.O.A2912EsquemaDescricao,0)},c2v:function(){gx.O.A2912EsquemaDescricao=this.val()},val:function(row){return gx.fn.getGridControlValue("ESQUEMADESCRICAO",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[40]={lvl:2,type:"char",len:12,dec:0,sign:false,pic:"@!",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"ESQUEMAUSUARIOALT",gxz:"Z2913EsquemaUsuarioAlt",gxold:"O2913EsquemaUsuarioAlt",gxvar:"A2913EsquemaUsuarioAlt",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A2913EsquemaUsuarioAlt=Value},v2z:function(Value){gx.O.Z2913EsquemaUsuarioAlt=Value},v2c:function(row){gx.fn.setGridControlValue("ESQUEMAUSUARIOALT",row || gx.fn.currentGridRowImpl(36),gx.O.A2913EsquemaUsuarioAlt,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A2913EsquemaUsuarioAlt=this.val()},val:function(row){return gx.fn.getGridControlValue("ESQUEMAUSUARIOALT",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[41]={lvl:2,type:"dtime",len:10,dec:5,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"ESQUEMADATAHORAALT",gxz:"Z2914EsquemaDataHoraAlt",gxold:"O2914EsquemaDataHoraAlt",gxvar:"A2914EsquemaDataHoraAlt",dp:{f:0,st:true,wn:false,mf:false,pic:"99/99/9999 99:99",dec:5},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A2914EsquemaDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.Z2914EsquemaDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2c:function(row){gx.fn.setGridControlValue("ESQUEMADATAHORAALT",row || gx.fn.currentGridRowImpl(36),gx.O.A2914EsquemaDataHoraAlt,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A2914EsquemaDataHoraAlt=gx.fn.toDatetimeValue(this.val())},val:function(row){return gx.fn.getGridDateTimeValue("ESQUEMADATAHORAALT",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[44]={fld:"TABLE4",grid:0};
+   this.AV6cEsquemaCodigo = 0 ;
+   this.ZV6cEsquemaCodigo = 0 ;
+   this.OV6cEsquemaCodigo = 0 ;
+   this.AV7cEsquemaDescricao = "" ;
+   this.ZV7cEsquemaDescricao = "" ;
+   this.OV7cEsquemaDescricao = "" ;
+   this.AV8cEsquemaUsuarioAlt = "" ;
+   this.ZV8cEsquemaUsuarioAlt = "" ;
+   this.OV8cEsquemaUsuarioAlt = "" ;
+   this.AV9cEsquemaDataHoraAlt = gx.date.nullDate() ;
+   this.ZV9cEsquemaDataHoraAlt = gx.date.nullDate() ;
+   this.OV9cEsquemaDataHoraAlt = gx.date.nullDate() ;
+   this.ZV5LinkSelection = "" ;
+   this.OV5LinkSelection = "" ;
+   this.Z2915EsquemaCodigo = 0 ;
+   this.O2915EsquemaCodigo = 0 ;
+   this.Z2912EsquemaDescricao = "" ;
+   this.O2912EsquemaDescricao = "" ;
+   this.Z2913EsquemaUsuarioAlt = "" ;
+   this.O2913EsquemaUsuarioAlt = "" ;
+   this.Z2914EsquemaDataHoraAlt = gx.date.nullDate() ;
+   this.O2914EsquemaDataHoraAlt = gx.date.nullDate() ;
+   this.AV6cEsquemaCodigo = 0 ;
+   this.AV7cEsquemaDescricao = "" ;
+   this.AV8cEsquemaUsuarioAlt = "" ;
+   this.AV9cEsquemaDataHoraAlt = gx.date.nullDate() ;
+   this.AV10pEsquemaCodigo = 0 ;
+   this.AV5LinkSelection = "" ;
+   this.A2915EsquemaCodigo = 0 ;
+   this.A2912EsquemaDescricao = "" ;
+   this.A2913EsquemaUsuarioAlt = "" ;
+   this.A2914EsquemaDataHoraAlt = gx.date.nullDate() ;
+   this.Events = {"e131x72_client": ["ENTER", true] ,"e141x71_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cEsquemaCodigo',fld:'vCESQUEMACODIGO'},{av:'AV7cEsquemaDescricao',fld:'vCESQUEMADESCRICAO'},{av:'AV8cEsquemaUsuarioAlt',fld:'vCESQUEMAUSUARIOALT'},{av:'AV9cEsquemaDataHoraAlt',fld:'vCESQUEMADATAHORAALT'}],[]];
+   this.EvtParms["LOAD"] = [[],[{av:'AV5LinkSelection',fld:'vLINKSELECTION'}]];
+   this.EvtParms["ENTER"] = [[{av:'A2915EsquemaCodigo',fld:'ESQUEMACODIGO'}],[{av:'AV10pEsquemaCodigo',fld:'vPESQUEMACODIGO'}]];
+   this.EvtParms["GRID1_FIRSTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cEsquemaCodigo',fld:'vCESQUEMACODIGO'},{av:'AV7cEsquemaDescricao',fld:'vCESQUEMADESCRICAO'},{av:'AV8cEsquemaUsuarioAlt',fld:'vCESQUEMAUSUARIOALT'},{av:'AV9cEsquemaDataHoraAlt',fld:'vCESQUEMADATAHORAALT'}],[]];
+   this.EvtParms["GRID1_PREVPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cEsquemaCodigo',fld:'vCESQUEMACODIGO'},{av:'AV7cEsquemaDescricao',fld:'vCESQUEMADESCRICAO'},{av:'AV8cEsquemaUsuarioAlt',fld:'vCESQUEMAUSUARIOALT'},{av:'AV9cEsquemaDataHoraAlt',fld:'vCESQUEMADATAHORAALT'}],[]];
+   this.EvtParms["GRID1_NEXTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cEsquemaCodigo',fld:'vCESQUEMACODIGO'},{av:'AV7cEsquemaDescricao',fld:'vCESQUEMADESCRICAO'},{av:'AV8cEsquemaUsuarioAlt',fld:'vCESQUEMAUSUARIOALT'},{av:'AV9cEsquemaDataHoraAlt',fld:'vCESQUEMADATAHORAALT'}],[]];
+   this.EvtParms["GRID1_LASTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cEsquemaCodigo',fld:'vCESQUEMACODIGO'},{av:'AV7cEsquemaDescricao',fld:'vCESQUEMADESCRICAO'},{av:'AV8cEsquemaUsuarioAlt',fld:'vCESQUEMAUSUARIOALT'},{av:'AV9cEsquemaDataHoraAlt',fld:'vCESQUEMADATAHORAALT'}],[]];
+   this.setVCMap("AV10pEsquemaCodigo", "vPESQUEMACODIGO", 0, "int");
+   Grid1Container.addRefreshingVar(this.GXValidFnc[14]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[19]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[24]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[29]);
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new gx0ae0());

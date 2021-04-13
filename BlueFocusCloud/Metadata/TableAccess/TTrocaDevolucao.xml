@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d04bd05e-40bd-990a-9904-eb69992453c8">
+  <Table name="LoteProduto" />
+  <Table name="TrocaDevolucao" />
+  <Table name="TrocaDevolucaoItem" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+</Dependencies>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b3d09a7b-890a-240c-9831-39bd3465c534">
+  <Table name="ContaContabil" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="Conciliacao" />
+  <Table name="ConciliacaoItem" />
+  <Table name="CaixaBanco" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="SaldoConta" />
+  <Table name="SaldoCxaBco" />
+</Dependencies>

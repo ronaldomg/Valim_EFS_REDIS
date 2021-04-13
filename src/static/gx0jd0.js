@@ -1,0 +1,105 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 20:44:18.70
+*/
+gx.evt.autoSkip = false;
+gx.define('gx0jd0', false, function () {
+   this.ServerClass =  "gx0jd0" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV10pOSModeloRelatorio=gx.fn.getIntegerValue("vPOSMODELORELATORIO",'.') ;
+   };
+   this.e131yf2_client=function()
+   {
+      this.executeServerEvent("ENTER", true, arguments[0], false, false);
+   };
+   this.e141yf1_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,8,9,12,14,17,19,22,24,27,29,32,33,37,38,39,40,41,44];
+   this.GXLastCtrlId =44;
+   this.Grid1Container = new gx.grid.grid(this, 2,"WbpLvl2",36,"Grid1","Grid1","Grid1Container",this.CmpContext,this.IsMasterPage,"gx0jd0",[],false,1,false,true,10,true,false,false,"",0,"px","Novo registro",true,false,false,null,null,false,"",false,[1,1,1,1]);
+   var Grid1Container = this.Grid1Container;
+   Grid1Container.addBitmap("&Linkselection","vLINKSELECTION",37,0,"px",17,"px",null,"","","Image","");
+   Grid1Container.addSingleLineEdit(9268,38,"OSMODELORELATORIO","Código do Modelo","","OSModeloRelatorio","int",0,"px",2,2,"right",null,[],9268,"OSModeloRelatorio",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(9265,39,"OSMODELORELATORIODESCRICAO","Descrição","Selecionar","OSModeloRelatorioDescricao","svchar",0,"px",60,60,"left",null,[],9265,"OSModeloRelatorioDescricao",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(9266,40,"OSMODELORELATORIOSEL","Ativo","","OSModeloRelatorioSel","char",0,"px",1,1,"left",null,[],9266,"OSModeloRelatorioSel",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(9267,41,"OSMODELORELATORIOSNCANHOTO","Tem Canhoto","","OSModeloRelatorioSNCanhoto","char",0,"px",1,1,"left",null,[],9267,"OSModeloRelatorioSNCanhoto",true,0,false,false,"Attribute",1,"");
+   this.setGrid(Grid1Container);
+   GXValidFnc[2]={fld:"TABLE1",grid:0};
+   GXValidFnc[8]={fld:"GROUP1",grid:0};
+   GXValidFnc[9]={fld:"TABLE2",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCKOSMODELORELATORIO", format:0,grid:0};
+   GXValidFnc[14]={lvl:0,type:"int",len:2,dec:0,sign:false,pic:"Z9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCOSMODELORELATORIO",gxz:"ZV6cOSModeloRelatorio",gxold:"OV6cOSModeloRelatorio",gxvar:"AV6cOSModeloRelatorio",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV6cOSModeloRelatorio=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV6cOSModeloRelatorio=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCOSMODELORELATORIO",gx.O.AV6cOSModeloRelatorio,0)},c2v:function(){gx.O.AV6cOSModeloRelatorio=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCOSMODELORELATORIO",'.')},nac:gx.falseFn};
+   GXValidFnc[17]={fld:"TEXTBLOCKOSMODELORELATORIODESCRICAO", format:0,grid:0};
+   GXValidFnc[19]={lvl:0,type:"svchar",len:60,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCOSMODELORELATORIODESCRICAO",gxz:"ZV7cOSModeloRelatorioDescricao",gxold:"OV7cOSModeloRelatorioDescricao",gxvar:"AV7cOSModeloRelatorioDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV7cOSModeloRelatorioDescricao=Value},v2z:function(Value){gx.O.ZV7cOSModeloRelatorioDescricao=Value},v2c:function(){gx.fn.setControlValue("vCOSMODELORELATORIODESCRICAO",gx.O.AV7cOSModeloRelatorioDescricao,0)},c2v:function(){gx.O.AV7cOSModeloRelatorioDescricao=this.val()},val:function(){return gx.fn.getControlValue("vCOSMODELORELATORIODESCRICAO")},nac:gx.falseFn};
+   GXValidFnc[22]={fld:"TEXTBLOCKOSMODELORELATORIOSEL", format:0,grid:0};
+   GXValidFnc[24]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCOSMODELORELATORIOSEL",gxz:"ZV8cOSModeloRelatorioSel",gxold:"OV8cOSModeloRelatorioSel",gxvar:"AV8cOSModeloRelatorioSel",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV8cOSModeloRelatorioSel=Value},v2z:function(Value){gx.O.ZV8cOSModeloRelatorioSel=Value},v2c:function(){gx.fn.setControlValue("vCOSMODELORELATORIOSEL",gx.O.AV8cOSModeloRelatorioSel,0)},c2v:function(){gx.O.AV8cOSModeloRelatorioSel=this.val()},val:function(){return gx.fn.getControlValue("vCOSMODELORELATORIOSEL")},nac:gx.falseFn};
+   GXValidFnc[27]={fld:"TEXTBLOCKOSMODELORELATORIOSNCANHOTO", format:0,grid:0};
+   GXValidFnc[29]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCOSMODELORELATORIOSNCANHOTO",gxz:"ZV9cOSModeloRelatorioSNCanhoto",gxold:"OV9cOSModeloRelatorioSNCanhoto",gxvar:"AV9cOSModeloRelatorioSNCanhoto",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV9cOSModeloRelatorioSNCanhoto=Value},v2z:function(Value){gx.O.ZV9cOSModeloRelatorioSNCanhoto=Value},v2c:function(){gx.fn.setControlValue("vCOSMODELORELATORIOSNCANHOTO",gx.O.AV9cOSModeloRelatorioSNCanhoto,0)},c2v:function(){gx.O.AV9cOSModeloRelatorioSNCanhoto=this.val()},val:function(){return gx.fn.getControlValue("vCOSMODELORELATORIOSNCANHOTO")},nac:gx.falseFn};
+   GXValidFnc[32]={fld:"GROUP2",grid:0};
+   GXValidFnc[33]={fld:"TABLE3",grid:0};
+   GXValidFnc[37]={lvl:2,type:"bits",len:1024,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"vLINKSELECTION",gxz:"ZV5LinkSelection",gxold:"OV5LinkSelection",gxvar:"AV5LinkSelection",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.AV5LinkSelection=Value},v2z:function(Value){gx.O.ZV5LinkSelection=Value},v2c:function(row){gx.fn.setGridMultimediaValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36),gx.O.AV5LinkSelection,gx.O.AV13Linkselection_GXI)},c2v:function(){gx.O.AV13Linkselection_GXI=this.val_GXI();gx.O.AV5LinkSelection=this.val()},val:function(row){return gx.fn.getGridControlValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36))},val_GXI:function(row){return gx.fn.getGridControlValue("vLINKSELECTION_GXI",row || gx.fn.currentGridRowImpl(36))}, gxvar_GXI:'AV13Linkselection_GXI',nac:gx.falseFn};
+   GXValidFnc[38]={lvl:2,type:"int",len:2,dec:0,sign:false,pic:"Z9",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"OSMODELORELATORIO",gxz:"Z9268OSModeloRelatorio",gxold:"O9268OSModeloRelatorio",gxvar:"A9268OSModeloRelatorio",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A9268OSModeloRelatorio=gx.num.intval(Value)},v2z:function(Value){gx.O.Z9268OSModeloRelatorio=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("OSMODELORELATORIO",row || gx.fn.currentGridRowImpl(36),gx.O.A9268OSModeloRelatorio,0)},c2v:function(){gx.O.A9268OSModeloRelatorio=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("OSMODELORELATORIO",row || gx.fn.currentGridRowImpl(36),'.')},nac:gx.falseFn};
+   GXValidFnc[39]={lvl:2,type:"svchar",len:60,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"OSMODELORELATORIODESCRICAO",gxz:"Z9265OSModeloRelatorioDescricao",gxold:"O9265OSModeloRelatorioDescricao",gxvar:"A9265OSModeloRelatorioDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A9265OSModeloRelatorioDescricao=Value},v2z:function(Value){gx.O.Z9265OSModeloRelatorioDescricao=Value},v2c:function(row){gx.fn.setGridControlValue("OSMODELORELATORIODESCRICAO",row || gx.fn.currentGridRowImpl(36),gx.O.A9265OSModeloRelatorioDescricao,0)},c2v:function(){gx.O.A9265OSModeloRelatorioDescricao=this.val()},val:function(row){return gx.fn.getGridControlValue("OSMODELORELATORIODESCRICAO",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[40]={lvl:2,type:"char",len:1,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"OSMODELORELATORIOSEL",gxz:"Z9266OSModeloRelatorioSel",gxold:"O9266OSModeloRelatorioSel",gxvar:"A9266OSModeloRelatorioSel",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A9266OSModeloRelatorioSel=Value},v2z:function(Value){gx.O.Z9266OSModeloRelatorioSel=Value},v2c:function(row){gx.fn.setGridControlValue("OSMODELORELATORIOSEL",row || gx.fn.currentGridRowImpl(36),gx.O.A9266OSModeloRelatorioSel,0)},c2v:function(){gx.O.A9266OSModeloRelatorioSel=this.val()},val:function(row){return gx.fn.getGridControlValue("OSMODELORELATORIOSEL",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[41]={lvl:2,type:"char",len:1,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"OSMODELORELATORIOSNCANHOTO",gxz:"Z9267OSModeloRelatorioSNCanhoto",gxold:"O9267OSModeloRelatorioSNCanhoto",gxvar:"A9267OSModeloRelatorioSNCanhoto",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A9267OSModeloRelatorioSNCanhoto=Value},v2z:function(Value){gx.O.Z9267OSModeloRelatorioSNCanhoto=Value},v2c:function(row){gx.fn.setGridControlValue("OSMODELORELATORIOSNCANHOTO",row || gx.fn.currentGridRowImpl(36),gx.O.A9267OSModeloRelatorioSNCanhoto,0)},c2v:function(){gx.O.A9267OSModeloRelatorioSNCanhoto=this.val()},val:function(row){return gx.fn.getGridControlValue("OSMODELORELATORIOSNCANHOTO",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[44]={fld:"TABLE4",grid:0};
+   this.AV6cOSModeloRelatorio = 0 ;
+   this.ZV6cOSModeloRelatorio = 0 ;
+   this.OV6cOSModeloRelatorio = 0 ;
+   this.AV7cOSModeloRelatorioDescricao = "" ;
+   this.ZV7cOSModeloRelatorioDescricao = "" ;
+   this.OV7cOSModeloRelatorioDescricao = "" ;
+   this.AV8cOSModeloRelatorioSel = "" ;
+   this.ZV8cOSModeloRelatorioSel = "" ;
+   this.OV8cOSModeloRelatorioSel = "" ;
+   this.AV9cOSModeloRelatorioSNCanhoto = "" ;
+   this.ZV9cOSModeloRelatorioSNCanhoto = "" ;
+   this.OV9cOSModeloRelatorioSNCanhoto = "" ;
+   this.ZV5LinkSelection = "" ;
+   this.OV5LinkSelection = "" ;
+   this.Z9268OSModeloRelatorio = 0 ;
+   this.O9268OSModeloRelatorio = 0 ;
+   this.Z9265OSModeloRelatorioDescricao = "" ;
+   this.O9265OSModeloRelatorioDescricao = "" ;
+   this.Z9266OSModeloRelatorioSel = "" ;
+   this.O9266OSModeloRelatorioSel = "" ;
+   this.Z9267OSModeloRelatorioSNCanhoto = "" ;
+   this.O9267OSModeloRelatorioSNCanhoto = "" ;
+   this.AV6cOSModeloRelatorio = 0 ;
+   this.AV7cOSModeloRelatorioDescricao = "" ;
+   this.AV8cOSModeloRelatorioSel = "" ;
+   this.AV9cOSModeloRelatorioSNCanhoto = "" ;
+   this.AV10pOSModeloRelatorio = 0 ;
+   this.AV5LinkSelection = "" ;
+   this.A9268OSModeloRelatorio = 0 ;
+   this.A9265OSModeloRelatorioDescricao = "" ;
+   this.A9266OSModeloRelatorioSel = "" ;
+   this.A9267OSModeloRelatorioSNCanhoto = "" ;
+   this.Events = {"e131yf2_client": ["ENTER", true] ,"e141yf1_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cOSModeloRelatorio',fld:'vCOSMODELORELATORIO'},{av:'AV7cOSModeloRelatorioDescricao',fld:'vCOSMODELORELATORIODESCRICAO'},{av:'AV8cOSModeloRelatorioSel',fld:'vCOSMODELORELATORIOSEL'},{av:'AV9cOSModeloRelatorioSNCanhoto',fld:'vCOSMODELORELATORIOSNCANHOTO'}],[]];
+   this.EvtParms["LOAD"] = [[],[{av:'AV5LinkSelection',fld:'vLINKSELECTION'}]];
+   this.EvtParms["ENTER"] = [[{av:'A9268OSModeloRelatorio',fld:'OSMODELORELATORIO'}],[{av:'AV10pOSModeloRelatorio',fld:'vPOSMODELORELATORIO'}]];
+   this.EvtParms["GRID1_FIRSTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cOSModeloRelatorio',fld:'vCOSMODELORELATORIO'},{av:'AV7cOSModeloRelatorioDescricao',fld:'vCOSMODELORELATORIODESCRICAO'},{av:'AV8cOSModeloRelatorioSel',fld:'vCOSMODELORELATORIOSEL'},{av:'AV9cOSModeloRelatorioSNCanhoto',fld:'vCOSMODELORELATORIOSNCANHOTO'}],[]];
+   this.EvtParms["GRID1_PREVPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cOSModeloRelatorio',fld:'vCOSMODELORELATORIO'},{av:'AV7cOSModeloRelatorioDescricao',fld:'vCOSMODELORELATORIODESCRICAO'},{av:'AV8cOSModeloRelatorioSel',fld:'vCOSMODELORELATORIOSEL'},{av:'AV9cOSModeloRelatorioSNCanhoto',fld:'vCOSMODELORELATORIOSNCANHOTO'}],[]];
+   this.EvtParms["GRID1_NEXTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cOSModeloRelatorio',fld:'vCOSMODELORELATORIO'},{av:'AV7cOSModeloRelatorioDescricao',fld:'vCOSMODELORELATORIODESCRICAO'},{av:'AV8cOSModeloRelatorioSel',fld:'vCOSMODELORELATORIOSEL'},{av:'AV9cOSModeloRelatorioSNCanhoto',fld:'vCOSMODELORELATORIOSNCANHOTO'}],[]];
+   this.EvtParms["GRID1_LASTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cOSModeloRelatorio',fld:'vCOSMODELORELATORIO'},{av:'AV7cOSModeloRelatorioDescricao',fld:'vCOSMODELORELATORIODESCRICAO'},{av:'AV8cOSModeloRelatorioSel',fld:'vCOSMODELORELATORIOSEL'},{av:'AV9cOSModeloRelatorioSNCanhoto',fld:'vCOSMODELORELATORIOSNCANHOTO'}],[]];
+   this.setVCMap("AV10pOSModeloRelatorio", "vPOSMODELORELATORIO", 0, "int");
+   Grid1Container.addRefreshingVar(this.GXValidFnc[14]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[19]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[24]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[29]);
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new gx0jd0());

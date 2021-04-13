@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="98962d6b-2ecd-4b57-11e3-84a36eb6af97">
+  <Table name="Cidades" />
+  <Table name="Empresa" />
+  <Table name="FormaPgto" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Saida" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f8e1f0ba-e0b4-49c2-86df-f9656a8c3de6">
+  <Table name="Filial" />
+  <Table name="OrdemServico" />
+  <Table name="Nfse" />
+</Dependencies>

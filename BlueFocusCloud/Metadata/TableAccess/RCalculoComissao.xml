@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="66cf12f5-1c49-dc3a-0078-9a749aa327c1">
+  <Table name="Vendedor" />
+  <Table name="CFOP" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Produto" />
+  <Table name="TpCobrFormaPgto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="SaidaVendedor" />
+  <Table name="SaidaVinculada" />
+  <Table name="ComissaoVendedor" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

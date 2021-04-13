@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="60f018b9-7163-b10b-2b3d-c4298ad5a305">
+  <Table name="Departamento" />
+  <Table name="Depreciacao" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3ac96fda-3b37-3145-1f2c-3897a0f17e94">
+  <Table name="EntradaObsLancFiscal" />
+  <Table name="EntradaAjusteFiscal" />
+</Dependencies>

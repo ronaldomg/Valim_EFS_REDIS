@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8ace736b-faab-114c-c389-645e79d04eb1">
+  <Table name="SituacaoTributaria" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

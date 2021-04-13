@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a7228061-6cab-46a0-b8c0-79a021c5dbfa">
+  <Table name="CFOP" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="SaidaVendedor" />
+</Dependencies>

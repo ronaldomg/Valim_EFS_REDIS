@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5cd950ad-78f5-051b-3e51-99bfd1215856">
+  <Table name="Especie" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="Pessoa" />
+  <Table name="CaixaBanco" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

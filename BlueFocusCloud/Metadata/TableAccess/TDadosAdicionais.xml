@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="03075755-6eb5-35ec-9663-fb4db8f04119">
+  <Table name="DadosAdicionais" />
+  <Table name="DadosAdicionaisItem" />
+</Dependencies>

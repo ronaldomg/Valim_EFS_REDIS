@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a94461b4-966d-8919-da79-7daec45fd0a7">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="Pessoa" />
+  <Table name="SaldoConta" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Estrutura" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="AcessoSistema" />
+</Dependencies>

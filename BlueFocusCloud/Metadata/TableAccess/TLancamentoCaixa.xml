@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4e484abc-e013-3401-bb22-580285800757">
+  <Table name="Empresa" />
+  <Table name="HistoricoFcx" />
+  <Table name="CaixaTrabalho" />
+  <Table name="LancamentoCaixa" />
+  <Table name="Pessoa" />
+  <Table name="Saida" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

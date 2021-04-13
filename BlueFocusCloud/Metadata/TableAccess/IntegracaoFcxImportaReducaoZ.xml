@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4a2b193a-e484-cd10-4146-9af1a01481df">
+  <Table name="ReducaoZ" />
+  <Table name="AliquotaReducao" />
+  <Table name="Saida" />
+  <Table name="PDV" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="ParametroSistema" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="SaldoConta" />
+  <Table name="Tabela" />
+  <Table name="SaldoCxaBco" />
+  <Table name="CaixaBanco" />
+  <Table name="SaldoProduto" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="LoteProduto" />
+  <Table name="DefinicaoCodBar" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ErroWebService" />
+</Dependencies>

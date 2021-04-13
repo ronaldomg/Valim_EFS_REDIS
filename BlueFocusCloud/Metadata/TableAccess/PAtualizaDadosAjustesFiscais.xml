@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="dabdc1c5-3bbf-e740-52b6-52f6ea754609">
+  <Table name="ObsLancamentoFiscal" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="EntradaObsLancFiscal" />
+  <Table name="EntradaAjusteFiscal" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

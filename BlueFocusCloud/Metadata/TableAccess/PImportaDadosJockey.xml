@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="68c1e516-c7f6-d20a-b33e-47203d372af3">
+  <Table name="Cidades" />
+  <Table name="Classificacao" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="EnderecoPessoa" />
+  <Table name="TelefonePessoa" />
+  <Table name="TiposEndereco" />
+  <Table name="Categoria" />
+  <Table name="OcorrenciaPessoa" />
+  <Table name="TipoCategoria" />
+  <Table name="Pessoa" />
+  <Table name="TipoTelefone" />
+  <Table name="Dependente" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

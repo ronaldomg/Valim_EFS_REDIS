@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bd0458f0-97e2-c46d-daaf-6f6f2cb31aa3">
+  <Table name="DocumentoNota" />
+  <Table name="SaidaInutilizada" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="354e60f1-1923-227f-ddd8-a79dc7696b96">
+  <Table name="Empresa" />
+  <Table name="ConvenioCaixaBanco" />
+  <Table name="Convenio" />
+  <Table name="OutrosPagamentos" />
+  <Table name="TipoLicitacao" />
+  <Table name="Pessoa" />
+  <Table name="CaixaBanco" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="NaturezaDespesa" />
+  <Table name="PedidoCompraItem" />
+  <Table name="PedidoCompraItemLOGEntrega" />
+  <Table name="TermoOutorgaItem" />
+  <Table name="ContaPagRec" />
+  <Table name="Produto" />
+  <Table name="TipoDispendio" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4566fa15-b215-e074-a6bb-1c61ddaa11f5">
+  <Table name="LogContingencia" />
+  <Table name="Filial" />
+</Dependencies>

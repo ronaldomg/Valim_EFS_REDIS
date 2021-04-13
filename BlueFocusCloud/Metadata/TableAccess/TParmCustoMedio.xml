@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9b9b39f1-f0b7-cabd-4d58-195596de83e4">
+  <Table name="ParmCustoMedio" />
+  <Table name="ParmCustoMedioProduto" />
+</Dependencies>

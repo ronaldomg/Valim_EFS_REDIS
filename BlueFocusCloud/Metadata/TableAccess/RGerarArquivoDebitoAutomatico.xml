@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9a2f3eb3-48fa-139a-a984-ce7085242048">
+  <Table name="Banco" />
+  <Table name="Pessoa" />
+  <Table name="BancoAgencia" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

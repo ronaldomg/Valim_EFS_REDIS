@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d9962e0b-1ccd-69ea-8ef9-3b140112a580">
+  <Table name="PermissaoUsuarioMenu" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="Usuario" />
+</Dependencies>

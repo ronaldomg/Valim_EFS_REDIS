@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="add33775-185e-635e-24ed-68df9a4d64ea">
+  <Table name="Empresa" />
+  <Table name="Pessoa" />
+  <Table name="OrdemServicoTipo" />
+  <Table name="OrdemServico" />
+  <Table name="AparelhoCaracteristica" />
+  <Table name="AparelhoCaracValor" />
+  <Table name="OrdemServicoAparelho" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

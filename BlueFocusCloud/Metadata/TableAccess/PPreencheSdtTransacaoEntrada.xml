@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5d2e0252-eac2-6413-a3cf-c17a94b5f54e">
+  <Table name="TipoLancamento" />
+  <Table name="CFOP" />
+  <Table name="TransacaoEntrada" />
+</Dependencies>

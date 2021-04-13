@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="54f11a31-bec2-782f-a372-7477ff5eeec3">
+  <Table name="ClassificacaoLiteraria" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

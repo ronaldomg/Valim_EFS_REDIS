@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3264347b-8119-b995-c9cf-49071c92af47">
+  <Table name="ContaPagRec" />
+  <Table name="Saida" />
+  <Table name="SaidaPagtoParcela" />
+</Dependencies>

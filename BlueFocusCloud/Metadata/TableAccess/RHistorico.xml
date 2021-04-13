@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="67ede06b-3043-25b2-4b11-b060479861ff">
+  <Table name="Historico" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

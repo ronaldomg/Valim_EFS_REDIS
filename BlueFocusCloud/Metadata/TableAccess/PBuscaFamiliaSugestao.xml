@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f8c136f3-5909-5993-3bae-c3efbc0d0262">
+  <Table name="Familia" />
+  <Table name="Genero" />
+  <Table name="NCM" />
+  <Table name="MargemMarkup" />
+</Dependencies>

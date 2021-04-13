@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5f49e327-ab4b-052c-268c-8c3325e09d3e">
+  <Table name="AliquotaPDV" />
+  <Table name="ParametroFcx" />
+  <Table name="ParametroFcxAliquota" />
+  <Table name="Equipamentos" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="TransacaoSaida" />
+  <Table name="PDV" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="ParametroSistema" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="SaldoConta" />
+  <Table name="Tabela" />
+  <Table name="SaldoCxaBco" />
+  <Table name="CaixaBanco" />
+  <Table name="SaldoProduto" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="LoteProduto" />
+  <Table name="DefinicaoCodBar" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+</Dependencies>

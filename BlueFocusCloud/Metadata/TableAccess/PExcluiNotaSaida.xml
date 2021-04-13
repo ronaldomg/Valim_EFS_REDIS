@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="045366bf-7423-abc3-4cf7-59aa3301fa9d">
+  <Table name="LancamentoCaixa" />
+  <Table name="SaidaItemSimplesRem" />
+  <Table name="ApuracaoAjusteDoc" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="SaidaVendedor" />
+  <Table name="SaidaObsLancFiscal" />
+  <Table name="SaidaAjusteFiscal" />
+  <Table name="SaidaVolumeTransp" />
+  <Table name="SaidaLacres" />
+  <Table name="SaidaReboque" />
+  <Table name="SaidaProcRef" />
+  <Table name="SaidaCondItem" />
+  <Table name="SaidaCCE" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+  <Table name="LoteProduto" />
+  <Table name="SaldoProduto" />
+  <Table name="Produto" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="Usuario" />
+</Dependencies>

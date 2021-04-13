@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e7b02445-5a77-4c58-bf4e-0f4fd023e57a">
+  <Table name="AparelhoClienteItem" />
+  <Table name="Tabela" />
+</Dependencies>

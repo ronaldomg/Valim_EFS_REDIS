@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4c21d42e-f555-a474-8768-c731d1a5d951">
+  <Table name="Empresa" />
+  <Table name="ParametroFcx" />
+  <Table name="ParametroFcxAliquota" />
+  <Table name="Equipamentos" />
+  <Table name="PDV" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="36e41f77-a4b1-66ff-aa57-e21e2f696ba5">
+  <Table name="NCM" />
+  <Table name="CEST" />
+</Dependencies>

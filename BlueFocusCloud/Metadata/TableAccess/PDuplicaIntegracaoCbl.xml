@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4eed7572-8c6e-068a-0e1d-9932834fcb99">
+  <Table name="IntegracaoCbl" />
+  <Table name="IntegracaoCblComplemento" />
+  <Table name="IntegracaoCblFilial" />
+</Dependencies>

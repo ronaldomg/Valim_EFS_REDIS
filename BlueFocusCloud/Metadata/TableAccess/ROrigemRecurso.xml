@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f66afdf6-4c92-a2c0-f813-7031b19bf5c0">
+  <Table name="OrigemRecurso" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

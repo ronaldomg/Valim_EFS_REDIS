@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="efc0ae38-e927-ec7e-c38e-e6a3b2aa1e16">
+  <Table name="LancamCxaBcoConta" />
+  <Table name="Tabela" />
+</Dependencies>

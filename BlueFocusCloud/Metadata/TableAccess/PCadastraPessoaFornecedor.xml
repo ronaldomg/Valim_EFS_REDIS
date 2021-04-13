@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="96bf55e5-d11b-b889-2b46-c551f99cb2f0">
+  <Table name="EnderecoPessoa" />
+  <Table name="ReferenciaComercial" />
+  <Table name="TelefonePessoa" />
+  <Table name="Pessoa" />
+  <Table name="PessoaCodificacao" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="ParametroSistema" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+</Dependencies>

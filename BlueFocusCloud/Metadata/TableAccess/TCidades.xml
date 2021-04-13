@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7cd97ce8-97a5-ca8b-ed6b-c29c929e5045">
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="ReferenciaComercial" />
+  <Table name="Vendedor" />
+  <Table name="AcertoVend" />
+  <Table name="Editora" />
+  <Table name="LocalEntrega" />
+  <Table name="Transportador" />
+  <Table name="Loteamento" />
+  <Table name="TermoOutorga" />
+  <Table name="Bairro" />
+  <Table name="Logradouro" />
+  <Table name="Paises" />
+  <Table name="Pessoa" />
+  <Table name="SignatarioSped" />
+  <Table name="Filial" />
+  <Table name="Saida" />
+  <Table name="Entrada" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

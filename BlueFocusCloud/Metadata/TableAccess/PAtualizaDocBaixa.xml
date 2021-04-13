@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="34f35f94-9259-fbac-d20c-ca309819ad59">
+  <Table name="ParametroSistema" />
+  <Table name="ContaLancam" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Tabela" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="LogTabelaCamposBlob" />
+</Dependencies>

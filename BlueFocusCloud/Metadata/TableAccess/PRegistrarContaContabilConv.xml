@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="10a4bcbf-3b53-5fd1-1af0-01a1bea5a334">
+  <Table name="HistoricoCxaBco" />
+  <Table name="IntegracaoCbl" />
+  <Table name="HistoricoConvenio" />
+  <Table name="ConvenioVerba" />
+  <Table name="Tabela" />
+</Dependencies>

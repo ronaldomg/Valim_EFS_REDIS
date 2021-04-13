@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5898e053-58f1-1d22-efd7-66fce342e7b0">
+  <Table name="PessoaCodificacao" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+</Dependencies>

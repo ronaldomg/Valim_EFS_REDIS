@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8e585d4f-559f-4837-14f5-e9ce8b9d10d2">
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="EmpresaUsuario" />
+  <Table name="MenuNivel1" />
+  <Table name="MenuNivel2" />
+  <Table name="Programa" />
+  <Table name="Sistema" />
+  <Table name="Grupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="ParametroSistema" />
+</Dependencies>

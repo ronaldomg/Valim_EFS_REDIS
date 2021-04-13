@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5f74e631-2b19-ab53-2f8c-f4289a6b481d">
+  <Table name="ItensLancamentoContabil" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="OutrosPagamentos" />
+  <Table name="ConvenioFornecedor" />
+  <Table name="Bem" />
+  <Table name="Movimentacao" />
+  <Table name="Mensalidade" />
+  <Table name="CContabilPessoa" />
+  <Table name="TransacaoPagRec" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+</Dependencies>

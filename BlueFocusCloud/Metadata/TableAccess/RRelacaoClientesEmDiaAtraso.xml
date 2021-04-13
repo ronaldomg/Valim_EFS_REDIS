@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="14425c0a-4fd3-0d22-3b9e-37a814860dc1">
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="Categoria" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

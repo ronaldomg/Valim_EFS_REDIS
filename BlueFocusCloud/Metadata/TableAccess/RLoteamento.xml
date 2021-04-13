@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1ee307ef-6b59-dbe3-9191-e1016de1b8f0">
+  <Table name="Loteamento" />
+  <Table name="ModeloContrato" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

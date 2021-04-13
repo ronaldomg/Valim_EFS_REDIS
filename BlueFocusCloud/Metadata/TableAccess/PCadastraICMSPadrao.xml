@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="65c412ae-a489-97e8-d5bf-404fb267288c">
+  <Table name="ICMSProduto" />
+  <Table name="Tabela" />
+</Dependencies>

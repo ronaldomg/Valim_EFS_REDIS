@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bb3b3367-f7ba-e90d-2aed-bdc7bedcdc68">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="Tabela" />
+  <Table name="SaldoConta" />
+  <Table name="ParametroSistema" />
+  <Table name="SaldoContaCentroCusto" />
+</Dependencies>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="64c0719f-5927-4d7c-a70b-17f2c52769a6">
+  <Table name="ScriptSql" />
+  <Table name="columns" />
+  <Table name="routines" />
+  <Table name="sequences" />
+  <Table name="tables" />
+  <Table name="triggers" />
+  <Table name="attributes" />
+  <Table name="pg_stat_user_indexes" />
+  <Table name="pg_language" />
+</Dependencies>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c6968183-07f2-2277-2f42-68b2aa2ccde1">
+  <Table name="Empresa" />
+  <Table name="Especie" />
+  <Table name="Banco" />
+  <Table name="ContaLancam" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="Convenio" />
+  <Table name="TipoLicitacao" />
+  <Table name="Solicitacao" />
+  <Table name="Pessoa" />
+  <Table name="CaixaBanco" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="PedidoCompra" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

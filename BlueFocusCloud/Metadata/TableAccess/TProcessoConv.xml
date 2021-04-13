@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bbcbdd0e-199a-43af-8677-d666785fc274">
+  <Table name="Convenio" />
+  <Table name="ProcessoConv" />
+  <Table name="Solicitacao" />
+  <Table name="LancamentosProcesso" />
+  <Table name="TermoOutorga" />
+  <Table name="Pessoa" />
+  <Table name="PedidoCompra" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="PedidoCompraItem" />
+  <Table name="ContaPagRec" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+  <Table name="TermoOutorgaItem" />
+</Dependencies>

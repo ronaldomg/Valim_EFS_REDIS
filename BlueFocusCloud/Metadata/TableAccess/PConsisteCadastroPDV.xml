@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f8dc7324-ef86-3a7b-3a6d-fb9db23099d2">
+  <Table name="Equipamentos" />
+  <Table name="PDV" />
+</Dependencies>

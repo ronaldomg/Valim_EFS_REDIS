@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="fee66374-07c4-dcb6-ba5c-a1fe359c6bd2">
+  <Table name="ProcessoConv" />
+  <Table name="Solicitacao" />
+  <Table name="SolicitacaoItem" />
+</Dependencies>

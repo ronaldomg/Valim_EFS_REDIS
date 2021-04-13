@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ce5ed13a-f04a-c135-3a60-1d9c03d5cc27">
+  <Table name="Preco" />
+  <Table name="Filial" />
+  <Table name="PrecoPromocao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

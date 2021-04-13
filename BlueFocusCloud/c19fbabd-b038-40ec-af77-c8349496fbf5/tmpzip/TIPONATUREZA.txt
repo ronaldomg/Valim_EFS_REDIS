@@ -1,0 +1,2 @@
+1;"VALIM     ";"Lançamentos de Crédito";"R";"F";"C"
+2;"VALIM     ";"Lançamentos de Débito";"D";"F";"D"

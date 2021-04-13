@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="368baa60-afec-6b0a-1617-869c218be99c">
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="Vendedor" />
+  <Table name="CFOP" />
+  <Table name="NCM" />
+  <Table name="TrocaDevolucao" />
+  <Table name="TrocaDevolucaoItem" />
+  <Table name="CContabilPessoa" />
+  <Table name="SaidaItemSimplesRem" />
+  <Table name="AliquotaSN" />
+  <Table name="Pessoa" />
+  <Table name="PessoaCodificacao" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="SaidaVendedor" />
+  <Table name="SaidaAjusteFiscal" />
+  <Table name="PessoaClassificacao" />
+  <Table name="DadosAdicionais" />
+  <Table name="DadosAdicionaisItem" />
+  <Table name="SituacaoTributaria" />
+  <Table name="Empresa" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

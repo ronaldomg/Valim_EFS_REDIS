@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b4f050d5-851d-f744-5431-5cd0fa181e34">
+  <Table name="AcervoPalavraChave" />
+  <Table name="Tabela" />
+</Dependencies>

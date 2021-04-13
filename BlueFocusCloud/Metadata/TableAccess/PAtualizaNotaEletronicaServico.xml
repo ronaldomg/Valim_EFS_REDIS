@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="cddd1661-7e85-6451-6a0f-fad2204cd305">
+  <Table name="NotaServico" />
+  <Table name="Filial" />
+  <Table name="OrdemServico" />
+  <Table name="Tabela" />
+</Dependencies>

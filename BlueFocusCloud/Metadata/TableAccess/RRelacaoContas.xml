@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9efc04a0-3e65-e70b-97de-a4ae80446ac2">
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="ContaContabil" />
+  <Table name="TipoConta" />
+  <Table name="Especie" />
+  <Table name="Banco" />
+  <Table name="Ocorrencia" />
+  <Table name="TipoCobranca" />
+  <Table name="Vendedor" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="Boleto" />
+  <Table name="ContaOcorrencia" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="Convenio" />
+  <Table name="TipoLicitacao" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="TransacaoPagRec" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Feriado" />
+  <Table name="TipoLancamento" />
+  <Table name="IntegracaoCbl" />
+</Dependencies>

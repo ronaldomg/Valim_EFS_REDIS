@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="da500394-9670-1296-860f-1838e897cb3e">
+  <Table name="PedidoComodato" />
+  <Table name="PedidoComodatoItem" />
+</Dependencies>

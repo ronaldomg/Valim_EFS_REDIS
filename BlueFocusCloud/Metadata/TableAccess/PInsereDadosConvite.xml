@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c57936fd-ac45-685a-e719-2bafd833bed3">
+  <Table name="Convite" />
+  <Table name="ConviteConvidado" />
+</Dependencies>

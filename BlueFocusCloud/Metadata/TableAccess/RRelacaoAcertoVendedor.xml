@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bbdd2f1d-2586-0d77-7f47-5139a329ca85">
+  <Table name="Cidades" />
+  <Table name="Vendedor" />
+  <Table name="AcertoVend" />
+  <Table name="AcertoVendVenda" />
+  <Table name="AcertoVendCortesia" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

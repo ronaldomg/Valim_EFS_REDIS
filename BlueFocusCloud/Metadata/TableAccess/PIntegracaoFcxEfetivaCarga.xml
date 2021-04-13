@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0ec40ac8-4cc8-75dd-a844-0435ce3b3af5">
+  <Table name="PDV" />
+  <Table name="CargaPDV" />
+  <Table name="Tabela" />
+</Dependencies>

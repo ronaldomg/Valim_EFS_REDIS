@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="275d1c80-86b9-244c-f6cf-cde46edf6409">
+  <Table name="Natureza" />
+  <Table name="TipoConta" />
+  <Table name="Especie" />
+  <Table name="Banco" />
+  <Table name="TipoRateio" />
+  <Table name="TipoCobranca" />
+  <Table name="TipoLancamento" />
+  <Table name="Pessoa" />
+  <Table name="BancoAgencia" />
+  <Table name="CaixaBanco" />
+  <Table name="TipoBaixa" />
+  <Table name="Filial" />
+  <Table name="TransacaoPagRec" />
+</Dependencies>

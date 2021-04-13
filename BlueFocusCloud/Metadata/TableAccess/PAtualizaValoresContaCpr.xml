@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9803f844-609b-38a3-1e86-585ee1191830">
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ContaPagRec" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="89c74fbb-64f0-c369-f060-462b7922fe28">
+  <Table name="NCM" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

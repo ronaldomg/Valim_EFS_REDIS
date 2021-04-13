@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c225cacd-899d-2166-5edf-ae49e70ab518">
+  <Table name="Cidades" />
+  <Table name="CFOP" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="LoteProduto" />
+  <Table name="Unidade" />
+  <Table name="ModeloDocFiscal" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="SituacaoTributaria" />
+  <Table name="Empresa" />
+  <Table name="TrocaDevolucao" />
+</Dependencies>

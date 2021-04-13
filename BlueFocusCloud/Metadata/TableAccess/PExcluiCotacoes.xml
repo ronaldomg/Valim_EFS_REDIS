@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="990a0184-0cab-5dc3-898c-a619c0a94122">
+  <Table name="Cotacao" />
+  <Table name="SolicitacaoItem" />
+  <Table name="Pessoa" />
+  <Table name="Produto" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

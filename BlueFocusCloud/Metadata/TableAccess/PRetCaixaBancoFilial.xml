@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="214594d4-2f0d-0807-ac7a-1dd9cec27a70">
+  <Table name="CaixaBanco" />
+  <Table name="Filial" />
+</Dependencies>

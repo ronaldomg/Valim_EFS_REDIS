@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="54635c1f-0ed9-ff52-6929-0a527ee4dc33">
+  <Table name="OrdemServicoFase" />
+  <Table name="OrdemServicoTipo" />
+  <Table name="Tabela" />
+</Dependencies>

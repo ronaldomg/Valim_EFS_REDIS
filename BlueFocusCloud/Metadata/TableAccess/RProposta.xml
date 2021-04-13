@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="965dc979-2a64-c0ab-ff8d-00688bfefc27">
+  <Table name="Cidades" />
+  <Table name="Vendedor" />
+  <Table name="ModeloPropostaItem" />
+  <Table name="PropostaModulo" />
+  <Table name="Pessoa" />
+  <Table name="ModeloProposta" />
+  <Table name="Modulo" />
+  <Table name="Proposta" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

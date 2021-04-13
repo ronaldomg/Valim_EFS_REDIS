@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d2e4149f-524d-5782-ff9f-b651ebf6d06f">
+  <Table name="Classificacao" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="EnderecoPessoa" />
+  <Table name="ParametroSistema" />
+  <Table name="TelefonePessoa" />
+  <Table name="AcessoPortaria" />
+  <Table name="Categoria" />
+  <Table name="Convite" />
+  <Table name="OcorrenciaPessoa" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Dependente" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+</Dependencies>

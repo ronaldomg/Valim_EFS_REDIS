@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="63bfd074-7b45-257f-9f3e-82e41125edbb">
+  <Table name="LoteProduto" />
+  <Table name="PedidoCompraItem" />
+  <Table name="SaldoProduto" />
+  <Table name="EntradaProvItem" />
+  <Table name="Inventario" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="SaidaCondItem" />
+  <Table name="OrdemServicoItemProduto" />
+  <Table name="LoteTrocado" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Preco" />
+  <Table name="PrecoProduto" />
+  <Table name="CustoEntrada" />
+  <Table name="Produto" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+  <Table name="CustoMedio" />
+  <Table name="ParmCustoMedio" />
+  <Table name="ParmCustoMedioProduto" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="Saida" />
+  <Table name="MovMensalProduto" />
+  <Table name="recalculoproduto" />
+</Dependencies>

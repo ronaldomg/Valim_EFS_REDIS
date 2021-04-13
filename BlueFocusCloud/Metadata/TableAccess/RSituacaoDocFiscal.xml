@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f7029932-e3f2-65a3-db91-597df78bcb48">
+  <Table name="SituacaoDocFiscal" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d0cc30a0-5265-fb97-9814-dc60e4e8ff7a">
+  <Table name="TipoPedido" />
+  <Table name="Tabela" />
+</Dependencies>

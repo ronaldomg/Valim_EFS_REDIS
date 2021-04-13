@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="df100d90-a3e5-8b40-ec80-2be5ebd72ab4">
+  <Table name="ModeloDocumento" />
+  <Table name="LayoutDocumento" />
+</Dependencies>

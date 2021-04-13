@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3917ba8f-053c-653f-73d7-c2f71f34116b">
+  <Table name="CentroCusto" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="ContaContabil" />
+  <Table name="Especie" />
+  <Table name="TipoCobranca" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="ContaOcorrencia" />
+  <Table name="CContabilPessoa" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

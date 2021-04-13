@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="792f2620-ac35-b817-a722-45318b4e70c8">
+  <Table name="Preco" />
+  <Table name="Familia" />
+  <Table name="PrecoProduto" />
+  <Table name="MargemMarkup" />
+  <Table name="ParametroPreco" />
+  <Table name="Pessoa" />
+  <Table name="Produto" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+</Dependencies>

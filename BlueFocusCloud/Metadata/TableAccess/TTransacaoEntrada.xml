@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="009b1de2-6fb9-c970-f8f7-f0f5dad6b5c3">
+  <Table name="TiposEndereco" />
+  <Table name="TipoLancamento" />
+  <Table name="TransacaoCxBco" />
+  <Table name="CFOP" />
+  <Table name="Transportador" />
+  <Table name="ModeloDocFiscal" />
+  <Table name="SituacaoDocFiscal" />
+  <Table name="Pessoa" />
+  <Table name="CaixaBanco" />
+  <Table name="Filial" />
+  <Table name="TransacaoPagRec" />
+  <Table name="TransacaoEntrada" />
+  <Table name="Entrada" />
+  <Table name="TransacaoSaida" />
+  <Table name="NaturezaOperacao" />
+  <Table name="SituacaoTributaria" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

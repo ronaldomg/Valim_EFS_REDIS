@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4c37c85c-cf1d-c030-aff2-9ec117751135">
+  <Table name="TpCobrFormaPgto" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9a733cb9-7baf-3929-06ac-8eabc418ca63">
+  <Table name="Contrato" />
+  <Table name="ParcelasContrato" />
+  <Table name="ContaPagRec" />
+</Dependencies>

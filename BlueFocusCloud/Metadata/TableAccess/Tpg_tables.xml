@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e5c73029-e67b-58f1-18c3-823d0d4be0fe">
+  <Table name="pg_tables" />
+  <Table name="pg_views" />
+</Dependencies>

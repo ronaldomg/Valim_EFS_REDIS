@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="27effd8e-2f6d-0ef1-ed57-5fbb8be89b0f">
+  <Table name="TipoLancamento" />
+  <Table name="TransacaoPagRec" />
+</Dependencies>

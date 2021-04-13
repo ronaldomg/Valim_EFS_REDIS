@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="475a14f2-5e9c-c9c2-3c7e-ec4577a12426">
+  <Table name="EnderecoPessoa" />
+  <Table name="TiposEndereco" />
+  <Table name="Cedente" />
+  <Table name="Tabela" />
+</Dependencies>

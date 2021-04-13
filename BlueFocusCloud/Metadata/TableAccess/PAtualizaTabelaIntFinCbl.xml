@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="74ab536a-1e0c-96f6-7bc9-7e261ec66982">
+  <Table name="IntFinCbl" />
+  <Table name="IntFinCblAgr" />
+</Dependencies>

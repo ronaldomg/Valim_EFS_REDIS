@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6f4efaf8-6c83-55c7-ddb5-c2e313559832">
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="Preco" />
+  <Table name="CFOP" />
+  <Table name="Transportador" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="TransacaoSaida" />
+  <Table name="NaturezaOperacao" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

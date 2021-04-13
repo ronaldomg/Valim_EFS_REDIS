@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="61b37e02-1dd7-6f55-1948-b43c81203586">
+  <Table name="HistoricoCxaBco" />
+  <Table name="TransacaoCxBco" />
+  <Table name="HistoricoFcx" />
+  <Table name="TipoSaldo" />
+  <Table name="LancamentoCaixa" />
+  <Table name="ParametroFcx" />
+  <Table name="TipoBaixa" />
+  <Table name="TpCobrFormaPgto" />
+  <Table name="Saida" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

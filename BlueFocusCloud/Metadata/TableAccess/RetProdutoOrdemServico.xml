@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="16abd29d-20d4-5881-1636-474ef91d3cf9">
+  <Table name="Produto" />
+  <Table name="Preco" />
+  <Table name="PrecoPromocao" />
+  <Table name="Tabela" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+</Dependencies>

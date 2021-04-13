@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bc24a9ee-8b68-a201-f203-605c7f3901da">
+  <Table name="Empresa" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="TransacaoContabil" />
+  <Table name="Tabela" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="PermissaoUsuCxaConta" />
+  <Table name="ParametroSistema" />
+  <Table name="AcessoSistema" />
+</Dependencies>

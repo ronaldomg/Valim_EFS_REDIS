@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="10eb2ca3-7e71-af9f-9900-75b5d2f8ab55">
+  <Table name="PermissaoUsuCxaConta" />
+  <Table name="CaixaBanco" />
+  <Table name="Filial" />
+  <Table name="UsuFilialCxaBco" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

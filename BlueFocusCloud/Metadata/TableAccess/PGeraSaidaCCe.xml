@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="daa05c62-2912-2304-3f5d-63a0d1d78021">
+  <Table name="NFE012EVENTOS" />
+  <Table name="SaidaCCE" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

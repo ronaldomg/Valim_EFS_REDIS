@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bb753cb4-a887-8ba9-45db-a10b9ce0a347">
+  <Table name="AcertoVend" />
+  <Table name="AcertoVendVenda" />
+  <Table name="AcertoVendCortesia" />
+  <Table name="AcertoVendRecDes" />
+</Dependencies>

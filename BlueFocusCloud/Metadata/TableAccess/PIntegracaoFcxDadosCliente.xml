@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1abdc1be-c015-4751-2856-c220d93308f5">
+  <Table name="Cidades" />
+  <Table name="Classificacao" />
+  <Table name="TipoCobranca" />
+  <Table name="ParametroFcx" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="PDV" />
+  <Table name="PessoaClassificacao" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="SaldoConta" />
+  <Table name="SaldoCxaBco" />
+  <Table name="CaixaBanco" />
+  <Table name="SaldoProduto" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="LoteProduto" />
+  <Table name="DefinicaoCodBar" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+</Dependencies>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ba0bcf6b-2923-96bc-93fa-b72ebe60f8b7">
+  <Table name="TipoCobranca" />
+  <Table name="HistoricoFcx" />
+  <Table name="TipoBaixa" />
+  <Table name="ContaPagRec" />
+  <Table name="Saida" />
+  <Table name="SaidaPagtoParcela" />
+</Dependencies>

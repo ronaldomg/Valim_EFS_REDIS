@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e4602937-56cd-43c7-9c50-4f15620d5a7d">
+  <Table name="Cidades" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="EmpresaUsuario" />
+  <Table name="Usuario" />
+  <Table name="Filial" />
+  <Table name="MenuNivel1" />
+  <Table name="MenuNivel2" />
+  <Table name="MenuNivel3" />
+  <Table name="PermissaoUsuarioMenu" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="ParametroSistema" />
+  <Table name="Sistema" />
+</Dependencies>

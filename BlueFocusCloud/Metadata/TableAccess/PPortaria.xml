@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3a41e59a-2632-872a-d0bb-0a9a902e023f">
+  <Table name="AcessoPortaria" />
+  <Table name="Tabela" />
+</Dependencies>

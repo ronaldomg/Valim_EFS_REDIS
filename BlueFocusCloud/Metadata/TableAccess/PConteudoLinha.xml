@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="36e3f56b-5a96-623f-a718-39fa7295a7cc">
+  <Table name="dicionario" />
+  <Table name="Etiqueta" />
+  <Table name="EtiquetaLinha" />
+</Dependencies>

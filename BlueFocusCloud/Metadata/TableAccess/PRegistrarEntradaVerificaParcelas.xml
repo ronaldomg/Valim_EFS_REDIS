@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1a1a9a8d-5646-26b2-a6b8-9cb64aa71210">
+  <Table name="EntradaPagtoParcela" />
+  <Table name="EntradaItem" />
+</Dependencies>

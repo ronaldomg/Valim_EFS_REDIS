@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="efa92d05-5fae-ba6c-49f4-141818fcd41a">
+  <Table name="FaturamentoComodato" />
+  <Table name="PedidoComodato" />
+  <Table name="Pessoa" />
+  <Table name="PedidoComodatoItem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

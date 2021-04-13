@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="92c20ab9-6917-75e4-6a29-5fee43a8a081">
+  <Table name="Correspondencia" />
+  <Table name="ResponsavelPat" />
+  <Table name="Bem" />
+  <Table name="HistoricoBem" />
+  <Table name="VistoriaBem" />
+  <Table name="Filial" />
+  <Table name="Departamento" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="DeptoCompras" />
+</Dependencies>

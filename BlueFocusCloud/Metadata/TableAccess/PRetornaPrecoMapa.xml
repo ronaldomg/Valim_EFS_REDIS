@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d3f71a97-e9dd-1125-6ff0-c6b54b382d89">
+  <Table name="MapaPreco" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="524d2950-bb43-1a34-ed15-5cc7ded09b75">
+  <Table name="ResponsavelPat" />
+  <Table name="Filial" />
+  <Table name="Departamento" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

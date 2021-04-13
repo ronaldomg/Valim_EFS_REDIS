@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bbc9ddcb-0368-ae1a-ff6b-842fd5629e5f">
+  <Table name="PermissaoConc" />
+  <Table name="Tabela" />
+  <Table name="ChavePrimaria" />
+</Dependencies>

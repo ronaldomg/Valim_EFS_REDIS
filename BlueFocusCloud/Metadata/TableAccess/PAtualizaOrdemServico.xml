@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="66b59307-6177-1e71-ae78-26b401fc7690">
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="LoteProduto" />
+  <Table name="OrdemServicoApareItem" />
+  <Table name="ContaPagRec" />
+  <Table name="OrdemServico" />
+  <Table name="OrdemServicoAparelho" />
+  <Table name="OrdemServicoItemProduto" />
+  <Table name="OrdemServicoItemServico" />
+  <Table name="OrdemServicoOcorrencia" />
+  <Table name="OrdemServicoPagtoParcela" />
+  <Table name="AparelhoCliente" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="ChavePrimaria" />
+  <Table name="SaldoProduto" />
+  <Table name="Produto" />
+  <Table name="AparelhoCaracteristica" />
+  <Table name="AparelhoClienteItem" />
+</Dependencies>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ab28e191-ec8a-ca68-3915-9518fb6bd021">
+  <Table name="CentroCusto" />
+  <Table name="Natureza" />
+  <Table name="Banco" />
+  <Table name="TipoCobranca" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TrnDesc" />
+  <Table name="BancoAgencia" />
+  <Table name="CaixaBanco" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

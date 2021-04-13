@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="47dd3770-bb34-3e21-494d-d53673f4418b">
+  <Table name="Lote" />
+  <Table name="Loteamento" />
+  <Table name="ValorMetro" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="58ef7edc-6bd0-6452-8682-5c16efb143e0">
+  <Table name="SaldoProduto" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+</Dependencies>

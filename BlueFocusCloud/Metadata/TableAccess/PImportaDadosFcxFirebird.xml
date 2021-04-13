@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f35d8168-690d-0cb6-7529-e602b4dc28c3">
+  <Table name="AliquotaPDV" />
+  <Table name="FormaPgto" />
+  <Table name="HistoricoFcx" />
+  <Table name="UsuarioCaixa" />
+  <Table name="TipoSaldo" />
+  <Table name="TpCobrFormaPgto" />
+  <Table name="PDV" />
+  <Table name="Tabela" />
+</Dependencies>

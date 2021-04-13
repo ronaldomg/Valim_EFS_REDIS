@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1bf0ef9d-280a-3b2c-6dab-2bb3b6ef18bb">
+  <Table name="Contrato" />
+  <Table name="Lote" />
+  <Table name="Situacao" />
+  <Table name="Tabela" />
+</Dependencies>

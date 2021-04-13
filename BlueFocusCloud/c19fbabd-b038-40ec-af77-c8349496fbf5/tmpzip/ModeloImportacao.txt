@@ -1,0 +1,7 @@
+1;"Importação Produto";"F";" ";"S"
+2;"Importação código de barras";"F";" ";"S"
+3;"Importação Inventário";"F";" ";"S"
+4;"Importacao Produto BlueFocus";"P";" ";"S"
+5;"Codigo Barras BlueFocus";"P";" ";"S"
+7;"importacao produto saas";"P";" ";"S"
+8;"importacao pessoas saas";"P";" ";"S"

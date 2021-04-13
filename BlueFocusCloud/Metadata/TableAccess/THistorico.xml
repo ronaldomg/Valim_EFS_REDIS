@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7afdb927-851d-7385-0bc6-accd4e111beb">
+  <Table name="Empresa" />
+  <Table name="Historico" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="IntegracaoCbl" />
+  <Table name="IntegracaoPatCbl" />
+  <Table name="TransacaoContabil" />
+  <Table name="Tabela" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

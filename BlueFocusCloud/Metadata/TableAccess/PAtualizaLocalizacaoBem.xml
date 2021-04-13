@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="060439cf-a5b6-2e94-9216-69486d35f8de">
+  <Table name="Bem" />
+  <Table name="HistoricoBem" />
+</Dependencies>

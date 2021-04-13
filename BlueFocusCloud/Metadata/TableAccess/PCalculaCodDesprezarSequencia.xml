@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="462c6c51-2d04-16c5-bbc4-09d06aafc768">
+  <Table name="CodDesprezar" />
+  <Table name="Tabela" />
+</Dependencies>

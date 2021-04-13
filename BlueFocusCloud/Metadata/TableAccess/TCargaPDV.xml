@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d49fc803-baab-4dfb-5e96-b74571a4ac77">
+  <Table name="Produto" />
+  <Table name="PDV" />
+  <Table name="CargaPDV" />
+</Dependencies>

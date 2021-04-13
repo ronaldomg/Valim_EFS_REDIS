@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9dce84c4-3262-e64d-12cf-13879b46a703">
+  <Table name="Preco" />
+  <Table name="PrecoProduto" />
+  <Table name="CustoEntrada" />
+  <Table name="Produto" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="Tabela" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="LogTabelaCamposBlob" />
+</Dependencies>

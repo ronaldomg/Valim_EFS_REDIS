@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="fa624a25-ec4b-5ff9-fc05-e8c9439361b7">
+  <Table name="TipoCobranca" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TipoLancamento" />
+  <Table name="Conciliacao" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="ConciliacaoItem" />
+  <Table name="ContaOcorrencia" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

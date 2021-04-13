@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3a519532-db1a-a36a-9e54-973613bbf098">
+  <Table name="ProcessoConv" />
+  <Table name="Tabela" />
+</Dependencies>

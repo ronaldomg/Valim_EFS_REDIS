@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b8acdf4b-7061-4088-4c7c-1347dbdfb39e">
+  <Table name="TipoTelefone" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

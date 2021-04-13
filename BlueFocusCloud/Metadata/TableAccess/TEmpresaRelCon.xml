@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="dca386a6-4e02-2ab5-6d89-4f0fdcc90023">
+  <Table name="Empresa" />
+  <Table name="Programa" />
+  <Table name="EmpresaRelCon" />
+</Dependencies>

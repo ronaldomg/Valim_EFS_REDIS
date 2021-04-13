@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b6ec010a-90a7-4491-8242-682994fc6644">
+  <Table name="Pessoa" />
+  <Table name="Dependente" />
+  <Table name="AcessoAcademia" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="CreditoAcademia" />
+  <Table name="OcorrenciaPessoa" />
+  <Table name="OcorrenciaPortaria" />
+  <Table name="ContaPagRec" />
+  <Table name="GrauParentesco" />
+  <Table name="CategoriaGrauParentesco" />
+  <Table name="PessoaClassificacao" />
+</Dependencies>

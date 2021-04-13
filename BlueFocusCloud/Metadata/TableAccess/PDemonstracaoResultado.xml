@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7a29c7f9-94f8-374f-e219-83b6e7342a6c">
+  <Table name="ContaContabil" />
+  <Table name="Empresa" />
+  <Table name="GrupoTipoDemonstracaoGrupoCalculo" />
+  <Table name="Natureza" />
+  <Table name="DRESped" />
+  <Table name="GrupoTipoDemonstracao" />
+  <Table name="GrupoTipoDemonstracaoIntervaloConta" />
+  <Table name="GrupoTipoDemonstracaoInterval2" />
+  <Table name="OrgaoRegistro" />
+  <Table name="OrgaoRegistroResponsavel" />
+  <Table name="TipoDemonstracao" />
+  <Table name="SaldoConta" />
+  <Table name="DRE" />
+  <Table name="DREDetalhamento" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

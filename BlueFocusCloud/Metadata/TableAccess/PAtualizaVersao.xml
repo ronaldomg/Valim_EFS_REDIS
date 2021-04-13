@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b2204d48-d752-9844-b730-13bc31859fb5">
+  <Table name="ParametroSistema" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

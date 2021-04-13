@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="dbc4a1fe-d778-692b-1434-2467d9556964">
+  <Table name="Previsao" />
+  <Table name="Tabela" />
+</Dependencies>

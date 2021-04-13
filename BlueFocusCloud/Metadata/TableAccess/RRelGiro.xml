@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b19f57ef-b274-362b-882f-10f40364c59c">
+  <Table name="AtributoEsquema" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="LoteProduto" />
+  <Table name="SaldoProduto" />
+  <Table name="ValorAtributo" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="79df06ab-3649-0716-6c3f-4184c7af81b9">
+  <Table name="CaixaBanco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

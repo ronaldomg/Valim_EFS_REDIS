@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="53bdcd16-969f-6f80-45e5-2b66fcd0b47b">
+  <Table name="Pessoa" />
+  <Table name="Agenda" />
+  <Table name="AgendaTipoCompromisso" />
+  <Table name="Profissional" />
+</Dependencies>

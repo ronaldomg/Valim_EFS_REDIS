@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5b299856-5a07-c0ed-9abc-99d0ff474142">
+  <Table name="Cidades" />
+  <Table name="NCM" />
+  <Table name="EntradaProv" />
+  <Table name="EntradaProvItem" />
+  <Table name="DecImpProv" />
+  <Table name="Entrada" />
+  <Table name="DecImpProvAdicao" />
+  <Table name="EntradaItem" />
+  <Table name="Tabela" />
+  <Table name="Transportador" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="LoteProduto" />
+  <Table name="Produto" />
+  <Table name="ParametroSistema" />
+  <Table name="Pessoa" />
+</Dependencies>

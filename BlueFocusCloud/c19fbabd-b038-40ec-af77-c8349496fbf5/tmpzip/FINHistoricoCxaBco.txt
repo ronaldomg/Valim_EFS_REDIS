@@ -1,0 +1,80 @@
+1;"PAG CAIXA C.PAG";"D";"N";"N";"N";" ";0;"S";0;0
+3;"DEB CONTA C.PAG";"D";"N";"N";"N";" ";0;"S";0;0
+10;"DESCONTO DUPLIC";"D";"N";"N";"N";" ";0;"S";0;0
+11;"DESCONTO CHEQUE";"D";"N";"N";"N";" ";0;"S";0;0
+12;"DEBITO DUP DESC";"D";"N";"N";"N";" ";0;"S";0;0
+13;"DEBITO CH. DESC";"D";"N";"N";"N";" ";0;"S";0;0
+20;"N/APLICACAO";"D";"N";"N";"N";" ";0;"S";0;0
+21;"N/RESGATE";"D";"N";"N";"N";" ";0;"S";0;0
+40;"CHEQUE SUPR";"D";"S";"N";"N";" ";0;"S";0;0
+41;"N/DEPOSITO";"D";"N";"N";"N";" ";0;"S";0;0
+47;"TRANSF BANCARIA";"D";"N";"N";"N";" ";0;"S";0;0
+51;"DEP NAO IDENTIF";"D";"N";"N";"N";" ";0;"S";0;0
+100;"VENDA A VISTA";"C";"N";"N";"N";" ";0;"S";0;0
+101;"REC CAIXA C.REC";"C";"N";"N";"N";" ";0;"S";0;0
+106;"REC CHEQ PRE CX";"C";"N";"N";"N";" ";0;"S";0;0
+107;"REC CHEQ DEV CX";"C";"N";"N";"N";" ";0;"S";0;0
+114;"BX IDENTIF DEP";"C";"N";"N";"N";" ";0;"S";0;0
+148;"BAIXA DUP DESC";"C";"N";"N";"N";" ";0;"S";0;0
+149;"BAIXA CHEQ DESC";"C";"N";"N";"N";" ";0;"S";0;0
+152;"REC. CARTAO";"C";"N";"N";"N";" ";0;"S";0;0
+153;"CRED AUTORIZADO";"C";"N";"N";"N";" ";0;"S";0;0
+154;"DEB AUTORIZADO";"D";"N";"N";"N";" ";0;"S";0;0
+155;"JUROS";"D";"N";"N";"N";" ";0;"S";0;0
+2;"CHEQUE C.PAG";"D";"S";"N";"N";" ";1;"S";0;0
+4;"DEV CHEQUE DEP";"D";"N";"N";"N";" ";2;"S";0;0
+14;"TARIFA DESC DUP";"D";"N";"N";"N";" ";3;"S";0;0
+15;"TARIFA DESC CHE";"D";"N";"N";"N";" ";4;"S";0;0
+16;"JUROS DESC DUP";"D";"N";"N";"N";" ";5;"S";0;0
+17;"JUROS DESC CHEQ";"D";"N";"N";"N";" ";6;"S";0;0
+18;"IOF DESC DUP";"D";"N";"N";"N";" ";7;"S";0;0
+19;"IOF DESC CHEQUE";"D";"N";"N";"N";" ";8;"S";0;0
+22;"IOF APLICACAO";"D";"N";"N";"N";" ";9;"S";0;0
+23;"IRRF APLICACAO";"D";"N";"N";"N";" ";10;"S";0;0
+30;"N/PAGAMENTO";"D";"N";"N";"N";" ";11;"S";0;0
+42;"CHEQ PAG DIVER";"D";"S";"N";"N";" ";12;"S";0;0
+43;"AVISO DE DEBITO";"D";"N";"N";"N";" ";13;"S";0;0
+44;"CPMF";"D";"N";"N";"N";" ";14;"S";0;0
+45;"TARIFA BANCARIA";"D";"N";"N";"N";" ";15;"S";0;0
+46;"TARIFA COBRANCA";"D";"N";"N";"N";" ";16;"S";0;0
+48;"ADIANT FORNEC";"D";"N";"N";"N";" ";17;"S";0;0
+102;"DEPOSITO C.REC";"C";"N";"N";"N";" ";18;"S";0;0
+103;"CREDITO COBRANC";"C";"N";"N";"N";" ";19;"S";0;0
+104;"CR VISA";"C";"N";"N";"N";" ";20;"S";0;0
+105;"CR MASTER CARD";"C";"N";"N";"N";" ";21;"S";0;0
+108;"DEP CHEQ PRE";"C";"N";"N";"N";" ";22;"S";0;0
+109;"DEP CHEQ DEV";"C";"N";"N";"N";" ";23;"S";0;0
+110;"DESCONTO DUPLIC";"C";"N";"N";"N";" ";24;"S";0;0
+111;"DESCONTO CHEQUE";"C";"N";"N";"N";" ";25;"S";0;0
+112;"DEBITO DUP DESC";"C";"N";"N";"N";" ";26;"S";0;0
+113;"DEBITO CH. DESC";"C";"N";"N";"N";" ";27;"S";0;0
+120;"N/APLICACAO";"C";"S";"N";"N";" ";28;"S";0;0
+121;"N/RESGATE";"C";"N";"N";"N";" ";29;"S";0;0
+124;"REND APLICACAO";"C";"N";"N";"N";" ";30;"S";0;0
+130;"N/RECEBIMENTO";"C";"N";"N";"N";" ";31;"S";0;0
+140;"CHEQUE SUPR";"C";"N";"N";"N";" ";32;"S";0;0
+141;"N/DEPOSITO";"C";"N";"N";"N";" ";33;"S";0;0
+143;"AVISO DE CREDIT";"C";"N";"N";"N";" ";34;"S";0;0
+147;"TRANSF BANCARIA";"C";"N";"N";"N";" ";35;"S";0;0
+151;"DEP NAO IDENTIF";"C";"N";"N";"N";" ";37;"S";0;0
+52;"TROCO";"D";"N";"N";"N";"N";0;"S";0;0
+53;"RETIRADA CAIXA";"D";"N";"N";"N";"N";0;"S";0;0
+156;"SUPRIMENTO CAIXA";"C";"N";"N";"N";"N";0;"S";0;0
+157;"CHEQUE A VISTA";"C";"N";"N";"N";"N";0;"N";0;0
+158;"PAG FORN DEPOSITO";"D";"N";"N";"N";"N";0;"N";0;0
+159;"TRANSF CX TESOURARIA";"D";"N";"N";"N";"N";0;"N";0;0
+160;"TRANSF CX TESOURARIA";"C";"N";"N";"N";"N";0;"N";0;0
+161;"TRANSF CX BANCO";"D";"N";"N";"N";"N";0;"N";0;0
+162;"TRANSF CX BANCO";"C";"N";"N";"N";"N";0;"N";0;0
+163;"RECBTO VENDA A PRAZO";"C";"N";"N";"N";"N";0;"N";0;0
+164;"RECBTO BOLETO";"C";"N";"N";"N";"N";0;"N";0;0
+165;"RECBTO CHEQUE";"C";"N";"N";"N";"N";0;"N";0;0
+166;"RECBTO DEPOSITO";"C";"N";"N";"N";"N";0;"N";0;0
+167;"PAGTO CARTEIRA";"D";"N";"N";"N";"N";0;"N";0;0
+168;"PAGTO CHEQUE";"D";"N";"N";"N";"N";0;"N";0;0
+169;"PAGTO BOLETO";"D";"N";"N";"N";"N";0;"N";0;0
+170;"PAGTO CARTAO";"D";"N";"N";"N";"N";0;"N";0;0
+171;"TRANSF CHEQUE";"D";"N";"N";"N";"N";0;"N";0;0
+172;"TRANSF CHEQUE";"C";"N";"N";"N";"N";0;"N";0;0
+173;"CHEQUE PRE";"C";"N";"N";"N";"N";0;"N";0;0
+150;"HAVER CLIENTE";"C";"N";"N";"N";"N";0;"S";0;0

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1ae1f84a-a91a-4ab4-fd82-ddc0377e1e1b">
+  <Table name="Empresa" />
+  <Table name="AcessoPortaria" />
+  <Table name="Convidado" />
+  <Table name="Convite" />
+  <Table name="ConviteConvidado" />
+  <Table name="Pessoa" />
+  <Table name="Tabela" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

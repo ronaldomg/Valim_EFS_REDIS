@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2f100abb-6e0d-47db-8c03-349051d2a2b7">
+  <Table name="columns" />
+  <Table name="routines" />
+  <Table name="sequences" />
+  <Table name="tables" />
+  <Table name="triggers" />
+  <Table name="attributes" />
+  <Table name="pg_stat_user_indexes" />
+  <Table name="pg_language" />
+</Dependencies>

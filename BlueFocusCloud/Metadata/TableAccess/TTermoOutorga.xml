@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7c99016d-6894-acc1-a5fe-0373948d1769">
+  <Table name="Cidades" />
+  <Table name="ProcessoConv" />
+  <Table name="TermoOutorga" />
+  <Table name="TermoOutorgaDotacao" />
+  <Table name="TermoOutorgaItem" />
+  <Table name="TermoOutorgaIntegrante" />
+  <Table name="TermoOutorgaParcela" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

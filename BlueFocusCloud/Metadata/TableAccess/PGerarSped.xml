@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="057ea40c-bcea-6f4b-eba1-4706f9b67e5a">
+  <Table name="Cidades" />
+  <Table name="ContaContabil" />
+  <Table name="Empresa" />
+  <Table name="Historico" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="NaturezaLivroSped" />
+  <Table name="EmpresaSped" />
+  <Table name="DRESped" />
+  <Table name="Sped" />
+  <Table name="SpedContabil" />
+  <Table name="SaldoConta" />
+  <Table name="SignatarioSped" />
+  <Table name="Filial" />
+  <Table name="ParametroSistema" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

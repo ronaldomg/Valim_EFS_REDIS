@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="15f50e39-4cf5-879e-ae31-737164e8709f">
+  <Table name="Vendedor" />
+  <Table name="Aditivo" />
+  <Table name="AditivoItem" />
+  <Table name="LocalEntrega" />
+  <Table name="PedidoCompraItem" />
+  <Table name="PedidoCompraLOG" />
+  <Table name="ProcessoConv" />
+  <Table name="Solicitacao" />
+  <Table name="Transportador" />
+  <Table name="Unidade" />
+  <Table name="PedidoCompraItemLOGEntrega" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+  <Table name="PedidoCompra" />
+  <Table name="Produto" />
+  <Table name="EntradaItem" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

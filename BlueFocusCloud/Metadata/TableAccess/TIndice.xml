@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e00168d3-8d8c-e7aa-de32-72d2a6a96d00">
+  <Table name="Indice" />
+  <Table name="IndiceValores" />
+  <Table name="ParametrosCalculo" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

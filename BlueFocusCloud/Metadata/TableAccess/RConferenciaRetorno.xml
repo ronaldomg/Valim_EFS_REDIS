@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="46fbd5fd-ce39-aa70-f3bc-00d77a8602e5">
+  <Table name="Banco" />
+  <Table name="OcorrenciaRetorno" />
+  <Table name="MotivoOcorrencia" />
+  <Table name="TipoBaixa" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

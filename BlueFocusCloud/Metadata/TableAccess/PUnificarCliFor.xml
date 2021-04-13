@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f6c26691-d3bc-972b-0d0b-7e5d14c23671">
+  <Table name="EnderecoPessoa" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="ReferenciaComercial" />
+  <Table name="TelefonePessoa" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="Movimentacao" />
+  <Table name="Mensalidade" />
+  <Table name="CContabilPessoa" />
+  <Table name="Pessoa" />
+  <Table name="PessoaCodificacao" />
+  <Table name="TransacaoPagRec" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="PessoaClassificacao" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="LogTabelaCamposBlob" />
+</Dependencies>

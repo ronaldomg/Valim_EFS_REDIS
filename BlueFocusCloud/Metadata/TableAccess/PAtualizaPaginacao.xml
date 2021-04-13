@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5762a8f5-f326-72ea-d0a7-be2a590530c0">
+  <Table name="Paginacao" />
+  <Table name="Tabela" />
+</Dependencies>

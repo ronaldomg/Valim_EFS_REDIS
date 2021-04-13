@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1c6f3192-3c75-4a51-5161-c285586e312e">
+  <Table name="GrauParentesco" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

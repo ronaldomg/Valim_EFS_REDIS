@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c5125e95-6dce-bdbb-5911-dbd30cf2e74c">
+  <Table name="PermissaoUsuCxaConta" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+</Dependencies>

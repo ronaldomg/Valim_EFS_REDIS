@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="28de62c8-4b72-93a9-df20-8c2fad9cfc7f">
+  <Table name="Empresa" />
+  <Table name="LancamentoContabil" />
+  <Table name="ChavePrimaria" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+</Dependencies>

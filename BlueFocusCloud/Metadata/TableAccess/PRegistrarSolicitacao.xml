@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="54548af8-7540-1e5c-8322-be24ea0060cf">
+  <Table name="TipoLicitacao" />
+  <Table name="Solicitacao" />
+  <Table name="SolicitacaoItem" />
+  <Table name="SolicitacaoHistorico" />
+  <Table name="Utilizacao" />
+  <Table name="DeptoCompras" />
+  <Table name="Produto" />
+  <Table name="Solicitante" />
+  <Table name="Tabela" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+</Dependencies>

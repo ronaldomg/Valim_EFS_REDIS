@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e6402e92-efff-7957-abd3-e2af50066df7">
+  <Table name="Alinea" />
+  <Table name="ContaOcorrencia" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="CaixaBanco" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+</Dependencies>

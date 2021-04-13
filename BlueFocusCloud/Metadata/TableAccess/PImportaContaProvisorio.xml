@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="24ce1e7e-8161-af5d-ddbf-f2af56518cf2">
+  <Table name="Cidades" />
+  <Table name="Convenio" />
+  <Table name="ContaProvisorio" />
+  <Table name="Pessoa" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="EnderecoPessoa" />
+  <Table name="ReferenciaComercial" />
+  <Table name="TelefonePessoa" />
+  <Table name="PessoaCodificacao" />
+  <Table name="PessoaClassificacao" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+</Dependencies>

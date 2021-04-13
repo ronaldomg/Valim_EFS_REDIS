@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="96e8e021-e19f-4ece-58ea-264277e6537f">
+  <Table name="TipoLancamento" />
+  <Table name="FormaPgto" />
+</Dependencies>

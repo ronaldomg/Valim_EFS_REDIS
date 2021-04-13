@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d817641d-93a9-8651-099c-e317a59176b7">
+  <Table name="TipoConta" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+</Dependencies>

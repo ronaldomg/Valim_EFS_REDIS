@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9ad0e63d-96da-3936-f011-d7335813d903">
+  <Table name="Cidades" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="TelefonePessoa" />
+  <Table name="Aditivo" />
+  <Table name="AditivoItem" />
+  <Table name="AtributoEsquema" />
+  <Table name="Cotacao" />
+  <Table name="LocalEntrega" />
+  <Table name="PedidoCompraItem" />
+  <Table name="Solicitacao" />
+  <Table name="SolicitacaoItem" />
+  <Table name="Transportador" />
+  <Table name="Utilizacao" />
+  <Table name="ValorAtributo" />
+  <Table name="ClassificacaoEstOpcaoClassific" />
+  <Table name="Pessoa" />
+  <Table name="DeptoCompras" />
+  <Table name="PedidoCompra" />
+  <Table name="Produto" />
+  <Table name="Solicitante" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

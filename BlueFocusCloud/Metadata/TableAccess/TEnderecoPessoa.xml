@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d19391c4-a12c-b07c-1c18-dacaeb28b2a9">
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="TiposEndereco" />
+  <Table name="Pessoa" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="AcessoSistema" />
+</Dependencies>

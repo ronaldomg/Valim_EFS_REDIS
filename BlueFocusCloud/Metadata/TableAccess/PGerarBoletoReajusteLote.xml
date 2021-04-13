@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4bc7c13e-f7a6-32bb-3238-6f6fcb7a781f">
+  <Table name="Especie" />
+  <Table name="Boleto" />
+  <Table name="Cedente" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="Banco" />
+  <Table name="CategoriaValor" />
+  <Table name="MontBarrasBoleto" />
+  <Table name="Pessoa" />
+  <Table name="BancoAgencia" />
+  <Table name="PessoaClassificacao" />
+  <Table name="ParametroSistema" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+  <Table name="MontBoletoDetalhe" />
+</Dependencies>

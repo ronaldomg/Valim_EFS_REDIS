@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="225e22dd-3d26-44b0-89e6-3833cde5e868">
+  <Table name="Empresa" />
+  <Table name="EmpresaAmbiente" />
+  <Table name="EmpresaPacote" />
+  <Table name="EmpresaSistema" />
+  <Table name="UsuarioAdminEmpresa" />
+  <Table name="UsuarioAcessoEmpresa" />
+</Dependencies>

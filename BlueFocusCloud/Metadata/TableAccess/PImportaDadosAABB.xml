@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5dae71af-6839-d78d-239b-ee3cb11b9a13">
+  <Table name="Classificacao" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="EnderecoPessoa" />
+  <Table name="TelefonePessoa" />
+  <Table name="TiposEndereco" />
+  <Table name="TipoConta" />
+  <Table name="Especie" />
+  <Table name="Banco" />
+  <Table name="TipoCobranca" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="Categoria" />
+  <Table name="CategoriaValor" />
+  <Table name="GrauParentesco" />
+  <Table name="TipoCategoria" />
+  <Table name="Acervo" />
+  <Table name="Movimentacao" />
+  <Table name="TipoItem" />
+  <Table name="Autor" />
+  <Table name="ClassificacaoLiteraria" />
+  <Table name="Editora" />
+  <Table name="Idioma" />
+  <Table name="Pessoa" />
+  <Table name="TipoTelefone" />
+  <Table name="BancoAgencia" />
+  <Table name="ContaPagRec" />
+  <Table name="Dependente" />
+  <Table name="AcervoAutores" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+  <Table name="Tabela" />
+</Dependencies>

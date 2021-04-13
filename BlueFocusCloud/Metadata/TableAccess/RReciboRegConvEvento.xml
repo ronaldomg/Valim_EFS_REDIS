@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6dcc806d-f8fc-3436-f18d-5b893cbbe85e">
+  <Table name="Empresa" />
+  <Table name="Impressora" />
+  <Table name="TransacaoCxBco" />
+  <Table name="Usuario" />
+  <Table name="Tabela" />
+</Dependencies>

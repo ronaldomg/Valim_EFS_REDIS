@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="aca5aa24-3af5-dab2-e2d1-5e7ee5b45761">
+  <Table name="ResponsavelPat" />
+  <Table name="Bem" />
+  <Table name="VistoriaBem" />
+  <Table name="Departamento" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

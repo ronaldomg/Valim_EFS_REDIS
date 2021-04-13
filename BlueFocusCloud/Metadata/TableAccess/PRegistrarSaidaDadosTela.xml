@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0074e710-3cd5-1cc7-9b5e-b84824a17ffe">
+  <Table name="Cidades" />
+  <Table name="Vendedor" />
+  <Table name="Preco" />
+  <Table name="CFOP" />
+  <Table name="Transportador" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Saida" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaVendedor" />
+  <Table name="NaturezaOperacao" />
+  <Table name="Tabela" />
+</Dependencies>

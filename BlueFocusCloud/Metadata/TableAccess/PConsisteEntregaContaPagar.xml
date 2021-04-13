@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6ecfb5cc-d111-df28-a67b-9a7ec5a22e8b">
+  <Table name="PedidoCompraItemLOGEntrega" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

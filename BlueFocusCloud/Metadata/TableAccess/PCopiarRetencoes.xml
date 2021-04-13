@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7aad69db-fbfe-2e7d-7154-938599bd34bd">
+  <Table name="Retencao" />
+  <Table name="ParametroRetencao" />
+</Dependencies>

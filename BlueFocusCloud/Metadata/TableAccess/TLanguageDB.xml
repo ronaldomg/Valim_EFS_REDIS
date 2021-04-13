@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="64b78dbf-2772-4cc1-ab78-fde44d8433bc">
+  <Table name="pg_language" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="99491aa3-51cc-ea0a-e4af-b43fd359ae68">
+  <Table name="DecImpProv" />
+  <Table name="DecImpProvAdicao" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="85c45890-a4fa-3f49-d3b7-885d53a8535f">
+  <Table name="AditivoItem" />
+  <Table name="PedidoCompraItem" />
+</Dependencies>

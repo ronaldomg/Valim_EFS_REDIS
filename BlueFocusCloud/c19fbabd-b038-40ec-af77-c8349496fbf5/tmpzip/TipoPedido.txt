@@ -1,0 +1,2 @@
+"1  ";"PEDIDO"
+"PAD";"Padrão"

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f8dc86f6-fb23-8847-5dc8-8bd4cd0f3b02">
+  <Table name="AliquotaSN" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

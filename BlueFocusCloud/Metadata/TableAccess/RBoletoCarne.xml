@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4dff3e0d-b723-b28c-ee0c-8bceeb85d2fb">
+  <Table name="Empresa" />
+  <Table name="Boleto" />
+  <Table name="Cedente" />
+</Dependencies>

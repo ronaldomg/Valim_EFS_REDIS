@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4728ede4-3d23-a36b-d898-a3fc67c7cef3">
+  <Table name="LancamentoContabil" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="ChavePrimaria" />
+</Dependencies>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2ab74089-1486-810e-f8d2-f9a58236bfc3">
+  <Table name="ContaOcorrencia" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Feriado" />
+  <Table name="TipoCobranca" />
+  <Table name="ContaLancam" />
+  <Table name="TipoLancamento" />
+  <Table name="IntegracaoCbl" />
+  <Table name="CentroCusto" />
+  <Table name="Cidades" />
+  <Table name="ContaContabil" />
+  <Table name="Natureza" />
+  <Table name="TipoConta" />
+  <Table name="Especie" />
+  <Table name="Banco" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="ModeloDocumento" />
+  <Table name="Vendedor" />
+  <Table name="Boleto" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="BancoAgencia" />
+  <Table name="CaixaBanco" />
+  <Table name="Filial" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="dicionario" />
+  <Table name="LayoutDocumento" />
+</Dependencies>

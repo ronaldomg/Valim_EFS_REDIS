@@ -1,0 +1,105 @@
+td{position:relative;
+.gx-content-placeholder
+	top: 0
+    position: absolute
+    padding-right: 25px
+	height:100%
+    overflow: auto
+
+@media screen\0 {.gx-content-placeholder{height: 450px; position:relative;}
+#menu
+	text-align:left
+	float:left
+	display:block
+	color:white
+
+
+#menu  a{text-decoration:none; color:white;width:104%; display:inline-block; margin-left:-15px;
+.root, .hasChild{cursor:pointer;
+#menu span
+		display:block
+		line-height:30px
+		position:relative;
+		letter-spacing: 0.01em
+		color: white
+		text-decoration:none
+		padding-right: 25px
+		font-family: "Trebuchet MS",Arial,Helvetica,sans-serif,"Angsana New"
+		text-shadow: 0px 1px 1px rgba(0,0,0,0.7)
+		white-space:nowrap
+
+.main
+	display:inline-block
+ 	margin:0
+	padding:0
+	text-indent: 15px
+	font-family: sans-serif
+	font-size: 12px
+	border-top: 1px solid #557ABE
+	border-left: 1px solid #557ABE
+	border-bottom: 0px solid #557ABE
+	border-right: 1px solid #557ABE
+	background-color:#ADC3EB
+
+.main > span
+ 	background: /*linear-gradient(to bottom,  */#86A5E0 /*0%, #7B9BD5 100%)*/
+	/*border-top: 1px solid #ADC3EB
+	border-bottom: 1px solid #557ABE
+	border-left:0
+	border-right:0;*
+	display:block
+	font-weight: 900
+	font-size:16px
+	position:relative
+	padding: 4px
+
+.main > span::after
+	content:''
+	position:absolute
+	right: 12px
+	top:13px
+	width:6px
+	height:6px
+	transform:rotate(-135deg)
+	border-style: solid
+	border-width: 0px 0px 2px 2px
+	border-color: white
+	background: transparent
+	box-shadow: -1px 1px 0px rgba(0,0,0,0.3)
+
+.hasChild::after
+	content:''
+	position:absolute
+	right: 12px
+	top:9px
+	width:6px
+	height:6px
+	transform:rotate(-135deg)
+	border-style: solid
+	border-width: 0px 0px 2px 2px
+	border-color: white
+	background: transparent
+	box-shadow: -1px 1px 0px rgba(0,0,0,0.3)
+
+.main > span:hover, .main  > span.open
+	background: linear-gradient(to bottom, rgba(0,30,95,0.8) 0%, rgba(0,30,95,0.8) 100%);background-color:white
+
+.main  span.showSpan{height: 30px; opacity:1;transition: opacity 0.2s ease-out 0s, height 0.6s cubic-bezier(0.00000001,0.000000001,0.000000001,1) 0s;
+.main  span.open::after{transform: rotate(-45deg)
+.gone a, .gone{pointer-events:none; cursor:none;
+.main  div > span 
+	height: 0px;
+	transition: opacity 0.1s ease-in 0.4s, height 0.3s ease-out 0.1s
+	background: /*linear-gradient(*/rgb(85,122,190)/*0%, rgb(70,110,175) 100%)*/
+	opacity:0
+
+.main div > span:hover
+	background: linear-gradient(rgba(85,122,190,0.8) 0%,rgba(85,122,190,0.8) 100%)
+
+.main  div > span.parentActive
+	background: rgba(0,30,95,0.6)
+
+div.showSpan > span
+	padding-left:15px
+	background: rgba(70,110,175,0.4)
+}

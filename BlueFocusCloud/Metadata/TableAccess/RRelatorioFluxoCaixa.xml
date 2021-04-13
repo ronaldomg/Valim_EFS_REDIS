@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="dcc23204-a039-b151-9583-9e444eb9f558">
+  <Table name="TipoCobranca" />
+  <Table name="Pessoa" />
+  <Table name="CaixaBanco" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+  <Table name="Previsao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="SaldoCxaBco" />
+  <Table name="LancamentoCxaBco" />
+</Dependencies>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="88081179-5806-6f03-14ec-7a36f7e7c714">
+  <Table name="CentroCusto" />
+  <Table name="Empresa" />
+  <Table name="Natureza" />
+  <Table name="TipoRateio" />
+  <Table name="TipoRateioItem" />
+  <Table name="TransacaoCxBco" />
+  <Table name="TrnTransf" />
+  <Table name="TransacaoPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

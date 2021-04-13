@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="14f6b0fb-551d-d524-8abd-0f96477b3fc6">
+  <Table name="ContaContabil" />
+  <Table name="TipoConta" />
+  <Table name="ContaRateio" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="CentroCusto" />
+  <Table name="Natureza" />
+</Dependencies>

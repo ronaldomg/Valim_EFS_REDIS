@@ -1,0 +1,128 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 19:38:36.12
+*/
+gx.evt.autoSkip = false;
+gx.define('hregistrarreceitaoculoslote', false, function () {
+   this.ServerClass =  "hregistrarreceitaoculoslote" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV5ProdutoEmpresaId=gx.fn.getControlValue("vPRODUTOEMPRESAID") ;
+      this.AV17ProdutoId=gx.fn.getIntegerValue("vPRODUTOID",'.') ;
+      this.AV21SaidaTransacaoCodigo=gx.fn.getControlValue("vSAIDATRANSACAOCODIGO") ;
+      this.AV19SaidaFilialEmpId=gx.fn.getControlValue("vSAIDAFILIALEMPID") ;
+      this.AV20SaidaFilialId=gx.fn.getIntegerValue("vSAIDAFILIALID",'.') ;
+      this.AV13LoteProdutoCombinacao=gx.fn.getControlValue("vLOTEPRODUTOCOMBINACAO") ;
+   };
+   this.e122592_client=function()
+   {
+      this.executeServerEvent("'FECHAR'", false, null, false, false);
+   };
+   this.e132592_client=function()
+   {
+      this.executeServerEvent("ENTER", true, null, false, false);
+   };
+   this.e152592_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,5,8,12,14,16,18,20,23,25,27,29,31,33,41,42,43,44];
+   this.GXLastCtrlId =44;
+   GXValidFnc[2]={fld:"TABLEPRINCIPAL",grid:0};
+   GXValidFnc[5]={fld:"TABLE1",grid:0};
+   GXValidFnc[8]={fld:"TABLEFILTROS",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCK3", format:0,grid:0};
+   GXValidFnc[14]={fld:"TEXTBLOCK4", format:0,grid:0};
+   GXValidFnc[16]={fld:"TEXTBLOCK5", format:0,grid:0};
+   GXValidFnc[18]={fld:"TEXTBLOCK6", format:0,grid:0};
+   GXValidFnc[20]={fld:"TEXTBLOCK7", format:0,grid:0};
+   GXValidFnc[23]={fld:"TEXTBLOCK2", format:0,grid:0};
+   GXValidFnc[25]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"9999",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCOMBO1",gxz:"ZV34Combo1",gxold:"OV34Combo1",gxvar:"AV34Combo1",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"combo",v2v:function(Value){gx.O.AV34Combo1=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV34Combo1=gx.num.intval(Value)},v2c:function(){gx.fn.setComboBoxValue("vCOMBO1",gx.O.AV34Combo1)},c2v:function(){gx.O.AV34Combo1=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCOMBO1",'.')},nac:gx.falseFn};
+   GXValidFnc[27]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"9999",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCOMBO2",gxz:"ZV35Combo2",gxold:"OV35Combo2",gxvar:"AV35Combo2",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"combo",v2v:function(Value){gx.O.AV35Combo2=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV35Combo2=gx.num.intval(Value)},v2c:function(){gx.fn.setComboBoxValue("vCOMBO2",gx.O.AV35Combo2)},c2v:function(){gx.O.AV35Combo2=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCOMBO2",'.')},nac:gx.falseFn};
+   GXValidFnc[29]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"9999",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCOMBO3",gxz:"ZV36Combo3",gxold:"OV36Combo3",gxvar:"AV36Combo3",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"combo",v2v:function(Value){gx.O.AV36Combo3=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV36Combo3=gx.num.intval(Value)},v2c:function(){gx.fn.setComboBoxValue("vCOMBO3",gx.O.AV36Combo3)},c2v:function(){gx.O.AV36Combo3=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCOMBO3",'.')},nac:gx.falseFn};
+   GXValidFnc[31]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"9999",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCOMBO4",gxz:"ZV37Combo4",gxold:"OV37Combo4",gxvar:"AV37Combo4",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"combo",v2v:function(Value){gx.O.AV37Combo4=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV37Combo4=gx.num.intval(Value)},v2c:function(){gx.fn.setComboBoxValue("vCOMBO4",gx.O.AV37Combo4)},c2v:function(){gx.O.AV37Combo4=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCOMBO4",'.')},nac:gx.falseFn};
+   GXValidFnc[33]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"9999",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vCOMBO5",gxz:"ZV38Combo5",gxold:"OV38Combo5",gxvar:"AV38Combo5",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"combo",v2v:function(Value){gx.O.AV38Combo5=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV38Combo5=gx.num.intval(Value)},v2c:function(){gx.fn.setComboBoxValue("vCOMBO5",gx.O.AV38Combo5)},c2v:function(){gx.O.AV38Combo5=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCOMBO5",'.')},nac:gx.falseFn};
+   GXValidFnc[41]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vTRANSACAOSAIDASALDONEGATIVO",gxz:"ZV26TransacaoSaidaSaldoNegativo",gxold:"OV26TransacaoSaidaSaldoNegativo",gxvar:"AV26TransacaoSaidaSaldoNegativo",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV26TransacaoSaidaSaldoNegativo=Value},v2z:function(Value){gx.O.ZV26TransacaoSaidaSaldoNegativo=Value},v2c:function(){gx.fn.setControlValue("vTRANSACAOSAIDASALDONEGATIVO",gx.O.AV26TransacaoSaidaSaldoNegativo,0)},c2v:function(){gx.O.AV26TransacaoSaidaSaldoNegativo=this.val()},val:function(){return gx.fn.getControlValue("vTRANSACAOSAIDASALDONEGATIVO")},nac:gx.falseFn};
+   GXValidFnc[42]={lvl:0,type:"char",len:1,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vTRANSACAOSAIDASNALTERASALDO",gxz:"ZV27TransacaoSaidaSnAlteraSaldo",gxold:"OV27TransacaoSaidaSnAlteraSaldo",gxvar:"AV27TransacaoSaidaSnAlteraSaldo",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV27TransacaoSaidaSnAlteraSaldo=Value},v2z:function(Value){gx.O.ZV27TransacaoSaidaSnAlteraSaldo=Value},v2c:function(){gx.fn.setControlValue("vTRANSACAOSAIDASNALTERASALDO",gx.O.AV27TransacaoSaidaSnAlteraSaldo,0)},c2v:function(){gx.O.AV27TransacaoSaidaSnAlteraSaldo=this.val()},val:function(){return gx.fn.getControlValue("vTRANSACAOSAIDASNALTERASALDO")},nac:gx.falseFn};
+   GXValidFnc[43]={lvl:0,type:"char",len:1,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vPRODUTOSNCONTROLAESTOQUE",gxz:"ZV18ProdutoSnControlaEstoque",gxold:"OV18ProdutoSnControlaEstoque",gxvar:"AV18ProdutoSnControlaEstoque",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV18ProdutoSnControlaEstoque=Value},v2z:function(Value){gx.O.ZV18ProdutoSnControlaEstoque=Value},v2c:function(){gx.fn.setControlValue("vPRODUTOSNCONTROLAESTOQUE",gx.O.AV18ProdutoSnControlaEstoque,0)},c2v:function(){gx.O.AV18ProdutoSnControlaEstoque=this.val()},val:function(){return gx.fn.getControlValue("vPRODUTOSNCONTROLAESTOQUE")},nac:gx.falseFn};
+   GXValidFnc[44]={lvl:0,type:"decimal",len:18,dec:4,sign:true,pic:"ZZZZ,ZZZ,ZZZ,ZZ9.9999",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"vLOTEPRODUTOQTDEATUAL",gxz:"ZV14LoteProdutoQtdeAtual",gxold:"OV14LoteProdutoQtdeAtual",gxvar:"AV14LoteProdutoQtdeAtual",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV14LoteProdutoQtdeAtual=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.ZV14LoteProdutoQtdeAtual=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("vLOTEPRODUTOQTDEATUAL",gx.O.AV14LoteProdutoQtdeAtual,4,',')},c2v:function(){gx.O.AV14LoteProdutoQtdeAtual=this.val()},val:function(){return gx.fn.getDecimalValue("vLOTEPRODUTOQTDEATUAL",'.',',')},nac:gx.falseFn};
+   this.AV34Combo1 = 0 ;
+   this.ZV34Combo1 = 0 ;
+   this.OV34Combo1 = 0 ;
+   this.AV35Combo2 = 0 ;
+   this.ZV35Combo2 = 0 ;
+   this.OV35Combo2 = 0 ;
+   this.AV36Combo3 = 0 ;
+   this.ZV36Combo3 = 0 ;
+   this.OV36Combo3 = 0 ;
+   this.AV37Combo4 = 0 ;
+   this.ZV37Combo4 = 0 ;
+   this.OV37Combo4 = 0 ;
+   this.AV38Combo5 = 0 ;
+   this.ZV38Combo5 = 0 ;
+   this.OV38Combo5 = 0 ;
+   this.AV26TransacaoSaidaSaldoNegativo = "" ;
+   this.ZV26TransacaoSaidaSaldoNegativo = "" ;
+   this.OV26TransacaoSaidaSaldoNegativo = "" ;
+   this.AV27TransacaoSaidaSnAlteraSaldo = "" ;
+   this.ZV27TransacaoSaidaSnAlteraSaldo = "" ;
+   this.OV27TransacaoSaidaSnAlteraSaldo = "" ;
+   this.AV18ProdutoSnControlaEstoque = "" ;
+   this.ZV18ProdutoSnControlaEstoque = "" ;
+   this.OV18ProdutoSnControlaEstoque = "" ;
+   this.AV14LoteProdutoQtdeAtual = 0 ;
+   this.ZV14LoteProdutoQtdeAtual = 0 ;
+   this.OV14LoteProdutoQtdeAtual = 0 ;
+   this.AV34Combo1 = 0 ;
+   this.AV35Combo2 = 0 ;
+   this.AV36Combo3 = 0 ;
+   this.AV37Combo4 = 0 ;
+   this.AV38Combo5 = 0 ;
+   this.AV26TransacaoSaidaSaldoNegativo = "" ;
+   this.AV27TransacaoSaidaSnAlteraSaldo = "" ;
+   this.AV18ProdutoSnControlaEstoque = "" ;
+   this.AV14LoteProdutoQtdeAtual = 0 ;
+   this.AV5ProdutoEmpresaId = "" ;
+   this.AV17ProdutoId = 0 ;
+   this.AV21SaidaTransacaoCodigo = "" ;
+   this.AV19SaidaFilialEmpId = "" ;
+   this.AV20SaidaFilialId = 0 ;
+   this.AV13LoteProdutoCombinacao = "" ;
+   this.A2921AtributoEsquemaCodigo = 0 ;
+   this.A2915EsquemaCodigo = 0 ;
+   this.A2941ValorAtributoCodigo = 0 ;
+   this.A2938ValorAtributoDescricao = "" ;
+   this.A2965ProdutoId = 0 ;
+   this.A2964ProdutoEmpresaId = "" ;
+   this.A1156FilialId = 0 ;
+   this.A1228FilialEmpresaId = "" ;
+   this.A3624LoteProdutoCombinacao = "" ;
+   this.A3856ProdutoSNControlaEstoque = "" ;
+   this.A3645LoteProdutoQtdeAtual = 0 ;
+   this.A5695TransacaoSaidaCodigo = "" ;
+   this.A5694TransacaoSaidaEmpresaId = "" ;
+   this.A5572TransacaoSaidaSnAlteraSaldo = "" ;
+   this.A6455TransacaoSaidaSaldoNegativo = "" ;
+   this.Events = {"e122592_client": ["'FECHAR'", true] ,"e132592_client": ["ENTER", true] ,"e152592_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[],[]];
+   this.EvtParms["'FECHAR'"] = [[{av:'AV13LoteProdutoCombinacao',fld:'vLOTEPRODUTOCOMBINACAO'}],[]];
+   this.EvtParms["ENTER"] = [[{av:'AV13LoteProdutoCombinacao',fld:'vLOTEPRODUTOCOMBINACAO'},{av:'AV27TransacaoSaidaSnAlteraSaldo',fld:'vTRANSACAOSAIDASNALTERASALDO'},{av:'AV18ProdutoSnControlaEstoque',fld:'vPRODUTOSNCONTROLAESTOQUE'},{av:'AV14LoteProdutoQtdeAtual',fld:'vLOTEPRODUTOQTDEATUAL'},{av:'AV26TransacaoSaidaSaldoNegativo',fld:'vTRANSACAOSAIDASALDONEGATIVO'},{av:'AV23SNErro',fld:'vSNERRO'},{av:'AV34Combo1',fld:'vCOMBO1'},{av:'AV35Combo2',fld:'vCOMBO2'},{av:'AV36Combo3',fld:'vCOMBO3'},{av:'AV37Combo4',fld:'vCOMBO4'},{av:'AV38Combo5',fld:'vCOMBO5'}],[{av:'AV23SNErro',fld:'vSNERRO'},{av:'AV13LoteProdutoCombinacao',fld:'vLOTEPRODUTOCOMBINACAO'}]];
+   this.EnterCtrl = ["BTNIMPRIMIR"];
+   this.setVCMap("AV5ProdutoEmpresaId", "vPRODUTOEMPRESAID", 0, "char");
+   this.setVCMap("AV17ProdutoId", "vPRODUTOID", 0, "int");
+   this.setVCMap("AV21SaidaTransacaoCodigo", "vSAIDATRANSACAOCODIGO", 0, "char");
+   this.setVCMap("AV19SaidaFilialEmpId", "vSAIDAFILIALEMPID", 0, "char");
+   this.setVCMap("AV20SaidaFilialId", "vSAIDAFILIALID", 0, "int");
+   this.setVCMap("AV13LoteProdutoCombinacao", "vLOTEPRODUTOCOMBINACAO", 0, "char");
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new hregistrarreceitaoculoslote());

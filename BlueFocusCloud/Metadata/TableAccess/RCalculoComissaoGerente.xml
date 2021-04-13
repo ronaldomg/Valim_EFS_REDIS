@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="06e16007-786d-2160-b3a5-9f1b04d90c3f">
+  <Table name="Vendedor" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Saida" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="SaidaVendedor" />
+  <Table name="SaidaVinculada" />
+  <Table name="ComissaoGerente" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

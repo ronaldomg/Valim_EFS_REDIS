@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ed711b20-aacb-cce9-929b-cd3adff2b309">
+  <Table name="Natureza" />
+  <Table name="Tabela" />
+</Dependencies>

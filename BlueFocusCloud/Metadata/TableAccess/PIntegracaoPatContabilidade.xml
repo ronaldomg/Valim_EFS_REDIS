@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="26000d08-c742-7233-463c-17c8d9ab2b4d">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="Historico" />
+  <Table name="TipoBem" />
+  <Table name="Bem" />
+  <Table name="HistoricoBem" />
+  <Table name="IntegracaoPatCbl" />
+  <Table name="IntegracaoPatCblComp" />
+  <Table name="LancamentoBem" />
+  <Table name="CContabilPessoa" />
+  <Table name="Pessoa" />
+  <Table name="RateioFatorRateio" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="ItensLancamentoContabilCentroCusto" />
+  <Table name="LancamentoContabil" />
+  <Table name="ItensLancamentoContabilFinanc" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="SaldoConta" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="ChavePrimaria" />
+  <Table name="TransacaoContabil" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

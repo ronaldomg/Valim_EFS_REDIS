@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="68bfcc5c-ac6a-c23a-51ef-41e71d944db9">
+  <Table name="Genero" />
+  <Table name="ANP" />
+</Dependencies>

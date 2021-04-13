@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1c70ba2a-475c-42bc-1fc9-5e6bba591d08">
+  <Table name="Filial" />
+  <Table name="PaginacaoFiscal" />
+</Dependencies>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7dbf2a3c-f149-f672-e690-1150bbf312df">
+  <Table name="Empresa" />
+  <Table name="Convenio" />
+  <Table name="OutrosPagamentos" />
+  <Table name="TipoLicitacao" />
+  <Table name="Pessoa" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

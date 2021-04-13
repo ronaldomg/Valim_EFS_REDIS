@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3986238c-eb21-c200-4eae-a036201f3b06">
+  <Table name="ParmVolVendas" />
+  <Table name="Tabela" />
+</Dependencies>

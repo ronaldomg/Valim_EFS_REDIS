@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="09b79456-e470-71b4-64b8-3a178ce8a622">
+  <Table name="ConvenioVerba" />
+  <Table name="ConvenioCentroCusto" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="16dc1fc7-5f5b-0ebe-1559-ca0fb190252c">
+  <Table name="HistoricoFcx" />
+  <Table name="Tabela" />
+</Dependencies>

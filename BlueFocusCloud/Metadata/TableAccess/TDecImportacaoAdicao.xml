@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="463a7f46-1cfc-bac4-f721-d42094eb49e8">
+  <Table name="DecImportacao" />
+  <Table name="DecImportacaoAdicao" />
+</Dependencies>

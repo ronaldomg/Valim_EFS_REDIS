@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c4bb0ca5-9b3d-f248-1304-f28abdbe15d6">
+  <Table name="CentroCusto" />
+  <Table name="Cidades" />
+  <Table name="ContaContabil" />
+  <Table name="Natureza" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="ModeloDocumento" />
+  <Table name="Pessoa" />
+  <Table name="CaixaBanco" />
+  <Table name="Filial" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="dicionario" />
+  <Table name="LayoutDocumento" />
+</Dependencies>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="aaff365b-8d0c-cb8d-3f08-58b6409a80a1">
+  <Table name="Convidado" />
+  <Table name="Pessoa" />
+  <Table name="Dependente" />
+  <Table name="Produto" />
+</Dependencies>

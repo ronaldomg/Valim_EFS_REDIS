@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c6e3131b-9564-9af1-a397-086ed4756ccd">
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="CFOP" />
+  <Table name="Transportador" />
+  <Table name="Paises" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="TransacaoEntrada" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="SituacaoTributaria" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="MVAProduto" />
+  <Table name="ProdutoFornecedor" />
+  <Table name="ObsLancamentoFiscal" />
+  <Table name="ICMSProduto" />
+  <Table name="EntradaObsLancFiscal" />
+  <Table name="EntradaAjusteFiscal" />
+  <Table name="Preco" />
+  <Table name="PrecoPromocao" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+</Dependencies>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bc96664f-7568-385c-ad39-714040fdc410">
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="LancamCxaBcoRateio" />
+  <Table name="LancamentosProcesso" />
+  <Table name="ContaProvisorioConta" />
+  <Table name="CaixaBanco" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="ItensLancamentoContabilFinanc" />
+  <Table name="Previsao" />
+  <Table name="EntradaPagtoParcela" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="ItensLancamentoContabilCentroCusto" />
+  <Table name="SaldoContaCorrentista" />
+  <Table name="SaldoConta" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="SaldoContaCentroCusto" />
+  <Table name="ChavePrimaria" />
+  <Table name="ContaContabil" />
+  <Table name="RateioFatorRateio" />
+  <Table name="TransacaoContabil" />
+  <Table name="SaldoCxaBco" />
+  <Table name="LogTabelaCamposBlob" />
+</Dependencies>

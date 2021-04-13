@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="bfb68126-bd7b-c893-18ef-ad7dba3b617d">
+  <Table name="Convenio" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="17198141-a4bb-c4b9-e576-031b76c62058">
+  <Table name="CentroCusto" />
+  <Table name="Natureza" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="LancamCxaBcoRateio" />
+  <Table name="OrcadoRealizado" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Previsao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

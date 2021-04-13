@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f59391bd-2493-abdd-9e36-c5073be0d85f">
+  <Table name="AcessoPortaria" />
+  <Table name="Convite" />
+  <Table name="ConviteConvidado" />
+  <Table name="Tabela" />
+</Dependencies>

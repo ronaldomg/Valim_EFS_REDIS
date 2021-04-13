@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="831bad85-a270-f5b0-6547-38257205c1dc">
+  <Table name="TipoNatureza" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

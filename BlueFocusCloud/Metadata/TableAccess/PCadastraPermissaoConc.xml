@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3c37bb54-c264-b390-4afc-a751ece1051d">
+  <Table name="PermissaoConc" />
+  <Table name="ChavePrimariaComposta" />
+</Dependencies>

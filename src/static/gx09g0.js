@@ -1,0 +1,108 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 20:25:52.97
+*/
+gx.evt.autoSkip = false;
+gx.define('gx09g0', false, function () {
+   this.ServerClass =  "gx09g0" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV10pTabelaEmpresaId=gx.fn.getControlValue("vPTABELAEMPRESAID") ;
+      this.AV11pTabelaId=gx.fn.getControlValue("vPTABELAID") ;
+   };
+   this.e131j02_client=function()
+   {
+      this.executeServerEvent("ENTER", true, arguments[0], false, false);
+   };
+   this.e141j01_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,8,9,12,14,17,19,22,24,27,29,32,33,37,38,39,40,41,44];
+   this.GXLastCtrlId =44;
+   this.Grid1Container = new gx.grid.grid(this, 2,"WbpLvl2",36,"Grid1","Grid1","Grid1Container",this.CmpContext,this.IsMasterPage,"gx09g0",[],false,1,false,true,10,true,false,false,"",0,"px","Novo registro",true,false,false,null,null,false,"",false,[1,1,1,1]);
+   var Grid1Container = this.Grid1Container;
+   Grid1Container.addBitmap("&Linkselection","vLINKSELECTION",37,0,"px",17,"px",null,"","","Image","");
+   Grid1Container.addSingleLineEdit(3123,38,"TABELAEMPRESAID","Empresa","","TabelaEmpresaId","char",0,"px",10,10,"left",null,[],3123,"TabelaEmpresaId",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(139,39,"TABELAID","Código","","TabelaId","svchar",0,"px",30,30,"left",null,[],139,"TabelaId",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(541,40,"TABELADESCRICAO","Descrição","Selecionar","TabelaDescricao","svchar",0,"px",40,40,"left",null,[],541,"TabelaDescricao",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(138,41,"EMPRESAID","Empresa","","EmpresaId","char",0,"px",10,10,"left",null,[],138,"EmpresaId",true,0,false,false,"Attribute",1,"");
+   this.setGrid(Grid1Container);
+   GXValidFnc[2]={fld:"TABLE1",grid:0};
+   GXValidFnc[8]={fld:"GROUP1",grid:0};
+   GXValidFnc[9]={fld:"TABLE2",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCKTABELAEMPRESAID", format:0,grid:0};
+   GXValidFnc[14]={lvl:0,type:"char",len:10,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCTABELAEMPRESAID",gxz:"ZV6cTabelaEmpresaId",gxold:"OV6cTabelaEmpresaId",gxvar:"AV6cTabelaEmpresaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV6cTabelaEmpresaId=Value},v2z:function(Value){gx.O.ZV6cTabelaEmpresaId=Value},v2c:function(){gx.fn.setControlValue("vCTABELAEMPRESAID",gx.O.AV6cTabelaEmpresaId,0)},c2v:function(){gx.O.AV6cTabelaEmpresaId=this.val()},val:function(){return gx.fn.getControlValue("vCTABELAEMPRESAID")},nac:gx.falseFn};
+   GXValidFnc[17]={fld:"TEXTBLOCKTABELAID", format:0,grid:0};
+   GXValidFnc[19]={lvl:0,type:"svchar",len:30,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCTABELAID",gxz:"ZV7cTabelaId",gxold:"OV7cTabelaId",gxvar:"AV7cTabelaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV7cTabelaId=Value},v2z:function(Value){gx.O.ZV7cTabelaId=Value},v2c:function(){gx.fn.setControlValue("vCTABELAID",gx.O.AV7cTabelaId,0)},c2v:function(){gx.O.AV7cTabelaId=this.val()},val:function(){return gx.fn.getControlValue("vCTABELAID")},nac:gx.falseFn};
+   GXValidFnc[22]={fld:"TEXTBLOCKTABELADESCRICAO", format:0,grid:0};
+   GXValidFnc[24]={lvl:0,type:"svchar",len:40,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCTABELADESCRICAO",gxz:"ZV8cTabelaDescricao",gxold:"OV8cTabelaDescricao",gxvar:"AV8cTabelaDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV8cTabelaDescricao=Value},v2z:function(Value){gx.O.ZV8cTabelaDescricao=Value},v2c:function(){gx.fn.setControlValue("vCTABELADESCRICAO",gx.O.AV8cTabelaDescricao,0)},c2v:function(){gx.O.AV8cTabelaDescricao=this.val()},val:function(){return gx.fn.getControlValue("vCTABELADESCRICAO")},nac:gx.falseFn};
+   GXValidFnc[27]={fld:"TEXTBLOCKEMPRESAID", format:0,grid:0};
+   GXValidFnc[29]={lvl:0,type:"char",len:10,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCEMPRESAID",gxz:"ZV9cEmpresaId",gxold:"OV9cEmpresaId",gxvar:"AV9cEmpresaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV9cEmpresaId=Value},v2z:function(Value){gx.O.ZV9cEmpresaId=Value},v2c:function(){gx.fn.setControlValue("vCEMPRESAID",gx.O.AV9cEmpresaId,0)},c2v:function(){gx.O.AV9cEmpresaId=this.val()},val:function(){return gx.fn.getControlValue("vCEMPRESAID")},nac:gx.falseFn};
+   GXValidFnc[32]={fld:"GROUP2",grid:0};
+   GXValidFnc[33]={fld:"TABLE3",grid:0};
+   GXValidFnc[37]={lvl:2,type:"bits",len:1024,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"vLINKSELECTION",gxz:"ZV5LinkSelection",gxold:"OV5LinkSelection",gxvar:"AV5LinkSelection",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.AV5LinkSelection=Value},v2z:function(Value){gx.O.ZV5LinkSelection=Value},v2c:function(row){gx.fn.setGridMultimediaValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36),gx.O.AV5LinkSelection,gx.O.AV14Linkselection_GXI)},c2v:function(){gx.O.AV14Linkselection_GXI=this.val_GXI();gx.O.AV5LinkSelection=this.val()},val:function(row){return gx.fn.getGridControlValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36))},val_GXI:function(row){return gx.fn.getGridControlValue("vLINKSELECTION_GXI",row || gx.fn.currentGridRowImpl(36))}, gxvar_GXI:'AV14Linkselection_GXI',nac:gx.falseFn};
+   GXValidFnc[38]={lvl:2,type:"char",len:10,dec:0,sign:false,pic:"@!",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"TABELAEMPRESAID",gxz:"Z3123TabelaEmpresaId",gxold:"O3123TabelaEmpresaId",gxvar:"A3123TabelaEmpresaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A3123TabelaEmpresaId=Value},v2z:function(Value){gx.O.Z3123TabelaEmpresaId=Value},v2c:function(row){gx.fn.setGridControlValue("TABELAEMPRESAID",row || gx.fn.currentGridRowImpl(36),gx.O.A3123TabelaEmpresaId,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A3123TabelaEmpresaId=this.val()},val:function(row){return gx.fn.getGridControlValue("TABELAEMPRESAID",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[39]={lvl:2,type:"svchar",len:30,dec:0,sign:false,pic:"@!",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"TABELAID",gxz:"Z139TabelaId",gxold:"O139TabelaId",gxvar:"A139TabelaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A139TabelaId=Value},v2z:function(Value){gx.O.Z139TabelaId=Value},v2c:function(row){gx.fn.setGridControlValue("TABELAID",row || gx.fn.currentGridRowImpl(36),gx.O.A139TabelaId,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A139TabelaId=this.val()},val:function(row){return gx.fn.getGridControlValue("TABELAID",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[40]={lvl:2,type:"svchar",len:40,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"TABELADESCRICAO",gxz:"Z541TabelaDescricao",gxold:"O541TabelaDescricao",gxvar:"A541TabelaDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A541TabelaDescricao=Value},v2z:function(Value){gx.O.Z541TabelaDescricao=Value},v2c:function(row){gx.fn.setGridControlValue("TABELADESCRICAO",row || gx.fn.currentGridRowImpl(36),gx.O.A541TabelaDescricao,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A541TabelaDescricao=this.val()},val:function(row){return gx.fn.getGridControlValue("TABELADESCRICAO",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[41]={lvl:2,type:"char",len:10,dec:0,sign:false,pic:"@!",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"EMPRESAID",gxz:"Z138EmpresaId",gxold:"O138EmpresaId",gxvar:"A138EmpresaId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A138EmpresaId=Value},v2z:function(Value){gx.O.Z138EmpresaId=Value},v2c:function(row){gx.fn.setGridControlValue("EMPRESAID",row || gx.fn.currentGridRowImpl(36),gx.O.A138EmpresaId,0)},c2v:function(){gx.O.A138EmpresaId=this.val()},val:function(row){return gx.fn.getGridControlValue("EMPRESAID",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[44]={fld:"TABLE4",grid:0};
+   this.AV6cTabelaEmpresaId = "" ;
+   this.ZV6cTabelaEmpresaId = "" ;
+   this.OV6cTabelaEmpresaId = "" ;
+   this.AV7cTabelaId = "" ;
+   this.ZV7cTabelaId = "" ;
+   this.OV7cTabelaId = "" ;
+   this.AV8cTabelaDescricao = "" ;
+   this.ZV8cTabelaDescricao = "" ;
+   this.OV8cTabelaDescricao = "" ;
+   this.AV9cEmpresaId = "" ;
+   this.ZV9cEmpresaId = "" ;
+   this.OV9cEmpresaId = "" ;
+   this.ZV5LinkSelection = "" ;
+   this.OV5LinkSelection = "" ;
+   this.Z3123TabelaEmpresaId = "" ;
+   this.O3123TabelaEmpresaId = "" ;
+   this.Z139TabelaId = "" ;
+   this.O139TabelaId = "" ;
+   this.Z541TabelaDescricao = "" ;
+   this.O541TabelaDescricao = "" ;
+   this.Z138EmpresaId = "" ;
+   this.O138EmpresaId = "" ;
+   this.AV6cTabelaEmpresaId = "" ;
+   this.AV7cTabelaId = "" ;
+   this.AV8cTabelaDescricao = "" ;
+   this.AV9cEmpresaId = "" ;
+   this.AV10pTabelaEmpresaId = "" ;
+   this.AV11pTabelaId = "" ;
+   this.AV5LinkSelection = "" ;
+   this.A3123TabelaEmpresaId = "" ;
+   this.A139TabelaId = "" ;
+   this.A541TabelaDescricao = "" ;
+   this.A138EmpresaId = "" ;
+   this.Events = {"e131j02_client": ["ENTER", true] ,"e141j01_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cTabelaEmpresaId',fld:'vCTABELAEMPRESAID'},{av:'AV7cTabelaId',fld:'vCTABELAID'},{av:'AV8cTabelaDescricao',fld:'vCTABELADESCRICAO'},{av:'AV9cEmpresaId',fld:'vCEMPRESAID'}],[]];
+   this.EvtParms["LOAD"] = [[],[{av:'AV5LinkSelection',fld:'vLINKSELECTION'}]];
+   this.EvtParms["ENTER"] = [[{av:'A3123TabelaEmpresaId',fld:'TABELAEMPRESAID'},{av:'A139TabelaId',fld:'TABELAID'}],[{av:'AV10pTabelaEmpresaId',fld:'vPTABELAEMPRESAID'},{av:'AV11pTabelaId',fld:'vPTABELAID'}]];
+   this.EvtParms["GRID1_FIRSTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cTabelaEmpresaId',fld:'vCTABELAEMPRESAID'},{av:'AV7cTabelaId',fld:'vCTABELAID'},{av:'AV8cTabelaDescricao',fld:'vCTABELADESCRICAO'},{av:'AV9cEmpresaId',fld:'vCEMPRESAID'}],[]];
+   this.EvtParms["GRID1_PREVPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cTabelaEmpresaId',fld:'vCTABELAEMPRESAID'},{av:'AV7cTabelaId',fld:'vCTABELAID'},{av:'AV8cTabelaDescricao',fld:'vCTABELADESCRICAO'},{av:'AV9cEmpresaId',fld:'vCEMPRESAID'}],[]];
+   this.EvtParms["GRID1_NEXTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cTabelaEmpresaId',fld:'vCTABELAEMPRESAID'},{av:'AV7cTabelaId',fld:'vCTABELAID'},{av:'AV8cTabelaDescricao',fld:'vCTABELADESCRICAO'},{av:'AV9cEmpresaId',fld:'vCEMPRESAID'}],[]];
+   this.EvtParms["GRID1_LASTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cTabelaEmpresaId',fld:'vCTABELAEMPRESAID'},{av:'AV7cTabelaId',fld:'vCTABELAID'},{av:'AV8cTabelaDescricao',fld:'vCTABELADESCRICAO'},{av:'AV9cEmpresaId',fld:'vCEMPRESAID'}],[]];
+   this.setVCMap("AV10pTabelaEmpresaId", "vPTABELAEMPRESAID", 0, "char");
+   this.setVCMap("AV11pTabelaId", "vPTABELAID", 0, "svchar");
+   Grid1Container.addRefreshingVar(this.GXValidFnc[14]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[19]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[24]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[29]);
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new gx09g0());

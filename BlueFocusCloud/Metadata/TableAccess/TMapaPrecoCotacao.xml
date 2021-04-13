@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="370af7e9-a4b8-3910-6ec5-9c1422a6880e">
+  <Table name="Cotacao" />
+  <Table name="MapaPreco" />
+  <Table name="MapaPrecoCotacao" />
+  <Table name="Pessoa" />
+</Dependencies>

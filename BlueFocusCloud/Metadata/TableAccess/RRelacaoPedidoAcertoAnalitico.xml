@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3b87c2c1-68b8-4b02-d0d1-6ecd9417adc7">
+  <Table name="AcertoDespRec" />
+  <Table name="PedidoAce" />
+  <Table name="Pessoa" />
+  <Table name="Produto" />
+  <Table name="PedidoAceItem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

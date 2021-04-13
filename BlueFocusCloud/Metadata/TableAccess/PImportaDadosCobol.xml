@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8dd3785d-59db-50ad-059d-d643293c17ca">
+  <Table name="LoteProduto" />
+  <Table name="DecImportacao" />
+  <Table name="DecImportacaoAdicao" />
+  <Table name="ReducaoZ" />
+  <Table name="AliquotaReducao" />
+  <Table name="SaidaExportacao" />
+  <Table name="Equipamentos" />
+  <Table name="SaidaItemSimplesRem" />
+  <Table name="Pessoa" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="TransacaoEntrada" />
+  <Table name="Entrada" />
+  <Table name="EntradaPagtoParcela" />
+  <Table name="EntradaImportacao" />
+  <Table name="EntradaItem" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="SaidaVendedor" />
+  <Table name="SaidaVinculada" />
+  <Table name="SaidaObsLancFiscal" />
+  <Table name="SaidaAjusteFiscal" />
+  <Table name="SaidaVolumeTransp" />
+  <Table name="SaidaLacres" />
+  <Table name="SaidaReboque" />
+  <Table name="SaidaProcRef" />
+  <Table name="SaidaCondItem" />
+  <Table name="EntradaObsLancFiscal" />
+  <Table name="EntradaAjusteFiscal" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+  <Table name="Empresa" />
+  <Table name="ChavePrimaria" />
+  <Table name="ChavePrimariaComposta" />
+</Dependencies>

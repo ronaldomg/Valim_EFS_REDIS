@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c6b717f5-667b-e390-c463-714ca9be4d0a">
+  <Table name="AjusteFiscal" />
+  <Table name="Filial" />
+  <Table name="Tabela" />
+</Dependencies>

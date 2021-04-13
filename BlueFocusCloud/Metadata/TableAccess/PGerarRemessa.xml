@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c5aaca18-6d0f-5293-a0a4-7ffe443cc5cd">
+  <Table name="Empresa" />
+  <Table name="Banco" />
+  <Table name="TipoLancamento" />
+  <Table name="Boleto" />
+  <Table name="Cedente" />
+  <Table name="RemessaRetorno" />
+  <Table name="MontBarrasBoleto" />
+  <Table name="BancoAgencia" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="RemessaRetornoItem" />
+</Dependencies>

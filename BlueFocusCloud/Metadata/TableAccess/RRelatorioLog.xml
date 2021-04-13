@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9f7802a9-5d3a-5c8c-36ed-f81d9ea4cb95">
+  <Table name="TipoLancamento" />
+  <Table name="LogTabelaCampos" />
+  <Table name="Pessoa" />
+  <Table name="LogTabela" />
+  <Table name="ContaPagRec" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

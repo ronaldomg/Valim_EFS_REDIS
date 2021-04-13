@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="76dad1f9-ec12-d946-6fe3-d98bfa3d9b3e">
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="TelefonePessoa" />
+  <Table name="Categoria" />
+  <Table name="GrauParentesco" />
+  <Table name="OcorrenciaPessoa" />
+  <Table name="Pessoa" />
+  <Table name="Dependente" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

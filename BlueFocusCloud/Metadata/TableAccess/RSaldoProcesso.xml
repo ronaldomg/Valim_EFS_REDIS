@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="db8cce27-47b3-1cfe-defc-49df75d50fe5">
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="PedidoCompraItem" />
+  <Table name="LancamentosProcesso" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="PedidoCompra" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="AditivoItem" />
+</Dependencies>

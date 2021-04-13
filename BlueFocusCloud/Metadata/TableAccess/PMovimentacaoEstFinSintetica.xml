@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c4d4426b-f6f3-8b11-dd94-322bd7469294">
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="ContaOcorrencia" />
+  <Table name="Preco" />
+  <Table name="CFOP" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+  <Table name="Produto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="TransacaoSaida" />
+  <Table name="MovEstFin" />
+  <Table name="MovEstFinCalculo" />
+  <Table name="MovEstFinFiltros" />
+  <Table name="Processo" />
+  <Table name="PrecoPromocao" />
+  <Table name="Tabela" />
+  <Table name="PrecoProduto" />
+  <Table name="PrecoProdutoMedio" />
+  <Table name="ParametroSistema" />
+  <Table name="LoteProduto" />
+  <Table name="SaldoProduto" />
+</Dependencies>

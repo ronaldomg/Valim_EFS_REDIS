@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ca06a23d-1946-defc-7c5e-9fd7182e487a">
+  <Table name="ClassFluxoRelatorio" />
+  <Table name="CaixaBanco" />
+  <Table name="ClassFluxo" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="SaldoCxaBco" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="Natureza" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="LancamCxaBcoRateio" />
+  <Table name="ClassFluxoSelecao" />
+  <Table name="ContaPagRec" />
+  <Table name="CodDesprezar" />
+  <Table name="ClassFluxoSelItem" />
+  <Table name="ClassFluxoHistLanc" />
+  <Table name="Depreciacao" />
+</Dependencies>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="771312a3-7f7e-baee-cbda-bdb9cca63e96">
+  <Table name="CFOP" />
+  <Table name="Unidade" />
+  <Table name="Filial" />
+  <Table name="Produto" />
+  <Table name="EntradaItem" />
+  <Table name="SituacaoTributaria" />
+</Dependencies>

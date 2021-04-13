@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ea218c67-4cd8-5569-b4e0-2eb8cd8125ee">
+  <Table name="Preco" />
+  <Table name="CodificacaoEst" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Familia" />
+  <Table name="NCM" />
+  <Table name="PrecoProduto" />
+  <Table name="Unidade" />
+  <Table name="MateriaPrima" />
+  <Table name="Produto" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

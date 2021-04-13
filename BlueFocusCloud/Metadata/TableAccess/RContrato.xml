@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b40a752b-33c6-d1df-77f2-cb6e15b92272">
+  <Table name="Cidades" />
+  <Table name="Empresa" />
+  <Table name="ReferenciaComercial" />
+  <Table name="Contrato" />
+  <Table name="Lote" />
+  <Table name="Loteamento" />
+  <Table name="ModeloContratoLayout" />
+  <Table name="Pessoa" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

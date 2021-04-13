@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9124697a-486b-3e95-cad5-c8bd849d105a">
+  <Table name="Cidades" />
+  <Table name="Classificacao" />
+  <Table name="ClassificacaoOpcaoClassificacao" />
+  <Table name="Empresa" />
+  <Table name="Vendedor" />
+  <Table name="AcertoVend" />
+  <Table name="Usuario" />
+  <Table name="CaixaBanco" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+  <Table name="PedidoCompra" />
+  <Table name="Saida" />
+  <Table name="Entrada" />
+  <Table name="SaidaVendedor" />
+  <Table name="Proposta" />
+  <Table name="OrdemServico" />
+  <Table name="ComissaoVendedor" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

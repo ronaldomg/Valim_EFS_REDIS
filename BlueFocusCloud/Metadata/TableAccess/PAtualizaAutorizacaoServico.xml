@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0d2497b8-ac25-0a09-4dd7-776ab7b4e93e">
+  <Table name="PedidoCompraItem" />
+  <Table name="ContaPagRec" />
+  <Table name="PedidoCompra" />
+  <Table name="Produto" />
+  <Table name="PedidoCompraItemLOGEntrega" />
+  <Table name="AditivoItem" />
+</Dependencies>

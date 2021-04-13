@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7acbc27c-af6f-f3a6-bf69-6f44cffe4172">
+  <Table name="ClassificacaoEst" />
+  <Table name="ClassificacaoEstOpcaoClassific" />
+  <Table name="ModeloEtiquetaTermica" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

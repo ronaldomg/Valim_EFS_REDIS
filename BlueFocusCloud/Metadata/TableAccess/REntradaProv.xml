@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="5eda7d11-f084-151c-385e-76fdfd929386">
+  <Table name="EntradaProv" />
+  <Table name="EntradaProvItem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

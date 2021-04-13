@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9c5c4515-6605-197e-2772-5795d0ce5482">
+  <Table name="ContaContabil" />
+  <Table name="CFOP" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Esquema" />
+  <Table name="Familia" />
+  <Table name="Genero" />
+  <Table name="GrupoProduto" />
+  <Table name="InformacaoExtra" />
+  <Table name="InformacaoNut" />
+  <Table name="KitProduto" />
+  <Table name="ListaServico" />
+  <Table name="LoteProduto" />
+  <Table name="MVAProduto" />
+  <Table name="NCM" />
+  <Table name="PrecoProduto" />
+  <Table name="ProdutoFornecedor" />
+  <Table name="Similares" />
+  <Table name="SubgrupoProduto" />
+  <Table name="Unidade" />
+  <Table name="VencimentoProduto" />
+  <Table name="MargemMarkup" />
+  <Table name="ParametroPreco" />
+  <Table name="GrupoPreco" />
+  <Table name="ICMSProduto" />
+  <Table name="Pessoa" />
+  <Table name="PrecoPromocao" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="SituacaoTributaria" />
+  <Table name="Tabela" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabelaCamposBlob" />
+  <Table name="LogTabela" />
+</Dependencies>

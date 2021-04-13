@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="909f06e2-cec8-dcab-805b-961eba8ad2ff">
+  <Table name="Boleto" />
+  <Table name="ContaPagRec" />
+</Dependencies>

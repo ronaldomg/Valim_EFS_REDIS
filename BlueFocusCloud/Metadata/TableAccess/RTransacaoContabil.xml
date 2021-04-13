@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ea9ff2af-2094-cffe-cc88-9b02e9cae2b1">
+  <Table name="CentroCusto" />
+  <Table name="Historico" />
+  <Table name="Rateio" />
+  <Table name="TransacaoContabil" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

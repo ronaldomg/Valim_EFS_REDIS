@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c2db5046-7583-793f-a855-6c50eadbfbde">
+  <Table name="Desconto" />
+  <Table name="Modulo" />
+</Dependencies>

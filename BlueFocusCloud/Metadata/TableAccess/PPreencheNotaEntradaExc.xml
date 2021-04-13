@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="028be8bb-1b97-6b8e-4557-7c46361a2fb5">
+  <Table name="Vendedor" />
+  <Table name="TransacaoPagRec" />
+  <Table name="TransacaoEntrada" />
+  <Table name="Entrada" />
+  <Table name="PessoaClassificacao" />
+</Dependencies>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7163e59a-1c8e-c646-e081-2d80bb155574">
+  <Table name="pg_proc" />
+</Dependencies>

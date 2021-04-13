@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a7730f70-1325-63b5-f5d1-d94c3a5ae18b">
+  <Table name="CFOP" />
+  <Table name="Filial" />
+  <Table name="SaidaInutilizada" />
+</Dependencies>

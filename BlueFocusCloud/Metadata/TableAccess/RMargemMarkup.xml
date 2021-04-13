@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="f0aa7494-2d77-f47b-7acb-2d8a2cc06b90">
+  <Table name="MargemMarkup" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

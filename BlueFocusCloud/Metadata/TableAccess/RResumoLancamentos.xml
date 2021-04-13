@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="008e3874-a44c-46d8-13e3-8af9d111a30e">
+  <Table name="ContaContabil" />
+  <Table name="TipoConta" />
+  <Table name="Especie" />
+  <Table name="TipoCobranca" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="Boleto" />
+  <Table name="ContaOcorrencia" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="IntegracaoCbl" />
+</Dependencies>

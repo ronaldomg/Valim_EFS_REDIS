@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e60e7720-08a2-4287-a090-19680f66ede2">
+  <Table name="FormaPgto" />
+  <Table name="FormaPgtoCliente" />
+  <Table name="Pessoa" />
+  <Table name="TpCobrFormaPgto" />
+  <Table name="TransacaoSaida" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="TipoPermissao" />
+  <Table name="TipoPermissaoUsuarioPermissao" />
+  <Table name="Usuario" />
+</Dependencies>

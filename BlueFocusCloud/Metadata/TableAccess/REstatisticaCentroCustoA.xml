@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="cbd8e417-a395-033e-1985-46654ddfd6d3">
+  <Table name="CentroCusto" />
+  <Table name="Natureza" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="Boleto" />
+  <Table name="LancamCxaBcoRateio" />
+  <Table name="Cedente" />
+  <Table name="Pessoa" />
+  <Table name="TipoNatureza" />
+  <Table name="CaixaBanco" />
+  <Table name="Filial" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

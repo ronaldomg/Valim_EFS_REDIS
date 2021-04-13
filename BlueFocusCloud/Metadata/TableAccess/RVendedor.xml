@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8a441e68-6a50-3fd0-f392-3b2380519c4c">
+  <Table name="Vendedor" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

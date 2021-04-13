@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d6ae1689-3e03-430c-86af-bed0afe193f3">
+  <Table name="MenuNivel1" />
+  <Table name="MenuNivel2" />
+</Dependencies>

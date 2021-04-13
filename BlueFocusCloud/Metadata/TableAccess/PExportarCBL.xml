@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6dda65d1-a2b9-29c2-d260-502ce29c86e2">
+  <Table name="CentroCusto" />
+  <Table name="ContaContabil" />
+  <Table name="Historico" />
+  <Table name="Natureza" />
+  <Table name="ParametroSistema" />
+  <Table name="Rateio" />
+  <Table name="Estrutura" />
+  <Table name="RateioFatorRateio" />
+  <Table name="TipoNatureza" />
+</Dependencies>

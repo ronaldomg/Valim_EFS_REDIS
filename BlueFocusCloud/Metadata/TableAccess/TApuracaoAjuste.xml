@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="27de4ce8-89b3-2a18-212e-44ef704ae6c7">
+  <Table name="AjusteFiscal" />
+  <Table name="ApuracaoAjusteDoc" />
+  <Table name="ApuracaoAjusteInfAdc" />
+  <Table name="Filial" />
+  <Table name="ApuracaoAjuste" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

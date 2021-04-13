@@ -1,0 +1,24 @@
+1;"A vista";"V";"N";"N";"N";0;"T";"N";"N";0;0
+4;"Elo Credito";"R";"N";"N";"N";0;"T";"N";"N";0;0
+5;"Elo Debito";"R";"N";"N";"N";0;"T";"N";"N";0;0
+7;"Hipercard";"D";"N";"N";"N";0;"T";"N";"N";0;0
+9;"Master Credito";"R";"N";"N";"N";0;"T";"N";"N";0;0
+10;"Master Debito";"R";"N";"N";"N";0;"T";"N";"N";0;0
+14;"Sodexo";"R";"N";"N";"N";0;"T";"N";"N";0;0
+15;"Ticket";"R";" ";"N";"N";0;"T";"N";"N";0;0
+18;"Visa Credito";"R";" ";"N";"N";0;"N";"N";"N";0;0
+20;"Visa Debito";"R";" ";"N";"N";0;"N";"N";"N";0;0
+22;"TEF Debito";"R";" ";"N";"N";0;"N";"N";"N";0;0
+23;"TEF  Credito";"R";" ";"N";"N";0;"N";"N";"N";0;0
+24;"Cartao Credito";"R";" ";"N";"N";0;"N";"N";"N";0;0
+25;"Cartao Debito";"R";" ";"N";"N";0;"N";"N";"N";0;0
+26;"Carteira";"C";" ";"N";"N";0;"T";"N";"N";0;0
+27;"Cheque a Vista";"V";" ";"N";"N";0;"N";"N";"N";0;0
+28;"Adiant. Fornecedor";"C";" ";"N";"N";0;"N";"N";"N";0;0
+29;"Cheque Pre";"P";" ";"N";"N";0;"N";"N";"N";0;0
+30;"Cheque Devolvido";"P";" ";"N";"N";0;"T";"N";"N";0;0
+31;"Adiantamento Cliente";"C";" ";"N";"N";0;"N";"N";"N";0;0
+33;"Duplicata Descontado";"D";" ";"N";"N";0;"N";"N";"N";0;0
+32;"Cheque Descontado";"D";" ";"N";"N";0;"N";"N";"N";0;0
+2;"Bancaria";"B";"N";"B";"N";0;"T";"N";"N";0;0
+34;"Haver";"C";" ";"N";"N";0;"N";"N";"N";0;0

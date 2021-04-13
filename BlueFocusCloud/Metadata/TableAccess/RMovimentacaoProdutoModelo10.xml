@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="521459d6-f9d4-08bc-6afe-1888682832db">
+  <Table name="FormaPgto" />
+  <Table name="Saida" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+</Dependencies>

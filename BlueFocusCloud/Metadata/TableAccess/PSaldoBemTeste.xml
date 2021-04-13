@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7818fc2b-4678-3272-9a31-d17a8565595d">
+  <Table name="LancamentoBem" />
+  <Table name="SaldoBem" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="99cc5040-11f7-0012-6e88-ede6f1f5c0ae">
+  <Table name="TiposEndereco" />
+  <Table name="Banco" />
+  <Table name="TipoLancamento" />
+  <Table name="Boleto" />
+  <Table name="Cedente" />
+  <Table name="RemessaRetorno" />
+  <Table name="MontBarrasBoleto" />
+  <Table name="BancoAgencia" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="ContaPagRec" />
+</Dependencies>

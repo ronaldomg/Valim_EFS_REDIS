@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8d29e99d-cd46-3d7d-572e-9b5b8325d1e0">
+  <Table name="PropostaModulo" />
+  <Table name="Modulo" />
+  <Table name="Proposta" />
+</Dependencies>

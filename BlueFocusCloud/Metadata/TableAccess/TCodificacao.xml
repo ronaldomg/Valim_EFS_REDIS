@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="43c0f287-4f8b-71c1-b536-eef4dc80a5c1">
+  <Table name="Codificacao" />
+  <Table name="Empresa" />
+  <Table name="Etiqueta" />
+  <Table name="PessoaCodificacao" />
+  <Table name="LayoutModeloImportacao" />
+  <Table name="Tabela" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

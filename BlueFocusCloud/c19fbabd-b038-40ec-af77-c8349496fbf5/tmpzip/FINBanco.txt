@@ -1,0 +1,13 @@
+"Banco";356;"Banco Real";10
+"BancoAgencia";1246;"FERNANDO COSTA"
+"Banco";399;"HSBC";10
+"Banco";33;"Santander";10
+"BancoAgencia";96;"AV. LEOPODINO DE OLIVEIRA"
+"Banco";756;"SICOOB";7
+"Banco";341;"Itaú";8
+"BancoAgencia";9164;"ITAU"
+"Banco";237;"Bradesco";11
+"BancoAgencia";264;"CENTRO"
+"Banco";104;"CEF";11
+"BancoAgencia";1538;"centro"
+"Banco";1;"Banco do Brasil";17

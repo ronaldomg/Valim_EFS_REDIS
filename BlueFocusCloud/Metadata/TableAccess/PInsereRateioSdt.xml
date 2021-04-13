@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="87a24e69-fc35-6e9e-3ca3-96d103760f16">
+  <Table name="HistoricoCxaBco" />
+  <Table name="LancamCxaBcoRateio" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="LogTabelaCampos" />
+  <Table name="LogTabela" />
+  <Table name="LogTabelaCamposBlob" />
+</Dependencies>

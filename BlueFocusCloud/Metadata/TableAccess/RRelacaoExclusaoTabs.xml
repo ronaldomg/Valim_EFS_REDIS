@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c4ec77fb-ed02-a2c8-544f-0377656ebf3e">
+  <Table name="TipoConta" />
+  <Table name="TipoCobranca" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="TipoLancamento" />
+  <Table name="LogTabelaCampos" />
+  <Table name="Convenio" />
+  <Table name="Pessoa" />
+  <Table name="LogTabela" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

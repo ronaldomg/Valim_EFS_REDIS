@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="6e1ecd59-15cd-2b91-ee24-f679e11f1896">
+  <Table name="NCM" />
+  <Table name="CEST" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

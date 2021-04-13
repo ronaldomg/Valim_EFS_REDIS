@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="655eb662-9751-3db1-3392-592a29a918e2">
+  <Table name="Renegociacao" />
+  <Table name="ContaPagRec" />
+</Dependencies>

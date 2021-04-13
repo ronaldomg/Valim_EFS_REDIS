@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1c79c517-0153-e416-72a6-17252a2a0a32">
+  <Table name="Movimentacao" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="0674b1a9-598a-b936-bd3e-2455dddb996b">
+  <Table name="ContaContabil" />
+  <Table name="ConvenioCaixaBanco" />
+  <Table name="ConvenioVerba" />
+  <Table name="CaixaBanco" />
+</Dependencies>

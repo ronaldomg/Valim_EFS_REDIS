@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="dd329471-2114-6518-c407-48c0aafcae93">
+  <Table name="Contrato" />
+  <Table name="Lote" />
+  <Table name="Loteamento" />
+  <Table name="Situacao" />
+  <Table name="ValorMetro" />
+  <Table name="Pessoa" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="ParcelasContrato" />
+  <Table name="ContaPagRec" />
+</Dependencies>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="70c2fe33-6626-5cef-e999-e41a90c3fd69">
+  <Table name="RemessaRetornoCPag" />
+  <Table name="RemessaRetornoCPagItem" />
+</Dependencies>

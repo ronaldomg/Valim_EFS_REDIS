@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="def05f2f-67bd-8c4d-177d-5a5f55f2a105">
+  <Table name="Pessoa" />
+  <Table name="Dependente" />
+  <Table name="AcessoAcademia" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

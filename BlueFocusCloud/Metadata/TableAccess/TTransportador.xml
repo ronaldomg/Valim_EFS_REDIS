@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="d44b073e-ac3f-4051-cc45-e3443257ed81">
+  <Table name="Cidades" />
+  <Table name="Transportador" />
+  <Table name="PedidoCompra" />
+  <Table name="Saida" />
+  <Table name="TransacaoEntrada" />
+  <Table name="Entrada" />
+  <Table name="TransacaoSaida" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

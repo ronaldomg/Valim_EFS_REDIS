@@ -1,0 +1,5562 @@
+﻿/* [gx-css-import ignore - start] */
+.BaseRBtn{
+	display:inline-block;
+}
+.BaseRBtn span, .RoundedBtn input{
+	display:block;
+	float: left;
+}
+.BaseRBtn .BtnLeft{
+	background: transparent no-repeat scroll 0 0;
+}
+.BaseRBtn .BtnRight{
+	background: transparent no-repeat scroll right 0;
+}
+.BaseRBtn .BtnBackground{
+	overflow:hidden;
+	background: transparent repeat-x scroll;
+}
+.BaseRBtn .BtnText{
+	border: 0px;
+	background: transparent;
+	margin:0;
+	white-space:nowrap;
+	width:auto;
+	overflow:visible;
+}
+/* [gx-css-import ignore - end] */
+/* [gx-css-import ignore - start] */
+
+@keyframes entermask
+{
+  from {background-color: transparent;}
+  to {background-color: black;}
+}
+
+@keyframes leavemask
+{
+  from {background-color: black;}
+  to {background-color: transparent;}
+}
+
+div[data-align='center'] > div[data-align-outer] {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+div[data-align='right'] > div[data-align-outer] {
+	display: table;
+	margin-left: auto;
+}
+div[data-valign='middle'] > div[data-align-outer] {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+div[data-valign='middle'] > div[data-align-outer] > div[data-align-inner] {
+	display: table-cell;
+	vertical-align: middle;
+}
+div[data-valign='bottom'] > div[data-align-outer] {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+div[data-valign='bottom'] > div[data-align-outer] > div[data-align-inner] {
+	display: table-cell;
+	vertical-align: bottom;
+}
+div[data-align='center'] > div[data-align-outer] {
+	width: auto;
+}
+div[data-align='right'] > div[data-align-outer] {
+	width: auto;
+}
+
+.gx-responsive-grid .gx-remove-row {
+  position: absolute;
+  z-index: 1;
+}
+
+.gx-popup-frame-mask{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+form[tabindex="-1"]{
+	outline:none;
+}
+.gx-prompt.gx-disabled {
+        display:none;
+}
+.gx-sr-only{
+	display:none;
+}
+[data-gx-sr-only]{
+	display:none;
+}
+.gx-tbldsp-container {
+	display:table;
+}
+.gx-tbldsp-container > div {
+	display:table-cell;
+}
+
+/* [gx-css-import ignore - end] */
+.GridRow
+{
+	border-style: none;
+	border-width: 0px;
+}
+.Tab
+{
+	border-style: none;
+	border-width: 0px;
+}
+.EmbeddedPage
+{
+	border-style: none;
+	border-width: 0px;
+}
+.GridColumn,.ActionColumn,.WWColumn,.WWActionColumn,.WWOptionalColumn,.OptionalColumn,.GridColumnImage,.GridColumnImageQuebra
+{
+	border-style: none;
+	border-width: 0px;
+}
+.GridColumnImage,.GridColumnImageQuebra
+{
+	title-font-family: "Microsoft Sans Serif";
+	title-font-size: 9pt;
+	title-font-style: normal;
+	title-font-variant: normal;
+	text-align: center !important;
+	 font-family: "Microsoft Sans Serif" !important;
+}
+.GridColumnImageQuebra
+{
+	text-align: center !important;
+	 font-family: "Microsoft Sans Serif" !important;
+	white-space: normal !important;
+}
+.Section,.WWActionsCell,.ViewActionsCell,.ViewGridActionsCell,.WWFiltersCell,.OrdersCell,.WWAdvancedBarCell,.ViewAdvancedBarCell,.PromptAdvancedBarCell,.WWGridCell,.ViewGridCell,.ViewGridCellAdvanced,.ToggleCell,.VerticalCenteredCell,.TabContainer
+{
+	border-style: none;
+	border-width: 0px;
+}
+.TabContainer
+{
+	background-image: none;
+	border-bottom: 1px;
+	border-bottom-color: #000;
+	border-style: solid;
+	float: left;
+	width: 100%;
+}
+.ActionGroup
+{
+	border-style: none;
+	border-width: 0px;
+}
+.Form
+{
+	margin-bottom: 0pt;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	background-image: none;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #747474;
+	height: inherit;
+}
+
+/* [gx-css-import ignore - start] */
+div.gx-content-placeholder > div.gx-ct-body.Form-fx, div.gxwebcomponent > div.gxwebcomponent-body.Form-fx, body.Form-fx
+{
+	transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+	-moz-transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+	-ms-transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+	-o-transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+	-webkit-transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+}
+
+div.gx-content-placeholder > div.gx-ct-body.Form-fx.enter-fx-duration, div.gxwebcomponent > div.gxwebcomponent-body.Form-fx.enter-fx-duration, body.Form-fx.enter-fx-duration
+{
+	transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+}
+
+div.gx-content-placeholder > div.gx-ct-body.Form-fx.leave-fx-duration, div.gxwebcomponent > div.gxwebcomponent-body.Form-fx.leave-fx-duration, body.Form-fx.leave-fx-duration
+{
+	transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+}
+
+div.gx-content-placeholder.transitioning, div.gxwebcomponent.transitioning
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.Form-fx.entering
+{
+	opacity: 0.1;
+	position: absolute;
+}
+
+.Form-fx.leaving
+{
+	opacity: 0.1;
+	position: absolute;
+}
+
+/* [gx-css-import ignore - end] */
+.Attribute,.AttributeCorAzulEscuro12PtHome,.ImageAttribute,.ActionAttribute,.BlobContentActionAttribute,.ReadonlyBlobContentActionAttribute,.ReadonlyActionAttribute,.UpdateAttribute,.BlobContentUpdateAttribute,.ReadonlyBlobContentUpdateAttribute,.ReadonlyUpdateAttribute,.BlobInputUpdateAttribute,.DeleteAttribute,.BlobContentDeleteAttribute,.ReadonlyBlobContentDeleteAttribute,.ReadonlyDeleteAttribute,.BlobInputDeleteAttribute,.DisplayAttribute,.BlobContentDisplayAttribute,.ReadonlyBlobContentDisplayAttribute,.ReadonlyDisplayAttribute,.BlobInputDisplayAttribute,.SelectionAttribute,.BlobContentSelectionAttribute,.ReadonlyBlobContentSelectionAttribute,.ReadonlySelectionAttribute,.BlobInputSelectionAttribute,.DisabledActionAttribute,.BlobContentDisabledActionAttribute,.ReadonlyBlobContentDisabledActionAttribute,.ReadonlyDisabledActionAttribute,.BlobInputDisabledActionAttribute,.BlobInputActionAttribute,.ResponsiveImageAttribute,.BlobContentResponsiveImageAttribute,.ReadonlyBlobContentResponsiveImageAttribute,.ReadonlyResponsiveImageAttribute,.BlobInputResponsiveImageAttribute,.ReadonlyImageAttribute,.VideoAttribute,.ReadonlyVideoAttribute,.AudioAttribute,.ReadonlyAudioAttribute,.FilterAttribute,.BlobContentFilterAttribute,.ReadonlyBlobContentFilterAttribute,.ReadonlyFilterAttribute,.BlobInputFilterAttribute,.DescriptionAttribute,.BlobContentDescriptionAttribute,.ReadonlyBlobContentDescriptionAttribute,.ReadonlyDescriptionAttribute,.BlobInputDescriptionAttribute,.SemCorFundo,.ReadonlySemCorFundo,.BlobInputSemCorFundo,.BlobContentSemCorFundo,.ReadonlyBlobContentSemCorFundo,.SemCorFundoGrid,.ReadonlySemCorFundoGrid,.BlobInputSemCorFundoGrid,.BlobContentSemCorFundoGrid,.ReadonlyBlobContentSemCorFundoGrid,.Senha,.ReadonlySenha,.BlobInputSenha,.BlobContentSenha,.ReadonlyBlobContentSenha,.Usuario,.ReadonlyUsuario,.BlobInputUsuario,.BlobContentUsuario,.ReadonlyBlobContentUsuario,.UsuarioPermissao,.ReadonlyUsuarioPermissao,.BlobInputUsuarioPermissao,.BlobContentUsuarioPermissao,.ReadonlyBlobContentUsuarioPermissao,.justificado,.Readonlyjustificado,.BlobInputjustificado,.BlobContentjustificado,.ReadonlyBlobContentjustificado,.Centralizado,.ReadonlyCentralizado,.BlobInputCentralizado,.BlobContentCentralizado,.ReadonlyBlobContentCentralizado,.MemoNoWrap,.ReadonlyMemoNoWrap,.BlobInputMemoNoWrap,.BlobContentMemoNoWrap,.ReadonlyBlobContentMemoNoWrap,.AlinhaDireita,.ReadonlyAlinhaDireita,.BlobInputAlinhaDireita,.BlobContentAlinhaDireita,.ReadonlyBlobContentAlinhaDireita,.AttributeAlinhadoDireita,.ReadonlyAttributeAlinhadoDireita,.BlobInputAttributeAlinhadoDireita,.BlobContentAttributeAlinhadoDireita,.ReadonlyBlobContentAttributeAlinhadoDireita,.AlinhaDireitaVariavel,.ReadonlyAlinhaDireitaVariavel,.BlobInputAlinhaDireitaVariavel,.BlobContentAlinhaDireitaVariavel,.ReadonlyBlobContentAlinhaDireitaVariavel,.Desabilitado,.ReadonlyDesabilitado,.BlobInputDesabilitado,.BlobContentDesabilitado,.ReadonlyBlobContentDesabilitado,.Desabilitado251,.ReadonlyDesabilitado251,.BlobInputDesabilitado251,.BlobContentDesabilitado251,.ReadonlyBlobContentDesabilitado251,.Desabilitado76,.ReadonlyDesabilitado76,.BlobInputDesabilitado76,.BlobContentDesabilitado76,.ReadonlyBlobContentDesabilitado76,.Desabilitado76Direita,.ReadonlyDesabilitado76Direita,.BlobInputDesabilitado76Direita,.BlobContentDesabilitado76Direita,.ReadonlyBlobContentDesabilitado76Direita,.Desabilitado81,.ReadonlyDesabilitado81,.BlobInputDesabilitado81,.BlobContentDesabilitado81,.ReadonlyBlobContentDesabilitado81,.Desabilitado66,.ReadonlyDesabilitado66,.BlobInputDesabilitado66,.BlobContentDesabilitado66,.ReadonlyBlobContentDesabilitado66,.Desabilitado51,.ReadonlyDesabilitado51,.BlobInputDesabilitado51,.BlobContentDesabilitado51,.ReadonlyBlobContentDesabilitado51,.Desabilitado56,.ReadonlyDesabilitado56,.BlobInputDesabilitado56,.BlobContentDesabilitado56,.ReadonlyBlobContentDesabilitado56,.Desabilitado41,.ReadonlyDesabilitado41,.BlobInputDesabilitado41,.BlobContentDesabilitado41,.ReadonlyBlobContentDesabilitado41,.Desabilitado67,.ReadonlyDesabilitado67,.BlobInputDesabilitado67,.BlobContentDesabilitado67,.ReadonlyBlobContentDesabilitado67,.Desabilitado33,.ReadonlyDesabilitado33,.BlobInputDesabilitado33,.BlobContentDesabilitado33,.ReadonlyBlobContentDesabilitado33,.Desabilitado167,.ReadonlyDesabilitado167,.BlobInputDesabilitado167,.BlobContentDesabilitado167,.ReadonlyBlobContentDesabilitado167,.Desabilitado131,.ReadonlyDesabilitado131,.BlobInputDesabilitado131,.BlobContentDesabilitado131,.ReadonlyBlobContentDesabilitado131,.Desabilitado121,.ReadonlyDesabilitado121,.BlobInputDesabilitado121,.BlobContentDesabilitado121,.ReadonlyBlobContentDesabilitado121,.Desabilitado222,.ReadonlyDesabilitado222,.BlobInputDesabilitado222,.BlobContentDesabilitado222,.ReadonlyBlobContentDesabilitado222,.Desabilitado61,.ReadonlyDesabilitado61,.BlobInputDesabilitado61,.BlobContentDesabilitado61,.ReadonlyBlobContentDesabilitado61,.Desabilitado61Direita,.ReadonlyDesabilitado61Direita,.BlobInputDesabilitado61Direita,.BlobContentDesabilitado61Direita,.ReadonlyBlobContentDesabilitado61Direita,.Desabilitado181,.ReadonlyDesabilitado181,.BlobInputDesabilitado181,.BlobContentDesabilitado181,.ReadonlyBlobContentDesabilitado181,.Desabilitado118,.ReadonlyDesabilitado118,.BlobInputDesabilitado118,.BlobContentDesabilitado118,.ReadonlyBlobContentDesabilitado118,.Desabilitado260,.ReadonlyDesabilitado260,.BlobInputDesabilitado260,.BlobContentDesabilitado260,.ReadonlyBlobContentDesabilitado260,.Desabilitado46,.ReadonlyDesabilitado46,.BlobInputDesabilitado46,.BlobContentDesabilitado46,.ReadonlyBlobContentDesabilitado46,.Desabilitado96,.ReadonlyDesabilitado96,.BlobInputDesabilitado96,.BlobContentDesabilitado96,.ReadonlyBlobContentDesabilitado96,.Desabilitado96Direita,.ReadonlyDesabilitado96Direita,.BlobInputDesabilitado96Direita,.BlobContentDesabilitado96Direita,.ReadonlyBlobContentDesabilitado96Direita,.Desabilitado910,.ReadonlyDesabilitado910,.BlobInputDesabilitado910,.BlobContentDesabilitado910,.ReadonlyBlobContentDesabilitado910,.Desabilitado700,.ReadonlyDesabilitado700,.BlobInputDesabilitado700,.BlobContentDesabilitado700,.ReadonlyBlobContentDesabilitado700,.Desabilitado910menor,.ReadonlyDesabilitado910menor,.BlobInputDesabilitado910menor,.BlobContentDesabilitado910menor,.ReadonlyBlobContentDesabilitado910menor,.Desabilitado500,.ReadonlyDesabilitado500,.BlobInputDesabilitado500,.BlobContentDesabilitado500,.ReadonlyBlobContentDesabilitado500,.Desabilitado600,.ReadonlyDesabilitado600,.BlobInputDesabilitado600,.BlobContentDesabilitado600,.ReadonlyBlobContentDesabilitado600,.Desabilitado281,.ReadonlyDesabilitado281,.BlobInputDesabilitado281,.BlobContentDesabilitado281,.ReadonlyBlobContentDesabilitado281,.Desabilitado106,.ReadonlyDesabilitado106,.BlobInputDesabilitado106,.BlobContentDesabilitado106,.ReadonlyBlobContentDesabilitado106,.Desabilitado206,.ReadonlyDesabilitado206,.BlobInputDesabilitado206,.BlobContentDesabilitado206,.ReadonlyBlobContentDesabilitado206,.Desabilitado71,.ReadonlyDesabilitado71,.BlobInputDesabilitado71,.BlobContentDesabilitado71,.ReadonlyBlobContentDesabilitado71,.Desabilitado101,.ReadonlyDesabilitado101,.BlobInputDesabilitado101,.BlobContentDesabilitado101,.ReadonlyBlobContentDesabilitado101,.ErrorAttribute,.WarningAttribute,.ReadonlyAttribute,.BlobContentAttribute,.ReadonlyBlobContentAttribute,.BlobInputAttribute,.AttributeDragging,.AttributeAcceptDrag,.AttributeNoAcceptDrag,.AttSubTitle,.BlobContentAttSubTitle,.ReadonlyBlobContentAttSubTitle,.ReadonlyAttSubTitle,.BlobInputAttSubTitle,.CheckBox,.ReadonlyCheckBox,.BlobContentCheckBox,.ReadonlyBlobContentCheckBox,.BlobInputCheckBox,.ApenasLeitura,.ReadonlyApenasLeitura,.BlobInputApenasLeitura,.BlobContentApenasLeitura,.ReadonlyBlobContentApenasLeitura,.SemQuebraGrid,.BlobInputSemQuebraGrid,.BlobContentSemQuebraGrid,.ReadonlyBlobContentSemQuebraGrid,.ReadonlySemQuebraGrid,.SemQuebraGridPt8,.BlobContentSemQuebraGridPt8,.ReadonlyBlobContentSemQuebraGridPt8,.BlobInputSemQuebraGridPt8,.ReadonlySemQuebraGridPt8,.SemQuebraGridPreto,.BlobContentSemQuebraGridPreto,.ReadonlyBlobContentSemQuebraGridPreto,.BlobInputSemQuebraGridPreto,.ReadonlySemQuebraGridPreto,.SemQuebraGridVermelho,.BlobContentSemQuebraGridVermelho,.ReadonlyBlobContentSemQuebraGridVermelho,.BlobInputSemQuebraGridVermelho,.ReadonlySemQuebraGridVermelho,.CentralizadoCheckGrid,.ReadonlyCentralizadoCheckGrid,.BlobInputCentralizadoCheckGrid,.BlobContentCentralizadoCheckGrid,.ReadonlyBlobContentCentralizadoCheckGrid,.AttributeLogin,.BlobContentAttributeLogin,.ReadonlyBlobContentAttributeLogin,.BlobInputAttributeLogin,.AttributeLoginPreto,.BlobContentAttributeLoginPreto,.ReadonlyBlobContentAttributeLoginPreto,.BlobInputAttributeLoginPreto,.ReadonlyAttributeLoginPreto,.ReadonlyAttributeLogin,.AttributeSemMargem,.BlobContentAttributeSemMargem,.ReadonlyBlobContentAttributeSemMargem,.BlobInputAttributeSemMargem,.ReadonlyAttributeSemMargem,.AttributeSemMargemVermelho,.BlobContentAttributeSemMargemVermelho,.ReadonlyBlobContentAttributeSemMargemVermelho,.BlobInputAttributeSemMargemVermelho,.ReadonlyAttributeSemMargemVermelho,.AttributeMenor,.BlobContentAttributeMenor,.ReadonlyBlobContentAttributeMenor,.BlobInputAttributeMenor,.ReadonlyAttributeMenor,.AttributeTrueType,.BlobContentAttributeTrueType,.ReadonlyBlobContentAttributeTrueType,.BlobInputAttributeTrueType,.ReadonlyAttributeTrueType,.AttributeTrueType12pt,.BlobContentAttributeTrueType12pt,.ReadonlyBlobContentAttributeTrueType12pt,.BlobInputAttributeTrueType12pt,.ReadonlyAttributeTrueType12pt,.AttributeObservacao,.BlobContentAttributeObservacao,.ReadonlyBlobContentAttributeObservacao,.BlobInputAttributeObservacao,.ReadonlyAttributeObservacao,.AttributeSublinhado,.BlobContentAttributeSublinhado,.ReadonlyBlobContentAttributeSublinhado,.BlobInputAttributeSublinhado,.ReadonlyAttributeSublinhado,.AttributeVermelho,.BlobContentAttributeVermelho,.ReadonlyBlobContentAttributeVermelho,.BlobInputAttributeVermelho,.ReadonlyAttributeVermelho,.AttributeCor,.BlobContentAttributeCor,.ReadonlyBlobContentAttributeCor,.BlobInputAttributeCor,.AttributeCorPreto,.BlobContentAttributeCorPreto,.ReadonlyBlobContentAttributeCorPreto,.BlobInputAttributeCorPreto,.ReadonlyAttributeCorPreto,.ReadonlyAttributeCor,.AttributeCorVermelho,.BlobContentAttributeCorVermelho,.ReadonlyBlobContentAttributeCorVermelho,.BlobInputAttributeCorVermelho,.ReadonlyAttributeCorVermelho,.AttributeCorAzul,.BlobContentAttributeCorAzul,.ReadonlyBlobContentAttributeCorAzul,.BlobInputAttributeCorAzul,.ReadonlyAttributeCorAzul,.AttributeCorAzulNegrito,.BlobContentAttributeCorAzulNegrito,.ReadonlyBlobContentAttributeCorAzulNegrito,.BlobInputAttributeCorAzulNegrito,.ReadonlyAttributeCorAzulNegrito,.AttributeCorLaranja,.BlobContentAttributeCorLaranja,.ReadonlyBlobContentAttributeCorLaranja,.BlobInputAttributeCorLaranja,.ReadonlyAttributeCorLaranja,.AttributeCorAmarelo,.BlobContentAttributeCorAmarelo,.ReadonlyBlobContentAttributeCorAmarelo,.BlobInputAttributeCorAmarelo,.ReadonlyAttributeCorAmarelo,.AttributeCorVerde,.BlobContentAttributeCorVerde,.ReadonlyBlobContentAttributeCorVerde,.BlobInputAttributeCorVerde,.ReadonlyAttributeCorVerde,.AttributeCorVerdeNegrito,.BlobContentAttributeCorVerdeNegrito,.ReadonlyBlobContentAttributeCorVerdeNegrito,.BlobInputAttributeCorVerdeNegrito,.ReadonlyAttributeCorVerdeNegrito,.AttributeCorAqua,.BlobContentAttributeCorAqua,.ReadonlyBlobContentAttributeCorAqua,.BlobInputAttributeCorAqua,.ReadonlyAttributeCorAqua,.AttributeCorRosa,.BlobContentAttributeCorRosa,.ReadonlyBlobContentAttributeCorRosa,.BlobInputAttributeCorRosa,.ReadonlyAttributeCorRosa,.AttributeCorCinza,.BlobContentAttributeCorCinza,.ReadonlyBlobContentAttributeCorCinza,.BlobInputAttributeCorCinza,.ReadonlyAttributeCorCinza,.AttributeCorMarrom,.BlobContentAttributeCorMarrom,.ReadonlyBlobContentAttributeCorMarrom,.BlobInputAttributeCorMarrom,.ReadonlyAttributeCorMarrom,.AttributeCorDourado,.BlobContentAttributeCorDourado,.ReadonlyBlobContentAttributeCorDourado,.BlobInputAttributeCorDourado,.ReadonlyAttributeCorDourado,.AttributeCorVinho,.BlobContentAttributeCorVinho,.ReadonlyBlobContentAttributeCorVinho,.BlobInputAttributeCorVinho,.ReadonlyAttributeCorVinho,.AttributeCorAzulEscuro,.BlobContentAttributeCorAzulEscuro,.ReadonlyBlobContentAttributeCorAzulEscuro,.BlobInputAttributeCorAzulEscuro,.ReadonlyAttributeCorAzulEscuro,.AttributeCorAzulEscuro12Pt,.BlobContentAttributeCorAzulEscuro12Pt,.ReadonlyBlobContentAttributeCorAzulEscuro12Pt,.BlobInputAttributeCorAzulEscuro12Pt,.ReadonlyAttributeCorAzulEscuro12Pt,.AttributeCorAzulEscuroPt10Home,.BlobContentAttributeCorAzulEscuroPt10Home,.ReadonlyBlobContentAttributeCorAzulEscuroPt10Home,.BlobInputAttributeCorAzulEscuroPt10Home,.ReadonlyAttributeCorAzulEscuroPt10Home,.AttributePt8,.BlobContentAttributePt8,.ReadonlyBlobContentAttributePt8,.BlobInputAttributePt8,.ReadonlyAttributePt8,.AttributeSemBorda,.BlobContentAttributeSemBorda,.ReadonlyBlobContentAttributeSemBorda,.BlobInputAttributeSemBorda,.ReadonlyAttributeSemBorda,.AttributePrompt,.BlobContentAttributePrompt,.ReadonlyBlobContentAttributePrompt,.BlobInputAttributePrompt,.ReadonlyAttributePrompt
+{
+	border-bottom-color: #d3d4d3;
+	border-left-color: #d3d4d3;
+	border-right-color: #d3d4d3;
+	border-top-color: #d3d4d3;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: none;
+	color: black;
+}
+.ReadonlyImageAttribute
+{
+	border-width: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	max-width:124px;
+	max-height:68px;
+}
+.ReadonlyVideoAttribute
+{
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url(../GeneXusXEv2/VideoDownload.png);
+	border-width: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	height: 64px;
+	width: 64px;
+}
+.ReadonlyAudioAttribute
+{
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url(../GeneXusXEv2/AudioDownload.png);
+	border-width: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	height: 64px;
+	width: 64px;
+}
+.Desabilitado101,.ReadonlyDesabilitado101,.BlobInputDesabilitado101,.BlobContentDesabilitado101,.ReadonlyBlobContentDesabilitado101
+{
+	min-width: 101px;
+}
+.ErrorAttribute
+{
+	border-bottom-color: #c60b44;
+	border-left-color: #c60b44;
+	border-right-color: #c60b44;
+	border-top-color: #c60b44;
+	border-style: dotted;
+}
+.WarningAttribute
+{
+	border-bottom-color: #ff8000;
+	border-left-color: #ff8000;
+	border-right-color: #ff8000;
+	border-top-color: #ff8000;
+	border-style: dotted;
+}
+.ReadonlyAttribute
+{
+	margin-right: 10px;
+	border-style: none;
+	color: #747474;
+}
+.AttSubTitle,.BlobContentAttSubTitle,.ReadonlyBlobContentAttSubTitle,.ReadonlyAttSubTitle,.BlobInputAttSubTitle
+{
+	padding-top: 5pt;
+	border-style: none;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #666;
+	height: 30px;
+}
+.CheckBox,.ReadonlyCheckBox,.BlobContentCheckBox,.ReadonlyBlobContentCheckBox,.BlobInputCheckBox
+{
+	border-width: 0px;
+}
+.ApenasLeitura,.ReadonlyApenasLeitura,.BlobInputApenasLeitura,.BlobContentApenasLeitura,.ReadonlyBlobContentApenasLeitura
+{
+	border-style: none;
+}
+.SemQuebraGrid,.BlobInputSemQuebraGrid,.BlobContentSemQuebraGrid,.ReadonlyBlobContentSemQuebraGrid,.ReadonlySemQuebraGrid,.SemQuebraGridPt8,.BlobContentSemQuebraGridPt8,.ReadonlyBlobContentSemQuebraGridPt8,.BlobInputSemQuebraGridPt8,.ReadonlySemQuebraGridPt8,.SemQuebraGridPreto,.BlobContentSemQuebraGridPreto,.ReadonlyBlobContentSemQuebraGridPreto,.BlobInputSemQuebraGridPreto,.ReadonlySemQuebraGridPreto,.SemQuebraGridVermelho,.BlobContentSemQuebraGridVermelho,.ReadonlyBlobContentSemQuebraGridVermelho,.BlobInputSemQuebraGridVermelho,.ReadonlySemQuebraGridVermelho
+{
+	white-space: nowrap;
+	border-style: none;
+}
+.ReadonlySemQuebraGrid
+{
+	color: #747474;
+}
+.SemQuebraGridPt8,.BlobContentSemQuebraGridPt8,.ReadonlyBlobContentSemQuebraGridPt8,.BlobInputSemQuebraGridPt8,.ReadonlySemQuebraGridPt8
+{
+	font-size: 8pt;
+}
+.ReadonlyBlobContentSemQuebraGridPt8
+{
+	border-width: 0px;
+}
+.ReadonlySemQuebraGridPt8
+{
+	border-width: 0px;
+	color: #747474;
+}
+.ReadonlyBlobContentSemQuebraGridPreto
+{
+	border-width: 0px;
+}
+.ReadonlySemQuebraGridPreto
+{
+	border-width: 0px;
+}
+.SemQuebraGridVermelho,.BlobContentSemQuebraGridVermelho,.ReadonlyBlobContentSemQuebraGridVermelho,.BlobInputSemQuebraGridVermelho,.ReadonlySemQuebraGridVermelho
+{
+	color: #f00;
+}
+.ReadonlyBlobContentSemQuebraGridVermelho
+{
+	border-width: 0px;
+}
+.ReadonlySemQuebraGridVermelho
+{
+	border-width: 0px;
+}
+.CentralizadoCheckGrid,.ReadonlyCentralizadoCheckGrid,.BlobInputCentralizadoCheckGrid,.BlobContentCentralizadoCheckGrid,.ReadonlyBlobContentCentralizadoCheckGrid
+{
+	width: 100%;
+	text-align: center;
+}
+.AttributeLogin,.BlobContentAttributeLogin,.ReadonlyBlobContentAttributeLogin,.BlobInputAttributeLogin,.AttributeLoginPreto,.BlobContentAttributeLoginPreto,.ReadonlyBlobContentAttributeLoginPreto,.BlobInputAttributeLoginPreto,.ReadonlyAttributeLoginPreto,.ReadonlyAttributeLogin
+{
+	width: 160px;
+}
+.ReadonlyBlobContentAttributeLogin
+{
+	border-width: 0px;
+}
+.ReadonlyBlobContentAttributeLoginPreto
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeLoginPreto
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeLogin
+{
+	border-width: 0px;
+	font-weight: bold;
+	color: white;
+}
+.AttributeSemMargem,.BlobContentAttributeSemMargem,.ReadonlyBlobContentAttributeSemMargem,.BlobInputAttributeSemMargem,.ReadonlyAttributeSemMargem,.AttributeSemMargemVermelho,.BlobContentAttributeSemMargemVermelho,.ReadonlyBlobContentAttributeSemMargemVermelho,.BlobInputAttributeSemMargemVermelho,.ReadonlyAttributeSemMargemVermelho
+{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	border-style: none;
+	border-width: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.ReadonlyAttributeSemMargem
+{
+	color: #747474;
+}
+.AttributeSemMargemVermelho,.BlobContentAttributeSemMargemVermelho,.ReadonlyBlobContentAttributeSemMargemVermelho,.BlobInputAttributeSemMargemVermelho,.ReadonlyAttributeSemMargemVermelho
+{
+	color: #f00;
+}
+.AttributeMenor,.BlobContentAttributeMenor,.ReadonlyBlobContentAttributeMenor,.BlobInputAttributeMenor,.ReadonlyAttributeMenor
+{
+	font-size: 8pt;
+}
+.ReadonlyBlobContentAttributeMenor
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeMenor
+{
+	border-style: none;
+	color: #747474;
+}
+.AttributeTrueType,.BlobContentAttributeTrueType,.ReadonlyBlobContentAttributeTrueType,.BlobInputAttributeTrueType,.ReadonlyAttributeTrueType,.AttributeTrueType12pt,.BlobContentAttributeTrueType12pt,.ReadonlyBlobContentAttributeTrueType12pt,.BlobInputAttributeTrueType12pt,.ReadonlyAttributeTrueType12pt
+{
+	font-family: "Lucida Console", Arial, sans-serif;
+}
+.ReadonlyBlobContentAttributeTrueType
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeTrueType
+{
+	border-width: 0px;
+}
+.AttributeTrueType12pt,.BlobContentAttributeTrueType12pt,.ReadonlyBlobContentAttributeTrueType12pt,.BlobInputAttributeTrueType12pt,.ReadonlyAttributeTrueType12pt
+{
+	font-size: 12pt;
+}
+.ReadonlyBlobContentAttributeTrueType12pt
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeTrueType12pt
+{
+	border-width: 0px;
+}
+.AttributeObservacao,.BlobContentAttributeObservacao,.ReadonlyBlobContentAttributeObservacao,.BlobInputAttributeObservacao,.ReadonlyAttributeObservacao
+{
+	width: 60px;
+	width:100px;
+	 !important;
+}
+.ReadonlyBlobContentAttributeObservacao
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeObservacao
+{
+	border-width: 0px;
+}
+.AttributeSublinhado,.BlobContentAttributeSublinhado,.ReadonlyBlobContentAttributeSublinhado,.BlobInputAttributeSublinhado,.ReadonlyAttributeSublinhado
+{
+	text-decoration: underline;
+}
+.ReadonlyBlobContentAttributeSublinhado
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeSublinhado
+{
+	border-width: 0px;
+}
+.AttributeVermelho,.BlobContentAttributeVermelho,.ReadonlyBlobContentAttributeVermelho,.BlobInputAttributeVermelho,.ReadonlyAttributeVermelho
+{
+	color: red;
+}
+.ReadonlyBlobContentAttributeVermelho
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeVermelho
+{
+	border-width: 0px;
+}
+.AttributeCor,.BlobContentAttributeCor,.ReadonlyBlobContentAttributeCor,.BlobInputAttributeCor,.AttributeCorPreto,.BlobContentAttributeCorPreto,.ReadonlyBlobContentAttributeCorPreto,.BlobInputAttributeCorPreto,.ReadonlyAttributeCorPreto,.ReadonlyAttributeCor,.AttributeCorVermelho,.BlobContentAttributeCorVermelho,.ReadonlyBlobContentAttributeCorVermelho,.BlobInputAttributeCorVermelho,.ReadonlyAttributeCorVermelho,.AttributeCorAzul,.BlobContentAttributeCorAzul,.ReadonlyBlobContentAttributeCorAzul,.BlobInputAttributeCorAzul,.ReadonlyAttributeCorAzul,.AttributeCorAzulNegrito,.BlobContentAttributeCorAzulNegrito,.ReadonlyBlobContentAttributeCorAzulNegrito,.BlobInputAttributeCorAzulNegrito,.ReadonlyAttributeCorAzulNegrito,.AttributeCorLaranja,.BlobContentAttributeCorLaranja,.ReadonlyBlobContentAttributeCorLaranja,.BlobInputAttributeCorLaranja,.ReadonlyAttributeCorLaranja,.AttributeCorAmarelo,.BlobContentAttributeCorAmarelo,.ReadonlyBlobContentAttributeCorAmarelo,.BlobInputAttributeCorAmarelo,.ReadonlyAttributeCorAmarelo,.AttributeCorVerde,.BlobContentAttributeCorVerde,.ReadonlyBlobContentAttributeCorVerde,.BlobInputAttributeCorVerde,.ReadonlyAttributeCorVerde,.AttributeCorVerdeNegrito,.BlobContentAttributeCorVerdeNegrito,.ReadonlyBlobContentAttributeCorVerdeNegrito,.BlobInputAttributeCorVerdeNegrito,.ReadonlyAttributeCorVerdeNegrito,.AttributeCorAqua,.BlobContentAttributeCorAqua,.ReadonlyBlobContentAttributeCorAqua,.BlobInputAttributeCorAqua,.ReadonlyAttributeCorAqua,.AttributeCorRosa,.BlobContentAttributeCorRosa,.ReadonlyBlobContentAttributeCorRosa,.BlobInputAttributeCorRosa,.ReadonlyAttributeCorRosa,.AttributeCorCinza,.BlobContentAttributeCorCinza,.ReadonlyBlobContentAttributeCorCinza,.BlobInputAttributeCorCinza,.ReadonlyAttributeCorCinza,.AttributeCorMarrom,.BlobContentAttributeCorMarrom,.ReadonlyBlobContentAttributeCorMarrom,.BlobInputAttributeCorMarrom,.ReadonlyAttributeCorMarrom,.AttributeCorDourado,.BlobContentAttributeCorDourado,.ReadonlyBlobContentAttributeCorDourado,.BlobInputAttributeCorDourado,.ReadonlyAttributeCorDourado,.AttributeCorVinho,.BlobContentAttributeCorVinho,.ReadonlyBlobContentAttributeCorVinho,.BlobInputAttributeCorVinho,.ReadonlyAttributeCorVinho,.AttributeCorAzulEscuro,.BlobContentAttributeCorAzulEscuro,.ReadonlyBlobContentAttributeCorAzulEscuro,.BlobInputAttributeCorAzulEscuro,.ReadonlyAttributeCorAzulEscuro,.AttributeCorAzulEscuro12Pt,.BlobContentAttributeCorAzulEscuro12Pt,.ReadonlyBlobContentAttributeCorAzulEscuro12Pt,.BlobInputAttributeCorAzulEscuro12Pt,.ReadonlyAttributeCorAzulEscuro12Pt,.AttributeCorAzulEscuroPt10Home,.BlobContentAttributeCorAzulEscuroPt10Home,.ReadonlyBlobContentAttributeCorAzulEscuroPt10Home,.BlobInputAttributeCorAzulEscuroPt10Home,.ReadonlyAttributeCorAzulEscuroPt10Home
+{
+	white-space: nowrap;
+	border-style: none;
+}
+.ReadonlyBlobContentAttributeCor
+{
+	border-width: 0px;
+}
+.ReadonlyBlobContentAttributeCorPreto
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorPreto
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCor
+{
+	border-width: 0px;
+}
+.AttributeCorVermelho,.BlobContentAttributeCorVermelho,.ReadonlyBlobContentAttributeCorVermelho,.BlobInputAttributeCorVermelho,.ReadonlyAttributeCorVermelho
+{
+	color: #f00;
+}
+.ReadonlyBlobContentAttributeCorVermelho
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorVermelho
+{
+	border-width: 0px;
+}
+.AttributeCorAzul,.BlobContentAttributeCorAzul,.ReadonlyBlobContentAttributeCorAzul,.BlobInputAttributeCorAzul,.ReadonlyAttributeCorAzul,.AttributeCorAzulNegrito,.BlobContentAttributeCorAzulNegrito,.ReadonlyBlobContentAttributeCorAzulNegrito,.BlobInputAttributeCorAzulNegrito,.ReadonlyAttributeCorAzulNegrito
+{
+	color: #00f;
+}
+.ReadonlyBlobContentAttributeCorAzul
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorAzul
+{
+	border-width: 0px;
+}
+.AttributeCorAzulNegrito,.BlobContentAttributeCorAzulNegrito,.ReadonlyBlobContentAttributeCorAzulNegrito,.BlobInputAttributeCorAzulNegrito,.ReadonlyAttributeCorAzulNegrito
+{
+	font-weight: bold;
+}
+.ReadonlyBlobContentAttributeCorAzulNegrito
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorAzulNegrito
+{
+	border-width: 0px;
+}
+.AttributeCorLaranja,.BlobContentAttributeCorLaranja,.ReadonlyBlobContentAttributeCorLaranja,.BlobInputAttributeCorLaranja,.ReadonlyAttributeCorLaranja
+{
+	color: darkorange;
+}
+.ReadonlyBlobContentAttributeCorLaranja
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorLaranja
+{
+	border-width: 0px;
+}
+.AttributeCorAmarelo,.BlobContentAttributeCorAmarelo,.ReadonlyBlobContentAttributeCorAmarelo,.BlobInputAttributeCorAmarelo,.ReadonlyAttributeCorAmarelo
+{
+	color: gold;
+}
+.ReadonlyBlobContentAttributeCorAmarelo
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorAmarelo
+{
+	border-width: 0px;
+}
+.AttributeCorVerde,.BlobContentAttributeCorVerde,.ReadonlyBlobContentAttributeCorVerde,.BlobInputAttributeCorVerde,.ReadonlyAttributeCorVerde,.AttributeCorVerdeNegrito,.BlobContentAttributeCorVerdeNegrito,.ReadonlyBlobContentAttributeCorVerdeNegrito,.BlobInputAttributeCorVerdeNegrito,.ReadonlyAttributeCorVerdeNegrito
+{
+	color: green;
+}
+.ReadonlyBlobContentAttributeCorVerde
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorVerde
+{
+	border-width: 0px;
+}
+.AttributeCorVerdeNegrito,.BlobContentAttributeCorVerdeNegrito,.ReadonlyBlobContentAttributeCorVerdeNegrito,.BlobInputAttributeCorVerdeNegrito,.ReadonlyAttributeCorVerdeNegrito
+{
+	font-weight: bold;
+}
+.ReadonlyBlobContentAttributeCorVerdeNegrito
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorVerdeNegrito
+{
+	border-width: 0px;
+}
+.AttributeCorAqua,.BlobContentAttributeCorAqua,.ReadonlyBlobContentAttributeCorAqua,.BlobInputAttributeCorAqua,.ReadonlyAttributeCorAqua
+{
+	color: aqua;
+}
+.ReadonlyBlobContentAttributeCorAqua
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorAqua
+{
+	border-width: 0px;
+}
+.AttributeCorRosa,.BlobContentAttributeCorRosa,.ReadonlyBlobContentAttributeCorRosa,.BlobInputAttributeCorRosa,.ReadonlyAttributeCorRosa
+{
+	color: #f0f;
+}
+.ReadonlyBlobContentAttributeCorRosa
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorRosa
+{
+	border-width: 0px;
+}
+.AttributeCorCinza,.BlobContentAttributeCorCinza,.ReadonlyBlobContentAttributeCorCinza,.BlobInputAttributeCorCinza,.ReadonlyAttributeCorCinza
+{
+	color: gray;
+}
+.ReadonlyBlobContentAttributeCorCinza
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorCinza
+{
+	border-width: 0px;
+}
+.AttributeCorMarrom,.BlobContentAttributeCorMarrom,.ReadonlyBlobContentAttributeCorMarrom,.BlobInputAttributeCorMarrom,.ReadonlyAttributeCorMarrom
+{
+	color: saddlebrown;
+}
+.ReadonlyBlobContentAttributeCorMarrom
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorMarrom
+{
+	border-width: 0px;
+}
+.AttributeCorDourado,.BlobContentAttributeCorDourado,.ReadonlyBlobContentAttributeCorDourado,.BlobInputAttributeCorDourado,.ReadonlyAttributeCorDourado
+{
+	color: darkgoldenrod;
+}
+.ReadonlyBlobContentAttributeCorDourado
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorDourado
+{
+	border-width: 0px;
+}
+.AttributeCorVinho,.BlobContentAttributeCorVinho,.ReadonlyBlobContentAttributeCorVinho,.BlobInputAttributeCorVinho,.ReadonlyAttributeCorVinho
+{
+	color: #9d0000;
+}
+.ReadonlyBlobContentAttributeCorVinho
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorVinho
+{
+	border-width: 0px;
+}
+.AttributeCorAzulEscuro,.BlobContentAttributeCorAzulEscuro,.ReadonlyBlobContentAttributeCorAzulEscuro,.BlobInputAttributeCorAzulEscuro,.ReadonlyAttributeCorAzulEscuro,.AttributeCorAzulEscuro12Pt,.BlobContentAttributeCorAzulEscuro12Pt,.ReadonlyBlobContentAttributeCorAzulEscuro12Pt,.BlobInputAttributeCorAzulEscuro12Pt,.ReadonlyAttributeCorAzulEscuro12Pt,.AttributeCorAzulEscuroPt10Home,.BlobContentAttributeCorAzulEscuroPt10Home,.ReadonlyBlobContentAttributeCorAzulEscuroPt10Home,.BlobInputAttributeCorAzulEscuroPt10Home,.ReadonlyAttributeCorAzulEscuroPt10Home
+{
+	color: #1f4c87;
+}
+.ReadonlyBlobContentAttributeCorAzulEscuro
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorAzulEscuro
+{
+	border-width: 0px;
+}
+.AttributeCorAzulEscuro12Pt,.BlobContentAttributeCorAzulEscuro12Pt,.ReadonlyBlobContentAttributeCorAzulEscuro12Pt,.BlobInputAttributeCorAzulEscuro12Pt,.ReadonlyAttributeCorAzulEscuro12Pt
+{
+	font-size: 12pt;
+}
+.ReadonlyBlobContentAttributeCorAzulEscuro12Pt
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorAzulEscuro12Pt
+{
+	border-width: 0px;
+}
+.AttributeCorAzulEscuroPt10Home,.BlobContentAttributeCorAzulEscuroPt10Home,.ReadonlyBlobContentAttributeCorAzulEscuroPt10Home,.BlobInputAttributeCorAzulEscuroPt10Home,.ReadonlyAttributeCorAzulEscuroPt10Home
+{
+	white-space: normal;
+	font-family: "Trebuchet MS", "Microsoft Sans Serif", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bolder;
+}
+.ReadonlyBlobContentAttributeCorAzulEscuroPt10Home
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeCorAzulEscuroPt10Home
+{
+	border-width: 0px;
+}
+.AttributePt8,.BlobContentAttributePt8,.ReadonlyBlobContentAttributePt8,.BlobInputAttributePt8,.ReadonlyAttributePt8
+{
+	font-size: 8pt;
+}
+.ReadonlyBlobContentAttributePt8
+{
+	border-width: 0px;
+}
+.ReadonlyAttributePt8
+{
+	border-width: 0px;
+	color: #747474;
+}
+.ReadonlyBlobContentAttributeSemBorda
+{
+	border-width: 0px;
+}
+.ReadonlyAttributeSemBorda
+{
+	border-width: 0px;
+	color: #747474;
+}
+.ReadonlyBlobContentAttributePrompt
+{
+	border-width: 0px;
+}
+.ReadonlyAttributePrompt
+{
+	border-width: 0px;
+}
+.Button,.ButtonDragging,.ButtonAcceptDrag,.ButtonNoAcceptDrag,.ShortcutButtons,.BtnAvancarAtalho,.BtnVoltarAtalho,.BtnCancelarAtalho,.BtnConfirmarAtalho,.BotaoLogin,.SpecialButtons,.BtnCheck,.BtnDelete,.BtnEnter,.BtnFirst,.BtnGet,.BtnHelp,.BtnLast,.BtnNext,.BtnPrevious,.BtnRefresh,.BtnSelect,.BtnToggle,.BtnToggleActive,.BtnCancelar,.BtnCancelarNota,.BtnImprimir,.BtnImpTudo,.BtnAvancar,.BtnContabilidade,.BtnInserir,.BtnInserir2,.BtnInserir3,.BtnRateio,.BtnFinalizar,.BtnAplicar,.BtnNovo,.BtnFechar,.BtnGravar,.BtnConfirmar2,.BtnReboque,.BtnVolume,.BtnCaiReg,.btncaiconcilia,.btncaifechamento,.btncaitransferencia,.btncaidesconto,.btncaiconsaldo,.btncaiconche,.BtnHeader,.BtnConcil,.BtnConsLan,.BtnFecCxa,.BtnRegLanca,.BtnTransf,.BtnSim,.BtnNao,.BtnHeaderPagRec,.BtnRegPagRec,.BtnConsPagRec,.BtnEfetuaPagamPagRec,.BtnAceitePagRec,.BtnRenegPagRec,.BtnRegDescPagRec,.BtnDevCheqPagRec,.BtnEmissaoRelatPagRec,.BtnEfetuarRecebimentoPagRec,.BtnMoreFilters,.BtnClear,.BtnExcluir,.BtnExcluirNota,.BtnGravarNota,.BtnJurosMultaValim,.BtnEnviarEmail,.BtnMarcarTodos,.BtnDesmarcarTodos,.BtnUpLoad,.BtnLinha,.BtnOcorrencia,.BtnRateio2,.BtnAtualiza,.BtnDependente,.BtnCancelar2,.BtnHeaderCompras,.BtnRegSol,.BtnConsAut,.BtnConsCot,.BtnConsMapa,.BtnEmissaoMapa,.BtnReapReg,.BtnRegAnterior,.Cotacao,.Desempate,.Ganhador,.Transferir,.BtnObservacao,.btnTroca,.BtnCopiar,.BtnCriar,.BtnRegistrar,.BtnNovo2,.BtnAparelho,.Novo,.Novo2,.BtnAlterarFornecedor,.BtnRecalc,.BtnRecalcNota,.BtnRefazerParc,.BtnPrecoMargem,.BtnParametro,.BtnParametroNota,.BtnGerarNotas,.BtnVincNota,.BtnRegEntrada,.BtnImportaXML,.BtnImportaPed,.BtnDevolucao,.BtnEmiteNota,.BtnEmiteNotaServico,.BtnRegFornecedor,.BtnConsFornecedor,.BtnPrecoPromocao,.BtnPrecoVenda,.BtnUltimasEntradas,.BtnLog,.BtnWebService,.BtnEnviarEmail2,.BtnAddEmail,.BtnDelEmail,.BtnSair,.BtnSairNota,.BtnInutilizar,.BtnInutilizarNota,.Cancelar,.BtnAceitar,.BtnRecusar,.BtnRecusar2,.BtnAceitar2,.BtAdicionar,.BtCancelar,.BtAvancar,.BtAdicionarPequeno,.BtCancelarPequeno,.BtAvancarPequeno,.BtVoltar,.BtnTrocaDevolucao,.BtnInformeProducao,.BtConfirmarPequeno,.BtnParcela,.BtnParcela2,.BtnVendedor,.Tecla35,.Tecla55,.Tecla67,.Tecla89,.Tecla257,.BtnMargem,.BtVoltarPequeno,.BtnConferido,.BtnXml,.BtnComissaoVendedorVend,.BtnComissaoGerente,.BtnVoltarMenu,.BtnCancel,.SpecialButtonsDisabled,.BtnConfirmar,.BtnAutoSoma,.BtnLogin,.BtnVersao,.BtnConfirmar3,.BtnCondicional,.BtnEntFutura,.BtnEntOutEnd,.BtnOrcamento,.BtnPreVenda,.BtnSimplesRem,.BtnTpSaida,.BtnRegManual,.BtnRegDevEnt,.BtnRegDevSaida,.BtnRegTroca,.BtnRegTroca1,.BtnPesquisar,.BtnListaServicoProduto,.BtnAparelhoCliente,.BtnItensAparelho,.ActionButtons,.ButtonDisabled,.BtnSemFundo,.BtnPesquisa,.BtnSemFundoPequeno,.BtnMarcar,.BtnDesmarcar,.BtnSemFundoPequeno1,.BtnUploadArquivo,.BtnFiltro,.BtnGraficoPizza,.BtnLiberar,.BtnRecusa,.BtnSaida,.BtnLancmto,.BtnJurosMulta,.ButtonVermelho
+{
+	box-shadow: 0px 2px 4px #555;
+	margin-bottom: 1px;
+	margin-right: 3px;
+	margin-top: 1px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 5px;
+	background-color: #557abe;
+	background-image: none;
+	border-bottom-color: #797979;
+	border-left-color: #797979;
+	border-right-color: #797979;
+	border-top-color: #797979;
+	border-style: solid;
+	border-width: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-family: "Verdana";
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	text-indent: 0pt;
+	vertical-align: top;
+}
+
+.ButtonDragging
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.ButtonAcceptDrag
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.ButtonNoAcceptDrag
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.ShortcutButtons,.BtnAvancarAtalho,.BtnVoltarAtalho,.BtnCancelarAtalho,.BtnConfirmarAtalho,.BotaoLogin
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAvancarAtalho
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnVoltarAtalho
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnCancelarAtalho
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConfirmarAtalho
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BotaoLogin
+{
+	box-shadow: 0px 2px 4px #555;
+	background-color: #001c5e;
+}
+
+.SpecialButtons,.BtnCheck,.BtnDelete,.BtnEnter,.BtnFirst,.BtnGet,.BtnHelp,.BtnLast,.BtnNext,.BtnPrevious,.BtnRefresh,.BtnSelect,.BtnToggle,.BtnToggleActive,.BtnCancelar,.BtnCancelarNota,.BtnImprimir,.BtnImpTudo,.BtnAvancar,.BtnContabilidade,.BtnInserir,.BtnInserir2,.BtnInserir3,.BtnRateio,.BtnFinalizar,.BtnAplicar,.BtnNovo,.BtnFechar,.BtnGravar,.BtnConfirmar2,.BtnReboque,.BtnVolume,.BtnCaiReg,.btncaiconcilia,.btncaifechamento,.btncaitransferencia,.btncaidesconto,.btncaiconsaldo,.btncaiconche,.BtnHeader,.BtnConcil,.BtnConsLan,.BtnFecCxa,.BtnRegLanca,.BtnTransf,.BtnSim,.BtnNao,.BtnHeaderPagRec,.BtnRegPagRec,.BtnConsPagRec,.BtnEfetuaPagamPagRec,.BtnAceitePagRec,.BtnRenegPagRec,.BtnRegDescPagRec,.BtnDevCheqPagRec,.BtnEmissaoRelatPagRec,.BtnEfetuarRecebimentoPagRec,.BtnMoreFilters,.BtnClear,.BtnExcluir,.BtnExcluirNota,.BtnGravarNota,.BtnJurosMultaValim,.BtnEnviarEmail,.BtnMarcarTodos,.BtnDesmarcarTodos,.BtnUpLoad,.BtnLinha,.BtnOcorrencia,.BtnRateio2,.BtnAtualiza,.BtnDependente,.BtnCancelar2,.BtnHeaderCompras,.BtnRegSol,.BtnConsAut,.BtnConsCot,.BtnConsMapa,.BtnEmissaoMapa,.BtnReapReg,.BtnRegAnterior,.Cotacao,.Desempate,.Ganhador,.Transferir,.BtnObservacao,.btnTroca,.BtnCopiar,.BtnCriar,.BtnRegistrar,.BtnNovo2,.BtnAparelho,.Novo,.Novo2,.BtnAlterarFornecedor,.BtnRecalc,.BtnRecalcNota,.BtnRefazerParc,.BtnPrecoMargem,.BtnParametro,.BtnParametroNota,.BtnGerarNotas,.BtnVincNota,.BtnRegEntrada,.BtnImportaXML,.BtnImportaPed,.BtnDevolucao,.BtnEmiteNota,.BtnEmiteNotaServico,.BtnRegFornecedor,.BtnConsFornecedor,.BtnPrecoPromocao,.BtnPrecoVenda,.BtnUltimasEntradas,.BtnLog,.BtnWebService,.BtnEnviarEmail2,.BtnAddEmail,.BtnDelEmail,.BtnSair,.BtnSairNota,.BtnInutilizar,.BtnInutilizarNota,.Cancelar,.BtnAceitar,.BtnRecusar,.BtnRecusar2,.BtnAceitar2,.BtAdicionar,.BtCancelar,.BtAvancar,.BtAdicionarPequeno,.BtCancelarPequeno,.BtAvancarPequeno,.BtVoltar,.BtnTrocaDevolucao,.BtnInformeProducao,.BtConfirmarPequeno,.BtnParcela,.BtnParcela2,.BtnVendedor,.Tecla35,.Tecla55,.Tecla67,.Tecla89,.Tecla257,.BtnMargem,.BtVoltarPequeno,.BtnConferido,.BtnXml,.BtnComissaoVendedorVend,.BtnComissaoGerente,.BtnVoltarMenu,.BtnCancel,.SpecialButtonsDisabled,.BtnConfirmar,.BtnAutoSoma,.BtnLogin,.BtnVersao,.BtnConfirmar3,.BtnCondicional,.BtnEntFutura,.BtnEntOutEnd,.BtnOrcamento,.BtnPreVenda,.BtnSimplesRem,.BtnTpSaida,.BtnRegManual,.BtnRegDevEnt,.BtnRegDevSaida,.BtnRegTroca,.BtnRegTroca1,.BtnPesquisar,.BtnListaServicoProduto,.BtnAparelhoCliente,.BtnItensAparelho
+{
+	box-shadow: 0px 2px 4px #555;
+	text-align: center;
+}
+
+.BtnCheck
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnDelete
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEnter
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnFirst
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnGet
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnHelp
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnLast
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnNext
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnPrevious
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRefresh
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnSelect
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnToggle,.BtnToggleActive
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnToggleActive
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnCancelar,.BtnCancelarNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnCancelarNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnImprimir,.BtnImpTudo
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnImpTudo
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAvancar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnContabilidade,.BtnInserir,.BtnInserir2,.BtnInserir3,.BtnRateio,.BtnFinalizar,.BtnAplicar,.BtnNovo,.BtnFechar,.BtnGravar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnInserir,.BtnInserir2,.BtnInserir3
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnInserir2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnInserir3
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRateio
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnFinalizar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAplicar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnNovo
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnFechar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnGravar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConfirmar2,.BtnReboque,.BtnVolume
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnReboque
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnVolume
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnCaiReg
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.btncaiconcilia
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.btncaifechamento
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.btncaitransferencia
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.btncaidesconto
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.btncaiconsaldo
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.btncaiconche
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnHeader,.BtnConcil,.BtnConsLan,.BtnFecCxa,.BtnRegLanca,.BtnTransf
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConcil
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConsLan
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnFecCxa
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegLanca
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnTransf
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnSim
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnNao
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnHeaderPagRec,.BtnRegPagRec,.BtnConsPagRec,.BtnEfetuaPagamPagRec,.BtnAceitePagRec,.BtnRenegPagRec,.BtnRegDescPagRec,.BtnDevCheqPagRec,.BtnEmissaoRelatPagRec,.BtnEfetuarRecebimentoPagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegPagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConsPagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEfetuaPagamPagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAceitePagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRenegPagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegDescPagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnDevCheqPagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEmissaoRelatPagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEfetuarRecebimentoPagRec
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnMoreFilters
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnClear,.BtnExcluir,.BtnExcluirNota,.BtnGravarNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnExcluir,.BtnExcluirNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnExcluirNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnGravarNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnJurosMultaValim
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEnviarEmail
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnMarcarTodos
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnDesmarcarTodos
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnUpLoad
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnLinha
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnOcorrencia
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRateio2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAtualiza
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnDependente
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnCancelar2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnHeaderCompras,.BtnRegSol,.BtnConsAut,.BtnConsCot,.BtnConsMapa,.BtnEmissaoMapa
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegSol
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConsAut
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConsCot
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConsMapa
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEmissaoMapa
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnReapReg
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegAnterior
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Cotacao,.Desempate,.Ganhador,.Transferir
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Desempate
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Ganhador
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Transferir
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnObservacao
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.btnTroca
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnCopiar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnCriar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegistrar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnNovo2,.BtnAparelho
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAparelho
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Novo
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Novo2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAlterarFornecedor
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRecalc,.BtnRecalcNota,.BtnRefazerParc,.BtnPrecoMargem
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRecalcNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRefazerParc,.BtnPrecoMargem
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnPrecoMargem
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnParametro,.BtnParametroNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnParametroNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnGerarNotas
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnVincNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegEntrada
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnImportaXML
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnImportaPed
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnDevolucao
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEmiteNota,.BtnEmiteNotaServico
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEmiteNotaServico
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegFornecedor
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConsFornecedor
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnPrecoPromocao
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnPrecoVenda
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnUltimasEntradas
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnLog
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnWebService
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEnviarEmail2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAddEmail
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnDelEmail
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnSair,.BtnSairNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnSairNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnInutilizar,.BtnInutilizarNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnInutilizarNota
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Cancelar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAceitar,.BtnRecusar,.BtnRecusar2,.BtnAceitar2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRecusar,.BtnRecusar2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRecusar2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnAceitar2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtAdicionar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtCancelar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtAvancar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtAdicionarPequeno
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtCancelarPequeno
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtAvancarPequeno
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtVoltar
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnTrocaDevolucao
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnInformeProducao
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtConfirmarPequeno
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnParcela,.BtnParcela2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnParcela2
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnVendedor
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Tecla35
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Tecla55
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Tecla67
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Tecla89
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.Tecla257
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnMargem
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtVoltarPequeno
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConferido
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnXml
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnComissaoVendedorVend
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnComissaoGerente
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnVoltarMenu
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnCancel
+{
+	box-shadow: 0px 2px 4px #555;
+	background-color: darkgray;
+}
+
+.SpecialButtonsDisabled
+{
+	box-shadow: 0px 2px 4px #555;
+	background-color: white;
+	border-bottom-color: darkgray;
+	border-left-color: darkgray;
+	border-right-color: darkgray;
+	border-top-color: darkgray;
+	border-width: 1px;
+	color: #e0e0e0;
+}
+
+.BtnConfirmar,.BtnAutoSoma,.BtnLogin,.BtnVersao,.BtnConfirmar3,.BtnCondicional,.BtnEntFutura,.BtnEntOutEnd,.BtnOrcamento,.BtnPreVenda,.BtnSimplesRem,.BtnTpSaida,.BtnRegManual,.BtnRegDevEnt,.BtnRegDevSaida,.BtnRegTroca,.BtnRegTroca1
+{
+	box-shadow: 0px 2px 4px #555;
+	width: 90px;
+}
+
+.BtnAutoSoma
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnLogin
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnVersao
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnConfirmar3
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnCondicional
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEntFutura,.BtnEntOutEnd
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnEntOutEnd
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnOrcamento
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnPreVenda
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnSimplesRem
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnTpSaida
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegManual
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegDevEnt
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegDevSaida
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegTroca,.BtnRegTroca1
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnRegTroca1
+{
+	box-shadow: 0px 2px 4px #555;
+}
+
+.BtnPesquisar,.BtnListaServicoProduto,.BtnAparelhoCliente,.BtnItensAparelho
+{
+	background-repeat: no-repeat;
+	box-shadow: #555;
+	background-color: transparent;
+	background-image: url(../pesquisarconsulta.png);
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	color: black;
+	height: 32px;
+	width: 120px;
+	box-shadow: 0px 0px 0px transparent !important;
+}
+
+.BtnListaServicoProduto
+{
+	box-shadow: #555;
+}
+
+.BtnAparelhoCliente
+{
+	box-shadow: #555;
+}
+
+.BtnItensAparelho
+{
+	box-shadow: #555;
+}
+
+.ActionButtons
+{
+	box-shadow: 0px 2px 4px #555;
+	background-color: #9f9f9f;
+}
+
+.ButtonDisabled
+{
+	box-shadow: 0px 2px 4px #555;
+	background-color: white;
+	border-bottom-color: darkgray;
+	border-left-color: darkgray;
+	border-right-color: darkgray;
+	border-top-color: darkgray;
+	border-width: 1px;
+	color: #e0e0e0;
+}
+
+.BtnSemFundo,.BtnPesquisa,.BtnSemFundoPequeno,.BtnMarcar,.BtnDesmarcar,.BtnSemFundoPequeno1,.BtnUploadArquivo,.BtnFiltro,.BtnGraficoPizza,.BtnLiberar,.BtnRecusa,.BtnSaida,.BtnLancmto,.BtnJurosMulta
+{
+	background-repeat: no-repeat;
+	box-shadow: #555;
+	background-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	color: black;
+	text-align: center;
+	box-shadow: 0px 0px 0px transparent !important;
+}
+
+.BtnPesquisa
+{
+	box-shadow: #555;
+	padding-bottom: 0px;
+	padding-left: 32px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-image: url(../pesquisarconsulta.png);
+	height: 32px;
+}
+
+.BtnSemFundoPequeno,.BtnMarcar,.BtnDesmarcar,.BtnSemFundoPequeno1,.BtnUploadArquivo
+{
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 0px;
+	padding-top: 0px;
+	height: 17px;
+}
+
+.BtnMarcar
+{
+	background-image: url(../marcar.gif);
+}
+
+.BtnDesmarcar
+{
+	background-image: url(../desmarcar.gif);
+}
+
+.BtnUploadArquivo
+{
+	padding-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 19px;
+	padding-top: 1px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #1f4c87;
+	box-shadow: 0px 0px 0px transparent;
+	background:transparent url(../up_icon.png) no-repeat right;
+	!important;
+}
+
+.BtnFiltro
+{
+	box-shadow: #555;
+	padding-left: 20px;
+	background-image: url(../filtrotpsaida.png);
+}
+
+.BtnGraficoPizza
+{
+	box-shadow: #555;
+	padding-left: 35px;
+	background-image: url(../pie32.png);
+	height: 32px;
+}
+
+.BtnLiberar
+{
+	box-shadow: #555;
+	padding-bottom: 0px;
+	padding-left: 32px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-image: url(../aceitar.png);
+	height: 32px;
+}
+
+.BtnRecusa
+{
+	box-shadow: #555;
+	padding-bottom: 0px;
+	padding-left: 32px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-image: url(../recusar.png);
+	height: 32px;
+}
+
+.BtnSaida
+{
+	box-shadow: #555;
+	padding-bottom: 0px;
+	padding-left: 32px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-image: url(../sair.png);
+	height: 32px;
+}
+
+.BtnLancmto
+{
+	box-shadow: #555;
+	padding-bottom: 0px;
+	padding-left: 32px;
+	padding-right: 0px;
+	padding-top: 0px;
+	background-image: url(../archive.png);
+	height: 28px;
+}
+
+.BtnJurosMulta
+{
+	box-shadow: #555;
+	padding-left: 30px;
+	background-image: url(../coins_icon.png);
+	height: 30px;
+}
+
+.ButtonVermelho
+{
+	box-shadow: 0px 2px 4px #555;
+	background-color: darkred;
+}
+
+.Grid,.GridSql,.Texto,.GridPermissao,.GridDragging,.GridAcceptDrag,.GridNoAcceptDrag,.WorkWith,.PromptGrid,.Grid8pt
+{
+	background-color: #b0c4de;
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+	margin-bottom: 1pt;
+	margin-left: 1pt;
+	margin-right: 1pt;
+	margin-top: 1pt;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-style: none;
+	border-width: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridUniform
+{
+	background-color: #e5e5e5;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridOdd
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: whitesmoke;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridEven
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridUniformTitle
+{
+	background-color: #e5e5e5;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridTitle
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridFooter
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridSql
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+	white-space: nowrap;
+}
+
+.GridSqlUniform
+{
+	white-space: nowrap;
+	background-color: #e5e5e5;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridSqlOdd
+{
+	white-space: nowrap;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: whitesmoke;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridSqlEven
+{
+	white-space: nowrap;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridSqlUniformTitle
+{
+	white-space: nowrap;
+	background-color: #e5e5e5;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridSqlTitle
+{
+	white-space: nowrap;
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridSqlFooter
+{
+	white-space: nowrap;
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.Texto
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.TextoUniform
+{
+	background-color: #e5e5e5;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.TextoOdd
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: whitesmoke;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.TextoEven
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.TextoUniformTitle
+{
+	background-color: #e5e5e5;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.TextoTitle
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.TextoFooter
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridPermissao
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.GridPermissaoUniform
+{
+	background-color: #e5e5e5;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridPermissaoOdd
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: whitesmoke;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridPermissaoEven
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridPermissaoUniformTitle
+{
+	background-color: #e5e5e5;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridPermissaoTitle
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridPermissaoFooter
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridDragging
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+	border-bottom-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	border-top-color: white;
+}
+
+.GridDraggingUniform
+{
+	background-color: #d3d4d3;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridDraggingOdd
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: whitesmoke;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridDraggingEven
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridDraggingUniformTitle
+{
+	background-color: #d3d4d3;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridDraggingTitle
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridDraggingFooter
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridAcceptDrag
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+	border-bottom-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	border-top-color: white;
+}
+
+.GridAcceptDragUniform
+{
+	background-color: #d3d4d3;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridAcceptDragOdd
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: whitesmoke;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridAcceptDragEven
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridAcceptDragUniformTitle
+{
+	background-color: #d3d4d3;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridAcceptDragTitle
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridAcceptDragFooter
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridNoAcceptDrag
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+	border-bottom-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	border-top-color: white;
+}
+
+.GridNoAcceptDragUniform
+{
+	background-color: #d3d4d3;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridNoAcceptDragOdd
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: whitesmoke;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridNoAcceptDragEven
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridNoAcceptDragUniformTitle
+{
+	background-color: #d3d4d3;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridNoAcceptDragTitle
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.GridNoAcceptDragFooter
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.WorkWith,.PromptGrid
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.WorkWithUniform
+{
+	background-color: #e5e5e5;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.WorkWithOdd
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #fff;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.WorkWithEven
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.WorkWithUniformTitle
+{
+	background-color: #e5e5e5;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.WorkWithTitle
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.WorkWithFooter
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.PromptGrid
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.PromptGridUniform
+{
+	background-color: #e5e5e5;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.PromptGridOdd
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #fff;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.PromptGridEven
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.PromptGridUniformTitle
+{
+	background-color: #e5e5e5;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.PromptGridTitle
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.PromptGridFooter
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.Grid8pt
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.Grid8ptUniform
+{
+	background-color: #e5e5e5;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.Grid8ptOdd
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: whitesmoke;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.Grid8ptEven
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #dbecfc;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.Grid8ptUniformTitle
+{
+	background-color: #e5e5e5;
+	color: #1f4c87;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.Grid8ptTitle
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.Grid8ptFooter
+{
+	color: #1f4c87;
+	background-color: transparent;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.Group,.GroupTitle
+{
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-style: none;
+	border-top: 1px;
+	border-width: 0px;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+.GroupTitle
+{
+	font-size: 26px;
+	color: #c60b44;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+.GroupTitleTitle
+{
+	font-size: 26px;
+	color: #c60b44;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+.Image,.ImageSetaDown,.ImageSetaUP,.ImageDragging,.ImageAcceptDrag,.ImageNoAcceptDrag,.PoweredBy,.TabPaging,.TabPagingNext,.TabPagingPrevious,.ImageHeaderBackground,.HeaderImage1,.ImageTopHeader,.ResponsiveImage,.ImagemAmpliada,.ImageMsg,.ImageComMsg,.ImageTop,.ImageHandCenter,.ImageHandCenter:hover,.PagingButtons,.PagingButtonsFirst,.PagingButtonsLast,.PagingButtonsNext,.PagingButtonsPrevious,.ImagePrompt,.ImageProd
+{
+	border-style: none;
+	border-width: 0px;
+	vertical-align: middle;
+}
+.ImageSetaDown
+{
+	margin-bottom: 6px;
+	width: 11px;
+}
+.ImageSetaUP
+{
+	margin-bottom: -10px;
+	width: 11px;
+}
+.ImageComMsg
+{
+	box-shadow: 0px 0px 15px 1px red inset;
+}
+.ImageTop
+{
+	background-color: white;
+	height: 10px;
+	width: 5px;
+}
+.ImageHandCenter,.ImageHandCenter:hover
+{
+	margin-left: 2px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.PagingButtons,.PagingButtonsFirst,.PagingButtonsLast,.PagingButtonsNext,.PagingButtonsPrevious
+{
+	background-repeat: no-repeat;
+	margin-left: 4px;
+	height: 32px;
+	width: 32px;
+	cursor: pointer;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+}
+.PagingButtonsFirst
+{
+	float: left;
+	background-image: url(../GeneXusXEv2/PageFirst.png);
+	height: 16px;
+	width: 16px;
+}
+.PagingButtonsLast
+{
+	float: left;
+	background-image: url(../GeneXusXEv2/PageLast.png);
+	height: 16px;
+	width: 16px;
+}
+.PagingButtonsNext
+{
+	float: left;
+	background-image: url(../GeneXusXEv2/PageNext.png);
+	height: 16px;
+	width: 16px;
+}
+.PagingButtonsPrevious
+{
+	float: left;
+	background-image: url(../GeneXusXEv2/PagePrevious.png);
+	height: 16px;
+	width: 16px;
+}
+.ImagePrompt
+{
+	display:inline-block !important;
+}
+.ImageProd
+{
+	max-height: 80px;
+	max-width: 80px;
+}
+.Table,.TableOTC,.TableOTC3px,.TableBorderPequeno,.TableOtica,.TableDragging,.TableAcceptDrag,.TableNoAcceptDrag,.LevelTable,.BodyContainer,.HeaderContainer,.RecentLinksContainer,.FormContainer,.Container,.ContainerFluid,.AdvancedContainerItem,.AdvancedContainerItemExpanded,.AdvancedContainer,.AdvancedContainerVisible,.OrdersTable,.WWAdvancedContainer,.RecentLinksMainTable,.RecentLinksMainTableExpanded,.PromptContainer,.PromptMainTable,.MainContainer,.GridTabMainTable,.TableLeftMenu,.TableTopMenu,.Table80,.Table100Width,.Table100Wx580H,.Table100W5Padding,.Table2Padding,.TableVerticalLine,.TableVerticalLineBlue,.TablePrincipal,.TableMenu,.PromptCenter,.TableHover,.TableGrid,.TableTop,.TableContent,.Table100x100,.TableBorder,.TableBorderAba,.TableBorderAbaGrande,.TableBorderAbaGrande445,.TableBorderAbaSemWidth,.TableBorderGrande,.TableBorderSemWidth,.TableBorder700,.TableBorder600x250,.ViewTable,.TableHorizontalLine,.TableHorizontalLineBlue,.TableHorizontalLineGray,.header_pink_line,.HorizontalSpace,.TableBottom,.RecentLinksTable,.Table960,.TableGreyFooter,.TableBlackFooter,.TableBlackHeader,.Table95,.TableLogin,.LoginTab,.LoginTabSemCor,.TableFiltros,.TableFiltrosGrande,.GridPrompt,.TableCenter,.LinhaCRUD,.LinhaErrorViewer,.LinhaPrompt,.LinhaConsulta,.TablePopup,.TablePopupPequena,.TablePopupMedia,.TablePopupPrompt,.TableIntervalo,.TableOptions,.TablePageHeader,.TableMarginCenter,.TableAtalho,.TableAtalhoSelect,.TableSemPadding,.TableDestaque
+{
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	border-style: none;
+	border-width: 0px;
+	font-family: Verdana,Arial;
+	font-size: 9pt;
+	font-style: normal;
+}
+.TableOTC,.TableOTC3px
+{
+	margin-top: -15px;
+}
+.TableOTC3px
+{
+	margin-top: -3px;
+}
+.TableBorderPequeno
+{
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-top: 1px;
+	box-shadow: 2px 2px 4px lightsteelblue;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 100px;
+	width: 100px;
+	background: -moz-linear-gradient(top, rgba(165,194,217,1) 0%, rgba(156,196,228,0.2) 40%);
+	background: -webkit-linear-gradient(top, rgba(165,194,217,1) 0%, rgba(156,196,228,0.2) 40%);
+	background: linear-gradient(to bottom, rgba(165,194,217,1) 0%, rgba(156,196,228,0.2) 40%);
+	background-color:#fefefe;
+}
+.TableOtica
+{
+	background-color: #a7c3da;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.TableGrid
+{
+	background-color: #e4e5e6;
+	border-bottom-color: #747474;
+	border-left-color: #747474;
+	border-right-color: #747474;
+	border-top-color: #747474;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 8pt;
+}
+.TableTop
+{
+	background-repeat: repeat-x;
+	list-style-image: none;
+	background-color: white;
+	background-image: none;
+	height: 50px;
+	width: 100%;
+}
+.TableContent
+{
+	padding-bottom: 10pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	padding-top: 10pt;
+	color: #747474;
+	vertical-align: top;
+}
+.Table100x100
+{
+	width: 100%;
+	vertical-align: top;
+}
+.TableBorder,.TableBorderAba,.TableBorderAbaGrande,.TableBorderAbaGrande445,.TableBorderAbaSemWidth,.TableBorderGrande,.TableBorderSemWidth,.TableBorder700,.TableBorder600x250
+{
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-top: 1px;
+	box-shadow: 2px 2px 4px lightsteelblue;
+	padding-bottom: 5pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 5pt;
+	border-bottom-color: #557abe;
+	border-left-color: #557abe;
+	border-right-color: #557abe;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 390px;
+	width: 900px;
+	background: -moz-linear-gradient(top, rgba(165,194,217,1) 0%, rgba(156,196,228,0.2) 40%);
+	background: -webkit-linear-gradient(top, rgba(165,194,217,1) 0%, rgba(156,196,228,0.2) 40%);
+	background: linear-gradient(to bottom, rgba(165,194,217,1) 0%, rgba(156,196,228,0.2) 40%);
+	background-color:#fefefe;
+}
+.TableBorderAba,.TableBorderAbaGrande,.TableBorderAbaGrande445,.TableBorderAbaSemWidth
+{
+	box-shadow: 2px 2px 4px lightsteelblue;
+	border-top-left-radius: 0px;
+}
+.TableBorderAbaGrande
+{
+	box-shadow: 2px 2px 4px lightsteelblue;
+	width: 1200px;
+}
+.TableBorderAbaGrande445
+{
+	box-shadow: 2px 2px 4px lightsteelblue;
+	height: 443px;
+	width: 1200px;
+}
+.TableBorderAbaSemWidth
+{
+	box-shadow: 2px 2px 4px lightsteelblue;
+}
+.TableBorderGrande
+{
+	box-shadow: 2px 2px 4px lightsteelblue;
+	width: 1200px;
+}
+.TableBorderSemWidth
+{
+	box-shadow: 2px 2px 4px lightsteelblue;
+}
+.TableBorder700
+{
+	box-shadow: 2px 2px 4px lightsteelblue;
+	width: 700px;
+}
+.TableBorder600x250
+{
+	box-shadow: 2px 2px 4px lightsteelblue;
+	height: 250px;
+	width: 600px;
+}
+.ViewTable
+{
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-top: 1px;
+	background-color: white;
+	border-bottom-color: silver;
+	border-left-color: silver;
+	border-right-color: silver;
+	border-top-color: silver;
+	border-width: 1px;
+	color: #404040;
+	width: 100%;
+}
+.TableHorizontalLine,.TableHorizontalLineBlue,.TableHorizontalLineGray,.header_pink_line
+{
+	background-color: #c60b44;
+	height: 6px;
+	width: 100%;
+}
+.header_pink_line
+{
+	width: 960px;
+}
+.HorizontalSpace
+{
+	background-color: #fff;
+	height: 5px;
+	width: 100%;
+}
+.TableBottom
+{
+	background-color: #e0e0e0;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+.RecentLinksTable
+{
+	padding-left: 5pt;
+	padding-right: 5pt;
+	background-color: whitesmoke;
+	border-bottom-color: #9d1f1f;
+	height: 15px;
+	width: 100%;
+}
+.Table960
+{
+	width: 960px;
+}
+.TableGreyFooter
+{
+	background-image: url(../footer_body.png);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	height: 32px;
+	width: 100%;
+}
+.TableBlackFooter
+{
+	background-image: url(../cabezal_cuerpo.png);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	height: 36px;
+	width: 100%;
+}
+.TableBlackHeader
+{
+	background-image: url(../cabezal_cuerpo.png);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	height: 36px;
+	width: 100%;
+}
+.Table95
+{
+	width: 100%;
+}
+.TableLogin
+{
+	box-shadow: 2px 2px 4px #ccc;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+	border-right-color: #ccc;
+	border-top-color: #ccc;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width: 300px;
+}
+.LoginTab,.LoginTabSemCor
+{
+	border-bottom: 2px;
+	border-left: 1px;
+	border-right: 1px;
+	border-top: 1px;
+	box-shadow: 4px 4px 8px dimgray;
+	background-color: #557abe;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.LoginTabSemCor
+{
+	box-shadow: 4px 4px 8px dimgray;
+	background-color: transparent;
+}
+.TableFiltros,.TableFiltrosGrande
+{
+	box-shadow: 2px 2px 4px #ccc;
+	background-color: #e6e6e6;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 60px;
+	min-width: 600px;
+}
+.TableFiltrosGrande
+{
+	box-shadow: 2px 2px 4px #ccc;
+	width: 700px;
+}
+.GridPrompt
+{
+	height: 290px;
+	text-align: center;
+	vertical-align: middle;
+}
+.TableCenter,.LinhaCRUD,.LinhaErrorViewer,.LinhaPrompt,.LinhaConsulta
+{
+	text-align:-khtml-center;
+	text-align:-moz-center;
+	text-align:-webkit-center;
+	 align : center;
+}
+.LinhaCRUD
+{
+	height: 300px;
+	vertical-align: top;
+}
+.LinhaErrorViewer
+{
+	height: 20px;
+}
+.LinhaPrompt
+{
+	height: 210px;
+	vertical-align: top;
+}
+.LinhaConsulta
+{
+	height: 240px;
+	vertical-align: top;
+}
+.TablePopup,.TablePopupPequena,.TablePopupMedia,.TablePopupPrompt
+{
+	background-color: #e6e6e6;
+}
+.TablePopupPequena
+{
+	width: 400px;
+}
+.TablePopupMedia
+{
+	width: 600px;
+}
+.TablePopupPrompt
+{
+	min-height: 520px;
+	min-width: 630px;
+}
+.TableIntervalo
+{
+	background-color: transparent;
+	border-spacing: 0px;
+}
+.TableOptions
+{
+	box-shadow: 2px 2px 4px #ccc;
+	background-color: #e6e6e6;
+	background-image: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.TablePageHeader
+{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	height: 19px;
+}
+.TableMarginCenter
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.TableAtalho,.TableAtalhoSelect
+{
+	background-color: #557abe;
+}
+.TableAtalhoSelect
+{
+	background-color: #840000;
+}
+.TableSemPadding
+{
+	border-spacing: 0px;
+}
+.TableDestaque
+{
+	background: -webkit-radial-gradient(#840000 5%, #840000 5%, transparent);
+	 background: -o-radial-gradient(#840000 5%, #840000 5%, transparent);
+	 background: -moz-radial-gradient(#840000 5%, #840000 5%, transparent);
+	 background: radial-gradient(#840000 5%, #840000 5%, transparent);
+}
+.TextBlock,.TextBlockAniversariante,.TextBlockTag,.TextBlockDragging,.TextBlockAcceptDrag,.TextBlockNoAcceptDrag,.RecentsTitle,.WWAdvancedLabel,.WWOrderByLabel,.WWFilterLabel,.WWDateFilterLabel,.WWOrderItem,.WWOrderItemSelected,.bullet,.subBullet,.TextTable,.TBTopMenu,.TBLeftMenu,.SelectedTab,.UnSelectedTab,.FieldSetTitle,.BtnTextBlock,.TituloApl,.TxtAplic,.TextoLink,.TextBlockImg,.MostrarDetalhe,.EsconderDetalhe,.TxtGerais,.TxtUsuarioDtHr,.TxtCaption,.Menu,.Title,.SubTitle,.Label,.SmallText,.TextBlockHeader,.RecentLink,.Separator,.FooterText,.RecentLinkItem,.VerticalMenuOption,.TextBlockAzul,.TextBlockAzul12pt,.TextBlockVermelho,.TextoGridMarcado,.TextoGridNormal,.TabLabelIni,.TextBlockBranco,.TextBlockBranco9pt,.TextBlockTitulo,.TextBlockPageHeader,.TextBlockPageHeader12pt,.TextBlockTituloMenu,.TextBlockGrid,.TextBlock7pt,.TextBlockVerde
+{
+	padding-right: 3pt;
+	white-space: nowrap;
+	border-style: none;
+	border-width: 0px;
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif, "Angsana New";
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: none;
+	color: #747474;
+	vertical-align: middle;
+}
+.TextBlockAniversariante
+{
+	font-family: 'Cookie',cursive;
+	font-size: 24px;
+	font-weight: normal;
+	color: #557abe;
+}
+.TextBlockTag
+{
+	padding-bottom: .3em;
+	padding-left: .5em;
+	padding-right: .6em;
+	padding-top: .2em;
+	background-color: #428bca;
+	border-top-left-radius: .25em;
+	border-top-right-radius: .25em;
+	border-bottom-right-radius: .25em;
+	border-bottom-left-radius: .25em;
+	font-size: 96%;
+	font-weight: 700;
+	color: white;
+	cursor: pointer;
+}
+.Title,.SubTitle
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #1a1a1a;
+}
+.SubTitle
+{
+	clear: none;
+	padding-left: 3px;
+	padding-top: 5pt;
+	display: block;
+	-moz-box-sizing: border-box;
+	background-image: none;
+	font-size: 10pt;
+	color: black;
+	height: 20px;
+	width: 100%;
+}
+.Label,.gx-label.AttributeLabel,.gx-label.AttributeCorAzulEscuro12PtHomeLabel,.gx-label.ImageProdutoLabel,.gx-label.ImageProdutoDeleteLabel,.gx-label.ImageAttributeLabel,.gx-label.ActionAttributeLabel,.gx-label.BlobContentActionAttributeLabel,.gx-label.ReadonlyBlobContentActionAttributeLabel,.gx-label.ReadonlyActionAttributeLabel,.gx-label.UpdateAttributeLabel,.gx-label.BlobContentUpdateAttributeLabel,.gx-label.ReadonlyBlobContentUpdateAttributeLabel,.gx-label.ReadonlyUpdateAttributeLabel,.gx-label.BlobInputUpdateAttributeLabel,.gx-label.DeleteAttributeLabel,.gx-label.BlobContentDeleteAttributeLabel,.gx-label.ReadonlyBlobContentDeleteAttributeLabel,.gx-label.ReadonlyDeleteAttributeLabel,.gx-label.BlobInputDeleteAttributeLabel,.gx-label.DisplayAttributeLabel,.gx-label.BlobContentDisplayAttributeLabel,.gx-label.ReadonlyBlobContentDisplayAttributeLabel,.gx-label.ReadonlyDisplayAttributeLabel,.gx-label.BlobInputDisplayAttributeLabel,.gx-label.SelectionAttributeLabel,.gx-label.BlobContentSelectionAttributeLabel,.gx-label.ReadonlyBlobContentSelectionAttributeLabel,.gx-label.ReadonlySelectionAttributeLabel,.gx-label.BlobInputSelectionAttributeLabel,.gx-label.DisabledActionAttributeLabel,.gx-label.BlobContentDisabledActionAttributeLabel,.gx-label.ReadonlyBlobContentDisabledActionAttributeLabel,.gx-label.ReadonlyDisabledActionAttributeLabel,.gx-label.BlobInputDisabledActionAttributeLabel,.gx-label.BlobInputActionAttributeLabel,.gx-label.ResponsiveImageAttributeLabel,.gx-label.BlobContentResponsiveImageAttributeLabel,.gx-label.ReadonlyBlobContentResponsiveImageAttributeLabel,.gx-label.ReadonlyResponsiveImageAttributeLabel,.gx-label.BlobInputResponsiveImageAttributeLabel,.gx-label.ReadonlyImageAttributeLabel,.gx-label.VideoAttributeLabel,.gx-label.ReadonlyVideoAttributeLabel,.gx-label.AudioAttributeLabel,.gx-label.ReadonlyAudioAttributeLabel,.gx-label.FilterAttributeLabel,.gx-label.BlobContentFilterAttributeLabel,.gx-label.ReadonlyBlobContentFilterAttributeLabel,.gx-label.ReadonlyFilterAttributeLabel,.gx-label.BlobInputFilterAttributeLabel,.gx-label.DescriptionAttributeLabel,.gx-label.BlobContentDescriptionAttributeLabel,.gx-label.ReadonlyBlobContentDescriptionAttributeLabel,.gx-label.ReadonlyDescriptionAttributeLabel,.gx-label.BlobInputDescriptionAttributeLabel,.gx-label.SemCorFundoLabel,.gx-label.ReadonlySemCorFundoLabel,.gx-label.BlobInputSemCorFundoLabel,.gx-label.BlobContentSemCorFundoLabel,.gx-label.ReadonlyBlobContentSemCorFundoLabel,.gx-label.SemCorFundoGridLabel,.gx-label.ReadonlySemCorFundoGridLabel,.gx-label.BlobInputSemCorFundoGridLabel,.gx-label.BlobContentSemCorFundoGridLabel,.gx-label.ReadonlyBlobContentSemCorFundoGridLabel,.gx-label.SenhaLabel,.gx-label.ReadonlySenhaLabel,.gx-label.BlobInputSenhaLabel,.gx-label.BlobContentSenhaLabel,.gx-label.ReadonlyBlobContentSenhaLabel,.gx-label.UsuarioLabel,.gx-label.ReadonlyUsuarioLabel,.gx-label.BlobInputUsuarioLabel,.gx-label.BlobContentUsuarioLabel,.gx-label.ReadonlyBlobContentUsuarioLabel,.gx-label.UsuarioPermissaoLabel,.gx-label.ReadonlyUsuarioPermissaoLabel,.gx-label.BlobInputUsuarioPermissaoLabel,.gx-label.BlobContentUsuarioPermissaoLabel,.gx-label.ReadonlyBlobContentUsuarioPermissaoLabel,.gx-label.justificadoLabel,.gx-label.ReadonlyjustificadoLabel,.gx-label.BlobInputjustificadoLabel,.gx-label.BlobContentjustificadoLabel,.gx-label.ReadonlyBlobContentjustificadoLabel,.gx-label.CentralizadoLabel,.gx-label.ReadonlyCentralizadoLabel,.gx-label.BlobInputCentralizadoLabel,.gx-label.BlobContentCentralizadoLabel,.gx-label.ReadonlyBlobContentCentralizadoLabel,.gx-label.MemoNoWrapLabel,.gx-label.ReadonlyMemoNoWrapLabel,.gx-label.BlobInputMemoNoWrapLabel,.gx-label.BlobContentMemoNoWrapLabel,.gx-label.ReadonlyBlobContentMemoNoWrapLabel,.gx-label.AlinhaDireitaLabel,.gx-label.ReadonlyAlinhaDireitaLabel,.gx-label.BlobInputAlinhaDireitaLabel,.gx-label.BlobContentAlinhaDireitaLabel,.gx-label.ReadonlyBlobContentAlinhaDireitaLabel,.gx-label.AttributeAlinhadoDireitaLabel,.gx-label.ReadonlyAttributeAlinhadoDireitaLabel,.gx-label.BlobInputAttributeAlinhadoDireitaLabel,.gx-label.BlobContentAttributeAlinhadoDireitaLabel,.gx-label.ReadonlyBlobContentAttributeAlinhadoDireitaLabel,.gx-label.AlinhaDireitaVariavelLabel,.gx-label.ReadonlyAlinhaDireitaVariavelLabel,.gx-label.BlobInputAlinhaDireitaVariavelLabel,.gx-label.BlobContentAlinhaDireitaVariavelLabel,.gx-label.ReadonlyBlobContentAlinhaDireitaVariavelLabel,.gx-label.DesabilitadoLabel,.gx-label.ReadonlyDesabilitadoLabel,.gx-label.BlobInputDesabilitadoLabel,.gx-label.BlobContentDesabilitadoLabel,.gx-label.ReadonlyBlobContentDesabilitadoLabel,.gx-label.Desabilitado251Label,.gx-label.ReadonlyDesabilitado251Label,.gx-label.BlobInputDesabilitado251Label,.gx-label.BlobContentDesabilitado251Label,.gx-label.ReadonlyBlobContentDesabilitado251Label,.gx-label.Desabilitado76Label,.gx-label.ReadonlyDesabilitado76Label,.gx-label.BlobInputDesabilitado76Label,.gx-label.BlobContentDesabilitado76Label,.gx-label.ReadonlyBlobContentDesabilitado76Label,.gx-label.Desabilitado76DireitaLabel,.gx-label.ReadonlyDesabilitado76DireitaLabel,.gx-label.BlobInputDesabilitado76DireitaLabel,.gx-label.BlobContentDesabilitado76DireitaLabel,.gx-label.ReadonlyBlobContentDesabilitado76DireitaLabel,.gx-label.Desabilitado81Label,.gx-label.ReadonlyDesabilitado81Label,.gx-label.BlobInputDesabilitado81Label,.gx-label.BlobContentDesabilitado81Label,.gx-label.ReadonlyBlobContentDesabilitado81Label,.gx-label.Desabilitado66Label,.gx-label.ReadonlyDesabilitado66Label,.gx-label.BlobInputDesabilitado66Label,.gx-label.BlobContentDesabilitado66Label,.gx-label.ReadonlyBlobContentDesabilitado66Label,.gx-label.Desabilitado51Label,.gx-label.ReadonlyDesabilitado51Label,.gx-label.BlobInputDesabilitado51Label,.gx-label.BlobContentDesabilitado51Label,.gx-label.ReadonlyBlobContentDesabilitado51Label,.gx-label.Desabilitado56Label,.gx-label.ReadonlyDesabilitado56Label,.gx-label.BlobInputDesabilitado56Label,.gx-label.BlobContentDesabilitado56Label,.gx-label.ReadonlyBlobContentDesabilitado56Label,.gx-label.Desabilitado41Label,.gx-label.ReadonlyDesabilitado41Label,.gx-label.BlobInputDesabilitado41Label,.gx-label.BlobContentDesabilitado41Label,.gx-label.ReadonlyBlobContentDesabilitado41Label,.gx-label.Desabilitado67Label,.gx-label.ReadonlyDesabilitado67Label,.gx-label.BlobInputDesabilitado67Label,.gx-label.BlobContentDesabilitado67Label,.gx-label.ReadonlyBlobContentDesabilitado67Label,.gx-label.Desabilitado33Label,.gx-label.ReadonlyDesabilitado33Label,.gx-label.BlobInputDesabilitado33Label,.gx-label.BlobContentDesabilitado33Label,.gx-label.ReadonlyBlobContentDesabilitado33Label,.gx-label.Desabilitado167Label,.gx-label.ReadonlyDesabilitado167Label,.gx-label.BlobInputDesabilitado167Label,.gx-label.BlobContentDesabilitado167Label,.gx-label.ReadonlyBlobContentDesabilitado167Label,.gx-label.Desabilitado131Label,.gx-label.ReadonlyDesabilitado131Label,.gx-label.BlobInputDesabilitado131Label,.gx-label.BlobContentDesabilitado131Label,.gx-label.ReadonlyBlobContentDesabilitado131Label,.gx-label.Desabilitado121Label,.gx-label.ReadonlyDesabilitado121Label,.gx-label.BlobInputDesabilitado121Label,.gx-label.BlobContentDesabilitado121Label,.gx-label.ReadonlyBlobContentDesabilitado121Label,.gx-label.Desabilitado222Label,.gx-label.ReadonlyDesabilitado222Label,.gx-label.BlobInputDesabilitado222Label,.gx-label.BlobContentDesabilitado222Label,.gx-label.ReadonlyBlobContentDesabilitado222Label,.gx-label.Desabilitado61Label,.gx-label.ReadonlyDesabilitado61Label,.gx-label.BlobInputDesabilitado61Label,.gx-label.BlobContentDesabilitado61Label,.gx-label.ReadonlyBlobContentDesabilitado61Label,.gx-label.Desabilitado61DireitaLabel,.gx-label.ReadonlyDesabilitado61DireitaLabel,.gx-label.BlobInputDesabilitado61DireitaLabel,.gx-label.BlobContentDesabilitado61DireitaLabel,.gx-label.ReadonlyBlobContentDesabilitado61DireitaLabel,.gx-label.Desabilitado181Label,.gx-label.ReadonlyDesabilitado181Label,.gx-label.BlobInputDesabilitado181Label,.gx-label.BlobContentDesabilitado181Label,.gx-label.ReadonlyBlobContentDesabilitado181Label,.gx-label.Desabilitado118Label,.gx-label.ReadonlyDesabilitado118Label,.gx-label.BlobInputDesabilitado118Label,.gx-label.BlobContentDesabilitado118Label,.gx-label.ReadonlyBlobContentDesabilitado118Label,.gx-label.Desabilitado260Label,.gx-label.ReadonlyDesabilitado260Label,.gx-label.BlobInputDesabilitado260Label,.gx-label.BlobContentDesabilitado260Label,.gx-label.ReadonlyBlobContentDesabilitado260Label,.gx-label.Desabilitado46Label,.gx-label.ReadonlyDesabilitado46Label,.gx-label.BlobInputDesabilitado46Label,.gx-label.BlobContentDesabilitado46Label,.gx-label.ReadonlyBlobContentDesabilitado46Label,.gx-label.Desabilitado96Label,.gx-label.ReadonlyDesabilitado96Label,.gx-label.BlobInputDesabilitado96Label,.gx-label.BlobContentDesabilitado96Label,.gx-label.ReadonlyBlobContentDesabilitado96Label,.gx-label.Desabilitado96DireitaLabel,.gx-label.ReadonlyDesabilitado96DireitaLabel,.gx-label.BlobInputDesabilitado96DireitaLabel,.gx-label.BlobContentDesabilitado96DireitaLabel,.gx-label.ReadonlyBlobContentDesabilitado96DireitaLabel,.gx-label.Desabilitado910Label,.gx-label.ReadonlyDesabilitado910Label,.gx-label.BlobInputDesabilitado910Label,.gx-label.BlobContentDesabilitado910Label,.gx-label.ReadonlyBlobContentDesabilitado910Label,.gx-label.Desabilitado700Label,.gx-label.ReadonlyDesabilitado700Label,.gx-label.BlobInputDesabilitado700Label,.gx-label.BlobContentDesabilitado700Label,.gx-label.ReadonlyBlobContentDesabilitado700Label,.gx-label.Desabilitado910menorLabel,.gx-label.ReadonlyDesabilitado910menorLabel,.gx-label.BlobInputDesabilitado910menorLabel,.gx-label.BlobContentDesabilitado910menorLabel,.gx-label.ReadonlyBlobContentDesabilitado910menorLabel,.gx-label.Desabilitado500Label,.gx-label.ReadonlyDesabilitado500Label,.gx-label.BlobInputDesabilitado500Label,.gx-label.BlobContentDesabilitado500Label,.gx-label.ReadonlyBlobContentDesabilitado500Label,.gx-label.Desabilitado600Label,.gx-label.ReadonlyDesabilitado600Label,.gx-label.BlobInputDesabilitado600Label,.gx-label.BlobContentDesabilitado600Label,.gx-label.ReadonlyBlobContentDesabilitado600Label,.gx-label.Desabilitado281Label,.gx-label.ReadonlyDesabilitado281Label,.gx-label.BlobInputDesabilitado281Label,.gx-label.BlobContentDesabilitado281Label,.gx-label.ReadonlyBlobContentDesabilitado281Label,.gx-label.Desabilitado106Label,.gx-label.ReadonlyDesabilitado106Label,.gx-label.BlobInputDesabilitado106Label,.gx-label.BlobContentDesabilitado106Label,.gx-label.ReadonlyBlobContentDesabilitado106Label,.gx-label.Desabilitado206Label,.gx-label.ReadonlyDesabilitado206Label,.gx-label.BlobInputDesabilitado206Label,.gx-label.BlobContentDesabilitado206Label,.gx-label.ReadonlyBlobContentDesabilitado206Label,.gx-label.Desabilitado71Label,.gx-label.ReadonlyDesabilitado71Label,.gx-label.BlobInputDesabilitado71Label,.gx-label.BlobContentDesabilitado71Label,.gx-label.ReadonlyBlobContentDesabilitado71Label,.gx-label.Desabilitado101Label,.gx-label.ReadonlyDesabilitado101Label,.gx-label.BlobInputDesabilitado101Label,.gx-label.BlobContentDesabilitado101Label,.gx-label.ReadonlyBlobContentDesabilitado101Label,.gx-label.CampoGridAgendaLabel,.gx-label.ErrorAttributeLabel,.gx-label.WarningAttributeLabel,.gx-label.ReadonlyAttributeLabel,.gx-label.BlobContentAttributeLabel,.gx-label.ReadonlyBlobContentAttributeLabel,.gx-label.BlobInputAttributeLabel,.gx-label.AttributeDraggingLabel,.gx-label.AttributeAcceptDragLabel,.gx-label.AttributeNoAcceptDragLabel,.gx-label.AttSubTitleLabel,.gx-label.BlobContentAttSubTitleLabel,.gx-label.ReadonlyBlobContentAttSubTitleLabel,.gx-label.ReadonlyAttSubTitleLabel,.gx-label.BlobInputAttSubTitleLabel,.gx-label.CheckBoxLabel,.gx-label.ReadonlyCheckBoxLabel,.gx-label.BlobContentCheckBoxLabel,.gx-label.ReadonlyBlobContentCheckBoxLabel,.gx-label.BlobInputCheckBoxLabel,.gx-label.ApenasLeituraLabel,.gx-label.ReadonlyApenasLeituraLabel,.gx-label.BlobInputApenasLeituraLabel,.gx-label.BlobContentApenasLeituraLabel,.gx-label.ReadonlyBlobContentApenasLeituraLabel,.gx-label.SemQuebraGridLabel,.gx-label.BlobInputSemQuebraGridLabel,.gx-label.BlobContentSemQuebraGridLabel,.gx-label.ReadonlyBlobContentSemQuebraGridLabel,.gx-label.ReadonlySemQuebraGridLabel,.gx-label.SemQuebraGridPt8Label,.gx-label.BlobContentSemQuebraGridPt8Label,.gx-label.ReadonlyBlobContentSemQuebraGridPt8Label,.gx-label.BlobInputSemQuebraGridPt8Label,.gx-label.ReadonlySemQuebraGridPt8Label,.gx-label.SemQuebraGridPretoLabel,.gx-label.BlobContentSemQuebraGridPretoLabel,.gx-label.ReadonlyBlobContentSemQuebraGridPretoLabel,.gx-label.BlobInputSemQuebraGridPretoLabel,.gx-label.ReadonlySemQuebraGridPretoLabel,.gx-label.SemQuebraGridVermelhoLabel,.gx-label.BlobContentSemQuebraGridVermelhoLabel,.gx-label.ReadonlyBlobContentSemQuebraGridVermelhoLabel,.gx-label.BlobInputSemQuebraGridVermelhoLabel,.gx-label.ReadonlySemQuebraGridVermelhoLabel,.gx-label.CentralizadoCheckGridLabel,.gx-label.ReadonlyCentralizadoCheckGridLabel,.gx-label.BlobInputCentralizadoCheckGridLabel,.gx-label.BlobContentCentralizadoCheckGridLabel,.gx-label.ReadonlyBlobContentCentralizadoCheckGridLabel,.gx-label.AttributeLoginLabel,.gx-label.BlobContentAttributeLoginLabel,.gx-label.ReadonlyBlobContentAttributeLoginLabel,.gx-label.BlobInputAttributeLoginLabel,.gx-label.AttributeLoginPretoLabel,.gx-label.BlobContentAttributeLoginPretoLabel,.gx-label.ReadonlyBlobContentAttributeLoginPretoLabel,.gx-label.BlobInputAttributeLoginPretoLabel,.gx-label.ReadonlyAttributeLoginPretoLabel,.gx-label.ReadonlyAttributeLoginLabel,.gx-label.AttributeSemMargemLabel,.gx-label.BlobContentAttributeSemMargemLabel,.gx-label.ReadonlyBlobContentAttributeSemMargemLabel,.gx-label.BlobInputAttributeSemMargemLabel,.gx-label.ReadonlyAttributeSemMargemLabel,.gx-label.AttributeSemMargemVermelhoLabel,.gx-label.BlobContentAttributeSemMargemVermelhoLabel,.gx-label.ReadonlyBlobContentAttributeSemMargemVermelhoLabel,.gx-label.BlobInputAttributeSemMargemVermelhoLabel,.gx-label.ReadonlyAttributeSemMargemVermelhoLabel,.gx-label.AttributeMenorLabel,.gx-label.BlobContentAttributeMenorLabel,.gx-label.ReadonlyBlobContentAttributeMenorLabel,.gx-label.BlobInputAttributeMenorLabel,.gx-label.ReadonlyAttributeMenorLabel,.gx-label.AttributeTrueTypeLabel,.gx-label.BlobContentAttributeTrueTypeLabel,.gx-label.ReadonlyBlobContentAttributeTrueTypeLabel,.gx-label.BlobInputAttributeTrueTypeLabel,.gx-label.ReadonlyAttributeTrueTypeLabel,.gx-label.AttributeTrueType12ptLabel,.gx-label.BlobContentAttributeTrueType12ptLabel,.gx-label.ReadonlyBlobContentAttributeTrueType12ptLabel,.gx-label.BlobInputAttributeTrueType12ptLabel,.gx-label.ReadonlyAttributeTrueType12ptLabel,.gx-label.AttributeObservacaoLabel,.gx-label.BlobContentAttributeObservacaoLabel,.gx-label.ReadonlyBlobContentAttributeObservacaoLabel,.gx-label.BlobInputAttributeObservacaoLabel,.gx-label.ReadonlyAttributeObservacaoLabel,.gx-label.AttributeSublinhadoLabel,.gx-label.BlobContentAttributeSublinhadoLabel,.gx-label.ReadonlyBlobContentAttributeSublinhadoLabel,.gx-label.BlobInputAttributeSublinhadoLabel,.gx-label.ReadonlyAttributeSublinhadoLabel,.gx-label.AttributeVermelhoLabel,.gx-label.BlobContentAttributeVermelhoLabel,.gx-label.ReadonlyBlobContentAttributeVermelhoLabel,.gx-label.BlobInputAttributeVermelhoLabel,.gx-label.ReadonlyAttributeVermelhoLabel,.gx-label.AttributeCorLabel,.gx-label.BlobContentAttributeCorLabel,.gx-label.ReadonlyBlobContentAttributeCorLabel,.gx-label.BlobInputAttributeCorLabel,.gx-label.AttributeCorPretoLabel,.gx-label.BlobContentAttributeCorPretoLabel,.gx-label.ReadonlyBlobContentAttributeCorPretoLabel,.gx-label.BlobInputAttributeCorPretoLabel,.gx-label.ReadonlyAttributeCorPretoLabel,.gx-label.ReadonlyAttributeCorLabel,.gx-label.AttributeCorVermelhoLabel,.gx-label.BlobContentAttributeCorVermelhoLabel,.gx-label.ReadonlyBlobContentAttributeCorVermelhoLabel,.gx-label.BlobInputAttributeCorVermelhoLabel,.gx-label.ReadonlyAttributeCorVermelhoLabel,.gx-label.AttributeCorAzulLabel,.gx-label.BlobContentAttributeCorAzulLabel,.gx-label.ReadonlyBlobContentAttributeCorAzulLabel,.gx-label.BlobInputAttributeCorAzulLabel,.gx-label.ReadonlyAttributeCorAzulLabel,.gx-label.AttributeCorAzulNegritoLabel,.gx-label.BlobContentAttributeCorAzulNegritoLabel,.gx-label.ReadonlyBlobContentAttributeCorAzulNegritoLabel,.gx-label.BlobInputAttributeCorAzulNegritoLabel,.gx-label.ReadonlyAttributeCorAzulNegritoLabel,.gx-label.AttributeCorLaranjaLabel,.gx-label.BlobContentAttributeCorLaranjaLabel,.gx-label.ReadonlyBlobContentAttributeCorLaranjaLabel,.gx-label.BlobInputAttributeCorLaranjaLabel,.gx-label.ReadonlyAttributeCorLaranjaLabel,.gx-label.AttributeCorAmareloLabel,.gx-label.BlobContentAttributeCorAmareloLabel,.gx-label.ReadonlyBlobContentAttributeCorAmareloLabel,.gx-label.BlobInputAttributeCorAmareloLabel,.gx-label.ReadonlyAttributeCorAmareloLabel,.gx-label.AttributeCorVerdeLabel,.gx-label.BlobContentAttributeCorVerdeLabel,.gx-label.ReadonlyBlobContentAttributeCorVerdeLabel,.gx-label.BlobInputAttributeCorVerdeLabel,.gx-label.ReadonlyAttributeCorVerdeLabel,.gx-label.AttributeCorVerdeNegritoLabel,.gx-label.BlobContentAttributeCorVerdeNegritoLabel,.gx-label.ReadonlyBlobContentAttributeCorVerdeNegritoLabel,.gx-label.BlobInputAttributeCorVerdeNegritoLabel,.gx-label.ReadonlyAttributeCorVerdeNegritoLabel,.gx-label.AttributeCorAquaLabel,.gx-label.BlobContentAttributeCorAquaLabel,.gx-label.ReadonlyBlobContentAttributeCorAquaLabel,.gx-label.BlobInputAttributeCorAquaLabel,.gx-label.ReadonlyAttributeCorAquaLabel,.gx-label.AttributeCorRosaLabel,.gx-label.BlobContentAttributeCorRosaLabel,.gx-label.ReadonlyBlobContentAttributeCorRosaLabel,.gx-label.BlobInputAttributeCorRosaLabel,.gx-label.ReadonlyAttributeCorRosaLabel,.gx-label.AttributeCorCinzaLabel,.gx-label.BlobContentAttributeCorCinzaLabel,.gx-label.ReadonlyBlobContentAttributeCorCinzaLabel,.gx-label.BlobInputAttributeCorCinzaLabel,.gx-label.ReadonlyAttributeCorCinzaLabel,.gx-label.AttributeCorMarromLabel,.gx-label.BlobContentAttributeCorMarromLabel,.gx-label.ReadonlyBlobContentAttributeCorMarromLabel,.gx-label.BlobInputAttributeCorMarromLabel,.gx-label.ReadonlyAttributeCorMarromLabel,.gx-label.AttributeCorDouradoLabel,.gx-label.BlobContentAttributeCorDouradoLabel,.gx-label.ReadonlyBlobContentAttributeCorDouradoLabel,.gx-label.BlobInputAttributeCorDouradoLabel,.gx-label.ReadonlyAttributeCorDouradoLabel,.gx-label.AttributeCorVinhoLabel,.gx-label.BlobContentAttributeCorVinhoLabel,.gx-label.ReadonlyBlobContentAttributeCorVinhoLabel,.gx-label.BlobInputAttributeCorVinhoLabel,.gx-label.ReadonlyAttributeCorVinhoLabel,.gx-label.AttributeCorAzulEscuroLabel,.gx-label.BlobContentAttributeCorAzulEscuroLabel,.gx-label.ReadonlyBlobContentAttributeCorAzulEscuroLabel,.gx-label.BlobInputAttributeCorAzulEscuroLabel,.gx-label.ReadonlyAttributeCorAzulEscuroLabel,.gx-label.AttributeCorAzulEscuro12PtLabel,.gx-label.BlobContentAttributeCorAzulEscuro12PtLabel,.gx-label.ReadonlyBlobContentAttributeCorAzulEscuro12PtLabel,.gx-label.BlobInputAttributeCorAzulEscuro12PtLabel,.gx-label.ReadonlyAttributeCorAzulEscuro12PtLabel,.gx-label.AttributeCorAzulEscuroPt10HomeLabel,.gx-label.BlobContentAttributeCorAzulEscuroPt10HomeLabel,.gx-label.ReadonlyBlobContentAttributeCorAzulEscuroPt10HomeLabel,.gx-label.BlobInputAttributeCorAzulEscuroPt10HomeLabel,.gx-label.ReadonlyAttributeCorAzulEscuroPt10HomeLabel,.gx-label.AttributePt8Label,.gx-label.BlobContentAttributePt8Label,.gx-label.ReadonlyBlobContentAttributePt8Label,.gx-label.BlobInputAttributePt8Label,.gx-label.ReadonlyAttributePt8Label,.gx-label.AttributeSemBordaLabel,.gx-label.BlobContentAttributeSemBordaLabel,.gx-label.ReadonlyBlobContentAttributeSemBordaLabel,.gx-label.BlobInputAttributeSemBordaLabel,.gx-label.ReadonlyAttributeSemBordaLabel,.gx-label.AttributePromptLabel,.gx-label.BlobContentAttributePromptLabel,.gx-label.ReadonlyBlobContentAttributePromptLabel,.gx-label.BlobInputAttributePromptLabel,.gx-label.ReadonlyAttributePromptLabel
+{
+	font-weight: bold;
+}
+.SmallText
+{
+	font-family: "Trebuchet MS";
+	font-size: 8pt;
+	color: gray;
+	text-align: center;
+}
+.TextBlockHeader
+{
+	background-repeat: no-repeat;
+	list-style-image: none;
+	white-space: normal;
+	background-image: none;
+	font-size: 30pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #c60b44;
+	text-shadow: 2px 2px 5px #888 ;
+}
+.RecentLink
+{
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #494949;
+	height: 20px;
+	width: 5%;
+	text-align: left;
+}
+.Separator
+{
+	box-sizing: border-box;
+	display: block;
+	-moz-box-sizing: border-box;
+	color: white;
+}
+.FooterText
+{
+	font-family: "Trebuchet MS";
+	font-size: 8pt;
+	color: #404040;
+	text-align: center;
+}
+.RecentLinkItem
+{
+	float: left;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	overflow: hidden;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #828282;
+	height: 20px;
+	width: auto;
+	text-align: left;
+	max-width:120px;
+}
+.VerticalMenuOption
+{
+	font-weight: bold;
+	color: #404040;
+}
+.TextBlockAzul,.TextBlockAzul12pt
+{
+	color: #1f4c87;
+}
+.TextBlockAzul12pt
+{
+	font-size: 12pt;
+}
+.TextBlockVermelho
+{
+	color: red;
+}
+.TextoGridMarcado
+{
+	font-family: "Microsoft Sans Serif", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #1f4c87;
+}
+.TextoGridNormal
+{
+	font-size: 9pt;
+	color: #1f4c87;
+	cursor: pointer;
+}
+.TabLabelIni
+{
+	display: block;
+	display:block !important;
+}
+.TextBlockBranco,.TextBlockBranco9pt
+{
+	color: snow;
+}
+.TextBlockBranco9pt
+{
+	font-size: 9pt;
+}
+.TextBlockTitulo
+{
+	font-size: 9pt;
+	font-weight: bold;
+	color: black;
+}
+.TextBlockPageHeader,.TextBlockPageHeader12pt
+{
+	font-weight: bold;
+	color: #557abe;
+}
+.TextBlockPageHeader12pt
+{
+	font-size: 12pt;
+}
+.TextBlockTituloMenu
+{
+	font-family: 'roboto';
+	font-size: 46.0pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: _ 0px 1px 0,#c9c9c9 ;
+}
+.TextBlockGrid
+{
+	color: #1f4c87;
+}
+.TextBlock7pt
+{
+	font-size: 7pt;
+}
+.TextBlockVerde
+{
+	color: darkgreen;
+}
+.ErrorViewer
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: "Microsoft Sans Serif";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #840000;
+}
+.FreeStyleGrid,.TrnSublevelGrid,.RecentLinksGrid,.GridMensagem,.VerticalTabGrid,.FreeStyleGridTransp
+{
+	background-color: #b0c4de;
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	border-style: none;
+	border-width: 0px;
+}
+
+.FreeStyleGridUniform
+{
+	background-color: #e5e5e5;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+}
+
+.FreeStyleGridOdd
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: whitesmoke;
+}
+
+.FreeStyleGridEven
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #dbecfc;
+}
+
+.FreeStyleGridUniformTitle
+{
+	background-color: #e5e5e5;
+}
+
+.TrnSublevelGrid
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.TrnSublevelGridUniform
+{
+	background-color: #e5e5e5;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+}
+
+.TrnSublevelGridOdd
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: whitesmoke;
+}
+
+.TrnSublevelGridEven
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #dbecfc;
+}
+
+.TrnSublevelGridUniformTitle
+{
+	background-color: #e5e5e5;
+}
+
+.RecentLinksGrid
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.RecentLinksGridUniform
+{
+	background-color: #e5e5e5;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+}
+
+.RecentLinksGridOdd
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: whitesmoke;
+}
+
+.RecentLinksGridEven
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #dbecfc;
+}
+
+.RecentLinksGridUniformTitle
+{
+	background-color: #e5e5e5;
+}
+
+.GridMensagem
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.GridMensagemUniform
+{
+	background-color: #e5e5e5;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+}
+
+.GridMensagemOdd
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: whitesmoke;
+}
+
+.GridMensagemEven
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: #dbecfc;
+}
+
+.GridMensagemUniformTitle
+{
+	background-color: #e5e5e5;
+}
+
+.VerticalTabGrid
+{
+	box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.7);
+}
+
+.VerticalTabGridUniform
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.VerticalTabGridOdd
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: whitesmoke;
+}
+
+.VerticalTabGridEven
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #dbecfc;
+}
+
+.FreeStyleGridTransp
+{
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.7);
+}
+
+.FreeStyleGridTranspUniform
+{
+	background-color: transparent;
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	color: transparent;
+}
+
+.FreeStyleGridTranspOdd
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: transparent;
+	color: transparent;
+}
+
+.FreeStyleGridTranspEven
+{
+	font-family: Verdana,Arial;
+	font-size: 8pt;
+	font-style: normal;
+	background-color: transparent;
+	color: transparent;
+}
+
+.FreeStyleGridTranspUniformTitle
+{
+	background-color: transparent;
+}
+
+.Hyperlink,.Mensagem
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.Messages,.ErrorMessages,.WarningMessages
+{
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	position: relative;
+	white-space: nowrap;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #c60b44;
+}
+.ErrorMessages
+{
+	background-color: rgba(255,255,255,0.6);
+	background-image: url(../GeneXusXEv2/ico_error.png);
+	background-position: 4px center;
+	background-repeat: no-repeat;
+	border-bottom-color: #c60b44;
+	border-left-color: #c60b44;
+	border-right-color: #c60b44;
+	border-top-color: #c60b44;
+	border-style: solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: 2px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+.WarningMessages
+{
+	background-color: rgba(255,255,255,0.6);
+	background-image: url(../GeneXusXEv2/ico_warning.png);
+	background-position: 4px center;
+	background-repeat: no-repeat;
+	border-bottom-color: #c60b44;
+	border-left-color: #c60b44;
+	border-right-color: #c60b44;
+	border-top-color: #c60b44;
+	border-style: solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: 2px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+BODY
+{
+	height: inherit;
+}
+HTML
+{
+	height: 100%;
+}
+.Calendar 
+{
+	background-color: #fff;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	display: none;
+	cursor: default;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px ;
+	font-style: normal;
+	font-variant: normal;
+	color: #7d7d7d;
+	z-index: 1000 !important;
+}
+.Calendar  .CalendarButton 
+{
+	background-color: #e4e5e6;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+	text-align: center;
+}
+.Calendar  .nav 
+{
+	background-color: #e4e5e6;
+	background-image: url(../menuarrow.gif);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+.Calendar  TABLE
+{
+	background-color: #fff;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	cursor: default;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+	text-align: center;
+}
+.Calendar  TABLE .wn 
+{
+	background-color: #d3d4d3;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 3px;
+	padding-top: 2px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+.Calendar  THEAD
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+}
+.Calendar  THEAD .headrow 
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+.Calendar  THEAD .daynames 
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+}
+.Calendar  THEAD .name 
+{
+	background-color: #557abe;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+	text-align: center;
+}
+.Calendar  THEAD .weekend 
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: lightgray;
+}
+.Calendar  THEAD .hilite 
+{
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 2px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+.Calendar  THEAD .active 
+{
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+.Calendar  THEAD .CalendarTitle 
+{
+	background-color: #747474;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.Calendar  TBODY .day 
+{
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 4px;
+	padding-top: 2px;
+	width: 2em;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+	text-align: center;
+}
+.Calendar  TBODY .rowhilite  TD
+{
+	background-color: #e4e5e6;
+	color: #333;
+}
+.Calendar  TBODY .emptyrow 
+{
+	display: none;
+}
+.Calendar  TBODY .emptycell 
+{
+	visibility: hidden;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+.Calendar  TBODY TD .hilite 
+{
+	border-bottom-color: #fff;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 3px;
+	padding-top: 1px;
+}
+.Calendar  TBODY TD .active 
+{
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+}
+.Calendar  TBODY TD .selected 
+{
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+	color: ButtonText;
+}
+.Calendar  TBODY TD .weekend 
+{
+	color: #f00;
+}
+.Calendar  TBODY TD .today 
+{
+	font-weight: bold;
+	color: #00f;
+}
+.Calendar  TBODY TD .disabled 
+{
+	color: GrayText;
+}
+.Calendar  TBODY TD .time 
+{
+	background-color: ButtonFace;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1px;
+	text-align: center;
+}
+.Calendar  TBODY TD .time  .hour 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+}
+.Calendar  TBODY TD .time  .minute 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+}
+.Calendar  TBODY TD .time  .ampm 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+.Calendar  TBODY TD .time  .colon 
+{
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 2px;
+	padding-top: 0px;
+	font-weight: bold;
+}
+.Calendar  TBODY TD .time  SPAN .hilite 
+{
+	background-color: #b0c4de;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
+	color: HighlightText;
+}
+.Calendar  TBODY TD .time  SPAN .active 
+{
+	background-color: #000;
+	border-bottom-color: #f00;
+	border-left-color: #f00;
+	border-right-color: #f00;
+	border-top-color: #f00;
+	color: #0f0;
+}
+.Calendar  TFOOT .footrow 
+{
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: white;
+}
+.Calendar  TFOOT .ttip 
+{
+	background-color: #e4e5e6;
+	border-bottom-color: #fff;
+	border-left-color: #767676;
+	border-right-color: #fff;
+	border-top-color: #767676;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+	text-align: center;
+}
+.Calendar  TFOOT .hilite 
+{
+	background-color: #d3d4d3;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+}
+.Calendar  TFOOT .active 
+{
+	border-bottom-color: #fff;
+	border-left-color: #000;
+	border-right-color: #fff;
+	border-top-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+	font-family: tahoma,verdana,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+.CalendarCombo 
+{
+	background-color: #fff;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	left: 0px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	position: absolute;
+	top: 0px;
+	width: 4em;
+	display: none;
+	cursor: default;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+.CalendarCombo  .label 
+{
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+	text-align: center;
+}
+.CalendarCombo  .label-IEfix 
+{
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	width: 4em;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+	text-align: center;
+}
+.CalendarCombo  .active 
+{
+	border-bottom-color: #969696;
+	border-left-color: #969696;
+	border-right-color: #969696;
+	border-top-color: #969696;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+.CalendarCombo  .hilite 
+{
+	background-color: #969696;
+	border-bottom-color: #d3d4d3;
+	border-left-color: #d3d4d3;
+	border-right-color: #d3d4d3;
+	border-top-color: #d3d4d3;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #fff;
+}
+DIV.suggestions
+{
+	background-color: white;
+	border-bottom-color: black;
+	border-left-color: black;
+	border-right-color: black;
+	border-top-color: black;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	position: absolute;
+	-moz-box-sizing: border-box;
+	font-family: Arial, Verdana;
+	font-size: 9px;
+}
+DIV.suggestions DIV
+{
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	cursor: default;
+	font-family: Arial, Verdana;
+	font-size: 9px;
+}
+DIV.suggestions DIV.current
+{
+	background-color: #b0c4de;
+	font-family: Arial, Verdana;
+	font-size: 9px;
+	color: white;
+}
+.ErrorViewerBullet div 
+{
+	margin-left: 5px;
+	list-style-position: inside;
+}
+.GeoLocOption 
+{
+	margin-left: 4px;
+	margin-right: 4px;
+	position: relative;
+	top: 2px;
+	cursor: pointer;
+}
+.ComponentTrigger 
+{
+	margin-left: 4px;
+	cursor: pointer;
+}
+.dojoDialog 
+{
+	background-color: #eee;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	border-right-color: #999;
+	border-top-color: #999;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+#gx_ajax_notification
+{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 5px;
+	position: absolute;
+	top: 21px;
+	z-index: 999;
+	height: 20px;
+	width: 100%;
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+.PopupHeader 
+{
+	background-color: transparent;
+	background-image: none;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	float: right;
+	margin-top: -20px;
+	padding-right: 20px;
+	z-index: 1;
+	width: 100%;
+	cursor: move;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	text-indent: 3px;
+	vertical-align: bottom;
+	width:100% !important;
+	 top:0px !important;
+	 left:0px !important;
+	height: 60px !important;
+}
+.PopupHeader  .PopupTitle 
+{
+	margin-top: 30px;
+}
+.PopupHeaderButton 
+{
+	background-image: url(../GeneXusXEv2/ClosePrompt.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	float: right;
+	margin-right: -2px;
+	margin-top: 8px;
+	height: 36px;
+	width: 36px;
+	display: none;
+	cursor: pointer;
+	text-align: right;
+}
+.PopupContent 
+{
+	background-color: #1f4c87;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	margin-left: -2px;
+	margin-top: -15px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	height: 100%;
+	width: 100%;
+	padding: 30px 10px 10px 10px !important;
+}
+.PopupContent  IFRAME
+{
+	border-width: 0px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	height: 100%;
+	width: 100%;
+}
+.RowDeleted 
+{
+	text-decoration: line-through;
+}
+.dp_container 
+{
+	position: relative;
+}
+UL.Tabs
+{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+}
+UL.Tabs LI.Tab
+{
+	float: left;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+UL.Tabs LI.Tab A
+{
+	display: block;
+	text-decoration: none;
+}
+UL.Tabs LI.Tab A.TabFirst
+{
+	background-image: none;
+	padding-left: 11px;
+}
+UL.Tabs LI.Tab A.TabLeft
+{
+	background-image: none;
+}
+UL.Tabs LI.Tab SPAN
+{
+	display: block;
+}
+UL.Tabs LI.Tab SPAN.TabBackground
+{
+	background-color: #333;
+	background-image: none;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	margin-bottom: -1px;
+	margin-left: 1px;
+	margin-right: 2px;
+	margin-top: 5px;
+	overflow: hidden;
+	padding-bottom: 4px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 4px;
+}
+UL.Tabs LI.Tab SPAN.TabLast
+{
+	background-image: none;
+}
+UL.Tabs LI.Tab SPAN.TabRight
+{
+	background-image: none;
+}
+UL.Tabs LI.Tab SPAN.TabText
+{
+	white-space: nowrap;
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: #fff;
+}
+UL.Tabs LI.TabSelected
+{
+	position: relative;
+}
+UL.Tabs LI.TabSelected A
+{
+	float: left;
+	position: relative;
+}
+UL.Tabs LI.TabSelected A.TabFirst
+{
+	background-image: none;
+}
+UL.Tabs LI.TabSelected A.TabLeft
+{
+	background-image: none;
+}
+UL.Tabs LI.TabSelected SPAN
+{
+	float: left;
+	position: relative;
+}
+UL.Tabs LI.TabSelected SPAN.TabBackground
+{
+	background-color: #fff;
+	background-image: none;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 0px;
+	padding-top: 8px;
+	border-bottom:0px;
+}
+UL.Tabs LI.TabSelected SPAN.TabLast
+{
+	background-image: none;
+}
+UL.Tabs LI.TabSelected SPAN.TabRight
+{
+	background-image: none;
+	margin-right: 0px;
+}
+UL.Tabs LI.TabSelected SPAN.TabText
+{
+	color: #c60b44;
+}
+DIV.gx-multimedia-upload
+{
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+	border-right-color: #ccc;
+	border-top-color: #ccc;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	height: 72px;
+	width: 128px;
+	display: block;
+	text-align: center;
+	line-height:68px;
+}
+DIV.gx-multimedia-upload *
+{
+	text-align: left;
+	line-height:normal;
+}
+DIV.gx-multimedia-upload DIV.fields-ct
+{
+	background-color: white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	padding-left: 5px;
+	padding-top: 10px;
+	height: 100%;
+	display: none;
+	white-space: nowrap;
+}
+DIV.gx-multimedia-upload A:first-child
+{
+	right: 20px;
+}
+DIV.gx-multimedia-upload INPUT.field
+{
+	float: none;
+	margin-top: 10px;
+	width: 300px;
+	display: none;
+}
+DIV.gx-multimedia-upload INPUT.field-selected
+{
+	display: inline;
+}
+DIV.gx-multimedia-upload LABEL.option
+{
+	clear: left;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	width: 150px;
+	display: inline;
+	cursor: pointer;
+	font-size: 11px;
+}
+DIV.gx-multimedia-upload LABEL.option INPUT
+{
+	float: left;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 3px;
+	margin-top: 0px;
+	display: inline;
+	cursor: pointer;
+}
+DIV.gx-multimedia-upload INPUT.Button
+{
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	display: block;
+}
+DIV.gx-multimedia-upload INPUT.BtnEnter
+{
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	display: block;
+}
+DIV.gx-multimedia-upload IMG
+{
+	padding-bottom: 2px;
+	padding-top: 2px;
+	vertical-align: middle;
+	max-width:124px;
+	max-height:68px;
+}
+DIV.gx-multimedia-upload A SPAN
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 68px;
+	width: 124px;
+	color: transparent;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty
+{
+	display: block;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty SPAN
+{
+	display: block;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty IMG
+{
+	display: none;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty SPAN.gx-image-placeholder
+{
+	background-image: url(../GeneXusXEv2/PlaceHolderImage.png);
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty SPAN.gx-video-placeholder
+{
+	background-image: url(../GeneXusXEv2/PlaceHolderVideo.png);
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.gx-multimedia-empty SPAN.gx-audio-placeholder
+{
+	background-image: url(../GeneXusXEv2/PlaceHolderAudio.png);
+	opacity:1;
+}
+DIV.gx-multimedia-upload A.action
+{
+	background-color: #c60b44;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	font-size: 11px;
+	color: white;
+	opacity:0;
+	line-height:15px;
+	-moz-transition:opacity .3s ease-in-out;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-ms-transition:opacity .3s ease-in-out;
+	opacity:0;
+	-webkit-transition:opacity .3s ease-in-out;
+}
+DIV.gx-multimedia-upload A.change-action
+{
+	background-image: url(../GeneXusXEv2/MultimediaEdit.png);
+	background-position: 4px center;
+	background-repeat: no-repeat;
+	padding-left: 16px;
+	padding-right: 4px;
+	right: 20px;
+}
+DIV.gx-multimedia-upload A.clear-action
+{
+	background-image: url(../MultimediaClear.png);
+	background-position: center center;;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 9px;
+	right: 0px;
+}
+DIV.gx-multimedia-upload A.action:focus
+{
+	text-decoration: underline;
+	opacity:.9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+DIV.gx-multimedia-upload:hover A.action:hover
+{
+	text-decoration: underline;
+	opacity:.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+DIV.gx-multimedia-upload:hover A.action:focus
+{
+	text-decoration: underline;
+	opacity:.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+DIV.gx-multimedia-upload:hover A.action
+{
+	display: block;
+	opacity:.7;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+A:not([href]) SPAN.gx-video-placeholder
+{
+	opacity:.5;
+}
+A:not([href]) SPAN.gx-audio-placeholder
+{
+	opacity:.5;
+}
+DIV.gx-mask
+{
+	background-color: royalblue;
+	background-image: none;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	z-index: 1003;
+	height: 100%;
+	width: 100%;
+	transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+	-moz-transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+	-ms-transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+	-o-transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+	-webkit-transition: all cubic-bezier(0, 1, 1, 0.69) .5s;
+	-ms-filter:"alpha(opacity=20)";
+	opacity:.20;
+	 ;
+}
+DIV.gx-unmask
+{
+	background-color: transparent;
+}
+BODY.gx-masked DIV.gx-mask
+{
+	bottom: 0px;
+	position: fixed;
+}
+.gx-masked-relative 
+{
+	position: relative;
+}
+.GXProgressBar  .progress-bar-title 
+{
+	margin-bottom: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 3px;
+	display: block;
+}
+.td5 
+{
+	width: 40px;
+}
+.td100 
+{
+	width: 100%;
+}
+.PopupBorder 
+{
+	background-color: transparent;
+	border-style: solid;
+	border-width: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-right:20px !important;
+	padding-bottom:10px !important;
+	 z-index: 1004 !important;
+}
+.PopupBorder  IMG
+{
+	margin-left: -2px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+}
+.PopupShadow 
+{
+	background-color: #404040;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	opacity:.2;
+}
+.HRDefault 
+{
+	background-color: transparent;
+	border-width: 0px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0px;
+	height: 1px;
+	color: transparent;
+}
+.NoLinkLabel 
+{
+	float: right;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;;
+	font-size: 14px;
+	color: #000;
+	text-align: right;
+}
+.NoLinkLabel  A:active
+{
+	color: #000;
+	text-decoration:none;
+}
+.NoLinkLabel  A:link
+{
+	color: #000;
+	text-decoration:none;
+}
+.NoLinkLabel  A:visited
+{
+	text-decoration: none;
+	color: #000;
+}
+.TDMiddle 
+{
+	vertical-align: middle;
+}
+.MenuOption 
+{
+	margin-right: 15px;
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	font-weight: bold;
+	color: white;
+}
+.MenuOption  A:active
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+.MenuOption  A:link
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+.MenuOption  A:visited
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+.MenuOption  A:hover
+{
+	text-decoration: underline;
+	color: white;
+}
+.TextBlock 
+{
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+.TextBlock  A:active
+{
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	color: black;
+}
+.TextBlock  A:link
+{
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	color: #1f4c87;
+}
+.TextBlock  A:visited
+{
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	color: black;
+}
+.TextBlock  A:hover
+{
+	text-decoration: underline;
+}
+.TableTopMenu  SPAN.TextBlock
+{
+	color: white;
+}
+.Button:active, input[type='button']:active 
+{
+	box-shadow:none;
+}
+.gx_newrow 
+{
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: white;
+}
+.TextBlockHeader  A:active
+{
+	text-decoration: none;
+	color: #c60b44;
+}
+.TextBlockHeader  A:hover
+{
+	text-decoration: none;
+	color: #c60b44;
+}
+.TextBlockHeader  A:link
+{
+	text-decoration: none;
+	color: #c60b44;
+}
+.TextBlockHeader  A:visited
+{
+	text-decoration: none;
+	color: #c60b44;
+}
+.SmallText  A:active
+{
+	text-decoration: none;
+	color: gray;
+}
+.SmallText  A:hover
+{
+	text-decoration: none;
+	color: gray;
+}
+.SmallText  A:link
+{
+	text-decoration: none;
+	color: gray;
+}
+.SmallText  A:visited
+{
+	text-decoration: none;
+	color: gray;
+}
+.RecentLinkItem  A:active
+{
+	text-decoration: none;
+	color: #828282;
+}
+.RecentLinkItem  A:hover
+{
+	text-decoration: none;
+	color: #828282;
+}
+.RecentLinkItem  A:link
+{
+	text-decoration: none;
+	color: #828282;
+}
+.RecentLinkItem  A:visited
+{
+	text-decoration: none;
+	color: #828282;
+}
+.ReadonlyAttribute  A:active
+{
+	text-decoration: underline;
+	color: #747474;
+}
+.ReadonlyAttribute  A:link
+{
+	text-decoration: underline;
+	color: #747474;
+}
+.ReadonlyAttribute  A:visited
+{
+	text-decoration: underline;
+	color: #747474;
+}
+.VerticalMenuOption  A:active
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #404040;
+}
+.VerticalMenuOption  A:hover
+{
+	text-decoration: underline;
+	color: #404040;
+}
+.VerticalMenuOption  A:link
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #404040;
+}
+.VerticalMenuOption  A:visited
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #404040;
+}
+.TextoGridNormal:hover 
+{
+	background: -moz-linear-gradient(-45deg, rgba(254,255,255,1) 0%, rgba(221,241,249,1) 48%, rgba(160,216,239,1) 100%);
+	 ;
+}
+.TableBorderAba td 
+{
+	vertical-align: top;
+}
+.LinhaCRUD td 
+{
+	text-align:-khtml-center;
+	text-align:-moz-center;
+	text-align:-webkit-center;
+	 align : center;
+}
+.TableIntervalo td 
+{
+	min-width: 20px;
+	text-align: center;
+	padding: 0px;
+}
+.TableBorder td 
+{
+	vertical-align: top;
+}
+.TableCenter td 
+{
+	text-align:-khtml-center;
+	text-align:-moz-center;
+	text-align:-webkit-center;
+}
+.GridOdd:hover 
+{
+	background-color: #FFD375 !important;
+}
+.gx-row-selected 
+{
+	background-color: #FFFFC0 !important;
+}
+.GridEven:hover 
+{
+	background-color: #FFD375 !important;
+}
+.TabControl 
+{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	height: 31px;
+	width: auto;
+	display: block;
+	list-style-type: none;
+}
+.TabControl  LI
+{
+	background-color: #dee9f3;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	float: left;
+	padding-bottom: 9px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 9px;
+	cursor: pointer;
+	font-family: verdana;
+	font-size: 8pt;
+	color: #1f4c87;
+}
+.TabControl  .TabSelected 
+{
+	background-color: #a5c2d9;
+	font-weight: bold;
+}
+.ReadonlySemQuebraGrid  A:active
+{
+	text-decoration: underline;
+	color: #747474;
+}
+.ReadonlySemQuebraGrid  A:link
+{
+	text-decoration: underline;
+	color: #747474;
+}
+.ReadonlySemQuebraGrid  A:visited
+{
+	text-decoration: underline;
+	color: #747474;
+}
+.TableAtalho:hover 
+{
+	background-color: #1f4c87;
+}
+.TableBorderGrande td 
+{
+	vertical-align: top;
+}
+.Grid8ptEven:hover 
+{
+	background-color: #FFD375 !important;
+}
+.Grid8ptOdd:hover 
+{
+	background-color: #FFD375 !important;
+}
+.BFMenuArea 
+{
+	margin-top: 15px;
+	height: 460px;
+	width: 100%;
+}
+.BFMenu 
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.4);
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	position: relative;
+	height: 54px;
+	display: inline-block;
+	background:linear-gradient(to bottom, rgba(36,44,104,0.7) 0%, rgba(44,152,205,1) 120%);
+}
+.BFMenu  .BFMenuMore 
+{
+	background-color: #fff;
+	border-width: 0px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	box-shadow: 0px 1px 1px 0px #000;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	height: 34px;
+	width: 34px;
+	display: block;
+	transform:rotate(-90deg);
+	transform:rotate(-90deg);
+}
+.BFMenu  .BFMenuMore  SPAN 
+{
+	cursor: pointer;
+	font-size: 25px;
+	font-weight: bold;
+	color: #497ba9;
+	text-shadow: 0px 1px 1px #000000B2 ;
+	line-height:35px;
+	line-height:35px;
+}
+.BFMenu  .BFMenuGlow 
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 0px 5px 5px -4px #fff inset;
+	height: 54px;
+}
+.BFMenu  .BFMenuShadow 
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.5) inset;
+	height: 54px;
+}
+.BFMenu  .BFMenuShadow  A 
+{
+	float: left;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	display: block;
+	font-family: "trebuchet ms",arial,helvetica,sans-serif,"angsana new";
+	font-size: 16px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 0.05em;
+	text-shadow: 0px 1px 1px #000000B2 ;
+	line-height:54px;
+	line-height:54px;
+}
+.BFMenu  .BFMenuShadow  A:hover 
+{
+	-moz-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	opacity:0.6;
+	transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	opacity:0.6;
+	transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+}
+.BFMenu  .BFSubMenu 
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.4);
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	position: absolute;
+	right: 0px;
+	top: 54px;
+	display: inline-block;
+	background:linear-gradient(to bottom, rgba(36,44,104,0.7) 0%, rgba(44,152,205,1) 120%);
+	background:linear-gradient(to bottom, rgba(36,44,104,0.7) 0%, rgba(44,152,205,1) 120%);
+}
+.BFMenu  .BFSubMenu  .BFSubMenuGlow 
+{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	box-shadow: 0px 5px 5px -4px #fff inset;
+}
+.BFMenu  .BFSubMenu  .BFSubMenuShadow 
+{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.5) inset;
+}
+.BFMenu  .BFSubMenu  .BFSubMenuShadow  A 
+{
+	clear: both;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	height: 36px;
+	width: 100%;
+	font-family: "trebuchet ms",arial,helvetica,sans-serif,"angsana new";
+	font-size: 16px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 0.05em;
+	text-align: left;
+	text-shadow: 0px 1px 1px #000000B2 ;
+	line-height:54px;
+	line-height:54px;
+}
+.BFMenu  .BFSubMenu  .BFSubMenuShadow  A:hover 
+{
+	-moz-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	opacity:0.6;
+	transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-ms-transition:all 0.2s linear;
+	opacity:0.6;
+	transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+}
+.BFMenu  .BFSubMenu  .BFSubMenuSeparator 
+{
+	height: 1px;
+	width: 80%;
+	display: block;
+	background:linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0) 100%);
+	background:linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0) 100%);
+}
+.BFMenu  .BFMenuSeparator 
+{
+	float: left;
+	height: 54px;
+	width: 1px;
+	display: block;
+	background:linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0) 80%);
+	background:linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0) 80%);
+}
+.BFMenu  .BFMenuSeparatorWide 
+{
+	width: 3px;
+}
+.BFMenu  .BFMenuItemHidden 
+{
+	visibility: hidden;
+	display: none !important;
+}
+.BFMenuAreaTitulo 
+{
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	height: 280px;
+	vertical-align: middle;
+}
+.BFMenuAreaTitulo  IMG 
+{
+	margin-bottom: 0px;
+	margin-left: 40px;
+	margin-right: 0px;
+	margin-top: 0px;
+	height: 200px;
+	width: auto;
+}
+.TableBorderAbaGrande td 
+{
+	vertical-align: top;
+}
+.TableSemPadding td 
+{
+	padding: 0px;
+}
+.ReadonlyAttributeCorVermelho 
+{
+	color: #f00;
+}
+.ReadonlyAttributeCorVermelho  A:active
+{
+	text-decoration: underline;
+	color: #f00;
+}
+.ReadonlyAttributeCorVermelho  A:visited
+{
+	text-decoration: underline;
+	color: #f00;
+}
+.ReadonlyAttributeCorVermelho  A:link
+{
+	text-decoration: underline;
+	color: #f00;
+}
+.TableHover  TR:hover
+{
+	background-color: #ffffc0;
+}
+.gx-ajax-error 
+{
+	background-color: #f2dede;
+	border-bottom-color: #ebccd1;
+	border-left-color: #ebccd1;
+	border-right-color: #ebccd1;
+	border-top-color: #ebccd1;
+	border-width: 1px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 35px;
+	padding-top: 15px;
+	color: #a94442;
+}
+.gx-ajax-error  BUTTON.close
+{
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	float: right;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+	font-size: 21px;
+	font-weight: bold;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .2;
+}
+DIV.suggestions
+{
+	background-color: #fff;
+	border-bottom-color: #969696;
+	border-left-color: #969696;
+	border-right-color: #969696;
+	border-top-color: #969696;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	position: absolute;
+	-moz-box-sizing: border-box;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+}
+DIV.suggestions DIV
+{
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	cursor: default;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+DIV.suggestions DIV.current
+{
+	background-color: #d3d4d3;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	font-family: Verdana, Arial;
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	color: #333;
+}
+DIV.dp_container IMG
+{
+	vertical-align: text-bottom;
+}
+TD.HeaderLogin
+{
+	background-image: url(../GeneXusXEv2/LoginHeader.png);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-left: 20px;
+	height: 32px;
+}
+LABEL.Attribute
+{
+	border-style: none;
+	color: #747474;
+}
+LABEL.SemQuebraGrid
+{
+	border-style: none;
+	color: #747474;
+}
+.TableBorderAbaGrande445 td 
+{
+	vertical-align: top;
+}
+.ReadonlyAttributePrompt  A:link
+{
+	text-decoration: underline;
+	color: #747474;
+}
+.ReadonlyAttributePrompt  A:focus
+{
+	text-decoration: underline;
+	color: red;
+}
+.ReadonlyAttributeCorVerde 
+{
+	color: green;
+}
+.ReadonlyAttributeCorVerde  A:active
+{
+	color: green;
+}
+.ReadonlyAttributeCorVerde  A:link
+{
+	color: green;
+}
+.ReadonlyAttributeCorVerde  A:visited
+{
+	color: green;
+}
+.ReadonlyAttributeCorDourado 
+{
+	color: darkgoldenrod;
+}
+.ReadonlyAttributeCorDourado  A:active
+{
+	color: darkgoldenrod;
+}
+.ReadonlyAttributeCorDourado  A:link
+{
+	color: darkgoldenrod;
+}
+.ReadonlyAttributeCorDourado  A:visited
+{
+	color: darkgoldenrod;
+}
+.ReadonlySemQuebraGridPreto 
+{
+	color: black;
+}
+.ReadonlySemQuebraGridPreto  A:active
+{
+	color: black;
+}
+.ReadonlySemQuebraGridPreto  A:link
+{
+	color: black;
+}
+.ReadonlySemQuebraGridPreto  A:visited
+{
+	color: black;
+}
+.ReadonlyAttributeCorAmarelo 
+{
+	color: gold;
+}
+.ReadonlyAttributeCorAmarelo  A:active
+{
+	color: gold;
+}
+.ReadonlyAttributeCorAmarelo  A:link
+{
+	color: gold;
+}
+.ReadonlyAttributeCorAmarelo  A:visited
+{
+	color: gold;
+}
+.ReadonlyAttributeCorAqua 
+{
+	color: aqua;
+}
+.ReadonlyAttributeCorAqua  A:active
+{
+	color: aqua;
+}
+.ReadonlyAttributeCorAqua  A:link
+{
+	color: aqua;
+}
+.ReadonlyAttributeCorAqua  A:visited
+{
+	color: aqua;
+}
+.ReadonlyAttributeCorAzul 
+{
+	color: #00f;
+}
+.ReadonlyAttributeCorAzul  A:active
+{
+	color: #00f;
+}
+.ReadonlyAttributeCorAzul  A:link
+{
+	color: #00f;
+}
+.ReadonlyAttributeCorAzul  A:visited
+{
+	color: #00f;
+}
+.ReadonlyAttributeCorAzulEscuro 
+{
+	color: #1f4c87;
+}
+.ReadonlyAttributeCorAzulEscuro  A:active
+{
+	color: #1f4c87;
+}
+.ReadonlyAttributeCorAzulEscuro  A:link
+{
+	color: #1f4c87;
+}
+.ReadonlyAttributeCorAzulEscuro  A:visited
+{
+	color: #1f4c87;
+}
+.ReadonlyAttributeCorCinza 
+{
+	color: gray;
+}
+.ReadonlyAttributeCorCinza  A:active
+{
+	color: gray;
+}
+.ReadonlyAttributeCorCinza  A:link
+{
+	color: gray;
+}
+.ReadonlyAttributeCorCinza  A:visited
+{
+	color: gray;
+}
+.ReadonlyAttributeCorLaranja 
+{
+	color: darkorange;
+}
+.ReadonlyAttributeCorLaranja  A:active
+{
+	color: darkorange;
+}
+.ReadonlyAttributeCorLaranja  A:link
+{
+	color: darkorange;
+}
+.ReadonlyAttributeCorLaranja  A:visited
+{
+	color: darkorange;
+}
+.ReadonlyAttributeCorMarrom 
+{
+	color: saddlebrown;
+}
+.ReadonlyAttributeCorMarrom  A:active
+{
+	color: saddlebrown;
+}
+.ReadonlyAttributeCorMarrom  A:link
+{
+	color: saddlebrown;
+}
+.ReadonlyAttributeCorMarrom  A:visited
+{
+	color: saddlebrown;
+}
+.ReadonlyAttributeCorPreto 
+{
+	color: black;
+}
+.ReadonlyAttributeCorPreto  A:active
+{
+	color: black;
+}
+.ReadonlyAttributeCorPreto  A:link
+{
+	color: black;
+}
+.ReadonlyAttributeCorPreto  A:visited
+{
+	color: black;
+}
+.ReadonlyAttributeCorRosa 
+{
+	color: #f0f;
+}
+.ReadonlyAttributeCorRosa  A:active
+{
+	color: #f0f;
+}
+.ReadonlyAttributeCorRosa  A:link
+{
+	color: #f0f;
+}
+.ReadonlyAttributeCorRosa  A:visited
+{
+	color: #f0f;
+}
+.ReadonlyAttributeCorVinho 
+{
+	color: #9d0000;
+}
+.ReadonlyAttributeCorVinho  A:active
+{
+	color: #9d0000;
+}
+.ReadonlyAttributeCorVinho  A:link
+{
+	color: #9d0000;
+}
+.ReadonlyAttributeCorVinho  A:visited
+{
+	color: #9d0000;
+}

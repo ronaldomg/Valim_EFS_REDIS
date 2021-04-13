@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="602c054f-9bd2-7467-e4b6-f95feedf71c6">
+  <Table name="CFOP" />
+  <Table name="Familia" />
+  <Table name="ObservacaoNota" />
+  <Table name="ParametroFcx" />
+  <Table name="ParametroFcxAliquota" />
+  <Table name="ICMSProduto" />
+  <Table name="Produto" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="TransacaoEntrada" />
+  <Table name="Entrada" />
+  <Table name="EntradaItem" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaInutilizada" />
+  <Table name="BuscaCfopCST" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

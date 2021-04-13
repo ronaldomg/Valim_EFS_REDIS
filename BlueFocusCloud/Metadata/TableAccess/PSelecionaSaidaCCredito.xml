@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3e46420d-6aeb-4d7b-913c-ffe13c6eb93d">
+  <Table name="FormaPgto" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="SaidaVendedor" />
+</Dependencies>

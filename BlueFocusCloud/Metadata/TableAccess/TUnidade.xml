@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="aa814849-b683-cd8f-8dac-5a17b79bdb6f">
+  <Table name="PedidoCompraItem" />
+  <Table name="Unidade" />
+  <Table name="Produto" />
+  <Table name="SaidaItem" />
+  <Table name="EntradaItem" />
+  <Table name="SaidaCondItem" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+</Dependencies>

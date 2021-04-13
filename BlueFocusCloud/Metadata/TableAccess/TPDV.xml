@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b71eea8c-9eaa-1b1f-b100-385670999202">
+  <Table name="AliquotaPDV" />
+  <Table name="CaixaTrabalho" />
+  <Table name="Equipamentos" />
+  <Table name="Filial" />
+  <Table name="Saida" />
+  <Table name="PDV" />
+  <Table name="CargaPDV" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="TipoPedido" />
+  <Table name="FormaPgto" />
+</Dependencies>

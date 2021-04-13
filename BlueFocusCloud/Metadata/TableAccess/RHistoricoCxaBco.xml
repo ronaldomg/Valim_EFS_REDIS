@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="cbe94afc-9c3b-572c-9d28-4c7fd575c99d">
+  <Table name="HistoricoCxaBco" />
+  <Table name="IntegracaoCbl" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

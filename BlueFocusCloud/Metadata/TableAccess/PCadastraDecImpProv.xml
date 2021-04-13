@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c0c2476c-3ff0-7c3b-04c2-37d1ee62e4e6">
+  <Table name="DecImpProv" />
+  <Table name="Tabela" />
+</Dependencies>

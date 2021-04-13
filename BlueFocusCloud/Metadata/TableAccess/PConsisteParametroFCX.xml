@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="33c87d3b-3902-bd03-1113-bd7f38764b19">
+  <Table name="HistoricoFcx" />
+  <Table name="TipoSaldo" />
+  <Table name="TpCobrFormaPgto" />
+</Dependencies>

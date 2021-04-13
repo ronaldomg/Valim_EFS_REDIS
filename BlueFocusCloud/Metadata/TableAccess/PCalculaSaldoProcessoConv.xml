@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="24d2f2f2-09e3-abd3-08d7-ddd08b11c747">
+  <Table name="ConvenioCaixaBanco" />
+  <Table name="PedidoCompraItem" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="PedidoCompra" />
+  <Table name="Tabela" />
+  <Table name="SaldoCxaBco" />
+</Dependencies>

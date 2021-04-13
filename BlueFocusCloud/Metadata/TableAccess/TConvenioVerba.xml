@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="00b6e6ac-b6d1-5048-d5c6-76dc7d491b20">
+  <Table name="ContaContabil" />
+  <Table name="NaturezaDespesa" />
+  <Table name="Convenio" />
+  <Table name="ConvenioVerba" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Estrutura" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="Usuario" />
+  <Table name="UsuarioGrupo" />
+  <Table name="AcessoSistema" />
+  <Table name="ConvenioCentroCusto" />
+</Dependencies>

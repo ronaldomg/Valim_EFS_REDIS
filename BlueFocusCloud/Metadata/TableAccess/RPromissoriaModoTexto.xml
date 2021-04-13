@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="e0e1c0db-3b54-517e-f51e-ec582479c2b0">
+  <Table name="Cidades" />
+  <Table name="EnderecoPessoa" />
+  <Table name="FormaPgto" />
+  <Table name="ModeloPreVenda" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Saida" />
+  <Table name="TransacaoSaida" />
+  <Table name="SaidaPagtoParcela" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="Empresa" />
+  <Table name="Impressora" />
+  <Table name="Usuario" />
+  <Table name="ContaPagRec" />
+</Dependencies>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="b16a0e8b-d2a6-007d-e554-19803f1b7bcc">
+  <Table name="ConvenioCaixaBanco" />
+  <Table name="ValoresConvenio" />
+  <Table name="OutrasDespesasReceitas" />
+  <Table name="Convenio" />
+  <Table name="ExecucaoFisica" />
+  <Table name="OutrosPagamentos" />
+  <Table name="ConvenioFornecedor" />
+  <Table name="HistoricoConvenio" />
+  <Table name="ConvenioUsuario" />
+  <Table name="ConvenioVerba" />
+  <Table name="ConvenioCentroCusto" />
+  <Table name="ProcessoConv" />
+  <Table name="Pessoa" />
+  <Table name="Usuario" />
+  <Table name="CaixaBanco" />
+  <Table name="TransacaoPagRec" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="EmpresaSistemaEmpresa" />
+  <Table name="Programa" />
+  <Table name="ProgramaUsuario" />
+  <Table name="Sistema" />
+  <Table name="ProgramaGrupo" />
+  <Table name="UsuarioGrupo" />
+  <Table name="ContaContabil" />
+  <Table name="AcessoSistema" />
+  <Table name="HistoricoCxaBco" />
+  <Table name="IntegracaoCbl" />
+  <Table name="ParametroSistema" />
+  <Table name="SaldoCxaBco" />
+  <Table name="LancamentoCxaBco" />
+</Dependencies>

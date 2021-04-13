@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="83ca9b50-4525-fcb4-e3c4-9ead97a99537">
+  <Table name="NCM" />
+  <Table name="NBS" />
+  <Table name="Produto" />
+  <Table name="ProcessoVersaoItens" />
+  <Table name="Processo" />
+  <Table name="ErroProcesso" />
+</Dependencies>

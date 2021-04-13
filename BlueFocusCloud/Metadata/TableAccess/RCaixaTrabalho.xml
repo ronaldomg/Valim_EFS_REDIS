@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="2e56b0b7-0938-2680-b8dd-09f627807c1d">
+  <Table name="CaixaTrabalho" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

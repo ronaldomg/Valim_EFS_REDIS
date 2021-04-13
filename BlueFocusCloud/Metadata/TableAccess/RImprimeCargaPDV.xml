@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="fd2359c5-cda8-5628-5c0e-89aa7f91864e">
+  <Table name="Preco" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Familia" />
+  <Table name="LoteProduto" />
+  <Table name="PrecoProduto" />
+  <Table name="Unidade" />
+  <Table name="Filial" />
+  <Table name="PrecoPromocao" />
+  <Table name="Produto" />
+  <Table name="PDV" />
+  <Table name="CargaPDV" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

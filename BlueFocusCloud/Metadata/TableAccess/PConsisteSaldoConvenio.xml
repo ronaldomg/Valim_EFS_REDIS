@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a6939d40-24fe-db22-1c19-afc116df0613">
+  <Table name="ContaContabil" />
+  <Table name="TipoLancamento" />
+  <Table name="ContaLancam" />
+  <Table name="ValoresConvenio" />
+  <Table name="Convenio" />
+  <Table name="ContaPagRec" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="LancamentoContabil" />
+  <Table name="SaldoConta" />
+</Dependencies>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="18e2aa90-8a42-7244-28ae-21e57583df6c">
+  <Table name="TipoRateio" />
+  <Table name="TipoRateioItem" />
+  <Table name="Tabela" />
+</Dependencies>

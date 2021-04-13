@@ -1,0 +1,101 @@
+/**@preserve  GeneXus Java 10_3_12-110051 on December 12, 2020 20:39:24.51
+*/
+gx.evt.autoSkip = false;
+gx.define('gx0eu0', false, function () {
+   this.ServerClass =  "gx0eu0" ;
+   this.PackageName =  "" ;
+   this.setObjectType("web");
+   this.setOnAjaxSessionTimeout("Warn");
+   this.hasEnterEvent = true;
+   this.skipOnEnter = false;
+   this.addKeyListener("5", "REFRESH");
+   this.addKeyListener("12", "CANCEL");
+   this.addKeyListener("1", "HELP");
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+      this.AV10pNaturezaOperacaoId=gx.fn.getIntegerValue("vPNATUREZAOPERACAOID",'.') ;
+   };
+   this.e131t72_client=function()
+   {
+      this.executeServerEvent("ENTER", true, arguments[0], false, false);
+   };
+   this.e141t71_client=function()
+   {
+      this.executeServerEvent("CANCEL", true, null, false, false);
+   };
+   this.GXValidFnc = [];
+   var GXValidFnc = this.GXValidFnc ;
+   this.GXCtrlIds=[2,8,9,12,14,17,19,22,24,27,29,32,33,37,38,39,40,43];
+   this.GXLastCtrlId =43;
+   this.Grid1Container = new gx.grid.grid(this, 2,"WbpLvl2",36,"Grid1","Grid1","Grid1Container",this.CmpContext,this.IsMasterPage,"gx0eu0",[],false,1,false,true,10,true,false,false,"",0,"px","Novo registro",true,false,false,null,null,false,"",false,[1,1,1,1]);
+   var Grid1Container = this.Grid1Container;
+   Grid1Container.addBitmap("&Linkselection","vLINKSELECTION",37,0,"px",17,"px",null,"","","Image","");
+   Grid1Container.addSingleLineEdit(6769,38,"NATUREZAOPERACAOID","Código da Natureza da Operação","","NaturezaOperacaoId","int",0,"px",3,3,"right",null,[],6769,"NaturezaOperacaoId",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(6770,39,"NATUREZAOPERACAODESCRICAO","Descrição da Natureza da Operação","Selecionar","NaturezaOperacaoDescricao","svchar",0,"px",60,60,"left",null,[],6770,"NaturezaOperacaoDescricao",true,0,false,false,"Attribute",1,"");
+   Grid1Container.addSingleLineEdit(6771,40,"NATUREZAOPERACAODATAHORAALT","Data/Hora de Alteração","","NaturezaOperacaoDataHoraAlt","dtime",0,"px",16,16,"right",null,[],6771,"NaturezaOperacaoDataHoraAlt",true,5,false,false,"Attribute",1,"");
+   this.setGrid(Grid1Container);
+   GXValidFnc[2]={fld:"TABLE1",grid:0};
+   GXValidFnc[8]={fld:"GROUP1",grid:0};
+   GXValidFnc[9]={fld:"TABLE2",grid:0};
+   GXValidFnc[12]={fld:"TEXTBLOCKNATUREZAOPERACAOID", format:0,grid:0};
+   GXValidFnc[14]={lvl:0,type:"int",len:3,dec:0,sign:false,pic:"ZZ9",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCNATUREZAOPERACAOID",gxz:"ZV6cNaturezaOperacaoId",gxold:"OV6cNaturezaOperacaoId",gxvar:"AV6cNaturezaOperacaoId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV6cNaturezaOperacaoId=gx.num.intval(Value)},v2z:function(Value){gx.O.ZV6cNaturezaOperacaoId=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("vCNATUREZAOPERACAOID",gx.O.AV6cNaturezaOperacaoId,0)},c2v:function(){gx.O.AV6cNaturezaOperacaoId=gx.num.intval(this.val())},val:function(){return gx.fn.getIntegerValue("vCNATUREZAOPERACAOID",'.')},nac:gx.falseFn};
+   GXValidFnc[17]={fld:"TEXTBLOCKNATUREZAOPERACAODESCRICAO", format:0,grid:0};
+   GXValidFnc[19]={lvl:0,type:"svchar",len:60,dec:0,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCNATUREZAOPERACAODESCRICAO",gxz:"ZV7cNaturezaOperacaoDescricao",gxold:"OV7cNaturezaOperacaoDescricao",gxvar:"AV7cNaturezaOperacaoDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV7cNaturezaOperacaoDescricao=Value},v2z:function(Value){gx.O.ZV7cNaturezaOperacaoDescricao=Value},v2c:function(){gx.fn.setControlValue("vCNATUREZAOPERACAODESCRICAO",gx.O.AV7cNaturezaOperacaoDescricao,0)},c2v:function(){gx.O.AV7cNaturezaOperacaoDescricao=this.val()},val:function(){return gx.fn.getControlValue("vCNATUREZAOPERACAODESCRICAO")},nac:gx.falseFn};
+   GXValidFnc[22]={fld:"TEXTBLOCKNATUREZAOPERACAODATAHORAALT", format:0,grid:0};
+   GXValidFnc[24]={lvl:0,type:"dtime",len:10,dec:5,sign:false,ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCNATUREZAOPERACAODATAHORAALT",gxz:"ZV8cNaturezaOperacaoDataHoraAlt",gxold:"OV8cNaturezaOperacaoDataHoraAlt",gxvar:"AV8cNaturezaOperacaoDataHoraAlt",dp:{f:0,st:true,wn:false,mf:false,pic:"99/99/9999 99:99",dec:5},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV8cNaturezaOperacaoDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.ZV8cNaturezaOperacaoDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("vCNATUREZAOPERACAODATAHORAALT",gx.O.AV8cNaturezaOperacaoDataHoraAlt,0)},c2v:function(){gx.O.AV8cNaturezaOperacaoDataHoraAlt=gx.fn.toDatetimeValue(this.val())},val:function(){return gx.fn.getDateTimeValue("vCNATUREZAOPERACAODATAHORAALT")},nac:gx.falseFn};
+   GXValidFnc[27]={fld:"TEXTBLOCKNATUREZAOPERACAOUSUARIOALT", format:0,grid:0};
+   GXValidFnc[29]={lvl:0,type:"char",len:12,dec:0,sign:false,pic:"@!",ro:0,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[this.Grid1Container],fld:"vCNATUREZAOPERACAOUSUARIOALT",gxz:"ZV9cNaturezaOperacaoUsuarioAlt",gxold:"OV9cNaturezaOperacaoUsuarioAlt",gxvar:"AV9cNaturezaOperacaoUsuarioAlt",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.AV9cNaturezaOperacaoUsuarioAlt=Value},v2z:function(Value){gx.O.ZV9cNaturezaOperacaoUsuarioAlt=Value},v2c:function(){gx.fn.setControlValue("vCNATUREZAOPERACAOUSUARIOALT",gx.O.AV9cNaturezaOperacaoUsuarioAlt,0)},c2v:function(){gx.O.AV9cNaturezaOperacaoUsuarioAlt=this.val()},val:function(){return gx.fn.getControlValue("vCNATUREZAOPERACAOUSUARIOALT")},nac:gx.falseFn};
+   GXValidFnc[32]={fld:"GROUP2",grid:0};
+   GXValidFnc[33]={fld:"TABLE3",grid:0};
+   GXValidFnc[37]={lvl:2,type:"bits",len:1024,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"vLINKSELECTION",gxz:"ZV5LinkSelection",gxold:"OV5LinkSelection",gxvar:"AV5LinkSelection",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.AV5LinkSelection=Value},v2z:function(Value){gx.O.ZV5LinkSelection=Value},v2c:function(row){gx.fn.setGridMultimediaValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36),gx.O.AV5LinkSelection,gx.O.AV13Linkselection_GXI)},c2v:function(){gx.O.AV13Linkselection_GXI=this.val_GXI();gx.O.AV5LinkSelection=this.val()},val:function(row){return gx.fn.getGridControlValue("vLINKSELECTION",row || gx.fn.currentGridRowImpl(36))},val_GXI:function(row){return gx.fn.getGridControlValue("vLINKSELECTION_GXI",row || gx.fn.currentGridRowImpl(36))}, gxvar_GXI:'AV13Linkselection_GXI',nac:gx.falseFn};
+   GXValidFnc[38]={lvl:2,type:"int",len:3,dec:0,sign:false,pic:"ZZ9",ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"NATUREZAOPERACAOID",gxz:"Z6769NaturezaOperacaoId",gxold:"O6769NaturezaOperacaoId",gxvar:"A6769NaturezaOperacaoId",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A6769NaturezaOperacaoId=gx.num.intval(Value)},v2z:function(Value){gx.O.Z6769NaturezaOperacaoId=gx.num.intval(Value)},v2c:function(row){gx.fn.setGridControlValue("NATUREZAOPERACAOID",row || gx.fn.currentGridRowImpl(36),gx.O.A6769NaturezaOperacaoId,0)},c2v:function(){gx.O.A6769NaturezaOperacaoId=gx.num.intval(this.val())},val:function(row){return gx.fn.getGridIntegerValue("NATUREZAOPERACAOID",row || gx.fn.currentGridRowImpl(36),'.')},nac:gx.falseFn};
+   GXValidFnc[39]={lvl:2,type:"svchar",len:60,dec:0,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"NATUREZAOPERACAODESCRICAO",gxz:"Z6770NaturezaOperacaoDescricao",gxold:"O6770NaturezaOperacaoDescricao",gxvar:"A6770NaturezaOperacaoDescricao",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',autoCorrect:"1",v2v:function(Value){gx.O.A6770NaturezaOperacaoDescricao=Value},v2z:function(Value){gx.O.Z6770NaturezaOperacaoDescricao=Value},v2c:function(row){gx.fn.setGridControlValue("NATUREZAOPERACAODESCRICAO",row || gx.fn.currentGridRowImpl(36),gx.O.A6770NaturezaOperacaoDescricao,0)},c2v:function(){gx.O.A6770NaturezaOperacaoDescricao=this.val()},val:function(row){return gx.fn.getGridControlValue("NATUREZAOPERACAODESCRICAO",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[40]={lvl:2,type:"dtime",len:10,dec:5,sign:false,ro:1,isacc:0,grid:36,gxgrid:this.Grid1Container,fnc:null,isvalid:null,rgrid:[],fld:"NATUREZAOPERACAODATAHORAALT",gxz:"Z6771NaturezaOperacaoDataHoraAlt",gxold:"O6771NaturezaOperacaoDataHoraAlt",gxvar:"A6771NaturezaOperacaoDataHoraAlt",dp:{f:0,st:true,wn:false,mf:false,pic:"99/99/9999 99:99",dec:5},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",inputType:'text',v2v:function(Value){gx.O.A6771NaturezaOperacaoDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.Z6771NaturezaOperacaoDataHoraAlt=gx.fn.toDatetimeValue(Value)},v2c:function(row){gx.fn.setGridControlValue("NATUREZAOPERACAODATAHORAALT",row || gx.fn.currentGridRowImpl(36),gx.O.A6771NaturezaOperacaoDataHoraAlt,0);if (typeof(this.dom_hdl) == 'function') this.dom_hdl.call(gx.O);},c2v:function(){gx.O.A6771NaturezaOperacaoDataHoraAlt=gx.fn.toDatetimeValue(this.val())},val:function(row){return gx.fn.getGridDateTimeValue("NATUREZAOPERACAODATAHORAALT",row || gx.fn.currentGridRowImpl(36))},nac:gx.falseFn};
+   GXValidFnc[43]={fld:"TABLE4",grid:0};
+   this.AV6cNaturezaOperacaoId = 0 ;
+   this.ZV6cNaturezaOperacaoId = 0 ;
+   this.OV6cNaturezaOperacaoId = 0 ;
+   this.AV7cNaturezaOperacaoDescricao = "" ;
+   this.ZV7cNaturezaOperacaoDescricao = "" ;
+   this.OV7cNaturezaOperacaoDescricao = "" ;
+   this.AV8cNaturezaOperacaoDataHoraAlt = gx.date.nullDate() ;
+   this.ZV8cNaturezaOperacaoDataHoraAlt = gx.date.nullDate() ;
+   this.OV8cNaturezaOperacaoDataHoraAlt = gx.date.nullDate() ;
+   this.AV9cNaturezaOperacaoUsuarioAlt = "" ;
+   this.ZV9cNaturezaOperacaoUsuarioAlt = "" ;
+   this.OV9cNaturezaOperacaoUsuarioAlt = "" ;
+   this.ZV5LinkSelection = "" ;
+   this.OV5LinkSelection = "" ;
+   this.Z6769NaturezaOperacaoId = 0 ;
+   this.O6769NaturezaOperacaoId = 0 ;
+   this.Z6770NaturezaOperacaoDescricao = "" ;
+   this.O6770NaturezaOperacaoDescricao = "" ;
+   this.Z6771NaturezaOperacaoDataHoraAlt = gx.date.nullDate() ;
+   this.O6771NaturezaOperacaoDataHoraAlt = gx.date.nullDate() ;
+   this.AV6cNaturezaOperacaoId = 0 ;
+   this.AV7cNaturezaOperacaoDescricao = "" ;
+   this.AV8cNaturezaOperacaoDataHoraAlt = gx.date.nullDate() ;
+   this.AV9cNaturezaOperacaoUsuarioAlt = "" ;
+   this.AV10pNaturezaOperacaoId = 0 ;
+   this.A6772NaturezaOperacaoUsuarioAlt = "" ;
+   this.AV5LinkSelection = "" ;
+   this.A6769NaturezaOperacaoId = 0 ;
+   this.A6770NaturezaOperacaoDescricao = "" ;
+   this.A6771NaturezaOperacaoDataHoraAlt = gx.date.nullDate() ;
+   this.Events = {"e131t72_client": ["ENTER", true] ,"e141t71_client": ["CANCEL", true]};
+   this.EvtParms["REFRESH"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cNaturezaOperacaoId',fld:'vCNATUREZAOPERACAOID'},{av:'AV7cNaturezaOperacaoDescricao',fld:'vCNATUREZAOPERACAODESCRICAO'},{av:'AV8cNaturezaOperacaoDataHoraAlt',fld:'vCNATUREZAOPERACAODATAHORAALT'},{av:'AV9cNaturezaOperacaoUsuarioAlt',fld:'vCNATUREZAOPERACAOUSUARIOALT'}],[]];
+   this.EvtParms["LOAD"] = [[],[{av:'AV5LinkSelection',fld:'vLINKSELECTION'}]];
+   this.EvtParms["ENTER"] = [[{av:'A6769NaturezaOperacaoId',fld:'NATUREZAOPERACAOID'}],[{av:'AV10pNaturezaOperacaoId',fld:'vPNATUREZAOPERACAOID'}]];
+   this.EvtParms["GRID1_FIRSTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cNaturezaOperacaoId',fld:'vCNATUREZAOPERACAOID'},{av:'AV7cNaturezaOperacaoDescricao',fld:'vCNATUREZAOPERACAODESCRICAO'},{av:'AV8cNaturezaOperacaoDataHoraAlt',fld:'vCNATUREZAOPERACAODATAHORAALT'},{av:'AV9cNaturezaOperacaoUsuarioAlt',fld:'vCNATUREZAOPERACAOUSUARIOALT'}],[]];
+   this.EvtParms["GRID1_PREVPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cNaturezaOperacaoId',fld:'vCNATUREZAOPERACAOID'},{av:'AV7cNaturezaOperacaoDescricao',fld:'vCNATUREZAOPERACAODESCRICAO'},{av:'AV8cNaturezaOperacaoDataHoraAlt',fld:'vCNATUREZAOPERACAODATAHORAALT'},{av:'AV9cNaturezaOperacaoUsuarioAlt',fld:'vCNATUREZAOPERACAOUSUARIOALT'}],[]];
+   this.EvtParms["GRID1_NEXTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cNaturezaOperacaoId',fld:'vCNATUREZAOPERACAOID'},{av:'AV7cNaturezaOperacaoDescricao',fld:'vCNATUREZAOPERACAODESCRICAO'},{av:'AV8cNaturezaOperacaoDataHoraAlt',fld:'vCNATUREZAOPERACAODATAHORAALT'},{av:'AV9cNaturezaOperacaoUsuarioAlt',fld:'vCNATUREZAOPERACAOUSUARIOALT'}],[]];
+   this.EvtParms["GRID1_LASTPAGE"] = [[{av:'GRID1_nFirstRecordOnPage'},{av:'GRID1_nEOF'},{av:'subGrid1_Rows'},{av:'AV6cNaturezaOperacaoId',fld:'vCNATUREZAOPERACAOID'},{av:'AV7cNaturezaOperacaoDescricao',fld:'vCNATUREZAOPERACAODESCRICAO'},{av:'AV8cNaturezaOperacaoDataHoraAlt',fld:'vCNATUREZAOPERACAODATAHORAALT'},{av:'AV9cNaturezaOperacaoUsuarioAlt',fld:'vCNATUREZAOPERACAOUSUARIOALT'}],[]];
+   this.setVCMap("AV10pNaturezaOperacaoId", "vPNATUREZAOPERACAOID", 0, "int");
+   Grid1Container.addRefreshingVar(this.GXValidFnc[14]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[19]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[24]);
+   Grid1Container.addRefreshingVar(this.GXValidFnc[29]);
+   this.InitStandaloneVars( );
+});
+gx.setParentObj(new gx0eu0());

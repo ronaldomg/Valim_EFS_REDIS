@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ffb5d71d-7d23-3732-a3a6-fb3aa3bbc584">
+  <Table name="Empresa" />
+  <Table name="EnderecoPessoa" />
+  <Table name="ItensLancamentoContabil" />
+  <Table name="ReferenciaComercial" />
+  <Table name="TelefonePessoa" />
+  <Table name="ContaLancam" />
+  <Table name="ContaRateio" />
+  <Table name="LancamCxaBcoConta" />
+  <Table name="AcessoPortaria" />
+  <Table name="Categoria" />
+  <Table name="Convite" />
+  <Table name="ConviteConvidado" />
+  <Table name="OcorrenciaPessoa" />
+  <Table name="Debito" />
+  <Table name="Mensalidade" />
+  <Table name="CContabilPessoa" />
+  <Table name="Pessoa" />
+  <Table name="PessoaCodificacao" />
+  <Table name="TransacaoPagRec" />
+  <Table name="ContaPagRec" />
+  <Table name="LancamentoCxaBco" />
+  <Table name="Dependente" />
+  <Table name="ItensLancamentoContabilFinanc" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4cf440b6-a20d-54f1-8fed-576e25f7ba23">
+  <Table name="Vendedor" />
+  <Table name="Preco" />
+  <Table name="Pessoa" />
+  <Table name="Filial" />
+  <Table name="Saida" />
+  <Table name="TransacaoSaida" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="Programa" />
+  <Table name="TipoPermissao" />
+  <Table name="PermissaoConc" />
+  <Table name="TipoPermissaoUsuarioPermissao" />
+  <Table name="Usuario" />
+</Dependencies>

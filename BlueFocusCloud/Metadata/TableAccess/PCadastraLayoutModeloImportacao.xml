@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a6a05ec9-cf9d-c129-5a9f-f6a94617e350">
+  <Table name="LayoutModeloImportacao" />
+  <Table name="Tabela" />
+</Dependencies>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="c3e9af65-70c4-691e-5bc7-c11b9181b03e">
+  <Table name="LogTabelaCampos" />
+  <Table name="Preco" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Familia" />
+  <Table name="LoteProduto" />
+  <Table name="PrecoProduto" />
+  <Table name="Unidade" />
+  <Table name="LogTabela" />
+  <Table name="PrecoPromocao" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="EntradaItem" />
+  <Table name="PDV" />
+  <Table name="CargaPDV" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

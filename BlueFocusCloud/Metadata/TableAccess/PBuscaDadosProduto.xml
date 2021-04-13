@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="94af09cd-7e00-5ddd-37f4-f287910d9050">
+  <Table name="ContaContabil" />
+  <Table name="Esquema" />
+  <Table name="Familia" />
+  <Table name="Genero" />
+  <Table name="InformacaoExtra" />
+  <Table name="InformacaoNut" />
+  <Table name="ListaServico" />
+  <Table name="LoteProduto" />
+  <Table name="NCM" />
+  <Table name="Unidade" />
+  <Table name="MargemMarkup" />
+  <Table name="GrupoPreco" />
+  <Table name="NBS" />
+  <Table name="ANP" />
+  <Table name="Pessoa" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="TipoDispendio" />
+  <Table name="CEST" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

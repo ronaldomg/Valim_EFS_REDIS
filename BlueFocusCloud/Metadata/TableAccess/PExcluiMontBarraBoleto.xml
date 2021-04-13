@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="78bbbdb2-4823-4b34-0641-c449144c35a8">
+  <Table name="MontBarrasBoleto" />
+  <Table name="MontBoletoDetalhe" />
+</Dependencies>

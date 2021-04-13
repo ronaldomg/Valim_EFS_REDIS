@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7bbdab02-566f-45f4-b2ba-deba6e574b61">
+  <Table name="Cidades" />
+  <Table name="Pessoa" />
+  <Table name="ContaPagRec" />
+  <Table name="Saida" />
+  <Table name="TransacaoSaida" />
+  <Table name="PessoaClassificacao" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

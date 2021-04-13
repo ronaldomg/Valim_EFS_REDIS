@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="98ccdf72-654d-4aac-9ebf-ddfe19d65a61">
+  <Table name="pg_settings" />
+</Dependencies>

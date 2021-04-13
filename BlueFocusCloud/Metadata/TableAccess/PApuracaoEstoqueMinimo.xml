@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9f30217a-a5b5-3e8b-5e34-8de0aa5a3aad">
+  <Table name="AtributoEsquema" />
+  <Table name="CFOP" />
+  <Table name="CodigoBarrasProduto" />
+  <Table name="Esquema" />
+  <Table name="LoteProduto" />
+  <Table name="SaldoProduto" />
+  <Table name="ValorAtributo" />
+  <Table name="Pessoa" />
+  <Table name="Produto" />
+  <Table name="ProdutoClassificacao" />
+  <Table name="ProdutoCodificacao" />
+  <Table name="Saida" />
+  <Table name="SaidaItem" />
+  <Table name="TransacaoSaida" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

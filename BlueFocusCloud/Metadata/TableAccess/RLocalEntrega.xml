@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9839ad95-a0bf-42cf-5b7d-6a8cca539a6c">
+  <Table name="Cidades" />
+  <Table name="LocalEntrega" />
+  <Table name="Tabela" />
+  <Table name="ParametroSistema" />
+</Dependencies>

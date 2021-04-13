@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4cb6d855-55d3-13c0-7bd2-d6a183b35de3">
+  <Table name="FormaPgto" />
+  <Table name="PDV" />
+</Dependencies>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="9fbec956-45af-b93f-197b-976aacab47f7">
+  <Table name="Feriado" />
+  <Table name="Convenio" />
+  <Table name="ConvenioUsuario" />
+  <Table name="MensagemUsuario" />
+  <Table name="ParametroSistema" />
+  <Table name="Tabela" />
+  <Table name="Empresa" />
+  <Table name="Usuario" />
+</Dependencies>
