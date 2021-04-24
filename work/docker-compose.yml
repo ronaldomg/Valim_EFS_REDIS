@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  memdb:
+    image: redisBF
+    restart: always
+    container_name: redisBF
+    build:
+        context: ./build
+    ports:
+      - "6379"

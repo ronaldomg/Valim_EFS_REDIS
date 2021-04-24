@@ -1,109 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns="http://java.sun.com/xml/ns/javaee"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
-                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-  version="3.0"
-  metadata-complete="false">
-
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+	version="3.0" metadata-complete="false">
 	<display-name>redirect</display-name>
-
 	<listener>
 		<listener-class>com.genexus.webpanels.ServletEventListener</listener-class>
 	</listener>
-
 	<listener>
 		<listener-class>com.genexus.webpanels.SessionEventListener</listener-class>
-	</listener>			
-
+	</listener>
 	<servlet>
 		<servlet-name>GXObjectUploadServices</servlet-name>
-		<servlet-class>com.genexus.webpanels.GXObjectUploadServices</servlet-class>            				
+		<servlet-class>com.genexus.webpanels.GXObjectUploadServices</servlet-class>
 	</servlet>
-
 	<servlet>
 		<servlet-name>GXOAuthAccessToken</servlet-name>
-		<servlet-class>com.genexus.webpanels.GXOAuthAccessToken</servlet-class>            				
+		<servlet-class>com.genexus.webpanels.GXOAuthAccessToken</servlet-class>
 	</servlet>
-
 	<servlet>
 		<servlet-name>GXOAuthLogout</servlet-name>
-		<servlet-class>com.genexus.webpanels.GXOAuthLogout</servlet-class>            				
+		<servlet-class>com.genexus.webpanels.GXOAuthLogout</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>GXOAuthUserInfo</servlet-name>
-		<servlet-class>com.genexus.webpanels.GXOAuthUserInfo</servlet-class>            				
-	</servlet>    						
+		<servlet-class>com.genexus.webpanels.GXOAuthUserInfo</servlet-class>
+	</servlet>
 	<servlet>
 		<servlet-name>GXValidService</servlet-name>
-		<servlet-class>com.genexus.webpanels.GXValidService</servlet-class>            				
-	</servlet>    						
-
+		<servlet-class>com.genexus.webpanels.GXValidService</servlet-class>
+	</servlet>
 	<servlet>
 		<servlet-name>GXResourceProvider</servlet-name>
 		<servlet-class>com.genexus.webpanels.GXResourceProvider</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>GAMOAuthSignIn</servlet-name>
-		<servlet-class>artech.security.api.agamextauthinput</servlet-class>                                                                        
+		<servlet-class>artech.security.api.agamextauthinput</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>GAMOAuthCallback</servlet-name>
-		<servlet-class>artech.security.api.agamextauthinput</servlet-class>                                                                         
-	</servlet> 
+		<servlet-class>artech.security.api.agamextauthinput</servlet-class>
+	</servlet>
 	<servlet>
 		<servlet-name>GAMOAuthAccessToken</servlet-name>
-		<servlet-class>artech.security.api.agamoauth20getaccesstoken</servlet-class>                                                                         
+		<servlet-class>artech.security.api.agamoauth20getaccesstoken</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>GAMOAuthUserInfo</servlet-name>
-		<servlet-class>artech.security.api.agamoauth20getuserinfo</servlet-class>                                                                         
+		<servlet-class>artech.security.api.agamoauth20getuserinfo</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>GAMOAuthSignOut</servlet-name>
-		<servlet-class>artech.security.api.agamextauthinput</servlet-class>                                                                         
+		<servlet-class>artech.security.api.agamextauthinput</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>GXVer</servlet-name>
-		<servlet-class>com.genexus.webpanels.gxver</servlet-class>                                                                         
-	</servlet>					
+		<servlet-class>com.genexus.webpanels.gxver</servlet-class>
+	</servlet>
 	<servlet>
 		<servlet-name>upload</servlet-name>
-		<servlet-class>upload</servlet-class>            				
+		<servlet-class>upload</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>upload</servlet-name>
 		<url-pattern>/servlet/upload</url-pattern>
 	</servlet-mapping>
-	
 	<servlet>
 		<servlet-name>GetCertificate</servlet-name>
-		<servlet-class>GetCertificate</servlet-class>            				
+		<servlet-class>GetCertificate</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>GetCertificate</servlet-name>
 		<url-pattern>/servlet/GetCertificate</url-pattern>
 	</servlet-mapping>
-	
 	<servlet-mapping>
 		<servlet-name>GXObjectUploadServices</servlet-name>
 		<url-pattern>/gxobject</url-pattern>
 	</servlet-mapping>
-
 	<servlet-mapping>
 		<servlet-name>GXOAuthAccessToken</servlet-name>
 		<url-pattern>/oauth/access_token</url-pattern>
-	</servlet-mapping>    						
+	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>GXOAuthLogout</servlet-name>
 		<url-pattern>/oauth/logout</url-pattern>
-	</servlet-mapping>    						
-
+	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>GXOAuthUserInfo</servlet-name>
 		<url-pattern>/oauth/userinfo</url-pattern>
-	</servlet-mapping>    						
-
+	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>GXValidService</servlet-name>
 		<url-pattern>/gx_valid_service</url-pattern>
@@ -111,7 +97,7 @@
 	<servlet-mapping>
 		<servlet-name>GXResourceProvider</servlet-name>
 		<url-pattern>/servlet/com.genexus.webpanels.GXResourceProvider</url-pattern>
-	</servlet-mapping>    						    						  					
+	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>GAMOAuthSignIn</servlet-name>
 		<url-pattern>/oauth/gam/signin</url-pattern>
@@ -132,17 +118,14 @@
 		<servlet-name>GAMOAuthSignOut</servlet-name>
 		<url-pattern>/oauth/gam/signout</url-pattern>
 	</servlet-mapping>
-
 	<servlet-mapping>
 		<servlet-name>GXVer</servlet-name>
 		<url-pattern>/servlet/com.genexus.webpanels.gxver</url-pattern>
 	</servlet-mapping>
-
 	<context-param>
 		<param-name>gxcfg</param-name>
-		<param-value>GXcfg</param-value>								
-	</context-param>  
-
+		<param-value>GXcfg</param-value>
+	</context-param>
 	<filter>
 		<filter-name>ExpiresFilter</filter-name>
 		<filter-class>com.genexus.filters.ExpiresFilter</filter-class>
@@ -163,7 +146,7 @@
 		<filter-name>ExpiresFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 		<dispatcher>REQUEST</dispatcher>
-	</filter-mapping>						
+	</filter-mapping>
 	<!--FILTRO PARA SESSOES DE WEBSERVICES-->
 	<filter>
 		<filter-name>KillSession</filter-name>
@@ -176,27 +159,7 @@
 	<filter-mapping>
 		<filter-name>KillSession</filter-name>
 		<url-pattern>/*</url-pattern>
-	</filter-mapping>						
+	</filter-mapping>
 	<!--/FILTRO PARA SESSOES DE WEBSERVICES-->
 </web-app>
-	
-	<!--security-constraint>
-		<web-resource-collection>
-			<web-resource-name>CLICERT</web-resource-name>
-			<url-pattern>/secure/*</url-pattern>
-			<http-method>GET</http-method>
-			<http-method>POST</http-method>
-		</web-resource-collection>
-		<auth-constraint>
-			<role-name>admin</role-name>
-		</auth-constraint>
-		<user-data-constraint>
-			<transport-guarantee>CONFIDENTIAL</transport-guarantee>
-		</user-data-constraint>
-	</security-constraint>
-	<login-config>
-		<auth-method>CLIENT-CERT</auth-method>
-		<realm-name>certificate</realm-name>
-	</login-config-->
-
-
+<!--security-constraint><web-resource-collection><web-resource-name>CLICERT</web-resource-name><url-pattern>/secure/*</url-pattern><http-method>GET</http-method><http-method>POST</http-method></web-resource-collection><auth-constraint><role-name>admin</role-name></auth-constraint><user-data-constraint><transport-guarantee>CONFIDENTIAL</transport-guarantee></user-data-constraint></security-constraint><login-config><auth-method>CLIENT-CERT</auth-method><realm-name>certificate</realm-name></login-config-->
