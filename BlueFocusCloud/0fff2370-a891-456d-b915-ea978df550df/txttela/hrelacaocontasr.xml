@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>reuniao_semanal</NomeOpcao>
+		<OpcaoPadrao>S</OpcaoPadrao>
+		<Campos>
+			<Item>R</Item>
+			<Item>02</Item>
+			<Item>N</Item>
+			<Item>0</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>Q</Item>
+			<Item/>
+			<Item/>
+			<Item/>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>teste</NomeOpcao>
+		<OpcaoPadrao>N</OpcaoPadrao>
+		<Campos>
+			<Item>C</Item>
+			<Item>02</Item>
+			<Item>N</Item>
+			<Item>0</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>A</Item>
+			<Item/>
+			<Item/>
+			<Item/>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

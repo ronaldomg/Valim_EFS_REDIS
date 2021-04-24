@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntradaXml xmlns="Valim">
+	<EntradaEmpresaId>OTICAAVE</EntradaEmpresaId>
+	<EntradaId>25</EntradaId>
+	<EntradaDataEntrada>2018-11-16</EntradaDataEntrada>
+	<EntradaDataEmissao>2018-11-13</EntradaDataEmissao>
+	<EntradaFornecedorEmpId>OTICAAVE</EntradaFornecedorEmpId>
+	<EntradaFornecedorId>5100</EntradaFornecedorId>
+	<EntradaCompradorEmpId>OTICAAVE</EntradaCompradorEmpId>
+	<EntradaCompradorId>0</EntradaCompradorId>
+	<EntradaValorProdutos>126.00</EntradaValorProdutos>
+	<EntradaValorServico>0.00</EntradaValorServico>
+	<EntradaValorDesconto>0.00</EntradaValorDesconto>
+	<EntradaValorFrete>0.00</EntradaValorFrete>
+	<EntradaDescontoFinanceiro>0.00</EntradaDescontoFinanceiro>
+	<EntradaValorSeguro>0.00</EntradaValorSeguro>
+	<EntradaValorOutrasDespesas>0.00</EntradaValorOutrasDespesas>
+	<EntradaValorManuseio>0.00</EntradaValorManuseio>
+	<EntradaValorAcrescimo>0.00</EntradaValorAcrescimo>
+	<EntradaValorIPI>0.00</EntradaValorIPI>
+	<EntradaValorICMSST>0.00</EntradaValorICMSST>
+	<EntradaXmlItem>
+		<EntradaXmlItem>
+			<EntradaItemSequencia>1</EntradaItemSequencia>
+			<EntradaItemValor>21.000000</EntradaItemValor>
+			<EntradaItemQuantidade>6.0000</EntradaItemQuantidade>
+			<EntradaItemValorDesconto>0.00</EntradaItemValorDesconto>
+			<EntradaItemValorFrete>0.00</EntradaItemValorFrete>
+			<EntradaItemValorSeguro>0.00</EntradaItemValorSeguro>
+			<EntradaItemValorOutDespesas>0.00</EntradaItemValorOutDespesas>
+			<EntradaItemValorAcrescimo>0.00</EntradaItemValorAcrescimo>
+			<EntradaItemValorManuseio>0.00</EntradaItemValorManuseio>
+			<EntradaItemValorIPI>0.00</EntradaItemValorIPI>
+			<EntradaItemValorICMSST>0.00</EntradaItemValorICMSST>
+		</EntradaXmlItem>
+	</EntradaXmlItem>
+</EntradaXml>

@@ -1,0 +1,18 @@
+<LancamentoChqRec xmlns="Valim">
+	<LancamentoChqRec.LancamentoChqRecItem xmlns="Valim">
+		<NumLancamento>0</NumLancamento>
+		<TipoDocumento>R</TipoDocumento>
+		<CaixabancoEmpId/>
+		<CaixabancoID>0</CaixabancoID>
+		<PessoaID>101</PessoaID>
+		<PessoaNome>HOYA</PessoaNome>
+		<Data>2021-04-15</Data>
+		<Valor>130.00</Valor>
+		<NumeroCheque>0</NumeroCheque>
+		<TipoEmissaoRec/>
+		<NumConta>3376</NumConta>
+		<SeqConta>2</SeqConta>
+		<TipoImpressao>P</TipoImpressao>
+		<SnExcluido>N</SnExcluido>
+	</LancamentoChqRec.LancamentoChqRecItem>
+</LancamentoChqRec>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>padrao</NomeOpcao>
+		<OpcaoPadrao>N</OpcaoPadrao>
+		<Campos>
+			<Item>T</Item>
+			<Item>  /  /    </Item>
+			<Item>T</Item>
+			<Item>  /  /    </Item>
+			<Item>  0</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>fluxo_padrao</NomeOpcao>
+		<OpcaoPadrao>S</OpcaoPadrao>
+		<Campos>
+			<Item>N</Item>
+			<Item>  /  /    </Item>
+			<Item>N</Item>
+			<Item>  /  /    </Item>
+			<Item>  0</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

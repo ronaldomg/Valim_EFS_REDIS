@@ -1,0 +1,43 @@
+<SdtTelevenda xmlns="Valim">
+	<Sessao>96954</Sessao>
+	<SaidaId>0</SaidaId>
+	<FilialEmpresaId>OTICAAVE</FilialEmpresaId>
+	<FilialId>1</FilialId>
+	<PessoaEmpresaId>OTICAAVE</PessoaEmpresaId>
+	<PessoaId>100</PessoaId>
+	<PessoaTelefone/>
+	<TransacaoSaidaEmpresaId>OTICAAVE</TransacaoSaidaEmpresaId>
+	<TransacaoSaidaCodigo>10004</TransacaoSaidaCodigo>
+	<PrecoEmpresaId>OTICAAVE</PrecoEmpresaId>
+	<PrecoId>11</PrecoId>
+	<SaidaObservacao/>
+	<DataEntrega xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true">
+	</DataEntrega>
+	<HoraEntrega/>
+	<SaidaValorDesconto>0.00</SaidaValorDesconto>
+	<SaidaPcDesconto>0.00</SaidaPcDesconto>
+	<DataHoraArquivo>2020-11-27T10:27:48</DataHoraArquivo>
+	<SaidaData>2020-11-27</SaidaData>
+	<SaidaDestCidadeId>0</SaidaDestCidadeId>
+	<SaidaDestBairro/>
+	<SaidaDestNumEndereco>0</SaidaDestNumEndereco>
+	<SaidaDestEndereco/>
+	<SaidaDestNome/>
+	<SaidaDestCPF/>
+	<SaidaDestCNPJ/>
+	<Itens>
+		<SdtTelevendaItem>
+			<Seq>5</Seq>
+			<ProdutoEmpresaId>OTICAAVE</ProdutoEmpresaId>
+			<ProdutoId>4310</ProdutoId>
+			<ProdutoReferencia>AH6257 H01</ProdutoReferencia>
+			<SaidaItemCodigoBarras>4310</SaidaItemCodigoBarras>
+			<UnidadeEmpresaId/>
+			<UnidadeId/>
+			<LoteProdutoCombinacao>UNICO</LoteProdutoCombinacao>
+			<SaidaItemQuantidade>1.0000</SaidaItemQuantidade>
+			<SaidaItemValorUnitario>650.0000</SaidaItemValorUnitario>
+			<ProdutoObservacao/>
+		</SdtTelevendaItem>
+	</Itens>
+</SdtTelevenda>

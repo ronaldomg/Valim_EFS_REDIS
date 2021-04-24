@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>SinteticoProduto</NomeOpcao>
+		<OpcaoPadrao>S</OpcaoPadrao>
+		<Campos>
+			<Item> 4</Item>
+			<Item> 9</Item>
+			<Item/>
+			<Item>N</Item>
+			<Item>16</Item>
+			<Item/>
+			<Item>N</Item>
+			<Item>1</Item>
+			<Item>1</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>01/01/2020</Item>
+			<Item>31/10/2020</Item>
+			<Item>  /  /    </Item>
+			<Item>  /  /    </Item>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item>     0</Item>
+			<Item>     0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item/>
+			<Item/>
+			<Item> 0</Item>
+			<Item>N</Item>
+			<Item>D</Item>
+			<Item>T</Item>
+			<Item>T</Item>
+			<Item/>
+			<Item>  0.00</Item>
+			<Item>  0.00</Item>
+			<Item> 0</Item>
+			<Item>N</Item>
+			<Item/>
+			<Item/>
+			<Item>0</Item>
+			<Item/>
+			<Item>       0</Item>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>M</Item>
+			<Item> 0</Item>
+			<Item>M</Item>
+			<Item> 0</Item>
+			<Item/>
+			<Item>  /  /    </Item>
+			<Item> 0</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+			<Item>     0</Item>
+			<Item>     0</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>CompletoOBS</NomeOpcao>
+		<OpcaoPadrao>N</OpcaoPadrao>
+		<Campos>
+			<Item> 1</Item>
+			<Item>17</Item>
+			<Item/>
+			<Item>N</Item>
+			<Item> 0</Item>
+			<Item/>
+			<Item>N</Item>
+			<Item>1</Item>
+			<Item>1</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>15/06/2020</Item>
+			<Item>21/10/2020</Item>
+			<Item>  /  /    </Item>
+			<Item>  /  /    </Item>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item>     0</Item>
+			<Item>     0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item/>
+			<Item/>
+			<Item> 0</Item>
+			<Item>N</Item>
+			<Item>D</Item>
+			<Item>T</Item>
+			<Item>T</Item>
+			<Item/>
+			<Item>  0.00</Item>
+			<Item>  0.00</Item>
+			<Item> 0</Item>
+			<Item>N</Item>
+			<Item/>
+			<Item/>
+			<Item>0</Item>
+			<Item/>
+			<Item>       0</Item>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>M</Item>
+			<Item> 0</Item>
+			<Item>M</Item>
+			<Item> 0</Item>
+			<Item/>
+			<Item>  /  /    </Item>
+			<Item> 0</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+			<Item>     0</Item>
+			<Item>     0</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>CompletoporData</NomeOpcao>
+		<OpcaoPadrao>N</OpcaoPadrao>
+		<Campos>
+			<Item> 3</Item>
+			<Item> 4</Item>
+			<Item/>
+			<Item>N</Item>
+			<Item> 6</Item>
+			<Item/>
+			<Item>N</Item>
+			<Item>1</Item>
+			<Item>1</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>01/05/2020</Item>
+			<Item>18/06/2020</Item>
+			<Item>  /  /    </Item>
+			<Item>  /  /    </Item>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item>     0</Item>
+			<Item>     0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item/>
+			<Item/>
+			<Item> 0</Item>
+			<Item>N</Item>
+			<Item>D</Item>
+			<Item>T</Item>
+			<Item>T</Item>
+			<Item/>
+			<Item>  0.00</Item>
+			<Item>  0.00</Item>
+			<Item> 0</Item>
+			<Item>N</Item>
+			<Item/>
+			<Item/>
+			<Item>0</Item>
+			<Item/>
+			<Item>       0</Item>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>         0</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>M</Item>
+			<Item> 0</Item>
+			<Item>M</Item>
+			<Item> 0</Item>
+			<Item/>
+			<Item>  /  /    </Item>
+			<Item> 0</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+			<Item>     0</Item>
+			<Item>     0</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+			<Item>S</Item>
+			<Item>S</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

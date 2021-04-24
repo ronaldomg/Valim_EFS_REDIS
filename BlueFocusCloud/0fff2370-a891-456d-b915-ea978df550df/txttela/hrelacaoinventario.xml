@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>inventariocustopago</NomeOpcao>
+		<OpcaoPadrao>S</OpcaoPadrao>
+		<Campos>
+			<Item>   8</Item>
+			<Item>1</Item>
+			<Item/>
+			<Item>  /  /    </Item>
+			<Item>1</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item>      0</Item>
+			<Item> 0</Item>
+			<Item>T</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>Q</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item/>
+			<Item>[{&quot;SNMarcado&quot;:&quot;S&quot;,&quot;FilialId&quot;:1,&quot;FilialNome&quot;:&quot;VALIM SOFTWARE LTDA&quot;,&quot;AtualP&quot;:&quot;N&quot;,&quot;AtualZ&quot;:&quot;N&quot;,&quot;AtualN&quot;:&quot;N&quot;,&quot;InvP&quot;:&quot;N&quot;,&quot;InvZ&quot;:&quot;N&quot;,&quot;InvN&quot;:&quot;N&quot;,&quot;SaldoP&quot;:&quot;N&quot;,&quot;SaldoZ&quot;:&quot;N&quot;,&quot;SaldoN&quot;:&quot;N&quot;},{&quot;SNMarcado&quot;:&quot;N&quot;,&quot;FilialId&quot;:2,&quot;FilialNome&quot;:&quot;FILIAL 2&quot;,&quot;AtualP&quot;:&quot;N&quot;,&quot;AtualZ&quot;:&quot;N&quot;,&quot;AtualN&quot;:&quot;N&quot;,&quot;InvP&quot;:&quot;N&quot;,&quot;InvZ&quot;:&quot;N&quot;,&quot;InvN&quot;:&quot;N&quot;,&quot;SaldoP&quot;:&quot;N&quot;,&quot;SaldoZ&quot;:&quot;N&quot;,&quot;SaldoN&quot;:&quot;N&quot;},{&quot;SNMarcado&quot;:&quot;N&quot;,&quot;FilialId&quot;:3,&quot;FilialNome&quot;:&quot;FILIAL 3&quot;,&quot;AtualP&quot;:&quot;N&quot;,&quot;AtualZ&quot;:&quot;N&quot;,&quot;AtualN&quot;:&quot;N&quot;,&quot;InvP&quot;:&quot;N&quot;,&quot;InvZ&quot;:&quot;N&quot;,&quot;InvN&quot;:&quot;N&quot;,&quot;SaldoP&quot;:&quot;N&quot;,&quot;SaldoZ&quot;:&quot;N&quot;,&quot;SaldoN&quot;:&quot;N&quot;},{&quot;SNMarcado&quot;:&quot;N&quot;,&quot;FilialId&quot;:4,&quot;FilialNome&quot;:&quot;FILIAL 4&quot;,&quot;AtualP&quot;:&quot;N&quot;,&quot;AtualZ&quot;:&quot;N&quot;,&quot;AtualN&quot;:&quot;N&quot;,&quot;InvP&quot;:&quot;N&quot;,&quot;InvZ&quot;:&quot;N&quot;,&quot;InvN&quot;:&quot;N&quot;,&quot;SaldoP&quot;:&quot;N&quot;,&quot;SaldoZ&quot;:&quot;N&quot;,&quot;SaldoN&quot;:&quot;N&quot;},{&quot;SNMarcado&quot;:&quot;N&quot;,&quot;FilialId&quot;:5,&quot;FilialNome&quot;:&quot;FILIAL 5&quot;,&quot;AtualP&quot;:&quot;N&quot;,&quot;AtualZ&quot;:&quot;N&quot;,&quot;AtualN&quot;:&quot;N&quot;,&quot;InvP&quot;:&quot;N&quot;,&quot;InvZ&quot;:&quot;N&quot;,&quot;InvN&quot;:&quot;N&quot;,&quot;SaldoP&quot;:&quot;N&quot;,&quot;SaldoZ&quot;:&quot;N&quot;,&quot;SaldoN&quot;:&quot;N&quot;},{&quot;SNMarcado&quot;:&quot;N&quot;,&quot;FilialId&quot;:6,&quot;FilialNome&quot;:&quot;FILIAL 6&quot;,&quot;AtualP&quot;:&quot;N&quot;,&quot;AtualZ&quot;:&quot;N&quot;,&quot;AtualN&quot;:&quot;N&quot;,&quot;InvP&quot;:&quot;N&quot;,&quot;InvZ&quot;:&quot;N&quot;,&quot;InvN&quot;:&quot;N&quot;,&quot;SaldoP&quot;:&quot;N&quot;,&quot;SaldoZ&quot;:&quot;N&quot;,&quot;SaldoN&quot;:&quot;N&quot;}]</Item>
+			<Item>[]</Item>
+			<Item>[]</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

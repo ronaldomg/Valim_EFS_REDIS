@@ -8,7 +8,7 @@
         "password": null,
         "subscriptionsPerConnection": 5,
         "clientName": null,
-        "address": "redis://192.168.0.249:6379",
+        "address": "redis://redis.m4shjo.ng.0001.use1.cache.amazonaws.com:6379/",
         "subscriptionConnectionMinimumIdleSize": 1,
         "subscriptionConnectionPoolSize": 50,
         "connectionMinimumIdleSize": 10,

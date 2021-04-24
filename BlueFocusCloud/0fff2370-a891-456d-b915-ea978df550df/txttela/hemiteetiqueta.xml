@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>hemiteetiqueta</NomeOpcao>
+		<OpcaoPadrao>N</OpcaoPadrao>
+		<Campos>
+			<Item>  /  /     00:00</Item>
+			<Item/>
+			<Item>false</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>EtiquetaA4</NomeOpcao>
+		<OpcaoPadrao>S</OpcaoPadrao>
+		<Campos>
+			<Item>  /  /     00:00</Item>
+			<Item/>
+			<Item>false</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

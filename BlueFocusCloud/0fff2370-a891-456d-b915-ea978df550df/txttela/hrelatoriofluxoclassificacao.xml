@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>DRE</NomeOpcao>
+		<OpcaoPadrao>S</OpcaoPadrao>
+		<Campos>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item>   1</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao/>
+		<OpcaoPadrao/>
+		<Campos>
+			<Item>&lt;p&gt;Parabéns pelo seu aniversário!&lt;/p&gt;
+
+&lt;p&gt;A mercalar agradeçe a sua parceria e deseja muitos anos de vida!&lt;/p&gt;
+</Item>
+			<Item>niver</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

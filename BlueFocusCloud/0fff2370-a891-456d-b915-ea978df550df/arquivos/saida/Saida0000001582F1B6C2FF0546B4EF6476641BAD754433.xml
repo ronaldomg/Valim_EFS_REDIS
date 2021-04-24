@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaidaXml xmlns="Valim">
+	<SaidaEmpresaId>OTICAAVE</SaidaEmpresaId>
+	<SaidaId>1582</SaidaId>
+	<SaidaDataEmissao>2020-10-08</SaidaDataEmissao>
+	<SaidaData>2020-10-08</SaidaData>
+	<SaidaClienteId>100</SaidaClienteId>
+	<SaidaValorServico>0.00</SaidaValorServico>
+	<SaidaValorProduto>5674.00</SaidaValorProduto>
+	<SaidaValorDesconto>0.00</SaidaValorDesconto>
+	<SaidaValorICMSST>0.00</SaidaValorICMSST>
+	<SaidaValorSeguro>0.00</SaidaValorSeguro>
+	<SaidaValorOutrasDespesas>0.00</SaidaValorOutrasDespesas>
+	<SaidaValorIPI>0.00</SaidaValorIPI>
+	<SaidaValorFrete>0.00</SaidaValorFrete>
+	<SaidaFreteEntraTotal>S</SaidaFreteEntraTotal>
+	<SaidaXmlVendedor>
+		<SaidaXmlVendedor>
+			<SaidaVendedorEmpId>OTICAAVE</SaidaVendedorEmpId>
+			<SaidaVendedorId>1</SaidaVendedorId>
+		</SaidaXmlVendedor>
+	</SaidaXmlVendedor>
+</SaidaXml>

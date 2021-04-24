@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>analitico</NomeOpcao>
+		<OpcaoPadrao>S</OpcaoPadrao>
+		<Campos>
+			<Item>      0</Item>
+			<Item>1</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>P</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>false</Item>
+			<Item>false</Item>
+			<Item>&lt;FiltrosMovimentacaoEst xmlns=&quot;Valim&quot;&gt;
+	&lt;EsquemaCodigo&gt;0&lt;/EsquemaCodigo&gt;
+	&lt;ValorAtributo1&gt;0&lt;/ValorAtributo1&gt;
+	&lt;ValorAtributo2&gt;0&lt;/ValorAtributo2&gt;
+	&lt;ValorAtributo3&gt;0&lt;/ValorAtributo3&gt;
+	&lt;ValorAtributo4&gt;0&lt;/ValorAtributo4&gt;
+	&lt;ValorAtributo5&gt;0&lt;/ValorAtributo5&gt;
+	&lt;ValorAtributoCombo1&gt;0&lt;/ValorAtributoCombo1&gt;
+	&lt;ValorAtributoCombo2&gt;0&lt;/ValorAtributoCombo2&gt;
+	&lt;ValorAtributoCombo3&gt;0&lt;/ValorAtributoCombo3&gt;
+	&lt;ValorAtributoCombo4&gt;0&lt;/ValorAtributoCombo4&gt;
+	&lt;ValorAtributoCombo5&gt;0&lt;/ValorAtributoCombo5&gt;
+	&lt;LoteCombinacao/&gt;
+	&lt;SNFiltrarLote/&gt;
+	&lt;SNPreVenda&gt;S&lt;/SNPreVenda&gt;
+	&lt;SNCondicional&gt;S&lt;/SNCondicional&gt;
+	&lt;SNOrcamento&gt;S&lt;/SNOrcamento&gt;
+	&lt;SNEntregaFutura&gt;S&lt;/SNEntregaFutura&gt;
+	&lt;SNSimplesRemessa&gt;S&lt;/SNSimplesRemessa&gt;
+	&lt;SNDAV&gt;S&lt;/SNDAV&gt;
+	&lt;SNCupomFiscal&gt;S&lt;/SNCupomFiscal&gt;
+	&lt;SNCupomFiscalEle&gt;S&lt;/SNCupomFiscalEle&gt;
+	&lt;SNNotaSaidaNormal&gt;S&lt;/SNNotaSaidaNormal&gt;
+	&lt;SNNotaSaidaCom&gt;S&lt;/SNNotaSaidaCom&gt;
+	&lt;SNNotaSaidaAjuste&gt;S&lt;/SNNotaSaidaAjuste&gt;
+	&lt;SNDevolucaoSaida&gt;N&lt;/SNDevolucaoSaida&gt;
+	&lt;SNAjusteSaida&gt;S&lt;/SNAjusteSaida&gt;
+	&lt;SNNotaEntradaNormal&gt;N&lt;/SNNotaEntradaNormal&gt;
+	&lt;SNNotaEntradaCom&gt;N&lt;/SNNotaEntradaCom&gt;
+	&lt;SNNotaEntradaAjuste&gt;N&lt;/SNNotaEntradaAjuste&gt;
+	&lt;SNDevolucaoEntrada/&gt;
+	&lt;SNAjusteEntrada&gt;N&lt;/SNAjusteEntrada&gt;
+	&lt;SNTroca&gt;S&lt;/SNTroca&gt;
+	&lt;SNTransferencia&gt;S&lt;/SNTransferencia&gt;
+	&lt;SNCompraVenda/&gt;
+	&lt;SNDevolucao/&gt;
+	&lt;SNTransferenciaCFO/&gt;
+	&lt;SNEnergiaEletrica/&gt;
+	&lt;SNServicoComunicacao/&gt;
+	&lt;SNServicoTransporte/&gt;
+	&lt;SNSistemaIntegracao/&gt;
+	&lt;SNAtivoImobilizado/&gt;
+	&lt;SNUsoConsumo/&gt;
+	&lt;SNCredRessICMS/&gt;
+	&lt;SNSimplesRemessaCFO/&gt;
+	&lt;SNEntregaFuturaCFO/&gt;
+	&lt;SNOutros/&gt;
+	&lt;CFOPCodigo&gt;0&lt;/CFOPCodigo&gt;
+	&lt;ProdutoFabricanteId&gt;0&lt;/ProdutoFabricanteId&gt;
+	&lt;ProdutoFamiliaId/&gt;
+	&lt;ProdutoReferencia/&gt;
+	&lt;SNComAtuEstoque/&gt;
+	&lt;SNSemAtuEstoque/&gt;
+	&lt;SNEmEdicao/&gt;
+	&lt;SnImpAcumulado/&gt;
+	&lt;SnTrocaEntrada/&gt;
+	&lt;SnTrocaSaida/&gt;
+	&lt;SnTransfEntrada/&gt;
+	&lt;SnTransfSaida/&gt;
+	&lt;SnOrdemServico/&gt;
+&lt;/FiltrosMovimentacaoEst&gt;
+</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>sintetico</NomeOpcao>
+		<OpcaoPadrao>N</OpcaoPadrao>
+		<Campos>
+			<Item>      0</Item>
+			<Item>3</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>P</Item>
+			<Item>S</Item>
+			<Item>N</Item>
+			<Item>false</Item>
+			<Item>false</Item>
+			<Item>&lt;FiltrosMovimentacaoEst xmlns=&quot;Valim&quot;&gt;
+	&lt;EsquemaCodigo&gt;0&lt;/EsquemaCodigo&gt;
+	&lt;ValorAtributo1&gt;0&lt;/ValorAtributo1&gt;
+	&lt;ValorAtributo2&gt;0&lt;/ValorAtributo2&gt;
+	&lt;ValorAtributo3&gt;0&lt;/ValorAtributo3&gt;
+	&lt;ValorAtributo4&gt;0&lt;/ValorAtributo4&gt;
+	&lt;ValorAtributo5&gt;0&lt;/ValorAtributo5&gt;
+	&lt;ValorAtributoCombo1&gt;0&lt;/ValorAtributoCombo1&gt;
+	&lt;ValorAtributoCombo2&gt;0&lt;/ValorAtributoCombo2&gt;
+	&lt;ValorAtributoCombo3&gt;0&lt;/ValorAtributoCombo3&gt;
+	&lt;ValorAtributoCombo4&gt;0&lt;/ValorAtributoCombo4&gt;
+	&lt;ValorAtributoCombo5&gt;0&lt;/ValorAtributoCombo5&gt;
+	&lt;LoteCombinacao/&gt;
+	&lt;SNFiltrarLote/&gt;
+	&lt;SNPreVenda&gt;S&lt;/SNPreVenda&gt;
+	&lt;SNCondicional&gt;S&lt;/SNCondicional&gt;
+	&lt;SNOrcamento&gt;S&lt;/SNOrcamento&gt;
+	&lt;SNEntregaFutura&gt;S&lt;/SNEntregaFutura&gt;
+	&lt;SNSimplesRemessa&gt;S&lt;/SNSimplesRemessa&gt;
+	&lt;SNDAV&gt;S&lt;/SNDAV&gt;
+	&lt;SNCupomFiscal&gt;S&lt;/SNCupomFiscal&gt;
+	&lt;SNCupomFiscalEle&gt;S&lt;/SNCupomFiscalEle&gt;
+	&lt;SNNotaSaidaNormal&gt;S&lt;/SNNotaSaidaNormal&gt;
+	&lt;SNNotaSaidaCom&gt;S&lt;/SNNotaSaidaCom&gt;
+	&lt;SNNotaSaidaAjuste&gt;S&lt;/SNNotaSaidaAjuste&gt;
+	&lt;SNDevolucaoSaida&gt;N&lt;/SNDevolucaoSaida&gt;
+	&lt;SNAjusteSaida&gt;S&lt;/SNAjusteSaida&gt;
+	&lt;SNNotaEntradaNormal&gt;N&lt;/SNNotaEntradaNormal&gt;
+	&lt;SNNotaEntradaCom&gt;N&lt;/SNNotaEntradaCom&gt;
+	&lt;SNNotaEntradaAjuste&gt;N&lt;/SNNotaEntradaAjuste&gt;
+	&lt;SNDevolucaoEntrada/&gt;
+	&lt;SNAjusteEntrada&gt;N&lt;/SNAjusteEntrada&gt;
+	&lt;SNTroca&gt;S&lt;/SNTroca&gt;
+	&lt;SNTransferencia&gt;S&lt;/SNTransferencia&gt;
+	&lt;SNCompraVenda/&gt;
+	&lt;SNDevolucao/&gt;
+	&lt;SNTransferenciaCFO/&gt;
+	&lt;SNEnergiaEletrica/&gt;
+	&lt;SNServicoComunicacao/&gt;
+	&lt;SNServicoTransporte/&gt;
+	&lt;SNSistemaIntegracao/&gt;
+	&lt;SNAtivoImobilizado/&gt;
+	&lt;SNUsoConsumo/&gt;
+	&lt;SNCredRessICMS/&gt;
+	&lt;SNSimplesRemessaCFO/&gt;
+	&lt;SNEntregaFuturaCFO/&gt;
+	&lt;SNOutros/&gt;
+	&lt;CFOPCodigo&gt;0&lt;/CFOPCodigo&gt;
+	&lt;ProdutoFabricanteId&gt;0&lt;/ProdutoFabricanteId&gt;
+	&lt;ProdutoFamiliaId/&gt;
+	&lt;ProdutoReferencia/&gt;
+	&lt;SNComAtuEstoque/&gt;
+	&lt;SNSemAtuEstoque/&gt;
+	&lt;SNEmEdicao/&gt;
+	&lt;SnImpAcumulado/&gt;
+	&lt;SnTrocaEntrada/&gt;
+	&lt;SnTrocaSaida/&gt;
+	&lt;SnTransfEntrada/&gt;
+	&lt;SnTransfSaida/&gt;
+	&lt;SnOrdemServico/&gt;
+&lt;/FiltrosMovimentacaoEst&gt;
+</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

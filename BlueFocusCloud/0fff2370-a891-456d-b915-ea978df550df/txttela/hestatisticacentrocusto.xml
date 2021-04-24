@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>C.custo</NomeOpcao>
+		<OpcaoPadrao>S</OpcaoPadrao>
+		<Campos>
+			<Item>C</Item>
+			<Item>C</Item>
+			<Item>N</Item>
+			<Item>N</Item>
+			<Item>B</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>   0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

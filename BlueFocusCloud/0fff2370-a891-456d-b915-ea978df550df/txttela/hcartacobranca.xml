@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SdtTxtTela xmlns="Valim">
+	<SdtTxtTela.SdtTxtTelaItem xmlns="Valim">
+		<EmpresaId>OTICAAVE</EmpresaId>
+		<NomeOpcao>aviso_vencimento</NomeOpcao>
+		<OpcaoPadrao>S</OpcaoPadrao>
+		<Campos>
+			<Item>A</Item>
+			<Item> 23</Item>
+			<Item>   0</Item>
+			<Item>P</Item>
+			<Item>  0</Item>
+			<Item/>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>    0</Item>
+			<Item>    0</Item>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item/>
+			<Item>  0</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+			<Item>      1</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+			<Item>  0</Item>
+			<Item>      0</Item>
+			<Item>      0</Item>
+			<Item>N</Item>
+			<Item/>
+			<Item>D</Item>
+			<Item>Lembramos que seu carne irá vencer em ...</Item>
+		</Campos>
+	</SdtTxtTela.SdtTxtTelaItem>
+</SdtTxtTela>

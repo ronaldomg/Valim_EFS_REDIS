@@ -1,0 +1,12 @@
+<Consulta>
+	<ModeloDocumento>NFe</ModeloDocumento>
+	<Versao>4.00</Versao>
+	<tpAmb>2</tpAmb>
+	<CnpjEmpresa/>
+	<CnpjEmissor/>
+	<Serie>1</Serie>
+	<NumeroInicial>1</NumeroInicial>
+	<NumeroFinal>1</NumeroFinal>
+	<EmitidoRecebido>E</EmitidoRecebido>
+</Consulta>
+
